@@ -1,0 +1,75 @@
+fastsim error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'
+Error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'
+    at Object.readFileSync (node:fs:440:20)
+    at Engine.load (/home/runner/work/omegasims/omegasims/fastsim/engine.js:220:35)
+    at /home/runner/work/omegasims/omegasims/fastsim/engine.js:216:44
+    at Array.forEach (<anonymous>)
+    at new Engine (/home/runner/work/omegasims/omegasims/fastsim/engine.js:216:26)
+    at makeEngine (/home/runner/work/omegasims/omegasims/fastsim/recorder.js:38:15)
+    at Object.<anonymous> (/home/runner/work/omegasims/omegasims/fastsim/sim.js:24:15)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+node:child_process:955
+    throw err;
+    ^
+
+Error: Command failed: /opt/hostedtoolcache/node/22.23.3/x64/bin/node /home/runner/work/omegasims/omegasims/fastsim/sim.js 400 curve7 --workers 4 --seed 40000 --build /home/runner/work/omegasims/omegasims/fastsim/out/ladder-tune-2149/lv4.html --tune {}
+fastsim error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'
+Error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'
+    at Object.readFileSync (node:fs:440:20)
+    at Engine.load (/home/runner/work/omegasims/omegasims/fastsim/engine.js:220:35)
+    at /home/runner/work/omegasims/omegasims/fastsim/engine.js:216:44
+    at Array.forEach (<anonymous>)
+    at new Engine (/home/runner/work/omegasims/omegasims/fastsim/engine.js:216:26)
+    at makeEngine (/home/runner/work/omegasims/omegasims/fastsim/recorder.js:38:15)
+    at Object.<anonymous> (/home/runner/work/omegasims/omegasims/fastsim/sim.js:24:15)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:916:11)
+    at execFileSync (node:child_process:952:15)
+    at Object.<anonymous> (/home/runner/work/omegasims/omegasims/fastsim/ladder-tune.js:15:12)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    '',
+    "fastsim error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'\n" +
+      "Error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'\n" +
+      '    at Object.readFileSync (node:fs:440:20)\n' +
+      '    at Engine.load (/home/runner/work/omegasims/omegasims/fastsim/engine.js:220:35)\n' +
+      '    at /home/runner/work/omegasims/omegasims/fastsim/engine.js:216:44\n' +
+      '    at Array.forEach (<anonymous>)\n' +
+      '    at new Engine (/home/runner/work/omegasims/omegasims/fastsim/engine.js:216:26)\n' +
+      '    at makeEngine (/home/runner/work/omegasims/omegasims/fastsim/recorder.js:38:15)\n' +
+      '    at Object.<anonymous> (/home/runner/work/omegasims/omegasims/fastsim/sim.js:24:15)\n' +
+      '    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n' +
+      '    at Object..js (node:internal/modules/cjs/loader:1913:10)\n' +
+      '    at Module.load (node:internal/modules/cjs/loader:1505:32)\n'
+  ],
+  pid: 2156,
+  stdout: '',
+  stderr: "fastsim error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'\n" +
+    "Error: ENOENT: no such file or directory, open '/home/runner/work/omegasims/omegasims/sim/bots.js'\n" +
+    '    at Object.readFileSync (node:fs:440:20)\n' +
+    '    at Engine.load (/home/runner/work/omegasims/omegasims/fastsim/engine.js:220:35)\n' +
+    '    at /home/runner/work/omegasims/omegasims/fastsim/engine.js:216:44\n' +
+    '    at Array.forEach (<anonymous>)\n' +
+    '    at new Engine (/home/runner/work/omegasims/omegasims/fastsim/engine.js:216:26)\n' +
+    '    at makeEngine (/home/runner/work/omegasims/omegasims/fastsim/recorder.js:38:15)\n' +
+    '    at Object.<anonymous> (/home/runner/work/omegasims/omegasims/fastsim/sim.js:24:15)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1781:14)\n' +
+    '    at Object..js (node:internal/modules/cjs/loader:1913:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1505:32)\n'
+}
+
+Node.js v22.23.3
