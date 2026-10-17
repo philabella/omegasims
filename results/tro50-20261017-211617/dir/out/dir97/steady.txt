@@ -1,0 +1,6 @@
+ greedy [curve7] N=1000 win=31.9% lives(win)=6.0 merges=10.3 trinkets=3.3 rank=6.6
+lost at round: {"8":5,"9":14,"10":30,"11":32,"13":36,"14":35,"15":24,"16":10,"17":10,"18":25,"19":33,"20":13,"22":13,"23":26,"24":23,"25":31,"26":36,"27":63,"28":23,"29":20,"31":24,"32":27,"33":34,"34":36,"35":30,"36":28}
+profile: reachedRank5=94% (avg round 13.5) mythicFielded=4% epic+onBoard=1.39 board=5.77 genres=3.27 common/uncommonShare=51% goldLeft=9.7
+per round win% / avg t: 1:57%/17s 2:92%/14s 4:88%/15s 5:91%/15s 6:95%/13s 7:97%/13s 8:96%/13s 9:83%/21s 10:53%/16s 11:55%/17s 13:85%/14s 14:86%/14s 15:91%/12s 16:96%/11s 17:96%/11s 18:88%/22s 19:89%/13s 20:93%/12s 22:91%/12s 23:91%/12s 24:89%/12s 25:90%/13s 26:86%/13s 27:82%/28s 28:89%/12s 29:91%/12s 31:84%/13s 32:81%/13s 33:79%/14s 34:80%/12s 35:75%/14s 36:89%/22s
+fastsim: 1000 runs in 24.34s = 41.1 runs/s on 4 workers (cpu 87.6s = 11.4 runs per CPU-second) | win ±1.5 (1 s.e.) | seeds 50000..50999 | lo50.html
+csv: ../../out/dir97/st-runs.csv (1000 rows), ../../out/dir97/st-fights.csv (24234 rows)

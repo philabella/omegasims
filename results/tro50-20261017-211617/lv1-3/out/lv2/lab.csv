@@ -1,0 +1,4 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,98.0,0.0,0.00,8.14,7.88,0.0,1.99
+custom,nl,"human-like expert",300,0,97.0,-1.0,-0.77,7.41,7.92,0.0,1.97
+custom,nov,"novice smartbot",300,0,42.7,-55.3,-12.81,4.09,5.00,0.0,1.98

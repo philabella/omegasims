@@ -1,0 +1,6 @@
+ greedy [curve7] N=1000 win=90.5% lives(win)=7.5 merges=1.3 trinkets=0.0 rank=2.0
+lost at round: {"6":2,"7":3,"8":2,"9":88}
+profile: reachedRank5=0% (avg round -) mythicFielded=0% epic+onBoard=0.00 board=4.00 genres=1.77 common/uncommonShare=100% goldLeft=90.6
+per round win% / avg t: 1:95%/12s 2:91%/13s 4:89%/12s 5:99%/9s 6:99%/10s 7:98%/10s 8:97%/11s 9:50%/25s
+fastsim: 1000 runs in 4.88s = 205.0 runs/s on 4 workers (cpu 16.8s = 59.6 runs per CPU-second) | win ±0.9 (1 s.e.) | seeds 50000..50999 | lo50.html
+csv: ../../out/lv1/st-runs.csv (1000 rows), ../../out/lv1/st-fights.csv (8807 rows)
