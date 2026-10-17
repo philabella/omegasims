@@ -1,0 +1,11 @@
+nproc 4 · node v22.23.3 · timeout 30 min
+$ cd fastsim/smartbot-vm && node balance-lab.js --engine vm --policy champion.json --groups base --runs 40 --workers 4 --out ../../out-base
+[smartbot] engine: vm (fastsim, no browser)
+Error: ENOENT: no such file or directory, open '/home/runner/work/tropebrawl-sims/tropebrawl-sims/lean/tropebrawl-v7-published.html'
+    at Object.readFileSync (node:fs:440:20)
+    at readBuild (/home/runner/work/tropebrawl-sims/tropebrawl-sims/fastsim/engine.js:181:19)
+    at new Engine (/home/runner/work/tropebrawl-sims/tropebrawl-sims/fastsim/engine.js:205:15)
+    at MessagePort.<anonymous> (/home/runner/work/tropebrawl-sims/tropebrawl-sims/fastsim/smartbot-vm/vmpage.js:15:27)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+exit 1
