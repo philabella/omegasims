@@ -1,0 +1,18 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{}),args:['--use-gl=angle','--use-angle=swiftshader']});
+ const ok=(n,c,x)=>console.log((c?'PASS ':'FAIL ')+n+(x!==undefined?' '+JSON.stringify(x).slice(0,300):''));
+ const ctx=await b.newContext({viewport:{width:1600,height:1000}});const p=await ctx.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.addInitScript(()=>{localStorage.setItem('tropebrawl-settings',JSON.stringify({live:false}));});
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(700);
+ ok('8 genres incl. Space Opera',await p.evaluate(()=>Object.keys(GENRES).length>=8&&HEROES.filter(h=>h[2]==='space').length===8));
+ await p.click('[data-a="new"]');await p.waitForTimeout(400);
+ await p.evaluate(()=>{S.shop=['redshirts','droids','pilot','smuggler','telepath'].map(id=>({id,level:1}));render();});await p.waitForTimeout(300);await p.screenshot({path:'sp54-shop.png'});
+ ok('Space shop cards show art + genre',await p.evaluate(()=>[...document.querySelectorAll('.scard')].every(c=>c.querySelector('img,canvas')&&/Space Opera/.test(c.innerText))));
+ const r=await p.evaluate(()=>{S.rank=9;S.legend='mothership';S.units=[['starknight','f1'],['captain','f2'],['redshirts','f0'],['smuggler','f3'],['pilot','b1'],['telepath','b2'],['darklord','b0'],['droids','b3']].map(([id,s],i)=>({id,level:2,slot:s,uid:400+i}));
+  const st={pierce:0,refl:0};const D=dealDamage;dealDamage=function(src,t,amt,type){if(type==='bounce'&&src&&src.pierce)st.pierce++;if(type==='reflect')st.refl++;return D.apply(this,arguments);};
+  startBattle(true);const A=B.units.filter(u=>u.side==='A');const sh=A.every(u=>u.shield>0),full=A.filter(u=>u.manaMax).every(u=>u.mana>=u.manaMax),pr=A.every(u=>u.pierce);
+  const k=B.units.find(u=>u.id==='starknight');SK.deflect.cast(k);const e=B.units.find(u=>u.side==='E'&&u.alive);if(e)dealDamage(e,k,50,'attack');
+  let g=0;while(!B.done&&g++<30000)step(DT);dealDamage=D;return {syn:B.syn.G.space,sh,full,pr,...st,mother:!!B.mother,t:+B.t.toFixed(1)};});
+ ok('tier 3: shields at start, skills ready at start, piercing; Deflect reflects',r.syn>=3&&r.sh&&r.full&&r.pr&&r.refl>0,r);
+ await p.evaluate(()=>{UI.screen='plan';render();});await p.click('[data-a="fight"]').catch(()=>{});await p.waitForTimeout(3000);await p.screenshot({path:'sp54-fight.png'});
+ ok('no page errors',!errs.length,errs);await b.close();})();

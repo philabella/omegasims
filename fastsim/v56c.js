@@ -1,0 +1,13 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{}),args:['--use-gl=angle','--use-angle=swiftshader']});
+ const ok=(n,c,x)=>console.log((c?'PASS ':'FAIL ')+n+(x!==undefined?' '+JSON.stringify(x).slice(0,300):''));
+ const p=await b.newPage({viewport:{width:1400,height:900}});const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.addInitScript(()=>{localStorage.setItem('tropebrawl-settings',JSON.stringify({live:false}));});
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(700);await p.click('[data-a="new"]');await p.waitForTimeout(400);
+ await p.evaluate(()=>{S.rank=9;S.units=[{id:'riot',level:2,slot:'f1',uid:1},{id:'rifle',level:2,slot:'b1',uid:2}];render();});
+ await p.click('[data-a="fight"]');await p.waitForTimeout(1500);
+ await p.evaluate(()=>{B.paused=true;const u=B.units.find(x=>x.side==='A'&&x.id==='riot');u.zone='E';u.row='back';u.col=3;B.units.filter(x=>x.side==='E').forEach(x=>{if(x.row==='back'&&x.col===3)x.col=2;});drawBattle();});
+ await p.waitForTimeout(1200);
+ const y=await p.evaluate(()=>{const u=B.units.find(x=>x.side==='A'&&x.id==='riot'),v=B.units.find(x=>x.side==='A'&&x.id==='rifle');return {behind:u._ar&&+u._ar.yaw.toFixed(2),home:v._ar&&+v._ar.yaw.toFixed(2)};});
+ ok('a character behind the enemy faces them (yaw 0), its teammate at home faces forward (yaw pi)',Math.abs(Math.sin(y.behind))<.1&&Math.cos(y.behind)>.9&&Math.abs(Math.abs(y.home)-Math.PI)<.15,y);
+ ok('no page errors',!errs.length,errs);await b.close();})();

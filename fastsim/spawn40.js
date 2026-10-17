@@ -1,0 +1,15 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{}),args:['--use-gl=angle','--use-angle=swiftshader']});
+ const p=await (await b.newContext({viewport:{width:1600,height:1000}})).newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ const ok=(n,c,x)=>console.log((c?'PASS ':'FAIL ')+n+(x!==undefined?' '+JSON.stringify(x):''));
+ await p.addInitScript(()=>{try{localStorage.setItem('tropebrawl-settings',JSON.stringify({live:false}));}catch(e){}});
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(500);
+ ok('spawn models build',await p.evaluate(()=>{tbaInit();return TBA.lib.SPAWNS.map(c=>{const f=c.build({variant:0});let n=0;f.traverse(o=>{if(o.isMesh)n++;});return c.id+':'+n;}).join(' ');}).then(x=>(console.log(x),true)));
+ await p.click('[data-a="new"]');await p.waitForTimeout(300);
+ await p.evaluate(()=>{S.units=[{id:'riot',level:2,slot:'f1',uid:1},{id:'necro',level:2,slot:'b1',uid:2},{id:'queen',level:2,slot:'b0',uid:3},{id:'zombies',level:1,slot:'f0',uid:4}];render();});
+ await p.evaluate(()=>{AR.keep=true;UI.speed=2;});await p.click('[data-a="fight"]');
+ await p.waitForTimeout(800);await p.evaluate(()=>{B.paused=true;const q=B.units.find(u=>u.side==='A'&&u.id==='queen');summonHatch(q);summonSkeletons('A',3,1,'test',5);drawBattle();});
+ await p.waitForTimeout(2500);await p.screenshot({path:'spawn40.png'});
+ const r=await p.evaluate(()=>B.units.filter(u=>u.summon).map(u=>({n:u.name,side:u.side,toy:!!(u._ar&&u._ar.root),hidden:u.el?getComputedStyle(u.el.querySelector('.pt')||u.el).visibility:'-'})));
+ ok('summons are 3D toys, flat tiles hidden',r.length>0&&r.every(x=>x.toy),r);
+ console.log('errors',JSON.stringify(errs));await b.close();})();

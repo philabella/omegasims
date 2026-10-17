@@ -1,0 +1,99 @@
+# Simulation batches on GitHub's free runners (public repo: free minutes, 4 cores per runner).
+# A batch = a push to a branch named batch/<id> holding sims/jobs.json (plus any builds/files it needs).
+# Each job runs on its own runner (up to 10 at once); results land on the `results` branch in results/<id>/,
+# then the batch branch is deleted.
+name: sims
+on:
+  push:
+    branches: ['batch/**']
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+      id: ${{ steps.m.outputs.id }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          echo "matrix=$(jq -c '[.jobs[] | {id}]' sims/jobs.json)" >> "$GITHUB_OUTPUT"
+          echo "id=${GITHUB_REF_NAME#batch/}" >> "$GITHUB_OUTPUT"
+  run:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        job: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      SB_ENGINE: vm
+      JOB_ID: ${{ matrix.job.id }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: native pow (exact float parity with Chromium)
+        run: sh fastsim/native/build.sh || echo "native addon not built (results still valid)"
+      - name: run job
+        run: |
+          CMD=$(jq -r --arg id "$JOB_ID" '.jobs[] | select(.id==$id) | .cmd' sims/jobs.json)
+          MIN=$(jq -r --arg id "$JOB_ID" '.jobs[] | select(.id==$id) | (.timeout // 60)' sims/jobs.json)
+          mkdir -p "sims-out/$JOB_ID"
+          echo "nproc $(nproc) · node $(node -v) · timeout ${MIN} min" | tee "sims-out/$JOB_ID/log.txt"
+          echo "\$ $CMD" | tee -a "sims-out/$JOB_ID/log.txt"
+          set +e; timeout "$((MIN*60))" bash -c "$CMD" 2>&1 | tee -a "sims-out/$JOB_ID/log.txt"; RC=${PIPESTATUS[0]}; set -e
+          echo "exit $RC" | tee -a "sims-out/$JOB_ID/log.txt"; exit $RC
+      - name: collect outputs
+        if: always()
+        run: |
+          jq -r --arg id "$JOB_ID" '.jobs[] | select(.id==$id) | (.out // [])[]' sims/jobs.json | while read -r p; do
+            if [ -e "$p" ]; then cp -r "$p" "sims-out/$JOB_ID/"; fi; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ${{ matrix.job.id }}
+          path: sims-out/${{ matrix.job.id }}
+          retention-days: 7
+  publish:
+    needs: [plan, run]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dl
+      - name: commit results to the results branch
+        env:
+          ID: ${{ needs.plan.outputs.id }}
+          RUNRESULT: ${{ needs.run.result }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dl
+          echo "{\"id\":\"$ID\",\"run\":\"$GITHUB_RUN_ID\",\"result\":\"$RUNRESULT\",\"finished\":\"$(date -u +%FT%TZ)\"}" > dl/DONE.json
+          for i in 1 2 3 4 5 6; do
+            rm -rf r && git init -q r && cd r
+            git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            if git fetch -q --depth 1 origin results; then git checkout -q -b results FETCH_HEAD; else git checkout -q --orphan results; git rm -rfq . 2>/dev/null || true; fi
+            mkdir -p "results/$ID" && cp -r ../dl/. "results/$ID/"
+            git add -A
+            git -c user.name=sims-bot -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -qm "results: $ID ($RUNRESULT)"
+            if git push -q origin HEAD:results; then exit 0; fi
+            cd .. && sleep $((i*5))
+          done
+          exit 1
+      - name: delete the batch branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q d && cd d
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -q origin --delete "$GITHUB_REF_NAME" || true

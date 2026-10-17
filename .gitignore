@@ -1,0 +1,4 @@
+node_modules/
+fastsim/native/*.node
+fastsim/out/
+fastsim/state/

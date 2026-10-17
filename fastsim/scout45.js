@@ -1,0 +1,11 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{})});
+ const [W,H]=[+(process.argv[3]||1920),+(process.argv[4]||1080)];const m=W<600;
+ const ctx=await b.newContext({viewport:{width:W,height:H},hasTouch:m,isMobile:m,deviceScaleFactor:m?2:1});const p=await ctx.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.addInitScript(()=>{localStorage.setItem('tropebrawl-settings',JSON.stringify({live:false}));});
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(600);await p.click('[data-a="new"]');await p.waitForTimeout(600);
+ await p.evaluate(()=>{S.legend='scout';S.legends=['scout'];const ids=S.shop.map(o=>o.id);S.units=S.shop.map((o,i)=>({id:Object.keys(HERO).find(k=>HERO[k].genre===HERO[o.id].genre&&k!==o.id),level:1,slot:'f'+i,uid:90+i})).slice(0,3);S.shop.forEach((o,i)=>{if(o&&i<3)o.level=2;});render();});await p.waitForTimeout(300);
+ const cs=await p.$$('.scard');await cs[0].scrollIntoViewIfNeeded();
+ const box=await p.evaluate(()=>{const cs=[...document.querySelectorAll('.scard')].map(c=>c.getBoundingClientRect());const r={x:Math.min(...cs.map(c=>c.x)),y:Math.min(...cs.map(c=>c.y)),width:Math.max(...cs.map(c=>c.right))-Math.min(...cs.map(c=>c.x)),height:Math.max(...cs.map(c=>c.bottom))-Math.min(...cs.map(c=>c.y))};return {x:r.x,y:r.y,width:r.width,height:r.height};});
+ await p.screenshot({path:process.argv[5]||'scout2.png',clip:box});
+ console.log(JSON.stringify(await p.evaluate(()=>[...document.querySelectorAll('.scard')].map(c=>c.innerText.replace(/\s+/g,' ').slice(0,70)))),errs);await b.close();})();

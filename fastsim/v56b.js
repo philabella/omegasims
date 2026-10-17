@@ -1,0 +1,34 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{}),args:['--use-gl=angle','--use-angle=swiftshader']});
+ const ok=(n,c,x)=>console.log((c?'PASS ':'FAIL ')+n+(x!==undefined?' '+JSON.stringify(x).slice(0,300):''));
+ const ctx=await b.newContext({viewport:{width:1600,height:1000}});const p=await ctx.newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.addInitScript(()=>{localStorage.setItem('tropebrawl-settings',JSON.stringify({live:false}));});
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(700);await p.click('[data-a="new"]');await p.waitForTimeout(400);
+ const st=()=>p.evaluate(()=>({sheet:!document.getElementById('sheet').hidden,leg:!!document.querySelector('#sheet [data-a="pend-leg"]'),peek:!!document.querySelector('#app .peekbtn'),open:UI.sheetOpen,scr:UI.screen,pend:S.pending.length}));
+ await p.evaluate(()=>{S.rank=5;S.units=[{id:'riot',level:1,slot:'f1',uid:1},{id:'rifle',level:1,slot:'b1',uid:2}];S.pending.push({kind:'legend',win:true});render();});await p.waitForTimeout(500);
+ let s=await st();ok('Legendary pick opens with a See my team first button',s.sheet&&s.leg&&await p.$('#sheet [data-a="pend-hide"]')!==null,s);
+ await p.click('#sheet [data-a="pend-hide"]');await p.waitForTimeout(300);s=await st();
+ ok('See my team first hides it; a Choose button waits',!s.sheet&&s.peek&&s.pend===1&&/Choose Legendary/.test(await p.evaluate(()=>document.querySelector('[data-a="fight"]').textContent)),s);
+ await p.screenshot({path:'v56b-peek.png'});
+ {const bx=await p.evaluate(()=>{const e=[...document.querySelectorAll('.board .slot')].find(x=>/Riot Shield/.test(x.textContent));const r=e.getBoundingClientRect();return [r.left+r.width/2,r.top+r.height/2];});await p.mouse.click(bx[0],bx[1]);}await p.waitForTimeout(300);
+ const info=await p.evaluate(()=>({open:UI.sheetOpen,sel:UI.sel,insp:JSON.stringify(UI.insp||null).slice(0,80),pend:!document.getElementById('sheet').hidden}));
+ ok('while peeking, a character can be inspected and the pick stays hidden',(info.open==='info'||info.sel!=null||info.insp!=='null')&&!info.pend,info);
+ await p.evaluate(()=>closeSheet());
+ await p.click('[data-a="fight"]');await p.waitForTimeout(400);s=await st();
+ ok('Fight brings the pick back instead of fighting',s.scr==='plan'&&s.sheet&&s.leg,s);
+ await p.waitForTimeout(400);console.log('   at 20,20:',await p.evaluate(()=>document.elementFromPoint(20,20).id));await p.mouse.click(20,20);await p.waitForTimeout(300);s=await st();
+ ok('clicking outside the pick hides it too',!s.sheet&&s.peek,s);
+ await p.click('[data-a="fight"]');await p.waitForTimeout(500);s=await st();ok('Choose Legendary (the Fight button) reopens it',s.sheet&&s.leg&&!s.peek,s);
+ const lid=await p.evaluate(()=>S.pending[0].choices[0]);await p.click(`#sheet [data-a="pend-leg"][data-v="${lid}"]`);await p.waitForTimeout(300);
+ s=await st();const L=await p.evaluate(()=>S.legend);ok('picking works and the Choose button goes away',L===lid&&!s.peek&&!s.sheet&&s.pend===0,{L,s});
+ // item pick peek too
+ await p.evaluate(()=>{S.pending.push({kind:'elite',level:1});render();});await p.waitForTimeout(500);
+ await p.click('#sheet [data-a="pend-hide"]');await p.waitForTimeout(300);const ib=await p.evaluate(()=>(document.querySelector('#app .peekbtn')||{}).textContent);
+ ok('item pick can be hidden too',/item/.test(ib||''),ib);await p.click('[data-a="fight"]');await p.waitForTimeout(400);await p.click('#sheet [data-a="pend"][data-v=""]');await p.waitForTimeout(300);
+ // Makes ★★★
+ const mk=await p.evaluate(()=>{S.pending=[];closeSheet();const ep=HEROES.find(h=>h[4]===3)[0],co=HEROES.find(h=>h[4]===1)[0];S.units=[{id:ep,level:2,slot:'f0',uid:51},{id:ep,level:1,slot:'n0',uid:52},{id:ep,level:1,slot:'n1',uid:53},{id:co,level:1,slot:'n2',uid:54},{id:co,level:1,slot:'n3',uid:55}];
+   S.shop=[{id:ep,level:1},{id:co,level:1},null,null,null];S.gold=50;render();const c=[...document.querySelectorAll('.scard')];return {ep:c[0].querySelector('.mk').textContent,co:c[1].querySelector('.mk').textContent,pv:shopPreview(0).replace(/<[^>]+>/g,'').slice(0,120)};});
+ ok('third copy that chains to ★★★ says Makes →★★★ (Common still ★★)',/★★★$/.test(mk.ep)&&/→★★$/.test(mk.co)&&/★★★/.test(mk.pv),mk);
+ await p.screenshot({path:'v56b-mk.png',clip:{x:0,y:800,width:900,height:200}});
+ const bought=await p.evaluate(()=>{const ep=S.shop[0].id;buy(0);return S.units.filter(u=>u.id===ep).map(u=>u.level).join();});ok('and buying it really makes ★★★',bought==='3',bought);
+ ok('no page errors',!errs.length,errs);await b.close();})();

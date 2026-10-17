@@ -1,0 +1,10 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{}),args:['--use-gl=angle','--use-angle=swiftshader']});
+ const p=await (await b.newContext({viewport:{width:1100,height:520}})).newPage();const errs=[];p.on('pageerror',e=>errs.push(e.message));
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(800);
+ const r=await p.evaluate(()=>{tbaInit();const kinds=[['bullet'],['arrow','#c8352b'],['acid'],['syringe'],['shell'],['stinger'],['psy'],['skull'],['packet'],['dynamite'],['bone'],['cash'],['bottle'],['shirt'],['confetti'],['drop'],['clipboard'],['base'],['dodge'],['basket'],['foot'],['soccer'],['orb','#ff5a4a']];
+  const who={shell:'Radio Op / Observer',stinger:'Brood Queen',psy:'Hive Mind',skull:'Necromancer',packet:'Hacker',dynamite:'Prospector',bone:'Bonesetter',cash:'Fixer',bottle:'Saloon Doc',shirt:'Team Mascot',confetti:'Cheer Squad',bullet:'gunners',arrow:'Skeleton Archers',acid:'Acid Spitters',syringe:'medics',drop:'Water Boy',clipboard:'Head Coach',base:'Pitcher',dodge:'Dodgeball',basket:'Point Guard',foot:'Quarterback',soccer:'ball',orb:'enemy'};
+  document.body.innerHTML='<div id=g style="display:grid;grid-template-columns:repeat(8,1fr);gap:8px;padding:12px;background:#1e1d21;color:#f3eee4;font:13px sans-serif"></div>';const g=document.getElementById('g');const bad=[];
+  for(const k of kinds){const v=tbaProjImg(k);if(!v){bad.push(k[0]);continue;}g.insertAdjacentHTML('beforeend',`<div style="text-align:center;background:#2a2830;border-radius:6px;padding:6px"><img src="${v.url}" style="width:96px;height:96px"><div><b>${k[0]}</b><br>${who[k[0]]||''}</div></div>`);}
+  return bad;});
+ await p.waitForTimeout(400);await p.screenshot({path:'projsheet.png',fullPage:true});console.log('missing',JSON.stringify(r),'errors',JSON.stringify(errs));await b.close();})();

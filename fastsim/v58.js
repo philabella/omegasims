@@ -1,0 +1,17 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();
+(async()=>{const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{}),args:['--use-gl=angle','--use-angle=swiftshader']});
+ const ok=(n,c,x)=>console.log((c?'PASS ':'FAIL ')+n+(x!==undefined?' '+JSON.stringify(x).slice(0,300):''));
+ const p=await b.newPage({viewport:{width:1600,height:1000}});const errs=[];p.on('pageerror',e=>errs.push(e.message));p.on('console',m=>{if(m.type()==='error')errs.push('console: '+m.text().slice(0,160));});
+ await p.addInitScript(()=>{localStorage.setItem('tropebrawl-settings',JSON.stringify({live:true}));});
+ await p.goto('file://'+process.argv[2]);await p.waitForTimeout(900);await p.click('[data-a="new"]');await p.waitForTimeout(500);
+ await p.evaluate(()=>{S.rank=9;S.units=[{id:'kingmonster',level:2,slot:'f0',uid:11},{id:'mecha',level:2,slot:'f2',uid:12},{id:'giantmoth',level:1,slot:'b0',uid:13},{id:'babykaiju',level:2,slot:'b2',uid:14},{id:'tanks',level:1,slot:'b3',uid:15}];
+   S.shop=[{id:'kingmonster',level:1},{id:'mecha',level:1},{id:'giantmoth',level:1},{id:'babykaiju',level:1},null];render();});
+ await p.waitForTimeout(3500);
+ const lv=await p.evaluate(()=>({live:typeof LV3!=='undefined'&&LV3.figs?LV3.figs.size:-1,cv:document.querySelectorAll('canvas').length,ver:TB_VERSION}));
+ ok('live 3D toys build the new Kaiju (no errors)',parseFloat(lv.ver)>=19.58&&!errs.length,{lv,errs});
+ await p.screenshot({path:'v58-shop-live.png'});
+ await p.click('[data-a="fight"]');await p.waitForTimeout(3000);await p.evaluate(()=>{B.paused=true;});await p.waitForTimeout(400);
+ await p.screenshot({path:'v58-fight.png'});
+ const ar=await p.evaluate(()=>({st:arStatus(),toys:AR.toys?AR.toys.length:-1}));ok('3D arena runs with the new toys',/3D arena/.test(ar.st),ar);
+ await p.evaluate(()=>{B.paused=false;skipBattle();});await p.waitForTimeout(500);
+ ok('no page errors',!errs.length,errs);await b.close();})();

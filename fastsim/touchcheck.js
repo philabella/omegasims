@@ -1,0 +1,15 @@
+const { chromium } = (()=>{try{return require('playwright')}catch(e){return require('/opt/node-tools/node_modules/playwright')}})();const path=require('path');
+(async()=>{const dir=__dirname;const b=await chromium.launch({...(require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome')?{executablePath:'/opt/pw-browsers/chromium-1194/chrome-linux/chrome'}:{})});const p=await b.newPage({viewport:{width:390,height:1400},hasTouch:true,isMobile:true});
+const errs=[];p.on('pageerror',e=>errs.push(e.message));await p.goto('file://'+path.resolve(dir+'/ui/t.html'));await p.waitForTimeout(400);
+await p.click('[data-a="new"]');await p.waitForTimeout(200);await p.evaluate(()=>{S.gold=30;render();});
+const st=()=>p.evaluate(()=>({gold:S.gold,units:S.units.map(u=>u.id+'@'+u.slot).join(' '),sheet:!document.querySelector('#sheet').hidden,sel:UI.sel}));
+const ctr=async sel=>{const r=await (await p.$(sel)).boundingBox();return [r.x+r.width/2,r.y+r.height/2];};
+const drag=async(a,bb)=>{const [x,y]=await ctr(a),[tx,ty]=await ctr(bb);await p.mouse.move(x,y);await p.mouse.down();for(let k=1;k<=10;k++){await p.mouse.move(x+(tx-x)*k/10,y+(ty-y)*k/10);await p.waitForTimeout(20);}await p.mouse.up();await p.waitForTimeout(250);};
+await p.tap('[data-a="pick"][data-v="0"]');await p.waitForTimeout(250);console.log('tap card  ',JSON.stringify(await st()));
+await p.screenshot({path:dir+'/ui/pick.png'});
+await p.tap('#sheet [data-a="buy"]');await p.waitForTimeout(250);console.log('tap Buy   ',JSON.stringify(await st()));
+await drag('[data-a="pick"][data-v="1"]','[data-a="slot"][data-v="f2"]');console.log('drag buy  ',JSON.stringify(await st()));
+const us=await p.evaluate(()=>S.units.map(u=>u.slot));
+await p.tap(`[data-a="slot"][data-v="${us[0]}"]`);await p.waitForTimeout(200);await p.tap(`[data-a="slot"][data-v="${us[1]}"]`);await p.waitForTimeout(200);console.log('tap A, B  ',JSON.stringify(await st()));
+await drag(`[data-a="slot"][data-v="${us[1]}"]`,'.shopwrap .shop');console.log('drag->shop',JSON.stringify(await st()));
+console.log(errs.length?'ERR '+errs.join(';'):'no errors');await b.close();})();
