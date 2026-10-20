@@ -1,0 +1,66 @@
+[
+ {
+  "key": "expert",
+  "label": "champion.json (p92)",
+  "opts": {
+   "lookK": 2
+  },
+  "n": 100,
+  "errs": 0,
+  "win": 0.86,
+  "lives": 5.767441860465116,
+  "rank": 8.89,
+  "r5share": 0.92,
+  "r5": 29.902173913043477,
+  "gold": 10.413504361732917,
+  "rerolls": 57.72,
+  "merges": 12.6,
+  "tier": 4.248166666666668,
+  "sandbag": 0,
+  "trained": 0.813
+ },
+ {
+  "key": "a",
+  "label": "retrained ES",
+  "opts": {
+   "lookK": 2
+  },
+  "n": 100,
+  "errs": 0,
+  "win": 0.8,
+  "lives": 5.6875,
+  "rank": 8.55,
+  "r5share": 0.71,
+  "r5": 30.6056338028169,
+  "gold": 8.777170807566097,
+  "rerolls": 40.72,
+  "merges": 15.65,
+  "tier": 4.007416666666666,
+  "sandbag": 0,
+  "trained": 0.891,
+  "diff": -0.06,
+  "se": 0.05283861459121718
+ },
+ {
+  "key": "b",
+  "label": "retrained CMA",
+  "opts": {
+   "lookK": 2
+  },
+  "n": 100,
+  "errs": 0,
+  "win": 0.87,
+  "lives": 6.0344827586206895,
+  "rank": 8.85,
+  "r5share": 0.9,
+  "r5": 28.9,
+  "gold": 10.324348467103666,
+  "rerolls": 37.73,
+  "merges": 17.85,
+  "tier": 4.11054761904762,
+  "sandbag": 0,
+  "trained": 0.891,
+  "diff": 0.01,
+  "se": 0.05024183937956912
+ }
+]
