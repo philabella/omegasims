@@ -1,0 +1,12 @@
+[20:13:23] new run t143a: D=150 params, opts {} fix {}, build lv10-143.html (6ac52ddb16), workers 4, seeds/eval 24, lambda 12, mu 4
+[20:17:00] gen 1 ep 0 best p1 1.307 (win 0.875, army|rank5|highRarity|spender) mean 0.381 sigma 0.104 | champ p1 val 1.2556 win 0.813 | 217s 3.6min NEW CHAMPION p1 val 1.256 (bar -1.000) win 0.813
+[20:19:32] gen 2 ep 0 best p1 1.307 (win 0.875, army|rank5|highRarity|spender) mean 0.822 sigma 0.096 | champ p1 val 1.2556 win 0.813 | 153s 6.2min 
+[20:23:02] gen 3 ep 0 best p38 1.372 (win 0.875, undead|rank5|highRarity|spender) mean 1.156 sigma 0.096 | champ p38 val 1.3069 win 0.844 | 209s 9.6min NEW CHAMPION p38 val 1.307 (bar 1.256) win 0.844
+[20:27:19] gen 4 ep 1 best p54 1.368 (win 0.917, ball|rank5|highRarity|spender) mean 1.155 sigma 0.103 | champ p38 val 1.3069 win 0.844 | 257s 13.9min challenger p54 val 1.213 <= bar 1.307
+[20:29:59] gen 5 ep 1 best p54 1.368 (win 0.917, ball|rank5|highRarity|spender) mean 1.146 sigma 0.092 | champ p38 val 1.3069 win 0.844 | 161s 16.6min challenger p54 val 1.213 <= bar 1.307
+[20:32:40] gen 6 ep 1 best p54 1.368 (win 0.917, ball|rank5|highRarity|spender) mean 1.183 sigma 0.091 | champ p38 val 1.3069 win 0.844 | 160s 19.3min challenger p54 val 1.213 <= bar 1.307
+[20:36:46] gen 7 ep 2 best p82 1.356 (win 0.917, undead|rank5|highRarity|spender) mean 1.140 sigma 0.094 | champ p38 val 1.3069 win 0.844 | 247s 23.4min challenger p82 val 1.242 <= bar 1.307
+[20:40:05] gen 8 ep 2 best p100 1.448 (win 0.958, ball|rank5|highRarity|spender) mean 1.171 sigma 0.094 | champ p38 val 1.3069 win 0.844 | 199s 26.7min challenger p100 val 1.068 <= bar 1.307
+[20:42:49] gen 9 ep 2 best p100 1.448 (win 0.958, ball|rank5|highRarity|spender) mean 1.279 sigma 0.096 | champ p38 val 1.3069 win 0.844 | 163s 29.4min challenger p100 val 1.068 <= bar 1.307
+[20:47:14] gen 10 ep 3 best p107 1.314 (win 0.875, heist|rank5|highRarity|spender) mean 1.162 sigma 0.095 | champ p107 val 1.3323 win 0.891 | 266s 33.9min NEW CHAMPION p107 val 1.332 (bar 1.307) win 0.891
+[20:47:14] stopped after gen 10, 3720 runs this session-state; champion p107 val 1.3323

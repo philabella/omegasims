@@ -1,0 +1,11 @@
+[20:13:23] new run t143b: D=150 params, opts {} fix {}, build lv10-143.html (6ac52ddb16), workers 4, seeds/eval 24, lambda 12, mu 4
+[20:17:22] gen 1 ep 0 best p19 1.307 (win 0.875, army|rank5|highRarity|spender) mean 1.002 sigma 0.078 | champ p19 val 1.2556 win 0.813 | 239s 4min NEW CHAMPION p19 val 1.256 (bar -1.000) win 0.813
+[20:20:55] gen 2 ep 0 best p31 1.332 (win 0.875, army|rank5|highRarity|spender) mean 0.941 sigma 0.076 | champ p31 val 1.3417 win 0.875 | 213s 7.5min NEW CHAMPION p31 val 1.342 (bar 1.256) win 0.875
+[20:23:51] gen 3 ep 0 best p45 1.255 (win 0.833, army|rank5|highRarity|spender) mean 0.980 sigma 0.075 | champ p31 val 1.3417 win 0.875 | 176s 10.5min 
+[20:27:45] gen 4 ep 1 best p49 1.389 (win 0.917, army|rank5|highRarity|spender) mean 0.988 sigma 0.073 | champ p31 val 1.3417 win 0.875 | 234s 14.4min challenger p49 val 1.223 <= bar 1.342
+[20:31:26] gen 5 ep 1 best p71 1.396 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.070 sigma 0.072 | champ p71 val 1.3439 win 0.891 | 221s 18.1min NEW CHAMPION p71 val 1.344 (bar 1.342) win 0.891
+[20:34:18] gen 6 ep 1 best p84 1.347 (win 0.875, army|rank5|highRarity|spender) mean 0.992 sigma 0.071 | champ p71 val 1.3439 win 0.891 | 171s 20.9min 
+[20:38:09] gen 7 ep 2 best p94 1.337 (win 0.875, army|rank5|highRarity|spender) mean 1.026 sigma 0.07 | champ p71 val 1.3439 win 0.891 | 231s 24.8min challenger p94 val 1.147 <= bar 1.344
+[20:41:52] gen 8 ep 2 best p101 1.321 (win 0.833, army|rank5|highRarity|spender) mean 1.070 sigma 0.069 | champ p71 val 1.3439 win 0.891 | 224s 28.5min challenger p101 val 1.099 <= bar 1.344
+[20:45:29] gen 9 ep 2 best p122 1.269 (win 0.833, heist|rank5|highRarity|spender) mean 1.079 sigma 0.068 | champ p71 val 1.3439 win 0.891 | 216s 32.1min challenger p122 val 1.257 <= bar 1.344
+[20:45:29] stopped after gen 9, 3304 runs this session-state; champion p71 val 1.3439
