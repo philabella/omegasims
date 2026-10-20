@@ -1,0 +1,6 @@
+sim: win 87%  1445 ms per run (one worker)  wall 109s  errors 0
+noLook: win 71%  332 ms per run (one worker)  wall 25s  errors 0
+hybrid5: win 86.7%  994 ms per run (one worker)  wall 75s  errors 0
+hybrid3: win 82%  837 ms per run (one worker)  wall 63s  errors 0
+pred: win 79%  442 ms per run (one worker)  wall 33s  errors 0
+same seeds: both won 218, only sim 43, only pred 19; speed-up x3.3

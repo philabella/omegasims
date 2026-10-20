@@ -1,0 +1,9 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ mkdir -p out && cd fastsim/pred && node ab.js --build ../../sims/builds/lv10.html --net ../../sims/files/net73.json --runs 300 --workers 4 --seedtag tro29ab4 --modes sim,noLook,hybrid5,hybrid3,pred --out ../../out/ab4.json | tee ../../out/ab4.txt
+sim: win 85%  1399 ms per run (one worker)  wall 106s  errors 0
+noLook: win 71.3%  342 ms per run (one worker)  wall 26s  errors 0
+hybrid5: win 84%  989 ms per run (one worker)  wall 75s  errors 0
+hybrid3: win 85%  802 ms per run (one worker)  wall 61s  errors 0
+pred: win 78.7%  417 ms per run (one worker)  wall 32s  errors 0
+same seeds: both won 209, only sim 46, only pred 27; speed-up x3.4
+exit 0
