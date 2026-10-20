@@ -1,0 +1,26 @@
+epoch 1: hold-out {'loss': 0.3128, 'win_acc': 0.9215, 'auc': 0.9653, 'brier': 0.0578, 'score_mae': 0.0848, 'score_corr': 0.8643, 'base_win_rate': 0.8037}  2s
+epoch 2: hold-out {'loss': 0.3106, 'win_acc': 0.9231, 'auc': 0.9673, 'brier': 0.0565, 'score_mae': 0.0804, 'score_corr': 0.8716, 'base_win_rate': 0.8037}  3s
+epoch 3: hold-out {'loss': 0.3166, 'win_acc': 0.9199, 'auc': 0.9675, 'brier': 0.0589, 'score_mae': 0.0812, 'score_corr': 0.8714, 'base_win_rate': 0.8037}  5s
+epoch 4: hold-out {'loss': 0.3127, 'win_acc': 0.9254, 'auc': 0.9675, 'brier': 0.0562, 'score_mae': 0.0781, 'score_corr': 0.8771, 'base_win_rate': 0.8037}  6s
+epoch 5: hold-out {'loss': 0.3155, 'win_acc': 0.9249, 'auc': 0.9678, 'brier': 0.0562, 'score_mae': 0.0772, 'score_corr': 0.8783, 'base_win_rate': 0.8037}  8s
+epoch 6: hold-out {'loss': 0.3168, 'win_acc': 0.923, 'auc': 0.9677, 'brier': 0.0567, 'score_mae': 0.0776, 'score_corr': 0.8786, 'base_win_rate': 0.8037}  10s
+epoch 7: hold-out {'loss': 0.3211, 'win_acc': 0.9248, 'auc': 0.9669, 'brier': 0.0571, 'score_mae': 0.0774, 'score_corr': 0.8782, 'base_win_rate': 0.8037}  11s
+epoch 8: hold-out {'loss': 0.3243, 'win_acc': 0.9222, 'auc': 0.9671, 'brier': 0.0584, 'score_mae': 0.0776, 'score_corr': 0.877, 'base_win_rate': 0.8037}  13s
+epoch 9: hold-out {'loss': 0.3244, 'win_acc': 0.9224, 'auc': 0.9665, 'brier': 0.0579, 'score_mae': 0.0774, 'score_corr': 0.8774, 'base_win_rate': 0.8037}  14s
+epoch 10: hold-out {'loss': 0.3249, 'win_acc': 0.9243, 'auc': 0.9668, 'brier': 0.0575, 'score_mae': 0.0769, 'score_corr': 0.8781, 'base_win_rate': 0.8037}  16s
+epoch 11: hold-out {'loss': 0.3259, 'win_acc': 0.9233, 'auc': 0.9667, 'brier': 0.0579, 'score_mae': 0.0772, 'score_corr': 0.8779, 'base_win_rate': 0.8037}  17s
+epoch 12: hold-out {'loss': 0.3287, 'win_acc': 0.9241, 'auc': 0.9664, 'brier': 0.0582, 'score_mae': 0.0769, 'score_corr': 0.8777, 'base_win_rate': 0.8037}  19s
+epoch 13: hold-out {'loss': 0.3302, 'win_acc': 0.9226, 'auc': 0.9661, 'brier': 0.0586, 'score_mae': 0.0772, 'score_corr': 0.8764, 'base_win_rate': 0.8037}  21s
+epoch 14: hold-out {'loss': 0.3314, 'win_acc': 0.9223, 'auc': 0.9658, 'brier': 0.0588, 'score_mae': 0.0772, 'score_corr': 0.8763, 'base_win_rate': 0.8037}  22s
+calibration (bin start, fights, predicted, actual):
+   [0.0, 4355, 0.024, 0.045]
+   [0.1, 991, 0.148, 0.239]
+   [0.2, 920, 0.25, 0.301]
+   [0.3, 801, 0.351, 0.37]
+   [0.4, 690, 0.45, 0.423]
+   [0.5, 688, 0.55, 0.533]
+   [0.6, 893, 0.652, 0.588]
+   [0.7, 1031, 0.753, 0.703]
+   [0.8, 1623, 0.856, 0.76]
+   [0.9, 31245, 0.992, 0.979]
+saved ../../out/net.json hold-out {'loss': 0.3106, 'win_acc': 0.9231, 'auc': 0.9673, 'brier': 0.0565, 'score_mae': 0.0804, 'score_corr': 0.8716, 'base_win_rate': 0.8037, 'ece': 0.0214}

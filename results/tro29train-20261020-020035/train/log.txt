@@ -1,0 +1,98 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ mkdir -p out && cd fastsim/pred && node gen.js --build ../../sims/builds/lv10.html --runs 3000 --every 2 --workers 4 --tag gen73 --out /tmp/tr.f32 && node gen.js --build ../../sims/builds/lv10.html --runs 200 --every 2 --workers 4 --tag hold73 --out /tmp/va.f32 && (python3 -c 'import numpy' || python3 -m pip install --quiet numpy) && python3 train.py /tmp/tr.f32 /tmp/va.f32 ../../out/net.json --h1 128 --h2 64 --epochs 14 | tee ../../out/train.txt
+50/3000 runs, 11021 rows, 0.5 min
+100/3000 runs, 22143 rows, 0.9 min
+150/3000 runs, 32900 rows, 1.2 min
+200/3000 runs, 44038 rows, 1.6 min
+250/3000 runs, 54675 rows, 1.9 min
+300/3000 runs, 65758 rows, 2.3 min
+350/3000 runs, 76798 rows, 2.6 min
+400/3000 runs, 87764 rows, 3.0 min
+450/3000 runs, 98510 rows, 3.3 min
+500/3000 runs, 109421 rows, 3.6 min
+550/3000 runs, 120147 rows, 4.0 min
+600/3000 runs, 131277 rows, 4.3 min
+650/3000 runs, 142579 rows, 4.7 min
+700/3000 runs, 153577 rows, 5.0 min
+750/3000 runs, 164896 rows, 5.4 min
+800/3000 runs, 176040 rows, 5.8 min
+850/3000 runs, 187117 rows, 6.1 min
+900/3000 runs, 198003 rows, 6.5 min
+950/3000 runs, 209223 rows, 6.8 min
+1000/3000 runs, 219737 rows, 7.2 min
+1050/3000 runs, 230616 rows, 7.5 min
+1100/3000 runs, 241283 rows, 7.9 min
+1150/3000 runs, 252299 rows, 8.2 min
+1200/3000 runs, 263463 rows, 8.6 min
+1250/3000 runs, 274288 rows, 8.9 min
+1300/3000 runs, 284827 rows, 9.2 min
+1350/3000 runs, 295632 rows, 9.6 min
+1400/3000 runs, 306630 rows, 9.9 min
+1450/3000 runs, 317619 rows, 10.3 min
+1500/3000 runs, 328162 rows, 10.6 min
+1550/3000 runs, 339567 rows, 11.0 min
+1600/3000 runs, 350244 rows, 11.3 min
+1650/3000 runs, 361319 rows, 11.7 min
+1700/3000 runs, 371710 rows, 12.0 min
+1750/3000 runs, 382611 rows, 12.4 min
+1800/3000 runs, 393421 rows, 12.7 min
+1850/3000 runs, 403959 rows, 13.0 min
+1900/3000 runs, 414962 rows, 13.4 min
+1950/3000 runs, 426067 rows, 13.7 min
+2000/3000 runs, 437114 rows, 14.1 min
+2050/3000 runs, 448073 rows, 14.4 min
+2100/3000 runs, 458747 rows, 14.8 min
+2150/3000 runs, 469310 rows, 15.1 min
+2200/3000 runs, 480198 rows, 15.5 min
+2250/3000 runs, 491119 rows, 15.8 min
+2300/3000 runs, 501501 rows, 16.2 min
+2350/3000 runs, 511826 rows, 16.5 min
+2400/3000 runs, 522749 rows, 16.9 min
+2450/3000 runs, 533362 rows, 17.2 min
+2500/3000 runs, 543934 rows, 17.5 min
+2550/3000 runs, 554682 rows, 17.8 min
+2600/3000 runs, 565682 rows, 18.2 min
+2650/3000 runs, 576363 rows, 18.5 min
+2700/3000 runs, 587176 rows, 18.9 min
+2750/3000 runs, 598220 rows, 19.2 min
+2800/3000 runs, 609140 rows, 19.6 min
+2850/3000 runs, 620234 rows, 19.9 min
+2900/3000 runs, 630832 rows, 20.2 min
+2950/3000 runs, 641926 rows, 20.6 min
+3000/3000 runs, 652642 rows, 20.9 min
+done 652642 rows 20.9 min, expert won 2544 / 3000
+50/200 runs, 10930 rows, 0.5 min
+100/200 runs, 21925 rows, 0.8 min
+150/200 runs, 32372 rows, 1.2 min
+200/200 runs, 43237 rows, 1.5 min
+done 43237 rows 1.5 min, expert won 161 / 200
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'numpy'
+epoch 1: hold-out {'loss': 0.3128, 'win_acc': 0.9215, 'auc': 0.9653, 'brier': 0.0578, 'score_mae': 0.0848, 'score_corr': 0.8643, 'base_win_rate': 0.8037}  2s
+epoch 2: hold-out {'loss': 0.3106, 'win_acc': 0.9231, 'auc': 0.9673, 'brier': 0.0565, 'score_mae': 0.0804, 'score_corr': 0.8716, 'base_win_rate': 0.8037}  3s
+epoch 3: hold-out {'loss': 0.3166, 'win_acc': 0.9199, 'auc': 0.9675, 'brier': 0.0589, 'score_mae': 0.0812, 'score_corr': 0.8714, 'base_win_rate': 0.8037}  5s
+epoch 4: hold-out {'loss': 0.3127, 'win_acc': 0.9254, 'auc': 0.9675, 'brier': 0.0562, 'score_mae': 0.0781, 'score_corr': 0.8771, 'base_win_rate': 0.8037}  6s
+epoch 5: hold-out {'loss': 0.3155, 'win_acc': 0.9249, 'auc': 0.9678, 'brier': 0.0562, 'score_mae': 0.0772, 'score_corr': 0.8783, 'base_win_rate': 0.8037}  8s
+epoch 6: hold-out {'loss': 0.3168, 'win_acc': 0.923, 'auc': 0.9677, 'brier': 0.0567, 'score_mae': 0.0776, 'score_corr': 0.8786, 'base_win_rate': 0.8037}  10s
+epoch 7: hold-out {'loss': 0.3211, 'win_acc': 0.9248, 'auc': 0.9669, 'brier': 0.0571, 'score_mae': 0.0774, 'score_corr': 0.8782, 'base_win_rate': 0.8037}  11s
+epoch 8: hold-out {'loss': 0.3243, 'win_acc': 0.9222, 'auc': 0.9671, 'brier': 0.0584, 'score_mae': 0.0776, 'score_corr': 0.877, 'base_win_rate': 0.8037}  13s
+epoch 9: hold-out {'loss': 0.3244, 'win_acc': 0.9224, 'auc': 0.9665, 'brier': 0.0579, 'score_mae': 0.0774, 'score_corr': 0.8774, 'base_win_rate': 0.8037}  14s
+epoch 10: hold-out {'loss': 0.3249, 'win_acc': 0.9243, 'auc': 0.9668, 'brier': 0.0575, 'score_mae': 0.0769, 'score_corr': 0.8781, 'base_win_rate': 0.8037}  16s
+epoch 11: hold-out {'loss': 0.3259, 'win_acc': 0.9233, 'auc': 0.9667, 'brier': 0.0579, 'score_mae': 0.0772, 'score_corr': 0.8779, 'base_win_rate': 0.8037}  17s
+epoch 12: hold-out {'loss': 0.3287, 'win_acc': 0.9241, 'auc': 0.9664, 'brier': 0.0582, 'score_mae': 0.0769, 'score_corr': 0.8777, 'base_win_rate': 0.8037}  19s
+epoch 13: hold-out {'loss': 0.3302, 'win_acc': 0.9226, 'auc': 0.9661, 'brier': 0.0586, 'score_mae': 0.0772, 'score_corr': 0.8764, 'base_win_rate': 0.8037}  21s
+epoch 14: hold-out {'loss': 0.3314, 'win_acc': 0.9223, 'auc': 0.9658, 'brier': 0.0588, 'score_mae': 0.0772, 'score_corr': 0.8763, 'base_win_rate': 0.8037}  22s
+calibration (bin start, fights, predicted, actual):
+   [0.0, 4355, 0.024, 0.045]
+   [0.1, 991, 0.148, 0.239]
+   [0.2, 920, 0.25, 0.301]
+   [0.3, 801, 0.351, 0.37]
+   [0.4, 690, 0.45, 0.423]
+   [0.5, 688, 0.55, 0.533]
+   [0.6, 893, 0.652, 0.588]
+   [0.7, 1031, 0.753, 0.703]
+   [0.8, 1623, 0.856, 0.76]
+   [0.9, 31245, 0.992, 0.979]
+saved ../../out/net.json hold-out {'loss': 0.3106, 'win_acc': 0.9231, 'auc': 0.9673, 'brier': 0.0565, 'score_mae': 0.0804, 'score_corr': 0.8716, 'base_win_rate': 0.8037, 'ece': 0.0214}
+exit 0
