@@ -1,0 +1,314 @@
+nproc 4 · node v22.23.3 · timeout 110 min
+$ mkdir -p out && cd fastsim/smartbot-vm && node evolve.js --minutes 70 --workers 4 --build ../../sims/builds/lv10.html --tag t135-heist --from ../../sims/builds/seed --opts '{"genres":["heist"]}' --fix '{}' && cp runs/t135-heist/champion.json ../../out/heist-champion.json && node balance-lab.js --engine vm --build ../../sims/builds/lv10.html --policy runs/t135-heist/champion.json --groups base --configs '[{"key":"x","label":"x","opts":{"genres":["heist"]}}]' --runs 100 --workers 4 --seedtag re62 --out ../../out/heist-re62 && node balance-lab.js --engine vm --build ../../sims/builds/lv10.html --policy runs/t135-heist/champion.json --groups base --configs '[{"key":"x","label":"x","opts":{"genres":["heist"]}}]' --runs 100 --workers 4 --seedtag lab --out ../../out/heist-lab && node balance-lab.js --engine vm --build ../../sims/builds/lv10.html --policy runs/t135-heist/champion.json --groups base --configs '[{"key":"x","label":"x","opts":{"genres":["heist"]}}]' --runs 100 --workers 4 --seedtag val62 --out ../../out/heist-val62
+[smartbot] engine: vm (fastsim, no browser)
+[20:33:04] new run t135-heist: D=150 params, opts {"genres":["heist"]} fix {}, build lv10.html (230089d4c1), workers 4, seeds/eval 24, lambda 12, mu 4
+[20:35:22] gen 1 ep 0 best p1 1.376 (win 0.958, heist|rank5|highRarity|spender) mean 0.481 sigma 0.1 | champ p1 val 1.3566 win 0.906 | 138s 2.3min NEW CHAMPION p1 val 1.357 (bar -1.000) win 0.906
+[20:37:13] gen 2 ep 0 best p22 1.399 (win 0.958, heist|rank5|highRarity|spender) mean 1.274 sigma 0.082 | champ p22 val 1.3789 win 0.922 | 112s 4.2min NEW CHAMPION p22 val 1.379 (bar 1.357) win 0.922
+[20:39:07] gen 3 ep 0 best p37 1.402 (win 0.958, heist|rank5|highRarity|spender) mean 1.361 sigma 0.082 | champ p22 val 1.3789 win 0.922 | 113s 6.1min challenger p37 val 1.380 <= bar 1.379
+[20:41:23] gen 4 ep 1 best p52 1.319 (win 0.875, heist|rank5|lowRarity|spender) mean 1.235 sigma 0.078 | champ p52 val 1.397 win 0.922 | 136s 8.3min NEW CHAMPION p52 val 1.397 (bar 1.379) win 0.922
+[20:43:09] gen 5 ep 1 best p58 1.393 (win 0.917, heist|rank5|highRarity|spender) mean 1.293 sigma 0.083 | champ p52 val 1.397 win 0.922 | 107s 10.1min challenger p58 val 1.377 <= bar 1.397
+[20:44:37] gen 6 ep 1 best p58 1.393 (win 0.917, heist|rank5|highRarity|spender) mean 1.287 sigma 0.086 | champ p52 val 1.397 win 0.922 | 87s 11.6min challenger p58 val 1.377 <= bar 1.397
+[20:46:54] gen 7 ep 2 best p79 1.383 (win 0.917, heist|rank5|highRarity|spender) mean 1.280 sigma 0.077 | champ p52 val 1.397 win 0.922 | 137s 13.8min challenger p79 val 1.373 <= bar 1.397
+[20:48:39] gen 8 ep 2 best p98 1.440 (win 0.958, heist|rank5|lowRarity|spender) mean 1.350 sigma 0.079 | champ p52 val 1.397 win 0.922 | 105s 15.6min challenger p98 val 1.395 <= bar 1.397
+[20:50:29] gen 9 ep 2 best p110 1.446 (win 0.958, heist|rank5|lowRarity|spender) mean 1.404 sigma 0.077 | champ p52 val 1.397 win 0.922 | 109s 17.4min challenger p110 val 1.397 <= bar 1.397
+[20:52:55] gen 10 ep 3 best p120 1.545 (win 1, heist|rank5|highRarity|spender) mean 1.497 sigma 0.079 | champ p120 val 1.4023 win 0.906 | 147s 19.9min NEW CHAMPION p120 val 1.402 (bar 1.397) win 0.906
+[20:54:22] gen 11 ep 3 best p120 1.545 (win 1, heist|rank5|highRarity|spender) mean 1.505 sigma 0.074 | champ p120 val 1.4023 win 0.906 | 87s 21.3min 
+[20:55:48] gen 12 ep 3 best p120 1.545 (win 1, heist|rank5|highRarity|spender) mean 1.522 sigma 0.078 | champ p120 val 1.4023 win 0.906 | 86s 22.7min 
+[20:57:43] gen 13 ep 4 best p157 1.308 (win 0.875, heist|rank5|lowRarity|spender) mean 1.250 sigma 0.078 | champ p120 val 1.4023 win 0.906 | 115s 24.7min challenger p157 val 1.404 <= bar 1.402
+[20:59:16] gen 14 ep 4 best p169 1.365 (win 0.917, heist|rank5|lowRarity|spender) mean 1.276 sigma 0.077 | champ p169 val 1.458 win 0.953 | 93s 26.2min NEW CHAMPION p169 val 1.458 (bar 1.402) win 0.953
+[21:00:51] gen 15 ep 4 best p177 1.373 (win 0.917, heist|rank5|lowRarity|spender) mean 1.313 sigma 0.072 | champ p169 val 1.458 win 0.953 | 95s 27.8min challenger p177 val 1.428 <= bar 1.458
+[21:02:56] gen 16 ep 5 best p198 1.408 (win 0.917, heist|rank5|highRarity|spender) mean 1.325 sigma 0.072 | champ p169 val 1.458 win 0.953 | 125s 29.9min challenger p198 val 1.440 <= bar 1.458
+[21:04:34] gen 17 ep 5 best p202 1.408 (win 0.917, heist|rank5|highRarity|spender) mean 1.355 sigma 0.078 | champ p169 val 1.458 win 0.953 | 98s 31.5min challenger p202 val 1.424 <= bar 1.458
+[21:06:13] gen 18 ep 5 best p214 1.485 (win 0.958, heist|rank5|highRarity|spender) mean 1.390 sigma 0.081 | champ p214 val 1.4778 win 0.969 | 99s 33.2min NEW CHAMPION p214 val 1.478 (bar 1.458) win 0.969
+[21:08:23] gen 19 ep 6 best p215 1.516 (win 1, heist|rank5|highRarity|spender) mean 1.388 sigma 0.085 | champ p214 val 1.4778 win 0.969 | 130s 35.3min challenger p215 val 1.479 <= bar 1.478
+[21:10:07] gen 20 ep 6 best p239 1.527 (win 1, heist|rank5|highRarity|spender) mean 1.457 sigma 0.084 | champ p214 val 1.4778 win 0.969 | 104s 37.1min challenger p239 val 1.435 <= bar 1.478
+[21:11:32] gen 21 ep 6 best p239 1.527 (win 1, heist|rank5|highRarity|spender) mean 1.516 sigma 0.081 | champ p214 val 1.4778 win 0.969 | 85s 38.5min challenger p239 val 1.435 <= bar 1.478
+[21:13:52] gen 22 ep 7 best p266 1.467 (win 0.958, heist|rank5|highRarity|spender) mean 1.451 sigma 0.079 | champ p214 val 1.4778 win 0.969 | 140s 40.8min challenger p266 val 1.449 <= bar 1.478
+[21:15:34] gen 23 ep 7 best p274 1.480 (win 0.958, heist|rank5|lowRarity|spender) mean 1.461 sigma 0.08 | champ p214 val 1.4778 win 0.969 | 103s 42.5min challenger p274 val 1.471 <= bar 1.478
+[21:17:19] gen 24 ep 7 best p292 1.529 (win 1, heist|rank5|highRarity|spender) mean 1.458 sigma 0.074 | champ p214 val 1.4778 win 0.969 | 105s 44.3min challenger p292 val 1.440 <= bar 1.478
+[21:19:47] gen 25 ep 8 best p299 1.553 (win 1, heist|rank5|highRarity|spender) mean 1.530 sigma 0.07 | champ p214 val 1.4778 win 0.969 | 148s 46.7min challenger p299 val 1.459 <= bar 1.478
+[21:21:37] gen 26 ep 8 best p318 1.555 (win 1, heist|rank5|highRarity|spender) mean 1.539 sigma 0.068 | champ p214 val 1.4778 win 0.969 | 110s 48.6min challenger p318 val 1.447 <= bar 1.478
+[21:23:07] gen 27 ep 8 best p318 1.555 (win 1, heist|rank5|highRarity|spender) mean 1.541 sigma 0.069 | champ p214 val 1.4778 win 0.969 | 90s 50.1min challenger p318 val 1.447 <= bar 1.478
+[21:25:18] gen 28 ep 9 best p340 1.492 (win 0.958, heist|rank5|highRarity|spender) mean 1.452 sigma 0.066 | champ p214 val 1.4778 win 0.969 | 131s 52.2min 
+[21:26:50] gen 29 ep 9 best p340 1.492 (win 0.958, heist|rank5|highRarity|spender) mean 1.471 sigma 0.068 | champ p214 val 1.4778 win 0.969 | 92s 53.8min 
+[21:28:22] gen 30 ep 9 best p366 1.496 (win 0.958, heist|rank5|highRarity|spender) mean 1.457 sigma 0.068 | champ p214 val 1.4778 win 0.969 | 91s 55.3min 
+[21:30:53] gen 31 ep 10 best p368 1.471 (win 0.958, heist|rank5|highRarity|spender) mean 1.400 sigma 0.073 | champ p214 val 1.4778 win 0.969 | 151s 57.8min challenger p368 val 1.456 <= bar 1.478
+[21:32:46] gen 32 ep 10 best p381 1.477 (win 0.958, heist|rank5|highRarity|spender) mean 1.428 sigma 0.082 | champ p214 val 1.4778 win 0.969 | 113s 59.7min challenger p381 val 1.419 <= bar 1.478
+[21:34:21] gen 33 ep 10 best p381 1.477 (win 0.958, heist|rank5|highRarity|spender) mean 1.453 sigma 0.082 | champ p214 val 1.4778 win 0.969 | 96s 61.3min challenger p381 val 1.419 <= bar 1.478
+[21:36:46] gen 34 ep 11 best p385 1.523 (win 1, heist|rank5|highRarity|spender) mean 1.461 sigma 0.08 | champ p214 val 1.4778 win 0.969 | 145s 63.7min challenger p385 val 1.445 <= bar 1.478
+[21:38:33] gen 35 ep 11 best p416 1.526 (win 1, heist|rank5|highRarity|spender) mean 1.488 sigma 0.079 | champ p214 val 1.4778 win 0.969 | 107s 65.5min challenger p416 val 1.461 <= bar 1.478
+[21:39:59] gen 36 ep 11 best p416 1.526 (win 1, heist|rank5|highRarity|spender) mean 1.428 sigma 0.079 | champ p214 val 1.4778 win 0.969 | 86s 66.9min challenger p416 val 1.461 <= bar 1.478
+[21:42:30] gen 37 ep 12 best p407 1.526 (win 1, heist|rank5|highRarity|spender) mean 1.492 sigma 0.07 | champ p214 val 1.4778 win 0.969 | 151s 69.4min challenger p407 val 1.446 <= bar 1.478
+[21:44:21] gen 38 ep 12 best p461 1.529 (win 1, heist|rank5|highRarity|spender) mean 1.521 sigma 0.069 | champ p214 val 1.4778 win 0.969 | 111s 71.3min challenger p461 val 1.445 <= bar 1.478
+[21:44:21] stopped after gen 38, 14224 runs this session-state; champion p214 val 1.4778
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 2 configs x 100 runs = 200 expert runs, stress x1, 4 workers, build lv10.html
+# Balance lab: lv10.html, expert bot, 100 paired runs per config, enemies x1
+
+Baseline win 69.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| x | 89.0 | +20.0 | 3.4 | 7.6 | 8.7 | 91.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Inside Man | heist | guardian | Epic | 62.0% | 74.2% |
+| Team Mascot | ball | guardian | Epic | 59.0% | 74.6% |
+| The Sheriff | west | guardian | Epic | 41.0% | 78.0% |
+| Forward Observer | army | guardian | Epic | 40.0% | 67.5% |
+| Star Quarterback | ball | stalker | Mythic | 40.0% | 95.0% |
+| The Fixer | heist | medic | Rare | 34.0% | 61.8% |
+| Gunnery Sergeant | army | gunner | Mythic | 33.0% | 93.9% |
+| Giant Mecha | kaiju | guardian | Epic | 30.0% | 63.3% |
+| The Mastermind | heist | gunner | Mythic | 28.0% | 89.3% |
+| The Brute | horror | guardian | Epic | 28.0% | 75.0% |
+| The Drifter | west | stalker | Mythic | 27.0% | 88.9% |
+| Bonesetter | undead | medic | Epic | 24.0% | 79.2% |
+| Bone Dragon | undead | brawler | Mythic | 23.0% | 87.0% |
+| Head Coach | ball | mystic | Rare | 22.0% | 68.2% |
+| Star Knight | space | guardian | Epic | 17.0% | 58.8% |
+| The Leviathan | kaiju | brawler | Mythic | 17.0% | 82.4% |
+| Emperor Scorpion | bug | brawler | Epic | 16.0% | 93.8% |
+| The Hive Mind | bug | mystic | Mythic | 14.0% | 92.9% |
+| The Dream Stalker | horror | mystic | Mythic | 13.0% | 84.6% |
+| Field Medic | army | medic | Rare | 12.0% | 75.0% |
+| The Dark Lord | space | mystic | Mythic | 12.0% | 83.3% |
+| The Gunslinger | west | gunner | Rare | 10.0% | 70.0% |
+| Starship Captain | space | brawler | Rare | 6.0% | 66.7% |
+| Grave Golem | undead | guardian | Rare | 5.0% | 60.0% |
+| Lookouts | heist | gunner | Common | 4.0% | 50.0% |
+| The Final Girl | horror | gunner | Rare | 4.0% | 75.0% |
+| Brood Queen | bug | mystic | Rare | 3.0% | 33.3% |
+| Necromancer | undead | mystic | Rare | 3.0% | 33.3% |
+| Dodgeball Team | ball | guardian | Common | 3.0% | 33.3% |
+| Cheer Squad | ball | medic | Common | 3.0% | 33.3% |
+| Point Guard | ball | gunner | Uncommon | 3.0% | 33.3% |
+| The Hacker | heist | mystic | Uncommon | 3.0% | 0.0% |
+| Baby Kaiju | kaiju | brawler | Common | 3.0% | 0.0% |
+| Giant Moth | kaiju | mystic | Rare | 3.0% | 0.0% |
+| Ammo Mule | army | brawler | Uncommon | 2.0% | 0.0% |
+| Acid Spitters | bug | gunner | Common | 2.0% | 0.0% |
+| Skeleton Archers | undead | gunner | Common | 2.0% | 0.0% |
+| Zombie Mob | undead | brawler | Common | 2.0% | 0.0% |
+| Safecracker | heist | brawler | Uncommon | 2.0% | 100.0% |
+| Defense Force Tanks | kaiju | gunner | Common | 2.0% | 0.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 2.0% | 0.0% |
+| Radio Operator | army | mystic | Uncommon | 1.0% | 0.0% |
+| Burrow Lurker | bug | stalker | Uncommon | 1.0% | 0.0% |
+| Hothead Pitcher | ball | brawler | Common | 1.0% | 0.0% |
+| Water Boy | ball | medic | Uncommon | 1.0% | 0.0% |
+| Getaway Driver | heist | stalker | Common | 1.0% | 0.0% |
+| Redshirts | space | guardian | Common | 1.0% | 0.0% |
+| Riot Shield | army | guardian | Common | 0.0% | - |
+| Rifle Squad | army | gunner | Common | 0.0% | - |
+| Commando | army | stalker | Common | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Wraith | undead | stalker | Uncommon | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Outlaw Gang | west | brawler | Common | 0.0% | - |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Bounty Hunter | west | stalker | Uncommon | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| Camp Counselors | horror | guardian | Common | 0.0% | - |
+| Creepy Kids | horror | stalker | Common | 0.0% | - |
+| The Babysitter | horror | medic | Common | 0.0% | - |
+| The Priest | horror | mystic | Uncommon | 0.0% | - |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.0% | - |
+| Repair Bots | space | medic | Common | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+| The Scientist | kaiju | mystic | Uncommon | 0.0% | - |
+
+(104s; /home/runner/work/omegasims/omegasims/out/heist-re62/lab.json)
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 2 configs x 100 runs = 200 expert runs, stress x1, 4 workers, build lv10.html
+# Balance lab: lv10.html, expert bot, 100 paired runs per config, enemies x1
+
+Baseline win 81.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| x | 95.0 | +14.0 | 3.0 | 7.6 | 8.8 | 95.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Team Mascot | ball | guardian | Epic | 68.0% | 92.6% |
+| Inside Man | heist | guardian | Epic | 59.0% | 89.8% |
+| Forward Observer | army | guardian | Epic | 47.0% | 89.4% |
+| The Sheriff | west | guardian | Epic | 42.0% | 92.9% |
+| The Brute | horror | guardian | Epic | 34.0% | 97.1% |
+| Star Quarterback | ball | stalker | Mythic | 29.0% | 89.7% |
+| Giant Mecha | kaiju | guardian | Epic | 28.0% | 64.3% |
+| Star Knight | space | guardian | Epic | 27.0% | 81.5% |
+| The Mastermind | heist | gunner | Mythic | 26.0% | 96.2% |
+| The Fixer | heist | medic | Rare | 25.0% | 80.0% |
+| The Dark Lord | space | mystic | Mythic | 25.0% | 84.0% |
+| Gunnery Sergeant | army | gunner | Mythic | 24.0% | 87.5% |
+| Bonesetter | undead | medic | Epic | 24.0% | 95.8% |
+| The Drifter | west | stalker | Mythic | 24.0% | 91.7% |
+| The Hive Mind | bug | mystic | Mythic | 22.0% | 86.4% |
+| The Dream Stalker | horror | mystic | Mythic | 22.0% | 95.5% |
+| The Leviathan | kaiju | brawler | Mythic | 22.0% | 95.5% |
+| Head Coach | ball | mystic | Rare | 18.0% | 72.2% |
+| Bone Dragon | undead | brawler | Mythic | 15.0% | 93.3% |
+| Field Medic | army | medic | Rare | 13.0% | 76.9% |
+| Emperor Scorpion | bug | brawler | Epic | 12.0% | 75.0% |
+| Starship Captain | space | brawler | Rare | 11.0% | 63.6% |
+| Brood Queen | bug | mystic | Rare | 9.0% | 88.9% |
+| The Final Girl | horror | gunner | Rare | 8.0% | 75.0% |
+| Grave Golem | undead | guardian | Rare | 7.0% | 100.0% |
+| Dodgeball Team | ball | guardian | Common | 5.0% | 20.0% |
+| Cheer Squad | ball | medic | Common | 4.0% | 0.0% |
+| The Gunslinger | west | gunner | Rare | 4.0% | 50.0% |
+| Baby Kaiju | kaiju | brawler | Common | 4.0% | 25.0% |
+| Necromancer | undead | mystic | Rare | 3.0% | 100.0% |
+| Water Boy | ball | medic | Uncommon | 3.0% | 66.7% |
+| Lookouts | heist | gunner | Common | 3.0% | 33.3% |
+| Defense Force Tanks | kaiju | gunner | Common | 3.0% | 33.3% |
+| Hothead Pitcher | ball | brawler | Common | 2.0% | 100.0% |
+| Giant Moth | kaiju | mystic | Rare | 2.0% | 0.0% |
+| Rifle Squad | army | gunner | Common | 1.0% | 100.0% |
+| Radio Operator | army | mystic | Uncommon | 1.0% | 0.0% |
+| Ammo Mule | army | brawler | Uncommon | 1.0% | 0.0% |
+| Wraith | undead | stalker | Uncommon | 1.0% | 0.0% |
+| Point Guard | ball | gunner | Uncommon | 1.0% | 0.0% |
+| The Muscle | heist | guardian | Common | 1.0% | 0.0% |
+| Getaway Driver | heist | stalker | Common | 1.0% | 0.0% |
+| Safecracker | heist | brawler | Uncommon | 1.0% | 0.0% |
+| Creepy Kids | horror | stalker | Common | 1.0% | 0.0% |
+| The Babysitter | horror | medic | Common | 1.0% | 0.0% |
+| Redshirts | space | guardian | Common | 1.0% | 100.0% |
+| Repair Bots | space | medic | Common | 1.0% | 0.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 1.0% | 0.0% |
+| Riot Shield | army | guardian | Common | 0.0% | - |
+| Commando | army | stalker | Common | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Acid Spitters | bug | gunner | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Skeleton Archers | undead | gunner | Common | 0.0% | - |
+| Zombie Mob | undead | brawler | Common | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| The Hacker | heist | mystic | Uncommon | 0.0% | - |
+| Outlaw Gang | west | brawler | Common | 0.0% | - |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Bounty Hunter | west | stalker | Uncommon | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| Camp Counselors | horror | guardian | Common | 0.0% | - |
+| The Priest | horror | mystic | Uncommon | 0.0% | - |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+| The Scientist | kaiju | mystic | Uncommon | 0.0% | - |
+
+(103s; /home/runner/work/omegasims/omegasims/out/heist-lab/lab.json)
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 2 configs x 100 runs = 200 expert runs, stress x1, 4 workers, build lv10.html
+# Balance lab: lv10.html, expert bot, 100 paired runs per config, enemies x1
+
+Baseline win 70.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| x | 95.0 | +25.0 | 4.6 | 7.0 | 8.8 | 94.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Inside Man | heist | guardian | Epic | 56.0% | 75.0% |
+| Team Mascot | ball | guardian | Epic | 50.0% | 76.0% |
+| The Sheriff | west | guardian | Epic | 35.0% | 74.3% |
+| Forward Observer | army | guardian | Epic | 34.0% | 70.6% |
+| Gunnery Sergeant | army | gunner | Mythic | 31.0% | 90.3% |
+| Star Quarterback | ball | stalker | Mythic | 31.0% | 80.6% |
+| The Mastermind | heist | gunner | Mythic | 29.0% | 93.1% |
+| Bonesetter | undead | medic | Epic | 28.0% | 71.4% |
+| The Dream Stalker | horror | mystic | Mythic | 28.0% | 82.1% |
+| Giant Mecha | kaiju | guardian | Epic | 28.0% | 82.1% |
+| The Leviathan | kaiju | brawler | Mythic | 27.0% | 81.5% |
+| The Fixer | heist | medic | Rare | 25.0% | 56.0% |
+| The Drifter | west | stalker | Mythic | 23.0% | 82.6% |
+| The Brute | horror | guardian | Epic | 22.0% | 77.3% |
+| Bone Dragon | undead | brawler | Mythic | 20.0% | 100.0% |
+| Star Knight | space | guardian | Epic | 19.0% | 63.2% |
+| Head Coach | ball | mystic | Rare | 18.0% | 72.2% |
+| Emperor Scorpion | bug | brawler | Epic | 17.0% | 64.7% |
+| The Hive Mind | bug | mystic | Mythic | 16.0% | 75.0% |
+| The Dark Lord | space | mystic | Mythic | 16.0% | 87.5% |
+| The Gunslinger | west | gunner | Rare | 10.0% | 80.0% |
+| The Final Girl | horror | gunner | Rare | 10.0% | 50.0% |
+| Field Medic | army | medic | Rare | 8.0% | 50.0% |
+| Brood Queen | bug | mystic | Rare | 6.0% | 33.3% |
+| Starship Captain | space | brawler | Rare | 6.0% | 100.0% |
+| Grave Golem | undead | guardian | Rare | 5.0% | 80.0% |
+| Baby Kaiju | kaiju | brawler | Common | 5.0% | 20.0% |
+| Necromancer | undead | mystic | Rare | 4.0% | 25.0% |
+| Dodgeball Team | ball | guardian | Common | 4.0% | 25.0% |
+| Cheer Squad | ball | medic | Common | 4.0% | 0.0% |
+| Water Boy | ball | medic | Uncommon | 4.0% | 25.0% |
+| Lookouts | heist | gunner | Common | 4.0% | 50.0% |
+| Defense Force Tanks | kaiju | gunner | Common | 3.0% | 0.0% |
+| Giant Moth | kaiju | mystic | Rare | 3.0% | 66.7% |
+| Getaway Driver | heist | stalker | Common | 2.0% | 50.0% |
+| Camp Counselors | horror | guardian | Common | 2.0% | 0.0% |
+| Radio Operator | army | mystic | Uncommon | 1.0% | 0.0% |
+| Acid Spitters | bug | gunner | Common | 1.0% | 100.0% |
+| Skeleton Archers | undead | gunner | Common | 1.0% | 100.0% |
+| Zombie Mob | undead | brawler | Common | 1.0% | 0.0% |
+| Hothead Pitcher | ball | brawler | Common | 1.0% | 100.0% |
+| Safecracker | heist | brawler | Uncommon | 1.0% | 0.0% |
+| The Hacker | heist | mystic | Uncommon | 1.0% | 0.0% |
+| Outlaw Gang | west | brawler | Common | 1.0% | 0.0% |
+| Deputy | west | guardian | Common | 1.0% | 0.0% |
+| Bounty Hunter | west | stalker | Uncommon | 1.0% | 0.0% |
+| Creepy Kids | horror | stalker | Common | 1.0% | 0.0% |
+| The Babysitter | horror | medic | Common | 1.0% | 0.0% |
+| The Priest | horror | mystic | Uncommon | 1.0% | 0.0% |
+| Chainsaw Maniac | horror | brawler | Uncommon | 1.0% | 0.0% |
+| Redshirts | space | guardian | Common | 1.0% | 0.0% |
+| Repair Bots | space | medic | Common | 1.0% | 0.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 1.0% | 0.0% |
+| Riot Shield | army | guardian | Common | 0.0% | - |
+| Rifle Squad | army | gunner | Common | 0.0% | - |
+| Commando | army | stalker | Common | 0.0% | - |
+| Ammo Mule | army | brawler | Uncommon | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Wraith | undead | stalker | Uncommon | 0.0% | - |
+| Point Guard | ball | gunner | Uncommon | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+| The Scientist | kaiju | mystic | Uncommon | 0.0% | - |
+
+(105s; /home/runner/work/omegasims/omegasims/out/heist-val62/lab.json)
+exit 0
