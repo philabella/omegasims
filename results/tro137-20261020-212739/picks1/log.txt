@@ -1,0 +1,4 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ mkdir -p out && cd fastsim/smartbot-vm && node picks.js --engine vm --build ../../sims/builds/lv15-137.html --policy champion.json --runs 200 --workers 4 --seedtag p137a > ../../out/picks1.txt
+[smartbot] engine: vm (fastsim, no browser)
+exit 0

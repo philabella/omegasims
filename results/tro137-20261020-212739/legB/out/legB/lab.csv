@@ -1,0 +1,44 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",150,0,57.3,0.0,0.00,3.80,8.60,79.3,4.07
+legends,leg:gameball,"Always Game Ball",150,0,36.7,-20.7,-4.04,3.93,8.38,70.7,3.99
+legends,leg:danger,"Always Danger Close",150,0,51.3,-6.0,-1.17,4.14,8.63,82.7,4.14
+legends,leg:brood,"Always Endless Brood",150,0,26.7,-30.7,-5.84,3.88,8.23,63.3,3.91
+legends,leg:shock,"Always Shock and Awe",150,0,60.0,2.7,0.57,4.21,8.71,86.0,4.21
+legends,leg:pheromone,"Always Pheromone Trail",150,0,30.0,-27.3,-5.01,3.64,8.23,62.7,3.93
+legends,leg:graveyard,"Always Graveyard Shift",150,0,30.0,-27.3,-5.17,3.93,8.26,66.7,3.95
+legends,leg:insidejob,"Always Inside Job",150,0,40.7,-16.7,-3.25,3.80,8.40,69.3,3.99
+legends,leg:sixgun,"Always Six-Shooter",150,0,28.7,-28.7,-5.42,3.65,8.23,62.7,3.92
+legends,leg:halftime,"Always Halftime Show",150,0,45.3,-12.0,-2.36,3.81,8.45,75.3,4.04
+legends,leg:fieldhosp,"Always Field Hospital",150,0,44.7,-12.7,-2.66,3.63,8.41,72.7,4.02
+legends,leg:feeding,"Always Feeding Frenzy",150,0,28.7,-28.7,-5.42,3.84,8.23,64.7,3.96
+legends,leg:bloodline,"Always Bloodline",150,0,31.3,-26.0,-4.91,3.57,8.28,64.0,3.93
+legends,leg:getaway,"Always Clean Getaway",150,0,34.0,-23.3,-4.56,3.94,8.29,66.7,3.92
+legends,leg:wanted,"Always Wanted Posters",150,0,34.7,-22.7,-4.46,3.75,8.25,64.7,3.97
+legends,leg:press,"Always Full-Court Press",150,0,41.3,-16.0,-3.21,3.63,8.31,69.3,3.99
+legends,leg:armydead,"Always Grave Recruits",150,0,52.0,-5.3,-1.05,4.05,8.61,81.3,4.13
+legends,leg:tokyo,"Always TV Tower",150,0,34.7,-22.7,-4.32,3.83,8.27,64.0,3.95
+legends,leg:atomic,"Always Atomic Age",150,0,30.0,-27.3,-5.17,3.73,8.23,61.3,3.93
+legends,leg:finalwars,"Always Payback",150,0,31.3,-26.0,-4.91,3.87,8.23,62.7,3.92
+legends,leg:warp,"Always Warp Speed",150,0,28.0,-29.3,-5.42,4.05,8.24,61.3,3.93
+legends,leg:shieldgen,"Always Shield Generator",150,0,30.7,-26.7,-5.16,3.78,8.24,63.3,3.93
+legends,leg:mothership,"Always The Mothership",150,0,30.7,-26.7,-5.25,3.87,8.26,62.7,3.92
+legends,leg:sequel,"Always The Sequel",150,0,38.0,-19.3,-3.78,3.53,8.35,69.3,3.95
+legends,leg:scream,"Always Scream Queen",150,0,33.3,-24.0,-4.57,3.90,8.31,68.0,3.95
+legends,leg:lightsout,"Always Lights Out",150,0,31.3,-26.0,-4.99,3.74,8.23,62.0,3.92
+legends,leg:vault,"Always The Vault",150,0,30.0,-27.3,-5.09,4.02,8.21,62.0,3.94
+legends,leg:quickdraw,"Always Quick Draw",150,0,29.3,-28.0,-5.33,3.84,8.24,63.3,3.92
+legends,leg:underdog,"Always Underdog Story",150,0,51.3,-6.0,-1.17,3.44,8.53,76.0,4.06
+legends,leg:ensemble,"Always Ensemble Cast",150,0,64.0,6.7,1.31,4.09,8.67,82.0,4.12
+legends,leg:plotarmor,"Always Main Character Energy",150,0,52.7,-4.7,-0.94,4.03,8.58,78.0,4.07
+legends,leg:dircut,"Always Director's Cut",150,0,53.3,-4.0,-0.80,4.09,8.49,82.0,4.16
+legends,leg:spinoff,"Always Spin-off Deal",150,0,35.3,-22.0,-4.45,3.68,8.24,63.3,3.96
+legends,leg:wallet,"Always Haunted Wallet",150,0,52.0,-5.3,-1.07,4.12,8.56,78.0,4.10
+legends,leg:scout,"Always Talent Scout",150,0,65.3,8.0,1.55,4.39,8.59,60.7,3.81
+legends,leg:crossep,"Always Crossover Episode",150,0,78.0,20.7,3.91,4.80,8.82,92.0,4.31
+legends,leg:cult,"Always Cult Classic",150,0,32.7,-24.7,-4.90,3.80,8.40,72.0,3.96
+legends,leg:indie,"Always Indie Darling",150,0,30.7,-26.7,-5.25,3.24,8.21,60.0,3.92
+legends,leg:hype,"Always Hype Train",150,0,60.0,2.7,0.53,4.11,8.59,80.0,4.12
+legends,leg:placement,"Always Product Placement",150,0,63.3,6.0,1.24,4.20,8.69,88.0,4.26
+legends,leg:extuniv,"Always Extended Universe",150,0,40.7,-16.7,-3.43,4.07,8.45,71.3,4.05
+legends,leg:blockbuster,"Always Blockbuster",150,0,54.7,-2.7,-0.51,3.71,8.57,80.7,4.09
+legends,leg:none,"No Legendary",150,0,31.3,-26.0,-5.08,3.83,8.21,60.0,3.92
