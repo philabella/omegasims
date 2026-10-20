@@ -1,0 +1,11 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ node sims/builds/variants.js sims/builds/head.html G sims/builds/v.html && node fastsim/actloss.js --build sims/builds/v.html --levels 6 --expert 800 --steady 1500 --look --workers 4 --out out/G
+variant G -> sims/builds/v.html
+[smartbot] engine: vm (fastsim, no browser)
+Lv6 done in 792 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 6 | human | 800 | 60% | 82% | 66% | 1.01 / 0.76 / 0.35 / 0.71 | 64% / 49% / 24% / 41% |
+| 6 | look | 800 | 76% | 91% | 74% | 0.41 / 0.49 / 0.21 / 0.61 | 35% / 33% / 16% / 36% |
+| 6 | steady | 1500 | 8% | 21% | 56% | 5.43 / 5.48 / 3.22 / 2.60 | 100% / 99% / 93% / 94% |
+exit 0
