@@ -1,0 +1,10 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ node fastsim/actloss.js --build sims/builds/ramp.html --levels 6 --expert 200 --steady 600 --look --workers 4 --out out/ramp6
+[smartbot] engine: vm (fastsim, no browser)
+Lv6 done in 195 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 6 | human | 200 | 79% | 80% | 91% | 0.65 / 0.49 / 0.76 / 0.54 | 51% / 27% / 31% / 29% |
+| 6 | look | 200 | 81% | 82% | 96% | 0.30 / 0.36 / 0.64 / 0.52 | 28% / 18% / 27% / 24% |
+| 6 | steady | 600 | 13% | 23% | 34% | 2.50 / 2.77 / 3.35 / 4.95 | 87% / 84% / 91% / 97% |
+exit 0
