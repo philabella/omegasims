@@ -1,0 +1,16 @@
+nproc 4 · node v22.23.3 · timeout 240 min
+$ node sims/builds/variants.js sims/builds/head.html "H1+I+K0.8,1,1.2,1.4" sims/builds/v.html && node fastsim/actloss.js --build sims/builds/v.html --levels 9,14 --expert 600 --steady 600 --look --workers 4  --out out/rh_H1_I_K0_8_1_1_2_1_4
+variant H1+I+K0.8,1,1.2,1.4 -> sims/builds/v.html
+[smartbot] engine: vm (fastsim, no browser)
+Lv9 done in 659 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 738 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 9 | human | 600 | 46% | 50% | 85% | 1.14 / 1.33 / 0.73 / 0.53 | 70% / 64% / 46% / 38% |
+| 9 | look | 600 | 60% | 64% | 88% | 0.51 / 0.98 / 0.68 / 0.46 | 40% / 50% / 41% / 30% |
+| 9 | steady | 600 | 4% | 10% | 7% | 6.31 / 8.64 / 10.58 / 12.17 | 100% / 100% / 100% / 100% |
+| 14 | human | 600 | 23% | 31% | 67% | 1.57 / 1.26 / 0.83 / 0.71 | 78% / 70% / 61% / 52% |
+| 14 | look | 600 | 42% | 50% | 78% | 0.82 / 0.93 / 0.74 / 0.57 | 57% / 55% / 50% / 40% |
+| 14 | steady | 600 | 1% | 5% | 4% | 13.55 / 20.59 / 21.43 / 25.94 | 100% / 100% / 100% / 100% |
+exit 0
