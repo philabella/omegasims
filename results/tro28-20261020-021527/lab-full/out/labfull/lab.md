@@ -1,0 +1,135 @@
+# Balance lab: lv10.html, expert bot, 100 paired runs per config, enemies x1
+
+Baseline win 92.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## mono
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| Only Sportsball | 84.0 | -8.0 | -1.7 | 5.9 | 8.6 | 83.0 |
+| Only Wild West | 83.0 | -9.0 | -1.9 | 5.2 | 8.4 | 79.0 |
+| Only Kaiju | 82.0 | -10.0 | -2.2 | 5.3 | 8.3 | 82.0 |
+| Only Heist Crew | 79.0 | -13.0 | -2.8 | 5.7 | 8.3 | 80.0 |
+| Only Swarm | 78.0 | -14.0 | -2.9 | 5.5 | 8.6 | 85.0 |
+| Only Army | 77.0 | -15.0 | -2.9 | 5.1 | 8.3 | 80.0 |
+| Only Space Opera | 77.0 | -15.0 | -2.9 | 5.1 | 8.1 | 76.0 |
+| Only Undead | 74.0 | -18.0 | -3.5 | 5.8 | 8.5 | 75.0 |
+| Only Slasher | 72.0 | -20.0 | -3.3 | 5.3 | 7.9 | 70.0 |
+
+## pairs
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| Sportsball + Heist Crew (Fixed Match) | 89.0 | -3.0 | -0.7 | 5.5 | 8.7 | 80.0 |
+| Wild West + Space Opera (Space Cowboys) | 88.0 | -4.0 | -1.0 | 5.4 | 8.6 | 69.0 |
+| Undead + Sportsball (Sudden Death) | 88.0 | -4.0 | -0.9 | 5.7 | 8.8 | 74.0 |
+| Swarm + Undead (Zombie Ants) | 85.0 | -7.0 | -1.7 | 6.1 | 8.8 | 66.0 |
+| Heist Crew + Wild West (The Great Train Robbery) | 85.0 | -7.0 | -1.6 | 5.7 | 8.7 | 85.0 |
+| Swarm + Wild West (Stampede) | 84.0 | -8.0 | -2.3 | 5.7 | 8.8 | 73.0 |
+| Army + Kaiju (Defense Force) | 83.0 | -9.0 | -2.1 | 5.4 | 8.8 | 69.0 |
+| Army + Sportsball (Draft Day) | 82.0 | -10.0 | -2.4 | 5.5 | 8.8 | 74.0 |
+| Undead + Heist Crew (Grave Robbers) | 80.0 | -12.0 | -2.6 | 5.6 | 8.7 | 79.0 |
+| Army + Space Opera (Orbital Strike) | 79.0 | -13.0 | -2.8 | 5.2 | 8.6 | 63.0 |
+| Sportsball + Space Opera (Zero-G League) | 79.0 | -13.0 | -2.4 | 5.8 | 8.5 | 59.0 |
+| Swarm + Sportsball (Killer Bees) | 78.0 | -14.0 | -2.7 | 6.0 | 8.7 | 65.0 |
+| Army + Swarm (Bug Hunt) | 77.0 | -15.0 | -2.7 | 5.1 | 8.7 | 66.0 |
+| Army + Undead (Fallen Comrades) | 77.0 | -15.0 | -3.1 | 5.0 | 8.6 | 60.0 |
+| Army + Wild West (The Cavalry) | 77.0 | -15.0 | -3.1 | 6.0 | 8.5 | 66.0 |
+| Undead + Kaiju (Atomic Zombies) | 77.0 | -15.0 | -3.0 | 5.2 | 8.6 | 64.0 |
+| Sportsball + Wild West (Rodeo) | 76.0 | -16.0 | -3.1 | 5.4 | 8.6 | 67.0 |
+| Swarm + Space Opera (The Hive Ship) | 76.0 | -16.0 | -3.1 | 5.8 | 8.5 | 64.0 |
+| Undead + Wild West (Ghost Town) | 75.0 | -17.0 | -3.4 | 6.1 | 8.7 | 60.0 |
+| Slasher + Kaiju (Creature Feature) | 75.0 | -17.0 | -3.4 | 4.9 | 8.3 | 60.0 |
+| Space Opera + Kaiju (Alien Invasion) | 74.0 | -18.0 | -3.4 | 5.3 | 8.4 | 61.0 |
+| Wild West + Kaiju (Monster Roundup) | 73.0 | -19.0 | -3.5 | 5.6 | 8.3 | 59.0 |
+| Army + Slasher (Night Patrol) | 72.0 | -20.0 | -3.7 | 5.7 | 8.4 | 63.0 |
+| Sportsball + Slasher (The Jock Dies First) | 72.0 | -20.0 | -3.7 | 5.6 | 8.3 | 60.0 |
+| Wild West + Slasher (Ghost Riders) | 72.0 | -20.0 | -3.5 | 5.5 | 8.4 | 61.0 |
+| Undead + Space Opera (Ghost Ship) | 72.0 | -20.0 | -3.8 | 5.2 | 8.5 | 67.0 |
+| Slasher + Space Opera (Scream Into the Void) | 72.0 | -20.0 | -3.7 | 5.2 | 8.2 | 51.0 |
+| Sportsball + Kaiju (Monster Bowl) | 72.0 | -20.0 | -3.9 | 5.6 | 8.4 | 68.0 |
+| Heist Crew + Kaiju (Disaster Insurance) | 72.0 | -20.0 | -3.9 | 5.0 | 8.5 | 67.0 |
+| Army + Heist Crew (Arms Deal) | 71.0 | -21.0 | -3.9 | 5.2 | 8.5 | 66.0 |
+| Swarm + Kaiju (Monster Reserve) | 71.0 | -21.0 | -3.9 | 5.8 | 8.6 | 68.0 |
+| Undead + Slasher (Nobody Stays Dead) | 70.0 | -22.0 | -3.8 | 5.5 | 8.5 | 60.0 |
+| Heist Crew + Space Opera (Contraband Run) | 70.0 | -22.0 | -3.9 | 5.0 | 8.4 | 67.0 |
+| Swarm + Slasher (It Came From the Vents) | 69.0 | -23.0 | -4.1 | 5.2 | 8.4 | 62.0 |
+| Heist Crew + Slasher (Ransom Note) | 69.0 | -23.0 | -3.9 | 5.5 | 8.4 | 67.0 |
+| Swarm + Heist Crew (Plague of Locusts) | 65.0 | -27.0 | -4.6 | 5.5 | 8.5 | 62.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Team Mascot | ball | guardian | Epic | 66.0% | 90.9% |
+| Inside Man | heist | guardian | Epic | 62.0% | 96.8% |
+| Forward Observer | army | guardian | Epic | 57.0% | 96.5% |
+| The Brute | horror | guardian | Epic | 44.0% | 95.5% |
+| Star Quarterback | ball | stalker | Mythic | 41.0% | 97.6% |
+| Gunnery Sergeant | army | gunner | Mythic | 40.0% | 97.5% |
+| The Mastermind | heist | gunner | Mythic | 34.0% | 97.1% |
+| Bonesetter | undead | medic | Epic | 33.0% | 90.9% |
+| Giant Mecha | kaiju | guardian | Epic | 31.0% | 90.3% |
+| The Sheriff | west | guardian | Epic | 29.0% | 96.6% |
+| The Leviathan | kaiju | brawler | Mythic | 26.0% | 100.0% |
+| The Hive Mind | bug | mystic | Mythic | 24.0% | 95.8% |
+| The Dream Stalker | horror | mystic | Mythic | 23.0% | 95.7% |
+| Emperor Scorpion | bug | brawler | Epic | 22.0% | 86.4% |
+| Star Knight | space | guardian | Epic | 22.0% | 95.5% |
+| The Drifter | west | stalker | Mythic | 20.0% | 100.0% |
+| Bone Dragon | undead | brawler | Mythic | 19.0% | 100.0% |
+| Head Coach | ball | mystic | Rare | 13.0% | 69.2% |
+| Field Medic | army | medic | Rare | 12.0% | 75.0% |
+| The Fixer | heist | medic | Rare | 12.0% | 100.0% |
+| The Dark Lord | space | mystic | Mythic | 10.0% | 100.0% |
+| Starship Captain | space | brawler | Rare | 6.0% | 100.0% |
+| Rifle Squad | army | gunner | Common | 4.0% | 75.0% |
+| Necromancer | undead | mystic | Rare | 4.0% | 50.0% |
+| Dodgeball Team | ball | guardian | Common | 4.0% | 75.0% |
+| The Gunslinger | west | gunner | Rare | 4.0% | 100.0% |
+| The Final Girl | horror | gunner | Rare | 4.0% | 75.0% |
+| Brood Queen | bug | mystic | Rare | 3.0% | 100.0% |
+| Cheer Squad | ball | medic | Common | 3.0% | 66.7% |
+| Grave Golem | undead | guardian | Rare | 2.0% | 100.0% |
+| Safecracker | heist | brawler | Uncommon | 2.0% | 100.0% |
+| Baby Kaiju | kaiju | brawler | Common | 2.0% | 50.0% |
+| Skeleton Archers | undead | gunner | Common | 1.0% | 100.0% |
+| Zombie Mob | undead | brawler | Common | 1.0% | 0.0% |
+| Lookouts | heist | gunner | Common | 1.0% | 0.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 1.0% | 0.0% |
+| Giant Moth | kaiju | mystic | Rare | 1.0% | 0.0% |
+| Riot Shield | army | guardian | Common | 0.0% | - |
+| Commando | army | stalker | Common | 0.0% | - |
+| Radio Operator | army | mystic | Uncommon | 0.0% | - |
+| Ammo Mule | army | brawler | Uncommon | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Acid Spitters | bug | gunner | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Wraith | undead | stalker | Uncommon | 0.0% | - |
+| Hothead Pitcher | ball | brawler | Common | 0.0% | - |
+| Water Boy | ball | medic | Uncommon | 0.0% | - |
+| Point Guard | ball | gunner | Uncommon | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Getaway Driver | heist | stalker | Common | 0.0% | - |
+| The Hacker | heist | mystic | Uncommon | 0.0% | - |
+| Outlaw Gang | west | brawler | Common | 0.0% | - |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Bounty Hunter | west | stalker | Uncommon | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| Camp Counselors | horror | guardian | Common | 0.0% | - |
+| Creepy Kids | horror | stalker | Common | 0.0% | - |
+| The Babysitter | horror | medic | Common | 0.0% | - |
+| The Priest | horror | mystic | Uncommon | 0.0% | - |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.0% | - |
+| Redshirts | space | guardian | Common | 0.0% | - |
+| Repair Bots | space | medic | Common | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| Defense Force Tanks | kaiju | gunner | Common | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+| The Scientist | kaiju | mystic | Uncommon | 0.0% | - |

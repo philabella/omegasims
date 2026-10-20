@@ -1,0 +1,5 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ mkdir -p out && node fastsim/simspeed.js --parity --lv 15 --runs 500 --offset 500 --workers 4 --out out/es-15-500.json
+[smartbot] engine: vm (fastsim, no browser)
+parity Level 15, seeds 500..999: old 48.2%, new 50.2%, 0 errors, 331s
+exit 0
