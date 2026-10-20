@@ -1,0 +1,15 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",40,0,65.0,0.0,0.00,4.85,8.22,67.5,3.85
+custom,banTrait:guardian,"No Guardians",40,0,47.5,-17.5,-1.81,4.11,7.50,50.0,3.20
+custom,banTrait:brawler,"No Brawlers",40,0,52.5,-12.5,-1.67,5.24,7.95,57.5,3.80
+custom,leg:graveyard,"Always Graveyard Shift",40,0,35.0,-30.0,-3.21,4.50,7.60,45.0,3.63
+custom,leg:sixgun,"Always Six-Shooter",40,0,35.0,-30.0,-3.21,4.64,7.67,47.5,3.64
+custom,leg:wanted,"Always Wanted Posters",40,0,37.5,-27.5,-3.05,4.27,7.65,47.5,3.64
+custom,leg:atomic,"Always Atomic Age",40,0,35.0,-30.0,-3.46,4.64,7.60,47.5,3.64
+custom,leg:finalwars,"Always Payback",40,0,32.5,-32.5,-3.36,4.69,7.58,47.5,3.61
+custom,leg:shieldgen,"Always Shield Generator",40,0,32.5,-32.5,-3.36,5.08,7.60,47.5,3.67
+custom,leg:vault,"Always The Vault",40,0,35.0,-30.0,-3.21,4.71,7.63,45.0,3.65
+custom,leg:quickdraw,"Always Quick Draw",40,0,32.5,-32.5,-3.61,4.69,7.55,45.0,3.60
+custom,leg:spinoff,"Always Spin-off Deal",40,0,45.0,-20.0,-2.31,3.67,7.72,52.5,3.65
+custom,leg:indie,"Always Indie Darling",40,0,37.5,-27.5,-3.05,4.40,7.63,47.5,3.66
+custom,leg:none,"No Legendary",40,0,32.5,-32.5,-3.36,4.46,7.53,45.0,3.61
