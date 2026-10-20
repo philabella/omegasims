@@ -1,0 +1,17 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",150,0,42.0,0.0,0.00,3.95,8.33,66.0,3.98
+custom,heist,"heist",150,0,82.0,40.0,6.63,3.93,8.77,87.3,2.63
+custom,heist:none,"heist:none",150,0,73.3,31.3,5.50,4.14,8.68,80.7,2.55
+custom,heist:insidejob,"heist:insidejob",150,0,80.0,38.0,6.41,4.15,8.74,85.3,2.57
+custom,heist:getaway,"heist:getaway",150,0,79.3,37.3,6.26,4.25,8.78,83.3,2.53
+custom,heist:vault,"heist:vault",150,0,75.3,33.3,5.66,4.02,8.65,80.7,2.62
+custom,west,"west",150,0,68.7,26.7,4.59,3.71,8.55,76.7,2.73
+custom,west:none,"west:none",150,0,54.0,12.0,2.09,3.79,8.38,68.7,2.63
+custom,west:sixgun,"west:sixgun",150,0,68.7,26.7,4.71,3.75,8.62,78.0,2.66
+custom,west:wanted,"west:wanted",150,0,68.0,26.0,4.50,3.70,8.60,78.7,2.61
+custom,west:quickdraw,"west:quickdraw",150,0,59.3,17.3,3.11,3.70,8.53,74.7,2.61
+custom,ball,"ball",150,0,76.7,34.7,5.74,4.11,8.68,80.7,2.65
+custom,ball:none,"ball:none",150,0,72.0,30.0,5.00,3.92,8.57,80.0,2.66
+custom,ball:gameball,"ball:gameball",150,0,80.0,38.0,6.41,4.19,8.69,85.3,2.66
+custom,ball:halftime,"ball:halftime",150,0,80.0,38.0,6.33,4.12,8.65,81.3,2.60
+custom,ball:press,"ball:press",150,0,82.0,40.0,6.63,4.22,8.67,82.7,2.59

@@ -1,0 +1,4 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",150,0,48.0,0.0,0.00,3.89,8.36,73.3,4.05
+custom,g:crossep,"g:crossep",150,0,64.7,16.7,3.31,4.51,8.58,80.0,4.22
+custom,p:crossep,"p:crossep",150,0,52.0,4.0,1.90,4.00,8.40,75.3,4.08

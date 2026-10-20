@@ -1,0 +1,15 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",150,0,48.7,0.0,0.00,3.95,8.35,73.3,4.06
+custom,none,"none",150,0,31.3,-17.3,-3.61,3.81,8.05,60.0,3.93
+custom,g:crossep,"g:crossep",150,0,78.7,30.0,5.42,4.48,8.81,90.7,4.31
+custom,p:crossep,"p:crossep",150,0,54.7,6.0,3.00,3.93,8.39,75.3,4.08
+custom,p:cult,"p:cult",150,0,47.3,-1.3,-1.41,4.00,8.37,73.3,4.07
+custom,p:spinoff,"p:spinoff",150,0,47.3,-1.3,-0.71,3.93,8.31,70.7,4.04
+custom,p:indie,"p:indie",150,0,48.7,0.0,0.00,3.89,8.33,73.3,4.04
+custom,g:cult,"g:cult",150,0,27.3,-21.3,-4.44,3.39,8.21,65.3,3.97
+custom,g:spinoff,"g:spinoff",150,0,34.0,-14.7,-2.94,3.86,8.26,65.3,3.95
+custom,g:indie,"g:indie",150,0,31.3,-17.3,-3.68,3.60,8.12,69.3,3.96
+custom,t2,"t2",150,0,0.0,-48.7,-8.54,0.00,7.42,0.0,1.57
+custom,t2:none,"t2:none",150,0,0.0,-48.7,-8.54,0.00,7.18,0.0,1.53
+custom,t2:cult,"t2:cult",150,0,0.0,-48.7,-8.54,0.00,7.77,0.0,1.57
+custom,t2:spinoff,"t2:spinoff",150,0,0.0,-48.7,-8.54,0.00,7.41,0.0,1.57
