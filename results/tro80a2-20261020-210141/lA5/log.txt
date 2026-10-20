@@ -1,0 +1,10 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ node fastsim/actloss.js --build sims/builds/lA.html --levels 5 --expert 200 --steady 600 --look --workers 4 --out out/lA5
+[smartbot] engine: vm (fastsim, no browser)
+Lv5 done in 221 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 5 | human | 200 | 84% | 85% | 92% | 0.65 / 0.71 / 0.60 / 0.34 | 50% / 34% / 27% / 17% |
+| 5 | look | 200 | 94% | 94% | 93% | 0.30 / 0.32 / 0.38 / 0.28 | 28% / 18% / 21% / 16% |
+| 5 | steady | 600 | 20% | 39% | 27% | 2.76 / 2.69 / 3.28 / 5.82 | 85% / 80% / 88% / 98% |
+exit 0
