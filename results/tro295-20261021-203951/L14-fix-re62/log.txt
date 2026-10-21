@@ -1,0 +1,98 @@
+nproc 4 · node v22.23.3 · timeout 200 min
+$ mkdir -p out && cd fastsim/smartbot-vm && node balance-lab.js --engine vm --build ../../sims/builds/f14.html --policy champion.json --runs 300 --workers 4 --groups base --opts '{"noLook":true}' --configs '[{"key":"bait:west+army","opts":{"genres":["west","army"],"capG":{"army":2}}},{"key":"pair:west+army","opts":{"genres":["west","army"]}},{"key":"bait:ball+heist","opts":{"genres":["ball","heist"],"capG":{"heist":2}}},{"key":"pair:ball+heist","opts":{"genres":["ball","heist"]}},{"key":"bait:army+undead","opts":{"genres":["army","undead"],"capG":{"undead":2}}},{"key":"pair:army+undead","opts":{"genres":["army","undead"]}}]' --tune '{"rvPivotN":2,"rvPivotSpread":1,"rvEchoM":1}' --seedtag re62 --dump --out ../../out/L14-fix-re62
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 7 configs x 300 runs = 2100 expert runs, stress x1, 4 workers, build f14.html
+# Balance lab: f14.html, expert bot, 300 paired runs per config, enemies x1, tune {"rvPivotN":2,"rvPivotSpread":1,"rvEchoM":1}
+
+Baseline win 48.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| pair:ball+heist | 59.3 | +11.3 | 2.8 | 3.9 | 8.9 | 82.3 |
+| pair:west+army | 58.7 | +10.7 | 2.8 | 3.7 | 8.6 | 67.3 |
+| pair:army+undead | 52.3 | +4.3 | 1.1 | 3.5 | 8.7 | 72.7 |
+| bait:west+army | 39.3 | -8.7 | -2.2 | 3.6 | 8.3 | 35.3 |
+| bait:army+undead | 37.3 | -10.7 | -2.7 | 3.7 | 8.1 | 40.3 |
+| bait:ball+heist | 36.3 | -11.7 | -2.9 | 3.8 | 8.3 | 47.7 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Team Mascot | ball | guardian | Epic | 35.3% | 46.2% |
+| Head Coach | ball | mystic | Rare | 33.7% | 50.5% |
+| Field Medic | army | medic | Rare | 31.7% | 56.8% |
+| Forward Observer | army | guardian | Epic | 31.7% | 57.9% |
+| Inside Man | heist | guardian | Epic | 23.3% | 48.6% |
+| Giant Mecha | kaiju | guardian | Epic | 22.3% | 40.3% |
+| The Fixer | heist | medic | Rare | 22.0% | 53.0% |
+| Gunnery Sergeant | army | gunner | Mythic | 17.3% | 80.8% |
+| Star Quarterback | ball | stalker | Mythic | 17.3% | 76.9% |
+| Rifle Squad | army | gunner | Common | 16.0% | 62.5% |
+| The Brute | horror | guardian | Epic | 16.0% | 54.2% |
+| Dodgeball Team | ball | guardian | Common | 15.7% | 42.6% |
+| Giant Moth | kaiju | mystic | Rare | 14.7% | 29.5% |
+| The Final Girl | horror | gunner | Rare | 14.3% | 48.8% |
+| Cheer Squad | ball | medic | Common | 13.3% | 45.0% |
+| Water Boy | ball | medic | Uncommon | 13.0% | 46.2% |
+| Bonesetter | undead | medic | Epic | 12.0% | 50.0% |
+| Point Guard | ball | gunner | Uncommon | 12.0% | 55.6% |
+| The Mastermind | heist | gunner | Mythic | 11.7% | 74.3% |
+| Ammo Mule | army | brawler | Uncommon | 11.3% | 70.6% |
+| Radio Operator | army | mystic | Uncommon | 11.0% | 69.7% |
+| Emperor Scorpion | bug | brawler | Epic | 10.3% | 45.2% |
+| The Hacker | heist | mystic | Uncommon | 10.0% | 60.0% |
+| Grave Golem | undead | guardian | Rare | 9.7% | 41.4% |
+| Safecracker | heist | brawler | Uncommon | 9.7% | 48.3% |
+| The Sheriff | west | guardian | Epic | 9.7% | 44.8% |
+| Starship Captain | space | brawler | Rare | 9.0% | 40.7% |
+| Star Knight | space | guardian | Epic | 9.0% | 40.7% |
+| Brood Queen | bug | mystic | Rare | 8.7% | 34.6% |
+| Necromancer | undead | mystic | Rare | 8.7% | 50.0% |
+| Lookouts | heist | gunner | Common | 8.7% | 53.8% |
+| The Leviathan | kaiju | brawler | Mythic | 7.3% | 59.1% |
+| Chainsaw Maniac | horror | brawler | Uncommon | 6.3% | 68.4% |
+| Riot Shield | army | guardian | Common | 6.0% | 61.1% |
+| Camp Counselors | horror | guardian | Common | 6.0% | 55.6% |
+| The Dream Stalker | horror | mystic | Mythic | 6.0% | 72.2% |
+| The Gunslinger | west | gunner | Rare | 5.3% | 43.8% |
+| Baby Kaiju | kaiju | brawler | Common | 5.3% | 12.5% |
+| The Hive Mind | bug | mystic | Mythic | 5.0% | 60.0% |
+| Creepy Kids | horror | stalker | Common | 5.0% | 53.3% |
+| Defense Force Tanks | kaiju | gunner | Common | 5.0% | 20.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 5.0% | 33.3% |
+| The Priest | horror | mystic | Uncommon | 4.7% | 71.4% |
+| The Scientist | kaiju | mystic | Uncommon | 4.7% | 35.7% |
+| Commando | army | stalker | Common | 4.3% | 53.8% |
+| Bone Dragon | undead | brawler | Mythic | 4.0% | 66.7% |
+| Hothead Pitcher | ball | brawler | Common | 4.0% | 66.7% |
+| The Drifter | west | stalker | Mythic | 4.0% | 66.7% |
+| Burrow Lurker | bug | stalker | Uncommon | 3.0% | 55.6% |
+| Skeleton Archers | undead | gunner | Common | 3.0% | 33.3% |
+| Shellback Beetles | bug | guardian | Common | 2.7% | 12.5% |
+| Zombie Mob | undead | brawler | Common | 2.7% | 37.5% |
+| The Muscle | heist | guardian | Common | 2.7% | 62.5% |
+| Space Smuggler | space | stalker | Uncommon | 2.7% | 37.5% |
+| The Dark Lord | space | mystic | Mythic | 2.7% | 62.5% |
+| Outlaw Gang | west | brawler | Common | 2.3% | 0.0% |
+| Redshirts | space | guardian | Common | 2.3% | 28.6% |
+| The Telepath | space | mystic | Uncommon | 2.0% | 50.0% |
+| Acid Spitters | bug | gunner | Common | 1.7% | 20.0% |
+| Bounty Hunter | west | stalker | Uncommon | 1.7% | 40.0% |
+| Ravager Brood | bug | brawler | Common | 1.3% | 50.0% |
+| Nurse Bee | bug | medic | Uncommon | 1.3% | 75.0% |
+| Wraith | undead | stalker | Uncommon | 1.3% | 25.0% |
+| The Babysitter | horror | medic | Common | 1.3% | 100.0% |
+| Repair Bots | space | medic | Common | 1.3% | 0.0% |
+| Getaway Driver | heist | stalker | Common | 1.0% | 66.7% |
+| TV Reporter | kaiju | medic | Common | 1.0% | 0.0% |
+| Hotshot Pilot | space | gunner | Common | 0.7% | 100.0% |
+| Deputy | west | guardian | Common | 0.3% | 100.0% |
+| Prospector | west | mystic | Uncommon | 0.3% | 0.0% |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+
+(689s; /home/runner/work/omegasims/omegasims/out/L14-fix-re62/lab.json)
+exit 0
