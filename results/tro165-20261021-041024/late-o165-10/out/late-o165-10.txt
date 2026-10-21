@@ -1,0 +1,27 @@
+[smartbot] engine: vm (fastsim, no browser)
+# Late game, Level 10 (o165.html)
+
+## human: n 300, run win 57%, longest win streak after R18 (winning runs) 13.9, gold at the end (winning runs) 14.4
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 89% | 90% | 10.8 | 0% | 5.0 | 0.0 |
+| 2 | 88% | 92% | 13.2 | 0% | 5.0 | 0.2 |
+| 3 | 86% | 94% | 6.9 | 0% | 5.0 | 0.6 |
+| 4 | 88% | 96% | 9.9 | 0% | 5.0 | 0.9 |
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 98% (299) | 100% (1) | - |
+| Act 2 | 90% (226) | 97% (71) | 100% (2) |
+| Act 3 | 94% (111) | 99% (110) | 100% (33) |
+| Act 4 | 78% (63) | 63% (103) | 89% (46) |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 63 | 78% | 83% |
+| 1 | 103 | 63% | 76% |
+| 2 | 37 | 89% | 92% |
+| 3+ | 9 | 89% | 89% |
+
+(107 s)

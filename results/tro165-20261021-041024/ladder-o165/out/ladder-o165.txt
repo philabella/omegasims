@@ -1,0 +1,4 @@
+Lv4: steady 36.0% expert 89%
+Lv9: steady 6.5% expert 54%
+Lv14: steady 4.3% expert 39%
+Lv4: steady 36.0% expert 89% | Lv9: steady 6.5% expert 54% | Lv14: steady 4.3% expert 39%
