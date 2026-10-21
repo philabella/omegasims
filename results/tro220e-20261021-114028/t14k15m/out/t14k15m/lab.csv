@@ -1,0 +1,11 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,44.0,0.0,0.00,3.82,8.55,62.0,3.16
+mono,mono:army,"Only Army",300,0,52.3,8.3,1.97,3.55,8.58,75.7,2.54
+mono,mono:bug,"Only Swarm",300,0,31.3,-12.7,-3.36,3.82,8.64,79.3,2.54
+mono,mono:undead,"Only Undead",300,0,36.3,-7.7,-1.98,3.69,8.60,80.3,2.75
+mono,mono:heist,"Only Heist Crew",300,0,46.3,2.3,0.59,3.66,8.68,84.3,2.62
+mono,mono:west,"Only Wild West",300,0,55.7,11.7,2.87,3.90,8.48,72.3,2.56
+mono,mono:horror,"Only Slasher",300,0,52.7,8.7,2.18,3.44,8.26,66.0,2.40
+mono,mono:space,"Only Space Opera",300,0,66.0,22.0,5.39,3.52,8.45,70.7,2.47
+mono,mono:kaiju,"Only Kaiju",300,0,38.7,-5.3,-1.40,3.30,7.93,46.7,2.80
+mono,mono:ball,"Only Sportsball",300,0,61.0,17.0,4.24,3.91,8.72,83.7,2.55
