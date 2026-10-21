@@ -1,0 +1,45 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ node fastsim/finalboss.js --build sims/builds/k2.4.html --levels 6,7,8,9,11,12,13,14,15,16 --expert 400 --steady 20 --workers 4 --out out/k2.4
+[smartbot] engine: vm (fastsim, no browser)
+Lv6 done in 80 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv7 done in 94 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv8 done in 83 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv9 done in 108 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv11 done in 126 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv12 done in 134 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv13 done in 136 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 142 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv15 done in 137 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv16 done in 154 s
+| Level | bot | n | reached R36 | R36 won (1st try) | run win | boss loss rate R9 / R18 / R27 / R36 / R37 (given reached) |
+|---|---|---|---|---|---|---|
+| 6 | human | 400 | 87% | 41% | 59% | 1% / 4% / 2% / 59% / - |
+| 6 | steady | 20 | 15% | 33% | 0% | 20% / 25% / 9% / 67% / - |
+| 7 | human | 400 | 79% | 51% | 56% | 1% / 2% / 1% / 49% / - |
+| 7 | steady | 20 | 20% | 0% | 5% | 0% / 6% / 33% / 100% / - |
+| 8 | human | 400 | 61% | 44% | 33% | 2% / 4% / 1% / 56% / - |
+| 8 | steady | 20 | 15% | 0% | 0% | 5% / 10% / 25% / 100% / - |
+| 9 | human | 400 | 68% | 67% | 53% | 2% / 5% / 3% / 33% / - |
+| 9 | steady | 20 | 0% | - | 0% | 25% / 58% / 75% / - / - |
+| 11 | human | 400 | 70% | 58% | 51% | 2% / 4% / 3% / 42% / - |
+| 11 | steady | 20 | 20% | 0% | 10% | 5% / 42% / 89% / 100% / - |
+| 12 | human | 400 | 64% | 42% | 34% | 5% / 7% / 3% / 58% / - |
+| 12 | steady | 20 | 15% | 0% | 0% | 30% / 33% / 86% / 100% / - |
+| 13 | human | 400 | 58% | 57% | 39% | 5% / 9% / 6% / 43% / - |
+| 13 | steady | 20 | 15% | 0% | 10% | 5% / 31% / 71% / 100% / - |
+| 14 | human | 400 | 50% | 48% | 28% | 10% / 12% / 4% / 52% / - |
+| 14 | steady | 20 | 5% | 0% | 0% | 35% / 39% / 86% / 100% / - |
+| 15 | human | 400 | 45% | 56% | 28% | 9% / 11% / 5% / 44% / - |
+| 15 | steady | 20 | 15% | 0% | 5% | 45% / 67% / 67% / 100% / - |
+| 16 | human | 400 | 36% | 51% | 22% | 12% / 12% / 6% / 49% / - |
+| 16 | steady | 20 | 0% | - | 0% | 40% / 43% / 80% / - / - |
+exit 0
