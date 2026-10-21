@@ -1,0 +1,50 @@
+[smartbot] engine: vm (fastsim, no browser)
+# Late game, Level 9 (n165.html)
+
+## human: n 300, run win 42%, longest win streak after R18 (winning runs) 13.5, gold at the end (winning runs) 13.2
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 90% | 91% | 10.4 | 0% | 5.0 | 0.0 |
+| 2 | 84% | 88% | 12.5 | 0% | 5.0 | 0.2 |
+| 3 | 81% | 93% | 6.2 | 0% | 5.0 | 0.7 |
+| 4 | 84% | 94% | 9.1 | 0% | 5.0 | 1.1 |
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 98% (300) | - | - |
+| Act 2 | 96% (223) | 99% (73) | 100% (3) |
+| Act 3 | 74% (101) | 93% (94) | 98% (41) |
+| Act 4 | 47% (49) | 57% (84) | 67% (51) |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 49 | 47% | 53% |
+| 1 | 84 | 57% | 68% |
+| 2 | 37 | 62% | 86% |
+| 3+ | 14 | 79% | 79% |
+
+## look: n 300, run win 54%, longest win streak after R18 (winning runs) 13.4, gold at the end (winning runs) 12.1
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 95% | 95% | 10.5 | 0% | 5.0 | 0.0 |
+| 2 | 90% | 94% | 12.9 | 0% | 5.0 | 0.2 |
+| 3 | 85% | 92% | 6.1 | 0% | 5.0 | 0.6 |
+| 4 | 86% | 95% | 8.3 | 0% | 5.0 | 0.9 |
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 100% (300) | - | - |
+| Act 2 | 96% (228) | 99% (70) | 100% (2) |
+| Act 3 | 82% (119) | 95% (114) | 97% (34) |
+| Act 4 | 57% (67) | 64% (107) | 78% (45) |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 67 | 57% | 64% |
+| 1 | 107 | 64% | 77% |
+| 2 | 38 | 76% | 82% |
+| 3+ | 7 | 86% | 100% |
+
+(347 s)
