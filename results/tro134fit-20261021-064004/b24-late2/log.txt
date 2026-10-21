@@ -1,0 +1,4 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ node fastsim/lategame.js --build tropebrawl.html --level 10 --n 600 --workers 4 --seedtag late2 --out out/b24-late2 --tune '{"bossF":[1.9,1.6,2.4,2.2]}'
+[smartbot] engine: vm (fastsim, no browser)
+exit 0
