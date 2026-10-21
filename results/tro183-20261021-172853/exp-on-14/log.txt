@@ -1,0 +1,5 @@
+nproc 4 · node v22.23.3 · timeout 340 min
+$ cd fastsim/rivals/brains && node learn.js --noforce --lv 14 --runs 300 --seedtag tro81c --build ../../../sims/builds/tro183.html --out ../../../out/exp-on-14.json
+counter-draft turns: 26.7% (49090) | run win 34.7% | errors 0 | rival errors 0
+Player win % vs each learner's casts by third of the 300 runs (casts): kit 84(180) / 77(193) / 75(187) | echo 76(263) / 67(255) / 73(235) | quill 82(380) / 81(343) / 82(370) | cue - / - / - | run win 35%
+exit 0
