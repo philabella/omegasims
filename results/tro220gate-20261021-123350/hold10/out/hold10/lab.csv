@@ -1,0 +1,47 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,58.7,0.0,0.00,5.54,8.73,87.0,3.66
+mono,mono:army,"Only Army",300,0,75.7,17.0,4.39,5.19,8.83,93.3,2.71
+mono,mono:bug,"Only Swarm",300,0,50.7,-8.0,-2.07,4.89,8.91,96.3,2.66
+mono,mono:undead,"Only Undead",300,0,75.7,17.0,4.46,5.26,8.82,92.3,2.89
+mono,mono:heist,"Only Heist Crew",300,0,76.0,17.3,4.43,5.36,8.88,94.0,2.66
+mono,mono:west,"Only Wild West",300,0,79.0,20.3,5.46,5.27,8.84,85.0,2.78
+mono,mono:horror,"Only Slasher",300,0,85.7,27.0,7.19,4.75,8.81,91.3,2.68
+mono,mono:space,"Only Space Opera",300,0,80.0,21.3,5.49,4.93,8.84,88.7,2.71
+mono,mono:kaiju,"Only Kaiju",300,0,57.3,-1.3,-0.34,4.42,8.55,67.7,3.15
+mono,mono:ball,"Only Sportsball",300,0,91.0,32.3,8.97,5.62,8.93,96.0,2.68
+pairs,pair:army+bug,"Army + Swarm (Bug Hunt)",300,0,63.3,4.7,1.20,5.08,8.93,94.3,2.86
+pairs,pair:army+undead,"Army + Undead (Fallen Comrades)",300,0,74.0,15.3,4.16,5.31,8.93,92.3,3.02
+pairs,pair:army+ball,"Army + Sportsball (Draft Day)",300,0,84.0,25.3,7.00,5.62,8.94,93.0,2.82
+pairs,pair:bug+undead,"Swarm + Undead (Zombie Ants)",300,0,63.7,5.0,1.30,5.43,8.94,93.0,2.91
+pairs,pair:bug+ball,"Swarm + Sportsball (Killer Bees)",300,0,73.3,14.7,4.27,5.41,8.93,94.3,2.82
+pairs,pair:army+heist,"Army + Heist Crew (Arms Deal)",300,0,71.3,12.7,3.47,5.67,8.93,92.3,2.87
+pairs,pair:bug+heist,"Swarm + Heist Crew (Plague of Locusts)",300,0,68.0,9.3,2.37,5.37,8.92,94.3,2.80
+pairs,pair:undead+heist,"Undead + Heist Crew (Grave Robbers)",300,0,75.0,16.3,4.53,5.59,8.96,95.3,2.93
+pairs,pair:ball+heist,"Sportsball + Heist Crew (Fixed Match)",300,0,87.0,28.3,7.48,5.85,8.97,97.3,2.78
+pairs,pair:army+west,"Army + Wild West (The Cavalry)",300,0,64.3,5.7,1.47,4.83,8.83,83.3,2.89
+pairs,pair:bug+west,"Swarm + Wild West (Stampede)",300,0,48.0,-10.7,-2.70,4.63,8.81,80.0,2.93
+pairs,pair:undead+west,"Undead + Wild West (Ghost Town)",300,0,61.7,3.0,0.79,5.30,8.77,74.0,3.02
+pairs,pair:ball+west,"Sportsball + Wild West (Rodeo)",300,0,77.0,18.3,5.08,5.45,8.85,86.0,2.88
+pairs,pair:heist+west,"Heist Crew + Wild West (The Great Train Robbery)",300,0,76.3,17.7,4.74,5.03,8.90,91.3,2.97
+pairs,pair:army+horror,"Army + Slasher (Night Patrol)",300,0,70.0,11.3,3.03,5.06,8.80,83.7,2.88
+pairs,pair:bug+horror,"Swarm + Slasher (It Came From the Vents)",300,0,62.0,3.3,0.87,4.90,8.82,86.7,2.79
+pairs,pair:undead+horror,"Undead + Slasher (Nobody Stays Dead)",300,0,73.7,15.0,3.76,4.92,8.88,87.7,2.95
+pairs,pair:ball+horror,"Sportsball + Slasher (The Jock Dies First)",300,0,81.7,23.0,6.08,5.32,8.85,88.3,2.83
+pairs,pair:heist+horror,"Heist Crew + Slasher (Ransom Note)",300,0,75.0,16.3,4.28,5.10,8.86,90.0,2.85
+pairs,pair:west+horror,"Wild West + Slasher (Ghost Riders)",300,0,61.3,2.7,0.70,4.67,8.71,70.7,2.91
+pairs,pair:army+space,"Army + Space Opera (Orbital Strike)",300,0,59.3,0.7,0.17,5.06,8.81,80.7,2.89
+pairs,pair:bug+space,"Swarm + Space Opera (The Hive Ship)",300,0,43.0,-15.7,-4.14,4.87,8.73,73.3,2.92
+pairs,pair:undead+space,"Undead + Space Opera (Ghost Ship)",300,0,56.3,-2.3,-0.60,5.06,8.78,77.3,3.05
+pairs,pair:ball+space,"Sportsball + Space Opera (Zero-G League)",300,0,75.0,16.3,4.42,5.60,8.81,84.0,2.87
+pairs,pair:heist+space,"Heist Crew + Space Opera (Contraband Run)",300,0,64.7,6.0,1.57,5.18,8.87,85.0,2.90
+pairs,pair:west+space,"Wild West + Space Opera (Space Cowboys)",300,0,59.7,1.0,0.26,4.64,8.68,63.0,3.04
+pairs,pair:horror+space,"Slasher + Space Opera (Scream Into the Void)",300,0,59.3,0.7,0.17,4.81,8.67,69.7,2.88
+pairs,pair:army+kaiju,"Army + Kaiju (Defense Force)",300,0,71.7,13.0,3.31,5.02,8.84,83.0,3.05
+pairs,pair:bug+kaiju,"Swarm + Kaiju (Monster Reserve)",300,0,58.3,-0.3,-0.09,4.72,8.83,80.7,2.97
+pairs,pair:undead+kaiju,"Undead + Kaiju (Atomic Zombies)",300,0,66.0,7.3,1.86,5.40,8.75,78.7,3.03
+pairs,pair:ball+kaiju,"Sportsball + Kaiju (Monster Bowl)",300,0,75.7,17.0,4.71,5.28,8.83,86.0,2.94
+pairs,pair:heist+kaiju,"Heist Crew + Kaiju (Disaster Insurance)",300,0,73.7,15.0,3.93,4.86,8.84,89.0,2.95
+pairs,pair:west+kaiju,"Wild West + Kaiju (Monster Roundup)",300,0,62.0,3.3,0.94,4.47,8.69,67.0,3.16
+pairs,pair:horror+kaiju,"Slasher + Kaiju (Creature Feature)",300,0,66.0,7.3,1.85,4.66,8.66,72.0,3.04
+pairs,pair:space+kaiju,"Space Opera + Kaiju (Alien Invasion)",300,0,64.0,5.3,1.36,4.34,8.71,72.0,3.19
+pairs,pair:undead+ball,"Undead + Sportsball (Sudden Death)",300,0,86.7,28.0,7.61,5.73,8.94,95.7,2.89

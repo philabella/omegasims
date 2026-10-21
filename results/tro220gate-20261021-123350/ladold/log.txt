@@ -1,0 +1,3 @@
+nproc 4 · node v22.23.3 · timeout 200 min
+$ node fastsim/ladder-tune.js --build sims/builds/old.html --levels 4,9,14 --expert 200 --workers 4 > out-lad.txt 2>&1; mkdir -p out && cp out-lad.txt out/ladold.txt
+exit 0
