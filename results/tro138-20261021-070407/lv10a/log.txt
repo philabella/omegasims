@@ -1,0 +1,20 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ node fastsim/act1.js --build tropebrawl.html --level 10 --n 300 --workers 4 --seedtag act1 --out out/lv10a
+[smartbot] engine: vm (fastsim, no browser)
+# Act 1 vs the run, Level 10 (tropebrawl.html), human-like expert, 300 seeds
+
+Rare+ = board tier >= 3 (["Common","Uncommon","Rare","Epic","Mythic"]). Run win given X: "yes / no (n yes/n no)".
+
+| play | n | run win | R1 win | Act 1 fight win | Act 1 losses | Act 1 boss 1st try | Rare+ by R10 | out by R24 | run win: R1 won/lost | run win: A1 boss won/lost | run win: Rare by R10 yes/no |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| free | 300 | 58 | 53 | 84 | 1.27 | 99 | 99 | 10 | 64 / 51 (159/141) | 58 / 50 (298/2) | 58 / 25 (296/4) |
+| army | 300 | 75 | 9 | 68 | 2.56 | 92 | 96 | 5 | 88 / 74 (26/274) | 79 / 26 (277/23) | 76 / 50 (288/12) |
+| bug | 300 | 52 | 20 | 76 | 1.95 | 97 | 96 | 4 | 63 / 49 (60/240) | 53 / 0 (291/9) | 53 / 15 (287/13) |
+| undead | 300 | 73 | 12 | 74 | 2.11 | 95 | 97 | 6 | 86 / 71 (37/263) | 76 / 14 (286/14) | 75 / 13 (292/8) |
+| heist | 300 | 74 | 14 | 72 | 2.23 | 97 | 96 | 6 | 91 / 71 (43/257) | 76 / 10 (290/10) | 75 / 46 (287/13) |
+| west | 300 | 81 | 5 | 63 | 2.96 | 94 | 95 | 8 | 93 / 81 (15/285) | 85 / 26 (281/19) | 83 / 44 (284/16) |
+| horror | 300 | 80 | 4 | 58 | 3.33 | 94 | 96 | 7 | 100 / 79 (11/289) | 83 / 32 (281/19) | 81 / 54 (287/13) |
+| space | 300 | 78 | 4 | 63 | 2.99 | 94 | 95 | 7 | 75 / 78 (12/288) | 82 / 17 (281/18) | 79 / 47 (285/15) |
+| kaiju | 300 | 75 | 9 | 57 | 3.44 | 69 | 92 | 14 | 88 / 73 (26/274) | 85 / 51 (208/92) | 76 / 57 (277/23) |
+| ball | 300 | 84 | 17 | 74 | 2.06 | 96 | 92 | 5 | 88 / 83 (52/248) | 86 / 18 (289/11) | 86 / 60 (275/25) |
+exit 0
