@@ -1,0 +1,43 @@
+# Late game, Level 10 (tropebrawl.html tune {"bossF": [1.9, 1.6, 5.2, 2.2]})
+
+Boss strength (HP x damage), Season finale / Ep 27 boss: x1.00 ({"27":{"act":3,"type":"boss","m":16.356293722798764,"ref":33935.893630179344,"bossF":5.2},"36":{"act":4,"type":"boss","m":21.00590265086274,"ref":48683.66904761905,"bossF":2.2}})
+
+## human: n 600, run win 49%, longest win streak after R18 (winning runs) 9.6, gold at the end (winning runs) 13.0
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 84% | 86% | 10.6 | 0% | 5.0 | 0.0 |
+| 2 | 84% | 90% | 12.8 | 0% | 5.0 | 0.2 |
+| 3 | 73% | 82% | 6.0 | 0% | 5.0 | 0.7 |
+| 4 | 80% | 91% | 8.3 | 0% | 5.0 | 1.0 |
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 97% (589) | 100% (11) | - |
+| Act 2 | 93% (418) | 99% (163) | 100% (11) |
+| Act 3 | 18% (228) | 29% (230) | 46% (81) |
+| Act 4 | 55% (120) | 57% (178) | 74% (100) |
+
+| passed the Act 3 boss 1st try, by | group | runs | finale 1st try won |
+|---|---|---|---|
+| ★★★ at Ep 27 | 0 | 38 | 74% |
+| ★★★ at Ep 27 | 1 | 61 | 70% |
+| ★★★ at Ep 27 | 2 | 37 | 78% |
+| genre | army | 39 | 72% |
+| genre | ball | 21 | 76% |
+| genre | bug | 1 | 100% |
+| genre | heist | 27 | 70% |
+| genre | horror | 15 | 73% |
+| genre | kaiju | 2 | 50% |
+| genre | space | 8 | 100% |
+| genre | undead | 16 | 69% |
+| genre | west | 7 | 71% |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 120 | 55% | 66% |
+| 1 | 178 | 57% | 72% |
+| 2 | 79 | 71% | 86% |
+| 3+ | 21 | 86% | 90% |
+
+(189 s)
