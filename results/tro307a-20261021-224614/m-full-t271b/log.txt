@@ -1,0 +1,101 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ cd fastsim/smartbot-vm && node balance-lab.js --engine vm --build ../../sims/builds/full.html --policy champion.json --groups base,mono --runs 300 --workers 4 --seedtag t271b --out ../../out/m-full-t271b
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 10 configs x 300 runs = 3000 expert runs, stress x1, 4 workers, build full.html
+# Balance lab: full.html, expert bot, 300 paired runs per config, enemies x1
+
+Baseline win 100.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## mono
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| Only Army | 100.0 | +0.0 | 0.0 | 9.4 | 2.0 | 0.0 |
+| Only Wild West | 100.0 | +0.0 | 0.0 | 9.3 | 2.0 | 0.0 |
+| Only Sportsball | 100.0 | +0.0 | 0.0 | 9.8 | 2.0 | 0.0 |
+| Only Swarm | 0.0 | -100.0 | -17.3 | 0.0 | 2.0 | 0.0 |
+| Only Undead | 0.0 | -100.0 | -17.3 | 0.0 | 2.0 | 0.0 |
+| Only Heist Crew | 0.0 | -100.0 | -17.3 | 0.0 | 2.0 | 0.0 |
+| Only Slasher | 0.0 | -100.0 | -17.3 | 0.0 | 2.0 | 0.0 |
+| Only Space Opera | 0.0 | -100.0 | -17.3 | 0.0 | 2.0 | 0.0 |
+| Only Kaiju | 0.0 | -100.0 | -17.3 | 0.0 | 2.0 | 0.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Rifle Squad | army | gunner | Common | 57.3% | 100.0% |
+| Dodgeball Team | ball | guardian | Common | 56.0% | 100.0% |
+| Cheer Squad | ball | medic | Common | 53.7% | 100.0% |
+| Riot Shield | army | guardian | Common | 39.7% | 100.0% |
+| Water Boy | ball | medic | Uncommon | 36.7% | 100.0% |
+| Spotter | army | stalker | Common | 33.7% | 100.0% |
+| Radio Operator | army | mystic | Uncommon | 25.0% | 100.0% |
+| Point Guard | ball | gunner | Uncommon | 24.3% | 100.0% |
+| Ammo Mule | army | brawler | Uncommon | 23.7% | 100.0% |
+| Hothead Pitcher | ball | brawler | Common | 22.0% | 100.0% |
+| Outlaw Gang | west | brawler | Common | 11.7% | 100.0% |
+| Deputy | west | guardian | Common | 4.7% | 100.0% |
+| Prospector | west | mystic | Uncommon | 3.7% | 100.0% |
+| Bounty Hunter | west | stalker | Uncommon | 3.3% | 100.0% |
+| Saloon Doc | west | medic | Common | 1.7% | 100.0% |
+| Field Medic | army | medic | Rare | 0.0% | - |
+| Forward Observer | army | guardian | Epic | 0.0% | - |
+| Gunnery Sergeant | army | gunner | Mythic | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Acid Spitters | bug | gunner | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Brood Queen | bug | mystic | Rare | 0.0% | - |
+| Emperor Scorpion | bug | brawler | Epic | 0.0% | - |
+| The Hive Mind | bug | mystic | Mythic | 0.0% | - |
+| Skeleton Archers | undead | gunner | Common | 0.0% | - |
+| Zombie Mob | undead | brawler | Common | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Wraith | undead | stalker | Uncommon | 0.0% | - |
+| Grave Golem | undead | guardian | Rare | 0.0% | - |
+| Necromancer | undead | mystic | Rare | 0.0% | - |
+| Bonesetter | undead | medic | Epic | 0.0% | - |
+| Bone Dragon | undead | brawler | Mythic | 0.0% | - |
+| Head Coach | ball | mystic | Rare | 0.0% | - |
+| Team Mascot | ball | guardian | Epic | 0.0% | - |
+| Star Quarterback | ball | stalker | Mythic | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Lookouts | heist | gunner | Common | 0.0% | - |
+| Getaway Driver | heist | stalker | Common | 0.0% | - |
+| Safecracker | heist | brawler | Uncommon | 0.0% | - |
+| The Hacker | heist | mystic | Uncommon | 0.0% | - |
+| The Fixer | heist | medic | Rare | 0.0% | - |
+| Inside Man | heist | guardian | Epic | 0.0% | - |
+| The Mastermind | heist | gunner | Mythic | 0.0% | - |
+| The Gunslinger | west | gunner | Rare | 0.0% | - |
+| The Sheriff | west | guardian | Epic | 0.0% | - |
+| The Drifter | west | stalker | Mythic | 0.0% | - |
+| Camp Counselors | horror | guardian | Common | 0.0% | - |
+| Creepy Kids | horror | stalker | Common | 0.0% | - |
+| The Babysitter | horror | medic | Common | 0.0% | - |
+| The Priest | horror | mystic | Uncommon | 0.0% | - |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.0% | - |
+| The Final Girl | horror | gunner | Rare | 0.0% | - |
+| The Brute | horror | guardian | Epic | 0.0% | - |
+| The Dream Stalker | horror | mystic | Mythic | 0.0% | - |
+| Redshirts | space | guardian | Common | 0.0% | - |
+| Repair Bots | space | medic | Common | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| Starship Captain | space | brawler | Rare | 0.0% | - |
+| Star Knight | space | guardian | Epic | 0.0% | - |
+| The Dark Lord | space | mystic | Mythic | 0.0% | - |
+| Defense Force Tanks | kaiju | gunner | Common | 0.0% | - |
+| Baby Kaiju | kaiju | brawler | Common | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+| The Scientist | kaiju | mystic | Uncommon | 0.0% | - |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 0.0% | - |
+| Giant Moth | kaiju | mystic | Rare | 0.0% | - |
+| Giant Mecha | kaiju | guardian | Epic | 0.0% | - |
+| The Leviathan | kaiju | brawler | Mythic | 0.0% | - |
+
+(56s; /home/runner/work/omegasims/omegasims/out/m-full-t271b/lab.json)
+exit 0
