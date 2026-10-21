@@ -1,0 +1,47 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ node fastsim/lategame.js --build tropebrawl.html --level 10 --n 600 --workers 4 --seedtag late2 --out out/b20-late2
+[smartbot] engine: vm (fastsim, no browser)
+# Late game, Level 10 (tropebrawl.html)
+
+Boss strength (HP x damage), Season finale / Ep 27 boss: x2.60 ({"27":{"act":3,"type":"boss","m":16.356293722798764,"ref":33935.893630179344,"bossF":2},"36":{"act":4,"type":"boss","m":21.00590265086274,"ref":48683.66904761905,"bossF":2.2}})
+
+## human: n 600, run win 57%, longest win streak after R18 (winning runs) 11.6, gold at the end (winning runs) 13.1
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 84% | 86% | 10.5 | 0% | 5.0 | 0.0 |
+| 2 | 84% | 89% | 12.6 | 0% | 5.0 | 0.2 |
+| 3 | 80% | 88% | 6.2 | 0% | 5.0 | 0.7 |
+| 4 | 80% | 88% | 8.6 | 0% | 5.0 | 1.0 |
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 97% (589) | 100% (11) | - |
+| Act 2 | 93% (418) | 99% (163) | 100% (11) |
+| Act 3 | 73% (228) | 84% (230) | 99% (81) |
+| Act 4 | 53% (131) | 55% (199) | 67% (114) |
+
+| passed the Act 3 boss 1st try, by | group | runs | finale 1st try won |
+|---|---|---|---|
+| ★★★ at Ep 27 | 0 | 143 | 59% |
+| ★★★ at Ep 27 | 1 | 177 | 57% |
+| ★★★ at Ep 27 | 2 | 74 | 61% |
+| genre | army | 110 | 56% |
+| genre | ball | 83 | 63% |
+| genre | bug | 14 | 71% |
+| genre | heist | 63 | 57% |
+| genre | horror | 35 | 57% |
+| genre | kaiju | 18 | 50% |
+| genre | space | 20 | 65% |
+| genre | undead | 30 | 57% |
+| genre | west | 21 | 52% |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 131 | 53% | 73% |
+| 1 | 199 | 55% | 76% |
+| 2 | 87 | 64% | 83% |
+| 3+ | 27 | 74% | 93% |
+
+(194 s)
+exit 0
