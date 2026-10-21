@@ -1,0 +1,17 @@
+nproc 4 · node v22.23.3 · timeout 40 min
+$ node fastsim/exploit.js --only fuzz --build sims/builds/v153.html --workers 4 --out out/fuzz
+[exploit 0s] fuzzing...
+[exploit 4s] fuzz: 195 shop snapshots from 40 runs
+# Exploit check: v153.html
+
+2026-10-21T01:42 · policy champion.json
+
+## 1. Arbitrage fuzzer
+
+84000 random player actions from 195 real shop states.
+
+No free gold, no gold loops, no crashes.
+
+**Clean.**
+[exploit 536s] done
+exit 0

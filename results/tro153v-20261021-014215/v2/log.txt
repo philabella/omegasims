@@ -1,0 +1,17 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ node fastsim/finalboss.js --build sims/builds/v153.html --levels 11,12,13 --expert 400 --steady 20 --seedtag tro153v --workers 4 --out out/v2
+[smartbot] engine: vm (fastsim, no browser)
+Lv11 done in 116 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv12 done in 120 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv13 done in 119 s
+| Level | bot | n | reached R36 | R36 won (1st try) | run win | boss loss rate R9 / R18 / R27 / R36 / R37 (given reached) |
+|---|---|---|---|---|---|---|
+| 11 | human | 400 | 66% | 63% | 47% | 3% / 6% / 3% / 37% / - |
+| 11 | steady | 20 | 20% | 0% | 10% | 5% / 42% / 89% / 100% / - |
+| 12 | human | 400 | 60% | 71% | 45% | 5% / 6% / 4% / 29% / - |
+| 12 | steady | 20 | 15% | 0% | 5% | 30% / 33% / 86% / 100% / - |
+| 13 | human | 400 | 57% | 69% | 44% | 6% / 10% / 4% / 31% / - |
+| 13 | steady | 20 | 15% | 0% | 15% | 5% / 31% / 71% / 100% / - |
+exit 0

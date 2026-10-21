@@ -1,0 +1,4 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ for b in v153 o153; do for n in 6 9 14; do sed "s/const lv=Math.max(0,Math.min(LV_MAX,UI.lv|0))/const lv=$n/" sims/builds/$b.html > /tmp/$b$n.html; node fastsim/sim.js 1000 curve7 --workers 4 --seed 40000 --build /tmp/$b$n.html 2>&1 | tail -1 | sed "s/^/$b Lv$n /"; done; done > out/c7.txt
+bash: line 1: out/c7.txt: No such file or directory
+exit 1
