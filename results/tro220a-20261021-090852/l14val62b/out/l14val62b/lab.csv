@@ -1,0 +1,5 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,25.0,0.0,0.00,3.11,8.14,58.3,3.90
+custom,lock6,"lock6",300,0,12.3,-12.7,-4.20,2.78,7.81,26.3,2.82
+custom,lock10,"lock10",300,0,14.0,-11.0,-3.86,3.07,7.90,32.7,3.15
+custom,lock6deep1,"lock6deep1",300,0,23.3,-1.7,-0.50,3.06,8.07,38.7,2.78

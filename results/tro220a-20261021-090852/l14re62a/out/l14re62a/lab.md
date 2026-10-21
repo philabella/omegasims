@@ -1,0 +1,88 @@
+# Balance lab: lv14.html, expert bot, 300 paired runs per config, enemies x1
+
+Baseline win 34.3%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| deep2 | 30.3 | -4.0 | -1.1 | 3.1 | 8.2 | 69.3 |
+| deep1 | 28.3 | -6.0 | -1.7 | 3.5 | 8.1 | 60.0 |
+| deep4 | 27.0 | -7.3 | -2.1 | 3.5 | 8.2 | 65.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Team Mascot | ball | guardian | Epic | 55.0% | 41.2% |
+| Forward Observer | army | guardian | Epic | 54.3% | 37.4% |
+| Inside Man | heist | guardian | Epic | 50.3% | 39.1% |
+| The Brute | horror | guardian | Epic | 39.3% | 39.0% |
+| Bonesetter | undead | medic | Epic | 33.7% | 27.7% |
+| Giant Mecha | kaiju | guardian | Epic | 31.0% | 29.0% |
+| Star Knight | space | guardian | Epic | 29.7% | 31.5% |
+| The Sheriff | west | guardian | Epic | 29.3% | 37.5% |
+| Field Medic | army | medic | Rare | 25.7% | 27.3% |
+| Emperor Scorpion | bug | brawler | Epic | 25.3% | 42.1% |
+| Gunnery Sergeant | army | gunner | Mythic | 21.0% | 58.7% |
+| Head Coach | ball | mystic | Rare | 21.0% | 20.6% |
+| The Fixer | heist | medic | Rare | 20.7% | 33.9% |
+| Star Quarterback | ball | stalker | Mythic | 18.7% | 64.3% |
+| The Drifter | west | stalker | Mythic | 17.0% | 62.7% |
+| Bone Dragon | undead | brawler | Mythic | 16.3% | 57.1% |
+| The Mastermind | heist | gunner | Mythic | 16.3% | 71.4% |
+| The Hive Mind | bug | mystic | Mythic | 14.7% | 50.0% |
+| The Leviathan | kaiju | brawler | Mythic | 12.7% | 57.9% |
+| The Dark Lord | space | mystic | Mythic | 12.3% | 56.8% |
+| The Dream Stalker | horror | mystic | Mythic | 12.0% | 72.2% |
+| The Final Girl | horror | gunner | Rare | 9.7% | 34.5% |
+| Grave Golem | undead | guardian | Rare | 9.0% | 33.3% |
+| The Gunslinger | west | gunner | Rare | 9.0% | 37.0% |
+| Starship Captain | space | brawler | Rare | 7.3% | 36.4% |
+| Necromancer | undead | mystic | Rare | 5.7% | 29.4% |
+| Giant Moth | kaiju | mystic | Rare | 4.0% | 16.7% |
+| Brood Queen | bug | mystic | Rare | 3.7% | 18.2% |
+| Cheer Squad | ball | medic | Common | 3.0% | 0.0% |
+| Point Guard | ball | gunner | Uncommon | 2.3% | 0.0% |
+| Rifle Squad | army | gunner | Common | 2.0% | 0.0% |
+| Dodgeball Team | ball | guardian | Common | 2.0% | 0.0% |
+| Lookouts | heist | gunner | Common | 1.7% | 0.0% |
+| Camp Counselors | horror | guardian | Common | 1.7% | 0.0% |
+| Ammo Mule | army | brawler | Uncommon | 1.3% | 0.0% |
+| Water Boy | ball | medic | Uncommon | 1.3% | 0.0% |
+| Defense Force Tanks | kaiju | gunner | Common | 1.3% | 0.0% |
+| Radio Operator | army | mystic | Uncommon | 1.0% | 0.0% |
+| Skeleton Archers | undead | gunner | Common | 1.0% | 0.0% |
+| Safecracker | heist | brawler | Uncommon | 1.0% | 0.0% |
+| Creepy Kids | horror | stalker | Common | 1.0% | 0.0% |
+| Zombie Mob | undead | brawler | Common | 0.7% | 0.0% |
+| The Hacker | heist | mystic | Uncommon | 0.7% | 50.0% |
+| Outlaw Gang | west | brawler | Common | 0.7% | 0.0% |
+| Bounty Hunter | west | stalker | Uncommon | 0.7% | 0.0% |
+| The Priest | horror | mystic | Uncommon | 0.7% | 0.0% |
+| Baby Kaiju | kaiju | brawler | Common | 0.7% | 0.0% |
+| The Scientist | kaiju | mystic | Uncommon | 0.7% | 0.0% |
+| Commando | army | stalker | Common | 0.3% | 0.0% |
+| Acid Spitters | bug | gunner | Common | 0.3% | 0.0% |
+| Nurse Bee | bug | medic | Uncommon | 0.3% | 0.0% |
+| Hothead Pitcher | ball | brawler | Common | 0.3% | 0.0% |
+| Redshirts | space | guardian | Common | 0.3% | 0.0% |
+| Repair Bots | space | medic | Common | 0.3% | 0.0% |
+| Space Smuggler | space | stalker | Uncommon | 0.3% | 0.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 0.3% | 0.0% |
+| Riot Shield | army | guardian | Common | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Wraith | undead | stalker | Uncommon | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Getaway Driver | heist | stalker | Common | 0.0% | - |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| The Babysitter | horror | medic | Common | 0.0% | - |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
