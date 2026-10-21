@@ -1,0 +1,273 @@
+nproc 4 · node v22.23.3 · timeout 130 min
+$ mkdir -p out && cd fastsim/smartbot-vm && node evolve.js --minutes 70 --workers 4 --build ../../sims/builds/lv9.html --tag t220-kaiju --from ../../sims/builds/seed --opts '{"noLook":true,"genres":["kaiju"]}' --fix '{}' && cp runs/t220-kaiju/champion.json ../../out/kaiju-champion.json && node balance-lab.js --engine vm --build ../../sims/builds/lv9.html --policy runs/t220-kaiju/champion.json --groups base --configs '[{"key":"x","label":"x","opts":{"noLook":true,"genres":["kaiju"]}}]' --runs 200 --workers 4 --seedtag re62 --out ../../out/kaiju-re62 && node balance-lab.js --engine vm --build ../../sims/builds/lv9.html --policy runs/t220-kaiju/champion.json --groups base --configs '[{"key":"x","label":"x","opts":{"noLook":true,"genres":["kaiju"]}}]' --runs 200 --workers 4 --seedtag val62 --out ../../out/kaiju-val62
+[smartbot] engine: vm (fastsim, no browser)
+[09:32:41] new run t220-kaiju: D=150 params, opts {"noLook":true,"genres":["kaiju"]} fix {}, build lv9.html (91f577a07b), workers 4, seeds/eval 24, lambda 12, mu 4
+[09:33:42] gen 1 ep 0 best p1 1.131 (win 0.792, kaiju|rank5|highRarity|spender) mean 0.375 sigma 0.093 | champ p1 val 1.0514 win 0.719 | 61s 1min NEW CHAMPION p1 val 1.051 (bar -1.000) win 0.719
+[09:34:18] gen 2 ep 0 best p1 1.131 (win 0.792, kaiju|rank5|highRarity|spender) mean 0.835 sigma 0.08 | champ p1 val 1.0514 win 0.719 | 36s 1.6min 
+[09:34:56] gen 3 ep 0 best p1 1.131 (win 0.792, kaiju|rank5|highRarity|spender) mean 0.995 sigma 0.084 | champ p1 val 1.0514 win 0.719 | 38s 2.2min 
+[09:35:51] gen 4 ep 1 best p53 1.177 (win 0.833, kaiju|rank5|highRarity|spender) mean 0.916 sigma 0.097 | champ p53 val 1.0834 win 0.75 | 55s 3.2min NEW CHAMPION p53 val 1.083 (bar 1.051) win 0.75
+[09:36:37] gen 5 ep 1 best p63 1.209 (win 0.833, kaiju|rank5|highRarity|spender) mean 1.122 sigma 0.098 | champ p63 val 1.1147 win 0.766 | 46s 3.9min NEW CHAMPION p63 val 1.115 (bar 1.083) win 0.766
+[09:37:23] gen 6 ep 1 best p74 1.254 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.135 sigma 0.092 | champ p74 val 1.1569 win 0.797 | 45s 4.7min NEW CHAMPION p74 val 1.157 (bar 1.115) win 0.797
+[09:38:14] gen 7 ep 2 best p74 1.345 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.280 sigma 0.096 | champ p74 val 1.1569 win 0.797 | 51s 5.5min 
+[09:39:02] gen 8 ep 2 best p92 1.350 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.293 sigma 0.092 | champ p92 val 1.1742 win 0.813 | 48s 6.3min NEW CHAMPION p92 val 1.174 (bar 1.157) win 0.813
+[09:39:49] gen 9 ep 2 best p107 1.360 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.281 sigma 0.082 | champ p107 val 1.1902 win 0.828 | 47s 7.1min NEW CHAMPION p107 val 1.190 (bar 1.174) win 0.828
+[09:40:46] gen 10 ep 3 best p124 1.273 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.040 sigma 0.083 | champ p107 val 1.1902 win 0.828 | 57s 8.1min challenger p124 val 1.087 <= bar 1.190
+[09:41:23] gen 11 ep 3 best p124 1.273 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.134 sigma 0.075 | champ p107 val 1.1902 win 0.828 | 38s 8.7min challenger p124 val 1.087 <= bar 1.190
+[09:42:10] gen 12 ep 3 best p145 1.275 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.188 sigma 0.069 | champ p107 val 1.1902 win 0.828 | 46s 9.5min challenger p145 val 1.125 <= bar 1.190
+[09:43:14] gen 13 ep 4 best p151 1.234 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.064 sigma 0.065 | champ p107 val 1.1902 win 0.828 | 64s 10.5min challenger p151 val 1.141 <= bar 1.190
+[09:44:02] gen 14 ep 4 best p165 1.243 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.136 sigma 0.064 | champ p107 val 1.1902 win 0.828 | 48s 11.4min challenger p165 val 1.133 <= bar 1.190
+[09:44:50] gen 15 ep 4 best p179 1.243 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.183 sigma 0.064 | champ p107 val 1.1902 win 0.828 | 47s 12.1min challenger p179 val 1.063 <= bar 1.190
+[09:45:54] gen 16 ep 5 best p197 1.350 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.270 sigma 0.062 | champ p197 val 1.2128 win 0.828 | 64s 13.2min NEW CHAMPION p197 val 1.213 (bar 1.190) win 0.828
+[09:46:40] gen 17 ep 5 best p199 1.370 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.279 sigma 0.061 | champ p197 val 1.2128 win 0.828 | 46s 14min challenger p199 val 1.103 <= bar 1.213
+[09:47:28] gen 18 ep 5 best p212 1.409 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.336 sigma 0.058 | champ p197 val 1.2128 win 0.828 | 48s 14.8min challenger p212 val 1.075 <= bar 1.213
+[09:48:25] gen 19 ep 6 best p223 1.188 (win 0.792, kaiju|rank5|highRarity|spender) mean 1.063 sigma 0.063 | champ p197 val 1.2128 win 0.828 | 58s 15.7min challenger p223 val 1.176 <= bar 1.213
+[09:49:10] gen 20 ep 6 best p236 1.213 (win 0.792, kaiju|rank5|highRarity|spender) mean 1.125 sigma 0.064 | champ p236 val 1.268 win 0.875 | 45s 16.5min NEW CHAMPION p236 val 1.268 (bar 1.213) win 0.875
+[09:49:54] gen 21 ep 6 best p252 1.240 (win 0.833, kaiju|rank5|highRarity|spender) mean 1.179 sigma 0.063 | champ p236 val 1.268 win 0.875 | 44s 17.2min challenger p252 val 1.242 <= bar 1.268
+[09:50:46] gen 22 ep 7 best p236 1.320 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.186 sigma 0.069 | champ p236 val 1.268 win 0.875 | 52s 18.1min 
+[09:51:26] gen 23 ep 7 best p236 1.320 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.238 sigma 0.07 | champ p236 val 1.268 win 0.875 | 40s 18.7min 
+[09:52:07] gen 24 ep 7 best p236 1.320 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.248 sigma 0.067 | champ p236 val 1.268 win 0.875 | 41s 19.4min 
+[09:53:11] gen 25 ep 8 best p295 1.332 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.237 sigma 0.065 | champ p236 val 1.268 win 0.875 | 64s 20.5min challenger p295 val 1.228 <= bar 1.268
+[09:54:00] gen 26 ep 8 best p318 1.383 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.292 sigma 0.071 | champ p236 val 1.268 win 0.875 | 49s 21.3min challenger p318 val 1.230 <= bar 1.268
+[09:54:38] gen 27 ep 8 best p318 1.383 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.281 sigma 0.076 | champ p236 val 1.268 win 0.875 | 38s 21.9min challenger p318 val 1.230 <= bar 1.268
+[09:55:41] gen 28 ep 9 best p340 1.315 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.209 sigma 0.074 | champ p236 val 1.268 win 0.875 | 64s 23min challenger p340 val 1.214 <= bar 1.268
+[09:56:26] gen 29 ep 9 best p347 1.339 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.253 sigma 0.077 | champ p347 val 1.2895 win 0.875 | 45s 23.7min NEW CHAMPION p347 val 1.290 (bar 1.268) win 0.875
+[09:57:13] gen 30 ep 9 best p366 1.366 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.296 sigma 0.08 | champ p347 val 1.2895 win 0.875 | 47s 24.5min challenger p366 val 1.255 <= bar 1.290
+[09:58:12] gen 31 ep 10 best p377 1.377 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.278 sigma 0.084 | champ p347 val 1.2895 win 0.875 | 59s 25.5min challenger p377 val 1.255 <= bar 1.290
+[09:58:59] gen 32 ep 10 best p382 1.402 (win 0.958, kaiju|rank<5|highRarity|spender) mean 1.313 sigma 0.087 | champ p347 val 1.2895 win 0.875 | 47s 26.3min challenger p382 val 1.188 <= bar 1.290
+[09:59:46] gen 33 ep 10 best p395 1.415 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.342 sigma 0.087 | champ p347 val 1.2895 win 0.875 | 47s 27.1min challenger p395 val 1.259 <= bar 1.290
+[10:00:35] gen 34 ep 11 best p403 1.163 (win 0.792, kaiju|rank<5|highRarity|spender) mean 1.031 sigma 0.092 | champ p347 val 1.2895 win 0.875 | 48s 27.9min 
+[10:01:10] gen 35 ep 11 best p403 1.163 (win 0.792, kaiju|rank<5|highRarity|spender) mean 1.087 sigma 0.088 | champ p347 val 1.2895 win 0.875 | 35s 28.5min 
+[10:01:53] gen 36 ep 11 best p434 1.207 (win 0.833, kaiju|rank5|highRarity|spender) mean 1.105 sigma 0.09 | champ p347 val 1.2895 win 0.875 | 43s 29.2min challenger p434 val 1.183 <= bar 1.290
+[10:02:48] gen 37 ep 12 best p444 1.368 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.266 sigma 0.097 | champ p347 val 1.2895 win 0.875 | 55s 30.1min 
+[10:03:27] gen 38 ep 12 best p457 1.410 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.290 sigma 0.083 | champ p347 val 1.2895 win 0.875 | 40s 30.8min 
+[10:04:08] gen 39 ep 12 best p474 1.425 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.321 sigma 0.073 | champ p347 val 1.2895 win 0.875 | 41s 31.4min 
+[10:05:02] gen 40 ep 13 best p479 1.218 (win 0.833, kaiju|rank<5|highRarity|spender) mean 1.129 sigma 0.08 | champ p347 val 1.2895 win 0.875 | 54s 32.3min 
+[10:05:37] gen 41 ep 13 best p496 1.238 (win 0.833, kaiju|rank5|highRarity|spender) mean 1.148 sigma 0.081 | champ p347 val 1.2895 win 0.875 | 35s 32.9min 
+[10:06:22] gen 42 ep 13 best p502 1.370 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.200 sigma 0.084 | champ p347 val 1.2895 win 0.875 | 46s 33.7min challenger p502 val 1.241 <= bar 1.290
+[10:07:24] gen 43 ep 14 best p511 1.359 (win 0.917, kaiju|rank<5|highRarity|spender) mean 1.236 sigma 0.082 | champ p347 val 1.2895 win 0.875 | 61s 34.7min challenger p511 val 1.026 <= bar 1.290
+[10:08:10] gen 44 ep 14 best p525 1.412 (win 0.958, kaiju|rank<5|highRarity|spender) mean 1.241 sigma 0.089 | champ p347 val 1.2895 win 0.875 | 46s 35.5min challenger p525 val 1.133 <= bar 1.290
+[10:08:55] gen 45 ep 14 best p543 1.464 (win 1, kaiju|rank5|highRarity|spender) mean 1.335 sigma 0.099 | champ p347 val 1.2895 win 0.875 | 46s 36.2min challenger p543 val 1.096 <= bar 1.290
+[10:09:55] gen 46 ep 15 best p555 1.368 (win 0.958, kaiju|rank<5|highRarity|spender) mean 1.209 sigma 0.1 | champ p347 val 1.2895 win 0.875 | 60s 37.2min challenger p555 val 1.118 <= bar 1.290
+[10:10:39] gen 47 ep 15 best p569 1.375 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.295 sigma 0.105 | champ p347 val 1.2895 win 0.875 | 44s 38min challenger p569 val 1.115 <= bar 1.290
+[10:11:23] gen 48 ep 15 best p579 1.385 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.270 sigma 0.112 | champ p347 val 1.2895 win 0.875 | 44s 38.7min challenger p579 val 1.187 <= bar 1.290
+[10:12:20] gen 49 ep 16 best p590 1.268 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.090 sigma 0.117 | champ p347 val 1.2895 win 0.875 | 57s 39.6min challenger p590 val 1.235 <= bar 1.290
+[10:12:56] gen 50 ep 16 best p590 1.268 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.153 sigma 0.117 | champ p347 val 1.2895 win 0.875 | 36s 40.2min challenger p590 val 1.235 <= bar 1.290
+[10:13:40] gen 51 ep 16 best p617 1.330 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.167 sigma 0.091 | champ p347 val 1.2895 win 0.875 | 44s 41min challenger p617 val 1.182 <= bar 1.290
+[10:14:32] gen 52 ep 17 best p628 1.294 (win 0.875, kaiju|rank<5|highRarity|spender) mean 1.245 sigma 0.088 | champ p347 val 1.2895 win 0.875 | 52s 41.8min 
+[10:15:09] gen 53 ep 17 best p635 1.368 (win 0.917, kaiju|rank<5|highRarity|spender) mean 1.258 sigma 0.088 | champ p347 val 1.2895 win 0.875 | 37s 42.5min 
+[10:15:55] gen 54 ep 17 best p651 1.445 (win 1, kaiju|rank<5|highRarity|spender) mean 1.293 sigma 0.09 | champ p347 val 1.2895 win 0.875 | 46s 43.2min challenger p651 val 1.196 <= bar 1.290
+[10:16:43] gen 55 ep 18 best p658 1.160 (win 0.792, kaiju|rank<5|highRarity|spender) mean 1.032 sigma 0.097 | champ p347 val 1.2895 win 0.875 | 48s 44min 
+[10:17:25] gen 56 ep 18 best p672 1.210 (win 0.833, kaiju|rank<5|highRarity|spender) mean 1.108 sigma 0.097 | champ p347 val 1.2895 win 0.875 | 42s 44.7min challenger p672 val 1.186 <= bar 1.290
+[10:18:07] gen 57 ep 18 best p688 1.325 (win 0.917, kaiju|rank<5|highRarity|spender) mean 1.143 sigma 0.093 | champ p347 val 1.2895 win 0.875 | 42s 45.4min challenger p688 val 1.202 <= bar 1.290
+[10:19:07] gen 58 ep 19 best p679 1.339 (win 0.917, kaiju|rank<5|highRarity|spender) mean 1.204 sigma 0.093 | champ p347 val 1.2895 win 0.875 | 60s 46.4min challenger p679 val 1.208 <= bar 1.290
+[10:19:56] gen 59 ep 19 best p704 1.381 (win 0.958, kaiju|rank<5|highRarity|spender) mean 1.293 sigma 0.09 | champ p347 val 1.2895 win 0.875 | 49s 47.2min challenger p704 val 1.242 <= bar 1.290
+[10:20:34] gen 60 ep 19 best p704 1.381 (win 0.958, kaiju|rank<5|highRarity|spender) mean 1.218 sigma 0.086 | champ p347 val 1.2895 win 0.875 | 38s 47.9min challenger p704 val 1.242 <= bar 1.290
+[10:21:33] gen 61 ep 20 best p736 1.177 (win 0.792, kaiju|rank5|highRarity|spender) mean 1.017 sigma 0.086 | champ p347 val 1.2895 win 0.875 | 59s 48.9min challenger p736 val 1.255 <= bar 1.290
+[10:22:07] gen 62 ep 20 best p736 1.177 (win 0.792, kaiju|rank5|highRarity|spender) mean 1.031 sigma 0.082 | champ p347 val 1.2895 win 0.875 | 35s 49.4min challenger p736 val 1.255 <= bar 1.290
+[10:22:52] gen 63 ep 20 best p752 1.184 (win 0.792, kaiju|rank5|highRarity|spender) mean 1.081 sigma 0.079 | champ p347 val 1.2895 win 0.875 | 45s 50.2min challenger p752 val 1.190 <= bar 1.290
+[10:23:53] gen 64 ep 21 best p774 1.364 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.287 sigma 0.08 | champ p347 val 1.2895 win 0.875 | 61s 51.2min 
+[10:24:45] gen 65 ep 21 best p781 1.388 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.311 sigma 0.085 | champ p347 val 1.2895 win 0.875 | 51s 52.1min challenger p781 val 1.271 <= bar 1.290
+[10:25:28] gen 66 ep 21 best p781 1.388 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.318 sigma 0.082 | champ p347 val 1.2895 win 0.875 | 43s 52.8min challenger p781 val 1.271 <= bar 1.290
+[10:26:35] gen 67 ep 22 best p804 1.470 (win 1, kaiju|rank5|highRarity|spender) mean 1.368 sigma 0.083 | champ p804 val 1.2977 win 0.891 | 67s 53.9min NEW CHAMPION p804 val 1.298 (bar 1.290) win 0.891
+[10:27:16] gen 68 ep 22 best p804 1.470 (win 1, kaiju|rank5|highRarity|spender) mean 1.394 sigma 0.079 | champ p804 val 1.2977 win 0.891 | 40s 54.6min 
+[10:28:05] gen 69 ep 22 best p827 1.473 (win 1, kaiju|rank5|highRarity|spender) mean 1.425 sigma 0.066 | champ p827 val 1.3337 win 0.922 | 49s 55.4min NEW CHAMPION p827 val 1.334 (bar 1.298) win 0.922
+[10:29:01] gen 70 ep 23 best p843 1.268 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.191 sigma 0.068 | champ p827 val 1.3337 win 0.922 | 57s 56.3min challenger p843 val 1.302 <= bar 1.334
+[10:29:45] gen 71 ep 23 best p857 1.273 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.231 sigma 0.067 | champ p827 val 1.3337 win 0.922 | 44s 57.1min challenger p857 val 1.317 <= bar 1.334
+[10:30:31] gen 72 ep 23 best p867 1.276 (win 0.875, kaiju|rank5|highRarity|spender) mean 1.225 sigma 0.068 | champ p867 val 1.358 win 0.938 | 45s 57.8min NEW CHAMPION p867 val 1.358 (bar 1.334) win 0.938
+[10:31:30] gen 73 ep 24 best p875 1.395 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.285 sigma 0.07 | champ p867 val 1.358 win 0.938 | 59s 58.8min challenger p875 val 1.217 <= bar 1.358
+[10:32:07] gen 74 ep 24 best p875 1.395 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.293 sigma 0.076 | champ p867 val 1.358 win 0.938 | 37s 59.4min challenger p875 val 1.217 <= bar 1.358
+[10:32:53] gen 75 ep 24 best p898 1.452 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.360 sigma 0.081 | champ p867 val 1.358 win 0.938 | 46s 60.2min challenger p898 val 1.300 <= bar 1.358
+[10:33:55] gen 76 ep 25 best p897 1.393 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.310 sigma 0.077 | champ p867 val 1.358 win 0.938 | 62s 61.2min challenger p897 val 1.243 <= bar 1.358
+[10:34:40] gen 77 ep 25 best p919 1.423 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.304 sigma 0.076 | champ p867 val 1.358 win 0.938 | 45s 62min challenger p919 val 1.302 <= bar 1.358
+[10:35:25] gen 78 ep 25 best p931 1.432 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.311 sigma 0.074 | champ p867 val 1.358 win 0.938 | 45s 62.7min challenger p931 val 1.312 <= bar 1.358
+[10:36:30] gen 79 ep 26 best p945 1.447 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.334 sigma 0.072 | champ p867 val 1.358 win 0.938 | 64s 63.8min challenger p945 val 1.348 <= bar 1.358
+[10:37:10] gen 80 ep 26 best p945 1.447 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.370 sigma 0.07 | champ p867 val 1.358 win 0.938 | 40s 64.5min challenger p945 val 1.348 <= bar 1.358
+[10:37:50] gen 81 ep 26 best p945 1.447 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.357 sigma 0.07 | champ p867 val 1.358 win 0.938 | 40s 65.1min challenger p945 val 1.348 <= bar 1.358
+[10:38:56] gen 82 ep 27 best p988 1.370 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.279 sigma 0.07 | champ p867 val 1.358 win 0.938 | 66s 66.2min challenger p988 val 1.315 <= bar 1.358
+[10:39:46] gen 83 ep 27 best p995 1.394 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.326 sigma 0.07 | champ p867 val 1.358 win 0.938 | 50s 67.1min challenger p995 val 1.346 <= bar 1.358
+[10:40:37] gen 84 ep 27 best p1004 1.419 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.345 sigma 0.067 | champ p867 val 1.358 win 0.938 | 51s 67.9min challenger p1004 val 1.304 <= bar 1.358
+[10:41:34] gen 85 ep 28 best p995 1.387 (win 0.917, kaiju|rank5|highRarity|spender) mean 1.317 sigma 0.067 | champ p867 val 1.358 win 0.938 | 58s 68.9min 
+[10:42:22] gen 86 ep 28 best p1038 1.435 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.359 sigma 0.069 | champ p867 val 1.358 win 0.938 | 47s 69.7min challenger p1038 val 1.308 <= bar 1.358
+[10:43:00] gen 87 ep 28 best p1038 1.435 (win 0.958, kaiju|rank5|highRarity|spender) mean 1.356 sigma 0.069 | champ p867 val 1.358 win 0.938 | 39s 70.3min challenger p1038 val 1.308 <= bar 1.358
+[10:43:00] stopped after gen 87, 32080 runs this session-state; champion p867 val 1.358
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 2 configs x 200 runs = 400 expert runs, stress x1, 4 workers, build lv9.html
+# Balance lab: lv9.html, expert bot, 200 paired runs per config, enemies x1
+
+Baseline win 75.5%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| x | 85.0 | +9.5 | 2.4 | 6.1 | 8.7 | 85.5 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Forward Observer | army | guardian | Epic | 52.5% | 72.4% |
+| Inside Man | heist | guardian | Epic | 49.0% | 73.5% |
+| Giant Mecha | kaiju | guardian | Epic | 46.5% | 69.9% |
+| Team Mascot | ball | guardian | Epic | 43.0% | 79.1% |
+| Bonesetter | undead | medic | Epic | 37.0% | 73.0% |
+| The Brute | horror | guardian | Epic | 34.0% | 73.5% |
+| Gunnery Sergeant | army | gunner | Mythic | 28.0% | 85.7% |
+| The Mastermind | heist | gunner | Mythic | 26.5% | 84.9% |
+| The Dream Stalker | horror | mystic | Mythic | 26.5% | 86.8% |
+| The Sheriff | west | guardian | Epic | 24.0% | 77.1% |
+| The Leviathan | kaiju | brawler | Mythic | 23.5% | 89.4% |
+| Star Quarterback | ball | stalker | Mythic | 22.5% | 88.9% |
+| Field Medic | army | medic | Rare | 20.5% | 75.6% |
+| Bone Dragon | undead | brawler | Mythic | 19.5% | 92.3% |
+| The Drifter | west | stalker | Mythic | 18.0% | 97.2% |
+| Star Knight | space | guardian | Epic | 16.5% | 78.8% |
+| Head Coach | ball | mystic | Rare | 16.0% | 78.1% |
+| The Dark Lord | space | mystic | Mythic | 16.0% | 78.1% |
+| The Hive Mind | bug | mystic | Mythic | 15.0% | 83.3% |
+| The Fixer | heist | medic | Rare | 14.5% | 65.5% |
+| The Final Girl | horror | gunner | Rare | 9.5% | 63.2% |
+| Emperor Scorpion | bug | brawler | Epic | 9.0% | 88.9% |
+| Grave Golem | undead | guardian | Rare | 7.5% | 60.0% |
+| Necromancer | undead | mystic | Rare | 7.0% | 71.4% |
+| Giant Moth | kaiju | mystic | Rare | 6.0% | 50.0% |
+| The Gunslinger | west | gunner | Rare | 3.5% | 85.7% |
+| Rifle Squad | army | gunner | Common | 2.5% | 40.0% |
+| Radio Operator | army | mystic | Uncommon | 2.0% | 50.0% |
+| Lookouts | heist | gunner | Common | 2.0% | 25.0% |
+| Ammo Mule | army | brawler | Uncommon | 1.5% | 66.7% |
+| Brood Queen | bug | mystic | Rare | 1.5% | 66.7% |
+| The Hacker | heist | mystic | Uncommon | 1.5% | 33.3% |
+| Starship Captain | space | brawler | Rare | 1.5% | 33.3% |
+| Commando | army | stalker | Common | 1.0% | 0.0% |
+| Water Boy | ball | medic | Uncommon | 1.0% | 0.0% |
+| Point Guard | ball | gunner | Uncommon | 1.0% | 50.0% |
+| Safecracker | heist | brawler | Uncommon | 1.0% | 50.0% |
+| Defense Force Tanks | kaiju | gunner | Common | 1.0% | 0.0% |
+| Acid Spitters | bug | gunner | Common | 0.5% | 100.0% |
+| Zombie Mob | undead | brawler | Common | 0.5% | 100.0% |
+| Wraith | undead | stalker | Uncommon | 0.5% | 100.0% |
+| Dodgeball Team | ball | guardian | Common | 0.5% | 100.0% |
+| Cheer Squad | ball | medic | Common | 0.5% | 100.0% |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.5% | 100.0% |
+| Redshirts | space | guardian | Common | 0.5% | 0.0% |
+| Baby Kaiju | kaiju | brawler | Common | 0.5% | 100.0% |
+| The Scientist | kaiju | mystic | Uncommon | 0.5% | 100.0% |
+| Riot Shield | army | guardian | Common | 0.0% | - |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Skeleton Archers | undead | gunner | Common | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| Hothead Pitcher | ball | brawler | Common | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Getaway Driver | heist | stalker | Common | 0.0% | - |
+| Outlaw Gang | west | brawler | Common | 0.0% | - |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Bounty Hunter | west | stalker | Uncommon | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| Camp Counselors | horror | guardian | Common | 0.0% | - |
+| Creepy Kids | horror | stalker | Common | 0.0% | - |
+| The Babysitter | horror | medic | Common | 0.0% | - |
+| The Priest | horror | mystic | Uncommon | 0.0% | - |
+| Repair Bots | space | medic | Common | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 0.0% | - |
+
+(167s; /home/runner/work/omegasims/omegasims/out/kaiju-re62/lab.json)
+[smartbot] engine: vm (fastsim, no browser)
+balance lab: 2 configs x 200 runs = 400 expert runs, stress x1, 4 workers, build lv9.html
+# Balance lab: lv9.html, expert bot, 200 paired runs per config, enemies x1
+
+Baseline win 64.0%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| x | 81.5 | +17.5 | 3.8 | 5.9 | 8.7 | 81.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Forward Observer | army | guardian | Epic | 54.0% | 61.1% |
+| Team Mascot | ball | guardian | Epic | 47.0% | 63.8% |
+| Inside Man | heist | guardian | Epic | 43.0% | 67.4% |
+| Giant Mecha | kaiju | guardian | Epic | 41.5% | 56.6% |
+| The Brute | horror | guardian | Epic | 32.0% | 67.2% |
+| Gunnery Sergeant | army | gunner | Mythic | 29.5% | 86.4% |
+| Bonesetter | undead | medic | Epic | 28.5% | 59.6% |
+| Star Quarterback | ball | stalker | Mythic | 25.5% | 82.4% |
+| Field Medic | army | medic | Rare | 24.5% | 55.1% |
+| The Mastermind | heist | gunner | Mythic | 23.5% | 76.6% |
+| The Sheriff | west | guardian | Epic | 23.0% | 65.2% |
+| The Leviathan | kaiju | brawler | Mythic | 22.5% | 88.9% |
+| Bone Dragon | undead | brawler | Mythic | 22.0% | 79.5% |
+| Star Knight | space | guardian | Epic | 20.0% | 62.5% |
+| Head Coach | ball | mystic | Rare | 19.0% | 65.8% |
+| The Drifter | west | stalker | Mythic | 19.0% | 86.8% |
+| The Dream Stalker | horror | mystic | Mythic | 18.5% | 89.2% |
+| The Fixer | heist | medic | Rare | 17.5% | 48.6% |
+| Emperor Scorpion | bug | brawler | Epic | 16.0% | 75.0% |
+| The Dark Lord | space | mystic | Mythic | 12.0% | 83.3% |
+| The Hive Mind | bug | mystic | Mythic | 11.5% | 69.6% |
+| Necromancer | undead | mystic | Rare | 9.5% | 52.6% |
+| The Gunslinger | west | gunner | Rare | 6.5% | 69.2% |
+| The Final Girl | horror | gunner | Rare | 6.5% | 84.6% |
+| Giant Moth | kaiju | mystic | Rare | 6.5% | 30.8% |
+| Grave Golem | undead | guardian | Rare | 6.0% | 66.7% |
+| Ammo Mule | army | brawler | Uncommon | 2.5% | 0.0% |
+| Rifle Squad | army | gunner | Common | 2.0% | 75.0% |
+| Lookouts | heist | gunner | Common | 2.0% | 50.0% |
+| Starship Captain | space | brawler | Rare | 2.0% | 50.0% |
+| Cheer Squad | ball | medic | Common | 1.5% | 33.3% |
+| Safecracker | heist | brawler | Uncommon | 1.5% | 33.3% |
+| The Scientist | kaiju | mystic | Uncommon | 1.5% | 66.7% |
+| Brood Queen | bug | mystic | Rare | 1.0% | 50.0% |
+| Dodgeball Team | ball | guardian | Common | 1.0% | 0.0% |
+| Water Boy | ball | medic | Uncommon | 1.0% | 0.0% |
+| Point Guard | ball | gunner | Uncommon | 1.0% | 0.0% |
+| The Hacker | heist | mystic | Uncommon | 1.0% | 0.0% |
+| The Priest | horror | mystic | Uncommon | 1.0% | 100.0% |
+| Riot Shield | army | guardian | Common | 0.5% | 0.0% |
+| Commando | army | stalker | Common | 0.5% | 0.0% |
+| Radio Operator | army | mystic | Uncommon | 0.5% | 0.0% |
+| Skeleton Archers | undead | gunner | Common | 0.5% | 0.0% |
+| Zombie Mob | undead | brawler | Common | 0.5% | 0.0% |
+| Wraith | undead | stalker | Uncommon | 0.5% | 0.0% |
+| Hothead Pitcher | ball | brawler | Common | 0.5% | 100.0% |
+| Outlaw Gang | west | brawler | Common | 0.5% | 0.0% |
+| Chainsaw Maniac | horror | brawler | Uncommon | 0.5% | 100.0% |
+| Baby Kaiju | kaiju | brawler | Common | 0.5% | 0.0% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 0.5% | 0.0% |
+| Ravager Brood | bug | brawler | Common | 0.0% | - |
+| Acid Spitters | bug | gunner | Common | 0.0% | - |
+| Shellback Beetles | bug | guardian | Common | 0.0% | - |
+| Burrow Lurker | bug | stalker | Uncommon | 0.0% | - |
+| Nurse Bee | bug | medic | Uncommon | 0.0% | - |
+| Vampire Bat | undead | stalker | Common | 0.0% | - |
+| The Muscle | heist | guardian | Common | 0.0% | - |
+| Getaway Driver | heist | stalker | Common | 0.0% | - |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |
+| Bounty Hunter | west | stalker | Uncommon | 0.0% | - |
+| Prospector | west | mystic | Uncommon | 0.0% | - |
+| Camp Counselors | horror | guardian | Common | 0.0% | - |
+| Creepy Kids | horror | stalker | Common | 0.0% | - |
+| The Babysitter | horror | medic | Common | 0.0% | - |
+| Redshirts | space | guardian | Common | 0.0% | - |
+| Repair Bots | space | medic | Common | 0.0% | - |
+| Hotshot Pilot | space | gunner | Common | 0.0% | - |
+| Space Smuggler | space | stalker | Uncommon | 0.0% | - |
+| The Telepath | space | mystic | Uncommon | 0.0% | - |
+| Defense Force Tanks | kaiju | gunner | Common | 0.0% | - |
+| TV Reporter | kaiju | medic | Common | 0.0% | - |
+
+(159s; /home/runner/work/omegasims/omegasims/out/kaiju-val62/lab.json)
+exit 0
