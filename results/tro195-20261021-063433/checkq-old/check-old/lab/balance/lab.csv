@@ -1,0 +1,193 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+mono,mono:army,"Only Army",40,0,87.5,0.0,0.00,5.11,8.55,85.0,2.73
+mono,mono:bug,"Only Swarm",40,0,85.0,-2.5,-0.45,6.94,8.78,92.5,2.58
+mono,mono:undead,"Only Undead",40,0,95.0,7.5,1.13,6.29,8.93,92.5,2.90
+mono,mono:heist,"Only Heist Crew",40,0,95.0,7.5,1.13,5.58,8.88,95.0,2.64
+mono,mono:west,"Only Wild West",40,0,82.5,-5.0,-0.71,5.36,8.50,80.0,2.87
+mono,mono:horror,"Only Slasher",40,0,62.5,-25.0,-2.50,4.68,7.28,62.5,2.40
+mono,mono:space,"Only Space Opera",40,0,65.0,-22.5,-2.50,4.96,7.75,60.0,2.36
+mono,mono:kaiju,"Only Kaiju",40,0,65.0,-22.5,-2.50,4.96,7.63,62.5,2.99
+mono,mono:ball,"Only Sportsball",40,0,90.0,2.5,0.38,6.72,8.95,90.0,2.71
+pairs,pair:army+bug,"Army + Swarm (Bug Hunt)",40,0,80.0,-7.5,-1.00,5.44,8.75,67.5,3.24
+pairs,pair:army+undead,"Army + Undead (Fallen Comrades)",40,0,75.0,-12.5,-1.39,5.43,8.60,52.5,3.19
+pairs,pair:army+ball,"Army + Sportsball (Draft Day)",40,0,72.5,-15.0,-2.12,5.62,8.20,70.0,3.14
+pairs,pair:bug+undead,"Swarm + Undead (Zombie Ants)",40,0,85.0,-2.5,-0.33,6.00,8.82,75.0,3.39
+pairs,pair:bug+ball,"Swarm + Sportsball (Killer Bees)",40,0,95.0,7.5,1.13,5.37,8.93,82.5,3.27
+pairs,pair:army+heist,"Army + Heist Crew (Arms Deal)",40,0,82.5,-5.0,-0.71,5.64,8.72,82.5,3.42
+pairs,pair:bug+heist,"Swarm + Heist Crew (Plague of Locusts)",40,0,80.0,-7.5,-1.00,5.13,8.78,80.0,3.34
+pairs,pair:undead+heist,"Undead + Heist Crew (Grave Robbers)",40,0,85.0,-2.5,-0.45,5.74,8.82,87.5,3.60
+pairs,pair:ball+heist,"Sportsball + Heist Crew (Fixed Match)",40,0,85.0,-2.5,-0.45,6.09,8.70,85.0,3.45
+pairs,pair:army+west,"Army + Wild West (The Cavalry)",40,0,65.0,-22.5,-2.71,4.92,8.30,52.5,2.99
+pairs,pair:bug+west,"Swarm + Wild West (Stampede)",40,0,85.0,-2.5,-0.38,5.91,8.72,72.5,3.21
+pairs,pair:undead+west,"Undead + Wild West (Ghost Town)",40,0,87.5,0.0,0.00,5.06,8.70,65.0,3.21
+pairs,pair:ball+west,"Sportsball + Wild West (Rodeo)",40,0,72.5,-15.0,-2.45,4.62,8.20,67.5,3.03
+pairs,pair:heist+west,"Heist Crew + Wild West (The Great Train Robbery)",40,0,75.0,-12.5,-1.89,5.43,8.47,75.0,3.29
+pairs,pair:army+horror,"Army + Slasher (Night Patrol)",40,0,67.5,-20.0,-2.14,4.89,8.15,60.0,2.89
+pairs,pair:bug+horror,"Swarm + Slasher (It Came From the Vents)",40,0,80.0,-7.5,-1.34,5.69,8.60,72.5,3.18
+pairs,pair:undead+horror,"Undead + Slasher (Nobody Stays Dead)",40,0,67.5,-20.0,-2.14,5.67,8.28,65.0,3.23
+pairs,pair:ball+horror,"Sportsball + Slasher (The Jock Dies First)",40,0,60.0,-27.5,-3.32,6.29,7.95,55.0,2.88
+pairs,pair:heist+horror,"Heist Crew + Slasher (Ransom Note)",40,0,60.0,-27.5,-3.32,5.54,8.20,60.0,3.24
+pairs,pair:west+horror,"Wild West + Slasher (Ghost Riders)",40,0,67.5,-20.0,-2.31,5.41,7.83,62.5,2.93
+pairs,pair:army+space,"Army + Space Opera (Orbital Strike)",40,0,65.0,-22.5,-2.71,5.15,8.15,47.5,3.01
+pairs,pair:bug+space,"Swarm + Space Opera (The Hive Ship)",40,0,77.5,-10.0,-1.41,6.23,8.60,67.5,3.14
+pairs,pair:undead+space,"Undead + Space Opera (Ghost Ship)",40,0,80.0,-7.5,-1.13,5.44,8.75,67.5,3.38
+pairs,pair:ball+space,"Sportsball + Space Opera (Zero-G League)",40,0,75.0,-12.5,-2.24,5.73,8.10,65.0,2.93
+pairs,pair:heist+space,"Heist Crew + Space Opera (Contraband Run)",40,0,62.5,-25.0,-2.89,5.52,8.18,60.0,3.16
+pairs,pair:west+space,"Wild West + Space Opera (Space Cowboys)",40,0,77.5,-10.0,-1.63,4.68,8.45,70.0,3.07
+pairs,pair:horror+space,"Slasher + Space Opera (Scream Into the Void)",40,0,70.0,-17.5,-1.94,5.14,8.10,55.0,3.03
+pairs,pair:army+kaiju,"Army + Kaiju (Defense Force)",40,0,47.5,-40.0,-3.58,5.63,8.10,52.5,3.11
+pairs,pair:bug+kaiju,"Swarm + Kaiju (Monster Reserve)",40,0,70.0,-17.5,-1.81,6.21,8.65,65.0,3.48
+pairs,pair:undead+kaiju,"Undead + Kaiju (Atomic Zombies)",40,0,80.0,-7.5,-0.83,6.09,8.60,67.5,3.47
+pairs,pair:ball+kaiju,"Sportsball + Kaiju (Monster Bowl)",40,0,60.0,-27.5,-3.05,5.92,8.03,57.5,3.00
+pairs,pair:heist+kaiju,"Heist Crew + Kaiju (Disaster Insurance)",40,0,75.0,-12.5,-1.51,5.03,8.35,75.0,3.42
+pairs,pair:west+kaiju,"Wild West + Kaiju (Monster Roundup)",40,0,70.0,-17.5,-2.11,5.04,8.00,60.0,3.19
+pairs,pair:horror+kaiju,"Slasher + Kaiju (Creature Feature)",40,0,65.0,-22.5,-2.32,4.69,7.95,47.5,3.05
+pairs,pair:space+kaiju,"Space Opera + Kaiju (Alien Invasion)",40,0,67.5,-20.0,-2.31,4.52,8.28,67.5,3.17
+pairs,pair:undead+ball,"Undead + Sportsball (Sudden Death)",40,0,87.5,0.0,0.00,6.37,8.75,75.0,3.35
+traits,banTrait:guardian,"No Guardians",40,0,57.5,-30.0,-3.00,4.78,7.97,72.5,3.64
+traits,banTrait:brawler,"No Brawlers",40,0,65.0,-22.5,-3.00,4.88,8.30,75.0,3.89
+traits,banTrait:stalker,"No Stalkers",40,0,77.5,-10.0,-2.00,6.00,8.40,77.5,3.86
+traits,banTrait:gunner,"No Gunners",40,0,70.0,-17.5,-2.33,6.43,8.32,72.5,3.86
+traits,banTrait:mystic,"No Mystics",40,0,80.0,-7.5,-1.00,5.75,8.57,87.5,4.00
+traits,banTrait:medic,"No Medics",40,0,82.5,-5.0,-0.71,6.12,8.68,85.0,4.16
+chars,ban:riot,"No Riot Shield (Common Army Guardian)",40,0,82.5,-5.0,-1.41,5.79,8.47,82.5,3.97
+chars,ban:rifle,"No Rifle Squad (Common Army Gunner)",40,0,70.0,-17.5,-2.65,6.00,8.13,75.0,3.83
+chars,ban:commando,"No Commando (Common Army Stalker)",40,0,87.5,0.0,0.00,6.11,8.63,87.5,4.06
+chars,ban:radio,"No Radio Operator (Uncommon Army Mystic)",40,0,87.5,0.0,0.00,6.14,8.63,87.5,4.05
+chars,ban:mule,"No Ammo Mule (Uncommon Army Brawler)",40,0,87.5,0.0,0.00,5.86,8.63,87.5,4.03
+chars,ban:fieldmed,"No Field Medic (Rare Army Medic)",40,0,80.0,-7.5,-1.73,5.97,8.55,85.0,4.03
+chars,ban:observer,"No Forward Observer (Epic Army Guardian)",40,0,77.5,-10.0,-1.41,5.71,8.47,80.0,3.95
+chars,ban:gunny,"No Gunnery Sergeant (Mythic Army Gunner)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,3.99
+chars,ban:ravager,"No Ravager Brood (Common Swarm Brawler)",40,0,85.0,-2.5,-0.58,5.68,8.63,85.0,3.98
+chars,ban:spitters,"No Acid Spitters (Common Swarm Gunner)",40,0,85.0,-2.5,-1.00,5.65,8.60,85.0,4.03
+chars,ban:beetles,"No Shellback Beetles (Common Swarm Guardian)",40,0,85.0,-2.5,-1.00,5.94,8.60,87.5,4.05
+chars,ban:lurker,"No Burrow Lurker (Uncommon Swarm Stalker)",40,0,87.5,0.0,0.00,5.94,8.63,87.5,4.04
+chars,ban:nurse,"No Nurse Bee (Uncommon Swarm Medic)",40,0,85.0,-2.5,-1.00,5.94,8.57,85.0,4.03
+chars,ban:queen,"No Brood Queen (Rare Swarm Mystic)",40,0,87.5,0.0,0.00,5.77,8.60,87.5,4.00
+chars,ban:scorpion,"No Emperor Scorpion (Epic Swarm Brawler)",40,0,85.0,-2.5,-1.00,5.94,8.57,85.0,4.04
+chars,ban:hivemind,"No The Hive Mind (Mythic Swarm Mystic)",40,0,87.5,0.0,0.00,5.89,8.63,87.5,4.03
+chars,ban:skelarch,"No Skeleton Archers (Common Undead Gunner)",40,0,85.0,-2.5,-0.58,5.91,8.63,87.5,4.01
+chars,ban:zombies,"No Zombie Mob (Common Undead Brawler)",40,0,82.5,-5.0,-1.41,5.88,8.65,90.0,4.06
+chars,ban:vampbat,"No Vampire Bat (Common Undead Stalker)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:wraith,"No Wraith (Uncommon Undead Stalker)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:gravegolem,"No Grave Golem (Rare Undead Guardian)",40,0,90.0,2.5,1.00,5.83,8.72,87.5,4.08
+chars,ban:necro,"No Necromancer (Rare Undead Mystic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.02
+chars,ban:bonesetter,"No Bonesetter (Epic Undead Medic)",40,0,90.0,2.5,1.00,5.86,8.68,90.0,4.03
+chars,ban:bonedragon,"No Bone Dragon (Mythic Undead Brawler)",40,0,87.5,0.0,0.00,5.91,8.63,87.5,4.05
+chars,ban:dodgeball,"No Dodgeball Team (Common Sportsball Guardian)",40,0,85.0,-2.5,-1.00,5.62,8.60,85.0,4.03
+chars,ban:pitcher,"No Hothead Pitcher (Common Sportsball Brawler)",40,0,85.0,-2.5,-1.00,5.85,8.60,87.5,4.01
+chars,ban:cheersquad,"No Cheer Squad (Common Sportsball Medic)",40,0,92.5,5.0,1.00,6.14,8.85,92.5,4.16
+chars,ban:waterboy,"No Water Boy (Uncommon Sportsball Medic)",40,0,87.5,0.0,0.00,5.94,8.63,87.5,4.03
+chars,ban:pointguard,"No Point Guard (Uncommon Sportsball Gunner)",40,0,87.5,0.0,0.00,6.06,8.63,87.5,4.05
+chars,ban:headcoach,"No Head Coach (Rare Sportsball Mystic)",40,0,90.0,2.5,0.45,5.78,8.80,95.0,4.14
+chars,ban:mascot,"No Team Mascot (Epic Sportsball Guardian)",40,0,80.0,-7.5,-1.73,5.81,8.55,82.5,3.99
+chars,ban:qb,"No Star Quarterback (Mythic Sportsball Stalker)",40,0,85.0,-2.5,-1.00,5.79,8.60,80.0,3.96
+chars,ban:muscle,"No The Muscle (Common Heist Crew Guardian)",40,0,85.0,-2.5,-1.00,5.85,8.53,85.0,3.99
+chars,ban:lookouts,"No Lookouts (Common Heist Crew Gunner)",40,0,80.0,-7.5,-1.73,6.31,8.63,82.5,4.08
+chars,ban:driver,"No Getaway Driver (Common Heist Crew Stalker)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:safecracker,"No Safecracker (Uncommon Heist Crew Brawler)",40,0,87.5,0.0,0.00,6.03,8.63,87.5,4.03
+chars,ban:hacker,"No The Hacker (Uncommon Heist Crew Mystic)",40,0,87.5,0.0,0.00,6.00,8.65,87.5,4.05
+chars,ban:fixer,"No The Fixer (Rare Heist Crew Medic)",40,0,90.0,2.5,0.58,5.44,8.65,90.0,4.12
+chars,ban:insideman,"No Inside Man (Epic Heist Crew Guardian)",40,0,82.5,-5.0,-1.41,6.21,8.55,85.0,4.05
+chars,ban:mastermind,"No The Mastermind (Mythic Heist Crew Gunner)",40,0,85.0,-2.5,-1.00,6.06,8.63,85.0,4.04
+chars,ban:outlaws,"No Outlaw Gang (Common Wild West Brawler)",40,0,85.0,-2.5,-1.00,5.88,8.60,87.5,4.04
+chars,ban:deputy,"No Deputy (Common Wild West Guardian)",40,0,90.0,2.5,1.00,5.94,8.72,90.0,4.09
+chars,ban:doc,"No Saloon Doc (Common Wild West Medic)",40,0,87.5,0.0,0.00,5.94,8.72,90.0,4.08
+chars,ban:bounty,"No Bounty Hunter (Uncommon Wild West Stalker)",40,0,87.5,0.0,0.00,5.91,8.63,87.5,4.04
+chars,ban:prospector,"No Prospector (Uncommon Wild West Mystic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:gunslinger,"No The Gunslinger (Rare Wild West Gunner)",40,0,90.0,2.5,1.00,6.22,8.68,90.0,4.07
+chars,ban:sheriff,"No The Sheriff (Epic Wild West Guardian)",40,0,90.0,2.5,1.00,6.14,8.68,90.0,4.08
+chars,ban:noname,"No The Drifter (Mythic Wild West Stalker)",40,0,87.5,0.0,0.00,5.91,8.63,87.5,4.00
+chars,ban:counselors,"No Camp Counselors (Common Slasher Guardian)",40,0,85.0,-2.5,-1.00,5.62,8.55,85.0,4.01
+chars,ban:kids,"No Creepy Kids (Common Slasher Stalker)",40,0,85.0,-2.5,-1.00,6.09,8.55,85.0,4.02
+chars,ban:babysitter,"No The Babysitter (Common Slasher Medic)",40,0,90.0,2.5,1.00,5.89,8.68,90.0,4.07
+chars,ban:exorcist,"No The Priest (Uncommon Slasher Mystic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:chainsaw,"No Chainsaw Maniac (Uncommon Slasher Brawler)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.05
+chars,ban:finalgirl,"No The Final Girl (Rare Slasher Gunner)",40,0,85.0,-2.5,-1.00,6.12,8.57,85.0,4.06
+chars,ban:brute,"No The Brute (Epic Slasher Guardian)",40,0,87.5,0.0,0.00,5.83,8.65,90.0,4.08
+chars,ban:dreamstalker,"No The Dream Stalker (Mythic Slasher Mystic)",40,0,87.5,0.0,0.00,5.91,8.63,87.5,4.01
+chars,ban:redshirts,"No Redshirts (Common Space Opera Guardian)",40,0,87.5,0.0,0.00,6.00,8.68,90.0,4.09
+chars,ban:droids,"No Repair Bots (Common Space Opera Medic)",40,0,85.0,-2.5,-1.00,5.76,8.63,87.5,4.05
+chars,ban:pilot,"No Hotshot Pilot (Common Space Opera Gunner)",40,0,87.5,0.0,0.00,6.11,8.63,87.5,4.04
+chars,ban:smuggler,"No Space Smuggler (Uncommon Space Opera Stalker)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:telepath,"No The Telepath (Uncommon Space Opera Mystic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:captain,"No Starship Captain (Rare Space Opera Brawler)",40,0,87.5,0.0,0.00,6.11,8.63,87.5,4.07
+chars,ban:starknight,"No Star Knight (Epic Space Opera Guardian)",40,0,85.0,-2.5,-1.00,6.00,8.63,82.5,3.99
+chars,ban:darklord,"No The Dark Lord (Mythic Space Opera Mystic)",40,0,87.5,0.0,0.00,5.94,8.63,87.5,4.02
+chars,ban:tanks,"No Defense Force Tanks (Common Kaiju Gunner)",40,0,87.5,0.0,0.00,6.29,8.70,87.5,4.09
+chars,ban:babykaiju,"No Baby Kaiju (Common Kaiju Brawler)",40,0,87.5,0.0,0.00,5.86,8.65,87.5,4.07
+chars,ban:reporter,"No TV Reporter (Common Kaiju Medic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.05
+chars,ban:scientist,"No The Scientist (Uncommon Kaiju Mystic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:hunter,"No Big-Game Hunter (Uncommon Kaiju Stalker)",40,0,85.0,-2.5,-1.00,5.88,8.60,87.5,4.03
+chars,ban:giantmoth,"No Giant Moth (Rare Kaiju Mystic)",40,0,87.5,0.0,0.00,6.00,8.63,87.5,4.04
+chars,ban:mecha,"No Giant Mecha (Epic Kaiju Guardian)",40,0,82.5,-5.0,-1.41,6.09,8.50,85.0,4.00
+chars,ban:kingmonster,"No The Leviathan (Mythic Kaiju Brawler)",40,0,87.5,0.0,0.00,6.06,8.63,87.5,4.01
+legends,leg:gameball,"Always Game Ball",40,0,70.0,-17.5,-2.33,5.86,8.28,75.0,3.93
+legends,leg:danger,"Always Danger Close",40,0,87.5,0.0,0.00,5.17,8.60,90.0,4.01
+legends,leg:brood,"Always Endless Brood",40,0,70.0,-17.5,-2.33,5.82,8.22,72.5,3.93
+legends,leg:shock,"Always Shock and Awe",40,0,87.5,0.0,0.00,5.89,8.65,90.0,4.06
+legends,leg:pheromone,"Always Pheromone Trail",40,0,70.0,-17.5,-2.33,5.82,8.22,72.5,3.94
+legends,leg:graveyard,"Always Graveyard Shift",40,0,70.0,-17.5,-2.33,5.43,8.22,72.5,3.92
+legends,leg:insidejob,"Always Inside Job",40,0,82.5,-5.0,-1.00,6.12,8.63,85.0,4.01
+legends,leg:sixgun,"Always Six-Shooter",40,0,67.5,-20.0,-2.53,5.59,8.20,72.5,3.93
+legends,leg:halftime,"Always Halftime Show",40,0,85.0,-2.5,-0.58,5.82,8.57,85.0,4.04
+legends,leg:fieldhosp,"Always Field Hospital",40,0,75.0,-12.5,-1.89,5.50,8.45,82.5,4.02
+legends,leg:feeding,"Always Feeding Frenzy",40,0,72.5,-15.0,-2.12,5.41,8.30,80.0,3.99
+legends,leg:bloodline,"Always Bloodline",40,0,70.0,-17.5,-2.33,5.50,8.22,72.5,3.92
+legends,leg:getaway,"Always Clean Getaway",40,0,77.5,-10.0,-2.00,5.19,8.35,77.5,3.99
+legends,leg:wanted,"Always Wanted Posters",40,0,67.5,-20.0,-2.83,5.48,8.18,70.0,3.89
+legends,leg:press,"Always Full-Court Press",40,0,75.0,-12.5,-1.89,5.63,8.38,72.5,3.90
+legends,leg:armydead,"Always Grave Recruits",40,0,82.5,-5.0,-1.00,5.82,8.55,85.0,4.05
+legends,leg:tokyo,"Always TV Tower",40,0,70.0,-17.5,-2.65,5.57,8.25,75.0,3.93
+legends,leg:atomic,"Always Atomic Age",40,0,67.5,-20.0,-2.83,5.59,8.22,75.0,3.91
+legends,leg:finalwars,"Always Payback",40,0,65.0,-22.5,-3.00,5.54,8.15,70.0,3.89
+legends,leg:warp,"Always Warp Speed",40,0,67.5,-20.0,-2.53,5.48,8.18,72.5,3.90
+legends,leg:shieldgen,"Always Shield Generator",40,0,62.5,-25.0,-3.16,5.44,8.15,70.0,3.87
+legends,leg:mothership,"Always The Mothership",40,0,67.5,-20.0,-2.53,5.96,8.20,72.5,3.91
+legends,leg:sequel,"Always The Sequel",40,0,77.5,-10.0,-1.63,5.42,8.43,82.5,4.00
+legends,leg:scream,"Always Scream Queen",40,0,75.0,-12.5,-1.89,5.40,8.35,77.5,3.92
+legends,leg:lightsout,"Always Lights Out",40,0,65.0,-22.5,-3.00,5.73,8.18,72.5,3.92
+legends,leg:vault,"Always The Vault",40,0,67.5,-20.0,-2.83,5.48,8.18,70.0,3.90
+legends,leg:quickdraw,"Always Quick Draw",40,0,65.0,-22.5,-2.71,5.46,8.20,72.5,3.93
+legends,leg:underdog,"Always Underdog Story",40,0,85.0,-2.5,-1.00,5.03,8.63,85.0,4.03
+legends,leg:ensemble,"Always Ensemble Cast",40,0,85.0,-2.5,-1.00,6.44,8.65,85.0,4.08
+legends,leg:plotarmor,"Always Main Character Energy",40,0,85.0,-2.5,-0.58,6.29,8.70,90.0,4.13
+legends,leg:dircut,"Always Director's Cut",40,0,87.5,0.0,0.00,6.03,8.68,87.5,4.11
+legends,leg:spinoff,"Always Spin-off Deal",40,0,77.5,-10.0,-1.63,5.26,8.53,87.5,3.99
+legends,leg:wallet,"Always Haunted Wallet",40,0,82.5,-5.0,-1.00,5.97,8.57,82.5,4.03
+legends,leg:scout,"Always Talent Scout",40,0,92.5,5.0,1.41,6.00,8.72,57.5,3.79
+legends,leg:crossep,"Always Crossover Episode",40,0,82.5,-5.0,-1.00,6.61,8.68,85.0,4.10
+legends,leg:cult,"Always Cult Classic",40,0,85.0,-2.5,-0.58,5.29,8.63,85.0,4.06
+legends,leg:indie,"Always Indie Darling",40,0,62.5,-25.0,-3.16,5.56,8.15,70.0,3.89
+legends,leg:hype,"Always Hype Train",40,0,87.5,0.0,0.00,6.51,8.57,87.5,4.02
+legends,leg:placement,"Always Product Placement",40,0,77.5,-10.0,-1.63,5.90,8.53,80.0,4.06
+legends,leg:extuniv,"Always Extended Universe",40,0,80.0,-7.5,-1.34,5.66,8.53,82.5,4.04
+legends,leg:blockbuster,"Always Blockbuster",40,0,85.0,-2.5,-0.58,6.59,8.60,85.0,4.00
+legends,leg:none,"No Legendary",40,0,65.0,-22.5,-3.00,5.31,8.18,70.0,3.92
+items,item:prop,"Start with Prop Master (Rare)",40,0,82.5,-5.0,-1.41,6.27,8.63,87.5,4.07
+items,item:kevlar,"Start with Flak Vest",40,0,87.5,0.0,0.00,6.54,8.75,92.5,4.07
+items,item:energy,"Start with Energy Drink",40,0,87.5,0.0,0.00,6.31,8.68,90.0,4.11
+items,item:coin,"Start with Lucky Coin",40,0,87.5,0.0,0.00,6.20,8.68,87.5,4.17
+items,item:battery,"Start with Battery Pack",40,0,87.5,0.0,0.00,6.46,8.72,87.5,4.10
+items,item:fangs,"Start with Vampire Fangs",40,0,85.0,-2.5,-0.58,6.38,8.65,90.0,4.09
+items,item:smoke,"Start with Smoke Grenade",40,0,92.5,5.0,1.41,6.49,8.88,90.0,4.15
+items,item:hollow,"Start with Hollow Points",40,0,90.0,2.5,0.38,6.36,8.88,90.0,4.16
+items,item:spikes,"Start with Spiked Armor",40,0,82.5,-5.0,-1.00,6.15,8.65,82.5,4.13
+items,item:flare,"Start with Signal Flare",40,0,87.5,0.0,0.00,6.40,8.85,87.5,4.14
+items,item:plating,"Start with Iron Plating",40,0,82.5,-5.0,-0.82,6.76,8.70,85.0,4.04
+items,item:ledger,"Start with Interest Ledger",40,0,90.0,2.5,0.45,5.56,8.85,90.0,4.16
+items,item:overclock,"Start with Overclock Chip (Rare)",40,0,85.0,-2.5,-0.45,6.44,8.63,87.5,4.04
+items,item:tesla,"Start with Tesla Coil (Rare)",40,0,90.0,2.5,0.58,6.33,8.75,90.0,4.08
+items,item:extralife,"Start with Extra Life (Rare)",40,0,85.0,-2.5,-0.38,6.85,8.80,90.0,4.16
+items,item:crest,"Start with Crossover Crest (Rare)",40,0,80.0,-7.5,-1.00,6.69,8.65,82.5,4.08
+items,item:glass,"Start with Glass Cannon (Rare)",40,0,82.5,-5.0,-0.71,6.39,8.70,82.5,4.03
+items,item:scope,"Start with Sniper Scope (Rare)",40,0,95.0,7.5,1.34,6.42,8.95,95.0,4.13
+items,item:banner,"Start with War Banner (Rare)",40,0,92.5,5.0,1.41,6.11,8.78,92.5,4.10
+items,item:stage,"Start with Stage Lights",40,0,92.5,5.0,1.00,6.11,8.82,92.5,4.12
+items,item:teamup,"Start with Team-Up Poster",40,0,90.0,2.5,1.00,6.28,8.72,90.0,4.04
+items,item:residuals,"Start with Residuals",40,0,95.0,7.5,1.34,6.11,8.88,97.5,4.16
+items,item:slowburn,"Start with Slow Burn",40,0,82.5,-5.0,-0.82,6.12,8.57,85.0,4.02
+items,item:extras,"Start with Background Extras",40,0,92.5,5.0,0.82,6.81,8.90,92.5,4.17
+items,item:understudy,"Start with Understudy (Rare)",40,0,87.5,0.0,0.00,6.29,8.88,87.5,4.17
+items,item:noitems,"Never take items",40,0,80.0,-7.5,-1.13,4.91,8.68,90.0,4.05

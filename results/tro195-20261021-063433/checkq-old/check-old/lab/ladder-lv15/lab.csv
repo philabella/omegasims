@@ -1,0 +1,2 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",30,0,33.3,0.0,0.00,4.00,7.80,53.3,3.92

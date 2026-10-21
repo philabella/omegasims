@@ -1,0 +1,12 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",40,0,87.5,0.0,0.00,5.37,8.72,90.0,4.14
+custom,banTrait:guardian,"No Guardians",40,0,67.5,-20.0,-2.14,5.00,8.28,75.0,3.82
+custom,banTrait:brawler,"No Brawlers",40,0,77.5,-10.0,-1.63,5.81,8.50,80.0,3.98
+custom,banTrait:gunner,"No Gunners",40,0,75.0,-12.5,-2.24,5.73,8.47,80.0,3.89
+custom,ban:rifle,"No Rifle Squad (Common Army Gunner)",40,0,85.0,-2.5,-1.00,5.38,8.63,85.0,4.12
+custom,leg:finalwars,"Always Payback",40,0,57.5,-30.0,-3.21,5.26,8.28,67.5,3.96
+custom,leg:shieldgen,"Always Shield Generator",40,0,57.5,-30.0,-3.21,5.48,8.32,72.5,3.98
+custom,leg:lightsout,"Always Lights Out",40,0,60.0,-27.5,-3.05,5.13,8.35,72.5,3.98
+custom,leg:quickdraw,"Always Quick Draw",40,0,57.5,-30.0,-3.21,5.35,8.30,70.0,3.96
+custom,leg:indie,"Always Indie Darling",40,0,57.5,-30.0,-3.21,5.39,8.32,70.0,3.95
+custom,leg:none,"No Legendary",40,0,62.5,-25.0,-2.89,5.20,8.30,67.5,3.93
