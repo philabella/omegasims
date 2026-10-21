@@ -1,0 +1,17 @@
+# Bug hunt: lvbuild-2392-15.html
+
+5100 autopilot runs (51 setups: plain, each genre, each Legendary forced), 1272267 battles, 12308 with the Game Ball (96527 throws). 1727 s.
+
+## Problems
+
+None.
+
+## Skills that never fired although their character fought
+
+None.
+
+## Skills that fire in under 20% of the battles their character is in
+
+None.
+
+Timeouts: 0 of 1272267 battles. Run errors: 0

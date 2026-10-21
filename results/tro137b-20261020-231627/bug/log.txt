@@ -1,0 +1,3 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ mkdir -p out && node fastsim/bughunt.js --build sims/builds/new137.html --runs 100 --level 15 > out/bug.txt 2>&1; true
+exit 0
