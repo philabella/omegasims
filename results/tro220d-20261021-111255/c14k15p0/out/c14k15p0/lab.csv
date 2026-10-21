@@ -1,0 +1,20 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,41.0,0.0,0.00,3.77,8.30,68.0,3.50
+custom,pair:army+bug,"pair:army+bug",300,0,13.7,-27.3,-7.19,3.88,8.24,14.0,2.22
+custom,pair:army+undead,"pair:army+undead",300,0,12.0,-29.0,-7.72,3.42,8.08,7.7,2.21
+custom,pair:army+ball,"pair:army+ball",300,0,10.7,-30.3,-7.95,3.38,8.08,9.7,2.22
+custom,pair:bug+undead,"pair:bug+undead",300,0,11.3,-29.7,-8.16,3.41,8.33,11.0,2.15
+custom,pair:bug+ball,"pair:bug+ball",300,0,8.3,-32.7,-8.66,3.52,8.14,9.0,2.07
+custom,pair:army+heist,"pair:army+heist",300,0,17.0,-24.0,-6.47,3.43,8.13,11.3,2.17
+custom,pair:bug+heist,"pair:bug+heist",300,0,5.3,-35.7,-9.28,2.06,8.13,9.7,2.04
+custom,pair:undead+heist,"pair:undead+heist",300,0,10.0,-31.0,-8.39,3.47,8.20,8.0,2.10
+custom,pair:ball+heist,"pair:ball+heist",300,0,14.0,-27.0,-7.13,3.50,8.18,11.0,2.09
+custom,pair:army+west,"pair:army+west",300,0,26.3,-14.7,-3.69,3.85,8.06,13.7,2.36
+custom,pair:bug+west,"pair:bug+west",300,0,23.0,-18.0,-4.66,3.43,8.40,14.3,2.28
+custom,pair:undead+west,"pair:undead+west",300,0,18.0,-23.0,-6.22,3.83,8.14,13.3,2.32
+custom,pair:ball+west,"pair:ball+west",300,0,15.3,-25.7,-6.78,3.52,8.06,10.0,2.16
+custom,pair:heist+west,"pair:heist+west",300,0,29.0,-12.0,-3.26,3.49,8.24,15.7,2.21
+custom,pair:army+horror,"pair:army+horror",300,0,18.3,-22.7,-6.11,3.76,7.93,12.7,2.30
+custom,pair:bug+horror,"pair:bug+horror",300,0,8.7,-32.3,-8.89,2.85,7.90,9.7,2.13
+custom,pair:undead+horror,"pair:undead+horror",300,0,9.3,-31.7,-8.43,3.68,8.00,7.7,2.29
+custom,pair:ball+horror,"pair:ball+horror",300,0,9.7,-31.3,-8.51,3.10,7.80,6.3,2.14

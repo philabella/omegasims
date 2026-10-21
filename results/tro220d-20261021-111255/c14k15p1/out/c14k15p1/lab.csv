@@ -1,0 +1,20 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,41.0,0.0,0.00,3.77,8.30,68.0,3.50
+custom,pair:heist+horror,"pair:heist+horror",300,0,10.3,-30.7,-8.07,3.06,7.88,7.0,2.15
+custom,pair:west+horror,"pair:west+horror",300,0,22.3,-18.7,-5.34,3.16,7.78,13.3,2.26
+custom,pair:army+space,"pair:army+space",300,0,24.3,-16.7,-4.45,3.30,8.06,10.7,2.27
+custom,pair:bug+space,"pair:bug+space",300,0,10.0,-31.0,-8.53,3.60,8.10,8.7,2.22
+custom,pair:undead+space,"pair:undead+space",300,0,8.3,-32.7,-8.87,3.28,7.93,8.0,2.21
+custom,pair:ball+space,"pair:ball+space",300,0,11.3,-29.7,-8.37,3.06,7.94,9.3,2.12
+custom,pair:heist+space,"pair:heist+space",300,0,14.7,-26.3,-6.90,3.27,8.00,10.7,2.20
+custom,pair:west+space,"pair:west+space",300,0,33.0,-8.0,-2.12,3.65,8.11,13.3,2.36
+custom,pair:horror+space,"pair:horror+space",300,0,22.7,-18.3,-5.00,3.07,7.82,8.7,2.26
+custom,pair:army+kaiju,"pair:army+kaiju",300,0,26.3,-14.7,-3.92,3.30,8.00,14.3,2.49
+custom,pair:bug+kaiju,"pair:bug+kaiju",300,0,11.0,-30.0,-8.15,3.42,7.80,10.7,2.30
+custom,pair:undead+kaiju,"pair:undead+kaiju",300,0,9.3,-31.7,-8.57,2.75,7.76,7.7,2.36
+custom,pair:ball+kaiju,"pair:ball+kaiju",300,0,8.7,-32.3,-8.89,2.46,7.75,7.3,2.28
+custom,pair:heist+kaiju,"pair:heist+kaiju",300,0,9.7,-31.3,-8.80,3.48,7.63,10.0,2.28
+custom,pair:west+kaiju,"pair:west+kaiju",300,0,17.7,-23.3,-6.24,3.17,7.60,11.0,2.39
+custom,pair:horror+kaiju,"pair:horror+kaiju",300,0,14.0,-27.0,-7.43,3.10,7.49,8.7,2.42
+custom,pair:space+kaiju,"pair:space+kaiju",300,0,13.7,-27.3,-7.08,3.34,7.53,7.3,2.46
+custom,pair:undead+ball,"pair:undead+ball",300,0,11.7,-29.3,-7.90,3.89,8.27,8.3,2.09
