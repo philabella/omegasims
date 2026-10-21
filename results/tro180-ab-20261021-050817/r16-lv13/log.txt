@@ -1,0 +1,9 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ node fastsim/actloss.js --build sims/builds/base.html --levels 13 --expert 300 --steady 600 --workers 4 --sub "ladderRampTo:9=>ladderRampTo:16" --out out/r16/lv13
+[smartbot] engine: vm (fastsim, no browser)
+Lv13 done in 269 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 13 | human | 300 | 51% | 63% | 73% | 1.07 / 0.98 / 1.04 / 0.78 | 72% / 51% / 59% / 48% |
+| 13 | steady | 600 | 3% | 10% | 4% | 15.29 / 27.36 / 25.02 / 31.16 | 100% / 100% / 100% / 100% |
+exit 0
