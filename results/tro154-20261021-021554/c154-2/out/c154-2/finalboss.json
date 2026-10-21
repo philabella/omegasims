@@ -1,0 +1,258 @@
+{
+ "9": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.36666666666666664,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 286,
+     "fights": 300,
+     "wins": 286
+    },
+    "18": {
+     "reached": 298,
+     "first": 289,
+     "fights": 298,
+     "wins": 289
+    },
+    "27": {
+     "reached": 223,
+     "first": 220,
+     "fights": 223,
+     "wins": 220
+    },
+    "36": {
+     "reached": 138,
+     "first": 93,
+     "fights": 169,
+     "wins": 110
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.06333333333333334,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 172,
+     "fights": 1800,
+     "wins": 1519
+    },
+    "18": {
+     "reached": 288,
+     "first": 90,
+     "fights": 1686,
+     "wins": 1071
+    },
+    "27": {
+     "reached": 128,
+     "first": 39,
+     "fights": 507,
+     "wins": 339
+    },
+    "36": {
+     "reached": 41,
+     "first": 1,
+     "fights": 194,
+     "wins": 48
+    }
+   }
+  }
+ },
+ "10": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.38666666666666666,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 292,
+     "fights": 300,
+     "wins": 292
+    },
+    "18": {
+     "reached": 298,
+     "first": 281,
+     "fights": 298,
+     "wins": 281
+    },
+    "27": {
+     "reached": 231,
+     "first": 228,
+     "fights": 231,
+     "wins": 228
+    },
+    "36": {
+     "reached": 131,
+     "first": 108,
+     "fights": 145,
+     "wins": 116
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.043333333333333335,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 281,
+     "fights": 1800,
+     "wins": 1539
+    },
+    "18": {
+     "reached": 290,
+     "first": 229,
+     "fights": 1669,
+     "wins": 1103
+    },
+    "27": {
+     "reached": 131,
+     "first": 88,
+     "fights": 490,
+     "wins": 380
+    },
+    "36": {
+     "reached": 24,
+     "first": 4,
+     "fights": 82,
+     "wins": 30
+    }
+   }
+  }
+ },
+ "11": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.32,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 293,
+     "fights": 300,
+     "wins": 293
+    },
+    "18": {
+     "reached": 297,
+     "first": 280,
+     "fights": 297,
+     "wins": 280
+    },
+    "27": {
+     "reached": 209,
+     "first": 202,
+     "fights": 209,
+     "wins": 202
+    },
+    "36": {
+     "reached": 128,
+     "first": 84,
+     "fights": 157,
+     "wins": 96
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.043333333333333335,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 263,
+     "fights": 2100,
+     "wins": 1808
+    },
+    "18": {
+     "reached": 272,
+     "first": 120,
+     "fights": 1767,
+     "wins": 1124
+    },
+    "27": {
+     "reached": 109,
+     "first": 32,
+     "fights": 425,
+     "wins": 287
+    },
+    "36": {
+     "reached": 26,
+     "first": 2,
+     "fights": 93,
+     "wins": 29
+    }
+   }
+  }
+ },
+ "12": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.3233333333333333,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 278,
+     "fights": 300,
+     "wins": 278
+    },
+    "18": {
+     "reached": 297,
+     "first": 270,
+     "fights": 297,
+     "wins": 270
+    },
+    "27": {
+     "reached": 196,
+     "first": 190,
+     "fights": 196,
+     "wins": 190
+    },
+    "36": {
+     "reached": 117,
+     "first": 91,
+     "fights": 129,
+     "wins": 97
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.03666666666666667,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 254,
+     "fights": 2400,
+     "wins": 1814
+    },
+    "18": {
+     "reached": 266,
+     "first": 181,
+     "fights": 1914,
+     "wins": 1111
+    },
+    "27": {
+     "reached": 79,
+     "first": 43,
+     "fights": 303,
+     "wins": 212
+    },
+    "36": {
+     "reached": 16,
+     "first": 4,
+     "fights": 59,
+     "wins": 29
+    }
+   }
+  }
+ }
+}

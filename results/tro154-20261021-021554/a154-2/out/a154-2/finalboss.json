@@ -1,0 +1,258 @@
+{
+ "9": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.47,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 286,
+     "fights": 300,
+     "wins": 286
+    },
+    "18": {
+     "reached": 298,
+     "first": 288,
+     "fights": 298,
+     "wins": 288
+    },
+    "27": {
+     "reached": 234,
+     "first": 225,
+     "fights": 234,
+     "wins": 225
+    },
+    "36": {
+     "reached": 185,
+     "first": 113,
+     "fights": 254,
+     "wins": 141
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.056666666666666664,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 172,
+     "fights": 1800,
+     "wins": 1519
+    },
+    "18": {
+     "reached": 288,
+     "first": 88,
+     "fights": 1728,
+     "wins": 1082
+    },
+    "27": {
+     "reached": 140,
+     "first": 39,
+     "fights": 840,
+     "wins": 411
+    },
+    "36": {
+     "reached": 55,
+     "first": 3,
+     "fights": 578,
+     "wins": 69
+    }
+   }
+  }
+ },
+ "10": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.5333333333333333,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 292,
+     "fights": 300,
+     "wins": 292
+    },
+    "18": {
+     "reached": 298,
+     "first": 281,
+     "fights": 298,
+     "wins": 281
+    },
+    "27": {
+     "reached": 259,
+     "first": 249,
+     "fights": 259,
+     "wins": 249
+    },
+    "36": {
+     "reached": 208,
+     "first": 147,
+     "fights": 256,
+     "wins": 160
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.05333333333333334,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 281,
+     "fights": 1800,
+     "wins": 1539
+    },
+    "18": {
+     "reached": 289,
+     "first": 229,
+     "fights": 1734,
+     "wins": 1114
+    },
+    "27": {
+     "reached": 151,
+     "first": 99,
+     "fights": 906,
+     "wins": 459
+    },
+    "36": {
+     "reached": 56,
+     "first": 14,
+     "fights": 480,
+     "wins": 69
+    }
+   }
+  }
+ },
+ "11": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.4633333333333333,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 293,
+     "fights": 300,
+     "wins": 293
+    },
+    "18": {
+     "reached": 297,
+     "first": 279,
+     "fights": 297,
+     "wins": 279
+    },
+    "27": {
+     "reached": 246,
+     "first": 240,
+     "fights": 246,
+     "wins": 240
+    },
+    "36": {
+     "reached": 193,
+     "first": 121,
+     "fights": 250,
+     "wins": 139
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.06,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 263,
+     "fights": 2100,
+     "wins": 1808
+    },
+    "18": {
+     "reached": 273,
+     "first": 126,
+     "fights": 1911,
+     "wins": 1169
+    },
+    "27": {
+     "reached": 120,
+     "first": 26,
+     "fights": 840,
+     "wins": 344
+    },
+    "36": {
+     "reached": 49,
+     "first": 5,
+     "fights": 510,
+     "wins": 68
+    }
+   }
+  }
+ },
+ "12": {
+  "human": {
+   "n": 300,
+   "err": 0,
+   "win": 0.45666666666666667,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 278,
+     "fights": 300,
+     "wins": 278
+    },
+    "18": {
+     "reached": 296,
+     "first": 265,
+     "fights": 296,
+     "wins": 265
+    },
+    "27": {
+     "reached": 227,
+     "first": 214,
+     "fights": 227,
+     "wins": 214
+    },
+    "36": {
+     "reached": 174,
+     "first": 120,
+     "fights": 216,
+     "wins": 137
+    }
+   }
+  },
+  "steady": {
+   "n": 300,
+   "err": 0,
+   "win": 0.04,
+   "bosses": {
+    "9": {
+     "reached": 300,
+     "first": 254,
+     "fights": 2400,
+     "wins": 1814
+    },
+    "18": {
+     "reached": 266,
+     "first": 180,
+     "fights": 2128,
+     "wins": 1127
+    },
+    "27": {
+     "reached": 105,
+     "first": 51,
+     "fights": 840,
+     "wins": 301
+    },
+    "36": {
+     "reached": 31,
+     "first": 5,
+     "fights": 400,
+     "wins": 47
+    }
+   }
+  }
+ }
+}
