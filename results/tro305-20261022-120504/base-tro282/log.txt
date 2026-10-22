@@ -1,0 +1,26 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ TB_CPU_LOCK=0 node fastsim/actloss.js --build sims/builds/b305.html --levels 16,17,18 --expert 300 --steady 1 --workers 4 --seedtag tro282 --out out/base-tro282
+[smartbot] engine: vm (fastsim, no browser)
+Lv16 done in 123 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv17 done in 112 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv18 done in 111 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 16 | human | 300 | 37% | 48% | 70% | 1.73 / 1.43 / 1.27 / 1.10 | 83% / 70% / 62% / 57% |
+| 16 | steady | 1 | 0% | 0% | - | 10.00 / 22.00 / - / - | 100% / 100% / - / - |
+| 17 | human | 300 | 26% | 38% | 63% | 1.89 / 1.72 / 1.42 / 1.28 | 86% / 80% / 73% / 69% |
+| 17 | steady | 1 | 0% | 0% | - | 16.00 / 32.00 / - / - | 100% / 100% / - / - |
+| 18 | human | 300 | 22% | 39% | 45% | 1.95 / 1.77 / 1.32 / 1.47 | 88% / 80% / 72% / 77% |
+| 18 | steady | 1 | 0% | 0% | - | 24.00 / 41.00 / 11.00 / - | 100% / 100% / 100% / - |
+
+| Level | bot | boss losses on timeout A1 / A2 / A3 / A4 | other fight losses on timeout |
+|---|---|---|---|
+| 16 | human | 0/16 / 0/37 / 0/25 / 0/58 | 0/1342 |
+| 16 | steady | - / - / - / - | - |
+| 17 | human | 0/18 / 0/35 / 0/26 / 0/60 | 0/1494 |
+| 17 | steady | - / - / - / - | - |
+| 18 | human | 0/9 / 0/24 / 0/14 / 0/97 | 0/1539 |
+| 18 | steady | - / - / - / - | - |
+exit 0

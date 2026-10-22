@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,16,0,14,6,8,10,6,,,,,6,123,5,55,6,56,12,7,-12,5,6,lookouts:2 rifle:2 hacker:2 safecracker:2 driver:2 queen:2,"bug1,heist2","gunner1,mystic1",locusts,1,glass,insidejob,0,0,0.833,
