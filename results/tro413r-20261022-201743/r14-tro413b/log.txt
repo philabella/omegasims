@@ -1,0 +1,18 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ TB_CPU_LOCK=0 node fastsim/smartbot-vm/tro413plans.js --build sims/builds/b413.html --level 14 --runs 300 --workers 4 --seedtag tro413b --only free,mono:ball,rs:ball,rg:ball,mono:west,rs:west,rg:west,mono:horror,rs:horror,rg:horror,mono:kaiju,rs:kaiju,rg:kaiju --extra '[{"key":"rs:ball","label":"Recipe ball (mono, Casting Call, Scope from Ep 9)","opts":{"genres":["ball"],"forceEv":"casting","giveItem":"scope","giveItemAt":9}},{"key":"rg:ball","label":"Control ball (mono, Casting Call, Glass Cannon from Ep 9)","opts":{"genres":["ball"],"forceEv":"casting","giveItem":"glass","giveItemAt":9}},{"key":"rs:west","label":"Recipe west (mono, Casting Call, Scope from Ep 9)","opts":{"genres":["west"],"forceEv":"casting","giveItem":"scope","giveItemAt":9}},{"key":"rg:west","label":"Control west (mono, Casting Call, Glass Cannon from Ep 9)","opts":{"genres":["west"],"forceEv":"casting","giveItem":"glass","giveItemAt":9}},{"key":"rs:horror","label":"Recipe horror (mono, Casting Call, Scope from Ep 9)","opts":{"genres":["horror"],"forceEv":"casting","giveItem":"scope","giveItemAt":9}},{"key":"rg:horror","label":"Control horror (mono, Casting Call, Glass Cannon from Ep 9)","opts":{"genres":["horror"],"forceEv":"casting","giveItem":"glass","giveItemAt":9}},{"key":"rs:kaiju","label":"Recipe kaiju (mono, Casting Call, Scope from Ep 9)","opts":{"genres":["kaiju"],"forceEv":"casting","giveItem":"scope","giveItemAt":9}},{"key":"rg:kaiju","label":"Control kaiju (mono, Casting Call, Glass Cannon from Ep 9)","opts":{"genres":["kaiju"],"forceEv":"casting","giveItem":"glass","giveItemAt":9}}]' --out out/r14-tro413b
+[smartbot] engine: vm (fastsim, no browser)
+lv14 tro413b: 13 plans x 300 in 18.3 min
+  free           48.0%  err 0
+  rs:ball        67.3%  err 0
+  rg:ball        62.0%  err 0
+  rs:west        62.0%  err 0
+  rg:west        57.7%  err 0
+  rs:horror      62.3%  err 0
+  rg:horror      64.0%  err 0
+  rs:kaiju       36.0%  err 0
+  rg:kaiju       36.3%  err 0
+  mono:ball      52.0%  err 0
+  mono:horror    56.7%  err 0
+  mono:kaiju     33.3%  err 0
+  mono:west      47.0%  err 0
+exit 0
