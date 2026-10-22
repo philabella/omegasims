@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,16,0,14,6,9,21,5,,,,,6,117,6,62,17,36,12,10,6,20,5,pitcher:2 headcoach:3 exorcist:2 scientist:2 pointguard:2,"horror1,kaiju1,ball2",mystic1,,3,crest glass tesla,press,0,0,0.8,
