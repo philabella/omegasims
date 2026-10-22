@@ -1,0 +1,49 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ node fastsim/lategame.js --build tropebrawl.html --level 18 --n 200 --workers 4 --seedtag tro408b --out out/l18b
+[smartbot] engine: vm (fastsim, no browser)
+# Late game, Level 18 (tropebrawl.html)
+
+Boss strength (HP x damage), Season finale / Ep 27 boss: x2.60 ({"27":{"act":3,"type":"boss","m":17.502986174640547,"ref":33935.893630179344,"bossF":2},"36":{"act":4,"type":"boss","m":22.478565738362366,"ref":48683.66904761905,"bossF":2.2}})
+
+## human: n 200, run win 30%, longest win streak after R18 (winning runs) 13.5, gold at the end (winning runs) 10.6
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 77% | 82% | 11.3 | 0% | 7.0 | 0.0 |
+| 2 | 81% | 92% | 13.9 | 0% | 7.0 | 0.3 |
+| 3 | 83% | 95% | 6.9 | 0% | 7.0 | 1.3 |
+| 4 | 83% | 94% | 9.2 | 0% | 7.0 | 2.2 |
+
+Recast (runs reaching Act 3: 172): ★★★ target sold out in 88%, Recast used in 19%, 0.2 uses / 0.3 copies / 🪙3.5 per run; ★★★ at the finale 2.2
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 96% (188) | 92% (12) | - |
+| Act 2 | 87% (99) | 98% (64) | 100% (15) |
+| Act 3 | 53% (17) | 86% (59) | 100% (58) |
+| Act 4 | 0% (4) | 25% (24) | 58% (77) |
+
+| passed the Act 3 boss 1st try, by | group | runs | finale 1st try won |
+|---|---|---|---|
+| ★★★ at Ep 27 | 0 | 6 | 33% |
+| ★★★ at Ep 27 | 1 | 43 | 40% |
+| ★★★ at Ep 27 | 2 | 52 | 58% |
+| genre | army | 27 | 41% |
+| genre | ball | 25 | 36% |
+| genre | bug | 4 | 50% |
+| genre | heist | 19 | 68% |
+| genre | horror | 6 | 67% |
+| genre | kaiju | 7 | 29% |
+| genre | space | 5 | 60% |
+| genre | undead | 7 | 57% |
+| genre | west | 1 | 100% |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 4 | 0% | 25% |
+| 1 | 24 | 25% | 38% |
+| 2 | 36 | 53% | 61% |
+| 3+ | 41 | 63% | 66% |
+
+(53 s)
+exit 0
