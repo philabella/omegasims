@@ -1,0 +1,14 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ TB_CPU_LOCK=0 node fastsim/smartbot-vm/tro413plans.js --build sims/builds/b413.html --level 14 --runs 300 --workers 4 --seedtag tro413b --only free,duo,econ,tempo,reroll,rush,indie,spinoff,extuniv --out out/p14-tro413b
+[smartbot] engine: vm (fastsim, no browser)
+lv14 tro413b: 9 plans x 300 in 11.8 min
+  free           48.0%  err 0
+  duo            36.3%  err 0
+  econ           49.3%  err 0
+  tempo          25.3%  err 0
+  reroll         20.7%  err 0
+  rush           42.7%  err 0
+  indie          34.3%  err 0
+  spinoff        37.3%  err 0
+  extuniv        37.0%  err 0
+exit 0

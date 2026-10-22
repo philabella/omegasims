@@ -1,0 +1,15 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ TB_CPU_LOCK=0 node fastsim/smartbot-vm/tro413plans.js --build sims/builds/b413.html --level 9 --runs 300 --workers 4 --seedtag tro413a --only free,mono --out out/m9-tro413a
+[smartbot] engine: vm (fastsim, no browser)
+lv9 tro413a: 10 plans x 300 in 9.1 min
+  free           60.7%  err 0
+  mono:army      65.0%  err 0
+  mono:ball      74.7%  err 0
+  mono:bug       52.7%  err 0
+  mono:heist     68.3%  err 0
+  mono:horror    73.3%  err 0
+  mono:kaiju     39.0%  err 0
+  mono:space     65.0%  err 0
+  mono:undead    56.7%  err 0
+  mono:west      78.3%  err 0
+exit 0
