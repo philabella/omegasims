@@ -1,0 +1,1265 @@
+{
+ "build": "only-lurker.html",
+ "version": "20.82",
+ "gameLevel": 10,
+ "options": {
+  "levels": [
+   "early",
+   "mid",
+   "late"
+  ],
+  "boards": 10,
+  "seeds": 10,
+  "items": false,
+  "cands": 30,
+  "qual": 20,
+  "abl": 0,
+  "ablOpts": 3,
+  "seed": "c68",
+  "workers": 4
+ },
+ "genres": {
+  "teams": [
+   "army",
+   "bug",
+   "undead",
+   "heist",
+   "west",
+   "horror",
+   "space",
+   "kaiju",
+   "ball"
+  ],
+  "matrix": [
+   [
+    null,
+    [
+     75.1,
+     4.9
+    ],
+    [
+     65.1,
+     3.4
+    ],
+    [
+     43.8,
+     5.5
+    ],
+    [
+     36.5,
+     5.1
+    ],
+    [
+     49,
+     7.6
+    ],
+    [
+     44.4,
+     4.7
+    ],
+    [
+     23.5,
+     6.5
+    ],
+    [
+     44.5,
+     4.9
+    ]
+   ],
+   [
+    [
+     25,
+     4.9
+    ],
+    null,
+    [
+     81.4,
+     3.8
+    ],
+    [
+     60.8,
+     3.9
+    ],
+    [
+     58.2,
+     2.8
+    ],
+    [
+     52.7,
+     4.4
+    ],
+    [
+     48.4,
+     5.4
+    ],
+    [
+     58.8,
+     6.2
+    ],
+    [
+     36.4,
+     3.6
+    ]
+   ],
+   [
+    [
+     35,
+     3.4
+    ],
+    [
+     18.6,
+     3.8
+    ],
+    null,
+    [
+     70.2,
+     4.9
+    ],
+    [
+     78.7,
+     3.6
+    ],
+    [
+     43.3,
+     5.9
+    ],
+    [
+     47.8,
+     5.2
+    ],
+    [
+     57.9,
+     6.8
+    ],
+    [
+     54.9,
+     6.7
+    ]
+   ],
+   [
+    [
+     56.2,
+     5.5
+    ],
+    [
+     39.2,
+     3.9
+    ],
+    [
+     29.9,
+     4.9
+    ],
+    null,
+    [
+     56.1,
+     4.3
+    ],
+    [
+     63,
+     7.4
+    ],
+    [
+     78.7,
+     5.6
+    ],
+    [
+     59.7,
+     6.7
+    ],
+    [
+     45.5,
+     5.7
+    ]
+   ],
+   [
+    [
+     63.5,
+     5.1
+    ],
+    [
+     41.8,
+     2.8
+    ],
+    [
+     21.3,
+     3.6
+    ],
+    [
+     43.9,
+     4.3
+    ],
+    null,
+    [
+     32.1,
+     5.1
+    ],
+    [
+     63.1,
+     5.3
+    ],
+    [
+     54,
+     6
+    ],
+    [
+     50.7,
+     4.9
+    ]
+   ],
+   [
+    [
+     51,
+     7.6
+    ],
+    [
+     47.3,
+     4.4
+    ],
+    [
+     56.8,
+     5.9
+    ],
+    [
+     37,
+     7.4
+    ],
+    [
+     67.9,
+     5.1
+    ],
+    null,
+    [
+     42.5,
+     7.3
+    ],
+    [
+     29.7,
+     7.4
+    ],
+    [
+     71.5,
+     5.3
+    ]
+   ],
+   [
+    [
+     55.6,
+     4.7
+    ],
+    [
+     51.6,
+     5.4
+    ],
+    [
+     52.2,
+     5.2
+    ],
+    [
+     21.3,
+     5.6
+    ],
+    [
+     36.9,
+     5.3
+    ],
+    [
+     57.5,
+     7.3
+    ],
+    null,
+    [
+     66.9,
+     6.6
+    ],
+    [
+     82,
+     4.7
+    ]
+   ],
+   [
+    [
+     76.6,
+     6.5
+    ],
+    [
+     41.2,
+     6.2
+    ],
+    [
+     42.1,
+     6.8
+    ],
+    [
+     40.3,
+     6.7
+    ],
+    [
+     46,
+     6
+    ],
+    [
+     70.3,
+     7.4
+    ],
+    [
+     33.1,
+     6.6
+    ],
+    null,
+    [
+     43.2,
+     6.2
+    ]
+   ],
+   [
+    [
+     55.5,
+     4.9
+    ],
+    [
+     63.7,
+     3.6
+    ],
+    [
+     45.1,
+     6.7
+    ],
+    [
+     54.6,
+     5.7
+    ],
+    [
+     49.3,
+     4.9
+    ],
+    [
+     28.5,
+     5.3
+    ],
+    [
+     18,
+     4.7
+    ],
+    [
+     56.8,
+     6.2
+    ],
+    null
+   ]
+  ],
+  "rows": [
+   {
+    "team": "army",
+    "name": "Army",
+    "rating": -14,
+    "vsAvg": 48,
+    "beats": [
+     "bug",
+     "undead"
+    ],
+    "losesTo": [
+     "west",
+     "kaiju"
+    ],
+    "max": 75.06666666666666,
+    "min": 23.46666666666667,
+    "edgeSD": 16.2,
+    "bigEdges": [
+     "bug",
+     "undead"
+    ],
+    "flat": false
+   },
+   {
+    "team": "bug",
+    "name": "Swarm",
+    "rating": 17,
+    "vsAvg": 52.4,
+    "beats": [
+     "undead",
+     "heist"
+    ],
+    "losesTo": [
+     "army",
+     "ball"
+    ],
+    "max": 81.43333333333334,
+    "min": 24.96666666666667,
+    "edgeSD": 16.9,
+    "bigEdges": [
+     "undead",
+     "heist"
+    ],
+    "flat": false
+   },
+   {
+    "team": "undead",
+    "name": "Undead",
+    "rating": 5,
+    "vsAvg": 50.7,
+    "beats": [
+     "heist",
+     "west"
+    ],
+    "losesTo": [
+     "army",
+     "bug"
+    ],
+    "max": 78.7,
+    "min": 18.599999999999998,
+    "edgeSD": 17.4,
+    "bigEdges": [
+     "heist",
+     "west"
+    ],
+    "flat": false
+   },
+   {
+    "team": "heist",
+    "name": "Heist Crew",
+    "rating": 22,
+    "vsAvg": 53.1,
+    "beats": [
+     "horror",
+     "space"
+    ],
+    "losesTo": [
+     "bug",
+     "undead"
+    ],
+    "max": 78.7,
+    "min": 29.866666666666664,
+    "edgeSD": 14.6,
+    "bigEdges": [
+     "horror",
+     "space"
+    ],
+    "flat": false
+   },
+   {
+    "team": "west",
+    "name": "Wild West",
+    "rating": -23,
+    "vsAvg": 46.7,
+    "beats": [
+     "army",
+     "space"
+    ],
+    "losesTo": [
+     "undead",
+     "horror"
+    ],
+    "max": 63.5,
+    "min": 21.3,
+    "edgeSD": 13.4,
+    "bigEdges": [
+     "army",
+     "space"
+    ],
+    "flat": false
+   },
+   {
+    "team": "horror",
+    "name": "Slasher",
+    "rating": 3,
+    "vsAvg": 50.4,
+    "beats": [
+     "west",
+     "ball"
+    ],
+    "losesTo": [
+     "heist",
+     "kaiju"
+    ],
+    "max": 71.5,
+    "min": 29.7,
+    "edgeSD": 12.1,
+    "bigEdges": [
+     "west",
+     "ball"
+    ],
+    "flat": false
+   },
+   {
+    "team": "space",
+    "name": "Space Opera",
+    "rating": 19,
+    "vsAvg": 52.7,
+    "beats": [
+     "kaiju",
+     "ball"
+    ],
+    "losesTo": [
+     "heist",
+     "west"
+    ],
+    "max": 82.03333333333335,
+    "min": 21.3,
+    "edgeSD": 16,
+    "bigEdges": [
+     "kaiju",
+     "ball"
+    ],
+    "flat": false
+   },
+   {
+    "team": "kaiju",
+    "name": "Kaiju",
+    "rating": -6,
+    "vsAvg": 49.2,
+    "beats": [
+     "army",
+     "horror"
+    ],
+    "losesTo": [
+     "space"
+    ],
+    "max": 76.56666666666666,
+    "min": 33.13333333333333,
+    "edgeSD": 13.8,
+    "bigEdges": [
+     "army",
+     "horror"
+    ],
+    "flat": false
+   },
+   {
+    "team": "ball",
+    "name": "Sportsball",
+    "rating": -22,
+    "vsAvg": 46.8,
+    "beats": [
+     "bug"
+    ],
+    "losesTo": [
+     "horror",
+     "space"
+    ],
+    "max": 63.666666666666664,
+    "min": 17.966666666666665,
+    "edgeSD": 14.3,
+    "bigEdges": [
+     "bug",
+     "heist",
+     "kaiju"
+    ],
+    "flat": false
+   }
+  ],
+  "verdict": {
+   "md": "- **Genres with NO clear counter** (no opponent wins 60%+ against them): none.\n- **Genres that counter nothing** (no 60%+ matchup): none.\n- **Flat** (every matchup 40-60%: no counter-pick decision for or against them): none.\n- **Real counter matchups** (60/40+ and 8+ points of it is matchup, not strength): 17 of 36: Swarm > Undead 81% (edge +30); Army > Swarm 75% (edge +30); Heist Crew > Space Opera 79% (edge +28); Space Opera > Sportsball 82% (edge +26); Kaiju > Army 77% (edge +25); Undead > Wild West 79% (edge +25); Undead > Heist Crew 70% (edge +23); Kaiju > Slasher 70% (edge +22); Sportsball > Swarm 64% (edge +19); Wild West > Space Opera 63% (edge +19); Slasher > Sportsball 72% (edge +18); Army > Undead 65% (edge +18); Wild West > Army 64% (edge +15); Slasher > Wild West 68% (edge +14); Space Opera > Kaiju 67% (edge +13); Swarm > Heist Crew 61% (edge +12); Heist Crew > Slasher 63% (edge +10).\n- **How much is rock-paper-scissors**: matchup spread beyond strength (SD of counter edges) 15.1 points; strength spread 46.7-53.1% vs an average genre. A TFT-style web needs edges of ~10-15 points.\n",
+   "noCounter": [],
+   "countersNothing": [],
+   "flat": [],
+   "realCounters": [
+    [
+     "bug",
+     "undead",
+     81.4,
+     29.7
+    ],
+    [
+     "army",
+     "bug",
+     75.1,
+     29.5
+    ],
+    [
+     "heist",
+     "space",
+     78.7,
+     28.2
+    ],
+    [
+     "space",
+     "ball",
+     82,
+     26.2
+    ],
+    [
+     "army",
+     "kaiju",
+     23.5,
+     -25.3
+    ],
+    [
+     "undead",
+     "west",
+     78.7,
+     24.7
+    ],
+    [
+     "undead",
+     "heist",
+     70.2,
+     22.6
+    ],
+    [
+     "horror",
+     "kaiju",
+     29.7,
+     -21.5
+    ],
+    [
+     "bug",
+     "ball",
+     36.4,
+     -19.2
+    ],
+    [
+     "west",
+     "space",
+     63.1,
+     19.1
+    ],
+    [
+     "horror",
+     "ball",
+     71.5,
+     17.9
+    ],
+    [
+     "army",
+     "undead",
+     65.1,
+     17.8
+    ],
+    [
+     "army",
+     "west",
+     36.5,
+     -14.8
+    ],
+    [
+     "west",
+     "horror",
+     32.1,
+     -14.2
+    ],
+    [
+     "space",
+     "kaiju",
+     66.9,
+     13.4
+    ],
+    [
+     "bug",
+     "heist",
+     60.8,
+     11.5
+    ],
+    [
+     "heist",
+     "horror",
+     63,
+     10.3
+    ]
+   ]
+  }
+ },
+ "traits": {
+  "teams": [
+   "t:guardian",
+   "t:brawler",
+   "t:stalker",
+   "t:gunner",
+   "t:mystic",
+   "t:medic"
+  ],
+  "matrix": [
+   [
+    null,
+    [
+     53.1,
+     4.3
+    ],
+    [
+     64.1,
+     1.1
+    ],
+    [
+     65.1,
+     0.8
+    ],
+    [
+     57.1,
+     3.1
+    ],
+    [
+     66.3,
+     0.4
+    ]
+   ],
+   [
+    [
+     46.9,
+     4.3
+    ],
+    null,
+    [
+     46.7,
+     0.9
+    ],
+    [
+     51.2,
+     3
+    ],
+    [
+     88.7,
+     2.6
+    ],
+    [
+     99.9,
+     0.1
+    ]
+   ],
+   [
+    [
+     35.9,
+     1.1
+    ],
+    [
+     53.3,
+     0.9
+    ],
+    null,
+    [
+     68.2,
+     3.1
+    ],
+    [
+     69.3,
+     3
+    ],
+    [
+     99.7,
+     0.2
+    ]
+   ],
+   [
+    [
+     34.9,
+     0.8
+    ],
+    [
+     48.8,
+     3
+    ],
+    [
+     31.8,
+     3.1
+    ],
+    null,
+    [
+     51.7,
+     3.4
+    ],
+    [
+     97.6,
+     1.3
+    ]
+   ],
+   [
+    [
+     42.9,
+     3.1
+    ],
+    [
+     11.3,
+     2.6
+    ],
+    [
+     30.7,
+     3
+    ],
+    [
+     48.3,
+     3.4
+    ],
+    null,
+    [
+     93.3,
+     1.5
+    ]
+   ],
+   [
+    [
+     33.7,
+     0.4
+    ],
+    [
+     0.1,
+     0.1
+    ],
+    [
+     0.4,
+     0.2
+    ],
+    [
+     2.4,
+     1.3
+    ],
+    [
+     6.7,
+     1.5
+    ],
+    null
+   ]
+  ],
+  "rows": [
+   {
+    "team": "t:guardian",
+    "name": "Guardian",
+    "rating": 87,
+    "vsAvg": 62.2,
+    "beats": [
+     "t:stalker",
+     "t:gunner",
+     "t:medic"
+    ],
+    "losesTo": [],
+    "max": 66.33333333333333,
+    "min": 53.06666666666666,
+    "edgeSD": 15.1,
+    "bigEdges": [
+     "t:brawler",
+     "t:stalker"
+    ],
+    "flat": false
+   },
+   {
+    "team": "t:brawler",
+    "name": "Brawler",
+    "rating": 122,
+    "vsAvg": 66.9,
+    "beats": [
+     "t:mystic",
+     "t:medic"
+    ],
+    "losesTo": [],
+    "max": 99.89999999999999,
+    "min": 46.73333333333333,
+    "edgeSD": 11.2,
+    "bigEdges": [
+     "t:mystic"
+    ],
+    "flat": false
+   },
+   {
+    "team": "t:stalker",
+    "name": "Stalker",
+    "rating": 113,
+    "vsAvg": 65.6,
+    "beats": [
+     "t:gunner",
+     "t:mystic",
+     "t:medic"
+    ],
+    "losesTo": [
+     "t:guardian"
+    ],
+    "max": 99.66666666666667,
+    "min": 35.9,
+    "edgeSD": 9.2,
+    "bigEdges": [],
+    "flat": false
+   },
+   {
+    "team": "t:gunner",
+    "name": "Gunner",
+    "rating": 32,
+    "vsAvg": 54.6,
+    "beats": [
+     "t:medic"
+    ],
+    "losesTo": [
+     "t:guardian",
+     "t:stalker"
+    ],
+    "max": 97.56666666666666,
+    "min": 31.799999999999997,
+    "edgeSD": 8.1,
+    "bigEdges": [
+     "t:brawler",
+     "t:medic"
+    ],
+    "flat": false
+   },
+   {
+    "team": "t:mystic",
+    "name": "Mystic",
+    "rating": -19,
+    "vsAvg": 47.2,
+    "beats": [
+     "t:medic"
+    ],
+    "losesTo": [
+     "t:brawler",
+     "t:stalker"
+    ],
+    "max": 93.3,
+    "min": 11.300000000000002,
+    "edgeSD": 10.2,
+    "bigEdges": [],
+    "flat": false
+   },
+   {
+    "team": "t:medic",
+    "name": "Medic",
+    "rating": -334,
+    "vsAvg": 12.7,
+    "beats": [],
+    "losesTo": [
+     "t:guardian",
+     "t:brawler",
+     "t:stalker",
+     "t:gunner",
+     "t:mystic"
+    ],
+    "max": 33.666666666666664,
+    "min": 0.09999999999999999,
+    "edgeSD": 13,
+    "bigEdges": [
+     "t:guardian"
+    ],
+    "flat": false
+   }
+  ],
+  "verdict": {
+   "md": "- **Traits with NO clear counter** (no opponent wins 60%+ against them): Guardian, Brawler.\n- **Traits that counter nothing** (no 60%+ matchup): Medic.\n- **Flat** (every matchup 40-60%: no counter-pick decision for or against them): none.\n- **Real counter matchups** (60/40+ and 8+ points of it is matchup, not strength): 3 of 15: Brawler > Mystic 89% (edge +19); Guardian > Stalker 64% (edge +18); Gunner > Medic 98% (edge +8).\n- **How much is rock-paper-scissors**: matchup spread beyond strength (SD of counter edges) 11.4 points; strength spread 12.7-66.9% vs an average trait. A TFT-style web needs edges of ~10-15 points.\n",
+   "noCounter": [
+    "t:guardian",
+    "t:brawler"
+   ],
+   "countersNothing": [
+    "t:medic"
+   ],
+   "flat": [],
+   "realCounters": [
+    [
+     "t:brawler",
+     "t:mystic",
+     88.7,
+     19.4
+    ],
+    [
+     "t:guardian",
+     "t:stalker",
+     64.1,
+     17.8
+    ],
+    [
+     "t:gunner",
+     "t:medic",
+     97.6,
+     8.4
+    ]
+   ]
+  }
+ },
+ "perAct": {
+  "early": [
+   [
+    null,
+    30,
+    14.6,
+    29.9,
+    35.6,
+    59.6,
+    33.9,
+    32.8,
+    30.2
+   ],
+   [
+    70,
+    null,
+    80.7,
+    100,
+    96.3,
+    81,
+    81.2,
+    100,
+    86.9
+   ],
+   [
+    85.5,
+    19.3,
+    null,
+    88,
+    86.5,
+    81.8,
+    87,
+    90.1,
+    76.4
+   ],
+   [
+    70,
+    0,
+    12.1,
+    null,
+    45.6,
+    69.8,
+    69.8,
+    89.1,
+    32.7
+   ],
+   [
+    64.3,
+    3.7,
+    13.5,
+    54.4,
+    null,
+    69,
+    65.7,
+    82.7,
+    42.5
+   ],
+   [
+    40.4,
+    18.9,
+    18.3,
+    30.3,
+    31.1,
+    null,
+    28.4,
+    31.4,
+    30.4
+   ],
+   [
+    66.1,
+    18.8,
+    13,
+    30.3,
+    34.3,
+    71.6,
+    null,
+    99.3,
+    54
+   ],
+   [
+    67.3,
+    0,
+    9.9,
+    10.9,
+    17.3,
+    68.6,
+    0.8,
+    null,
+    3.6
+   ],
+   [
+    69.8,
+    13.1,
+    23.6,
+    67.3,
+    57.5,
+    69.6,
+    46,
+    96.3,
+    null
+   ]
+  ],
+  "mid": [
+   [
+    null,
+    97,
+    99.4,
+    85.9,
+    72.6,
+    39.4,
+    86.8,
+    2.6,
+    98.4
+   ],
+   [
+    3,
+    null,
+    89.9,
+    72.6,
+    75.4,
+    77,
+    63.9,
+    26.4,
+    21.9
+   ],
+   [
+    0.6,
+    10.1,
+    null,
+    59.8,
+    93.5,
+    40.7,
+    14.3,
+    19.6,
+    44.4
+   ],
+   [
+    14.1,
+    27.4,
+    40.2,
+    null,
+    84.1,
+    42.7,
+    93,
+    20,
+    85.3
+   ],
+   [
+    27.4,
+    24.6,
+    6.5,
+    15.9,
+    null,
+    5.7,
+    32.5,
+    10.8,
+    46.1
+   ],
+   [
+    60.6,
+    22.9,
+    59.3,
+    57.3,
+    94.3,
+    null,
+    54.5,
+    20.7,
+    100
+   ],
+   [
+    13.2,
+    36.1,
+    85.7,
+    7,
+    67.5,
+    45.5,
+    null,
+    31.9,
+    99.9
+   ],
+   [
+    97.4,
+    73.5,
+    80.4,
+    80,
+    89.2,
+    79.3,
+    68.1,
+    null,
+    84
+   ],
+   [
+    1.6,
+    78.2,
+    55.6,
+    14.7,
+    53.9,
+    0,
+    0.1,
+    16.1,
+    null
+   ]
+  ],
+  "late": [
+   [
+    null,
+    98.2,
+    81.2,
+    15.6,
+    1.2,
+    48,
+    12.4,
+    35,
+    4.8
+   ],
+   [
+    1.9,
+    null,
+    73.7,
+    9.8,
+    2.8,
+    0.1,
+    0,
+    50,
+    0.3
+   ],
+   [
+    18.9,
+    26.4,
+    null,
+    62.8,
+    56.1,
+    7.3,
+    42.1,
+    64,
+    44
+   ],
+   [
+    84.5,
+    90.2,
+    37.3,
+    null,
+    38.6,
+    76.6,
+    73.3,
+    69.9,
+    18.4
+   ],
+   [
+    98.8,
+    97.2,
+    43.9,
+    61.4,
+    null,
+    21.6,
+    91.2,
+    68.4,
+    63.5
+   ],
+   [
+    52,
+    100,
+    92.7,
+    23.4,
+    78.4,
+    null,
+    44.7,
+    37,
+    84.1
+   ],
+   [
+    87.5,
+    100,
+    57.9,
+    26.6,
+    8.8,
+    55.3,
+    null,
+    69.5,
+    92.2
+   ],
+   [
+    65,
+    50,
+    36,
+    30.1,
+    31.6,
+    63,
+    30.5,
+    null,
+    41.9
+   ],
+   [
+    95.2,
+    99.7,
+    56,
+    81.7,
+    36.5,
+    15.9,
+    7.8,
+    58.1,
+    null
+   ]
+  ]
+ }
+}
