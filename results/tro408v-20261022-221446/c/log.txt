@@ -1,0 +1,49 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ node fastsim/lategame.js --build sims/builds/tro408.html --level 18 --n 200 --workers 4 --seedtag tro408f --out out/c
+[smartbot] engine: vm (fastsim, no browser)
+# Late game, Level 18 (tro408.html)
+
+Boss strength (HP x damage), Season finale / Ep 27 boss: x2.60 ({"27":{"act":3,"type":"boss","m":17.502986174640547,"ref":33935.893630179344,"bossF":2},"36":{"act":4,"type":"boss","m":22.478565738362366,"ref":48683.66904761905,"bossF":2.2}})
+
+## human: n 200, run win 31%, longest win streak after R18 (winning runs) 14.4, gold at the end (winning runs) 9.9
+
+| act | fight win (all) | fight win (winning runs) | gold held at fight (winning) | fights with 50+ gold (winning) | rivals in | ★★★ on board (winning) |
+|---|---|---|---|---|---|---|
+| 1 | 83% | 88% | 11.2 | 0% | 7.0 | 0.0 |
+| 2 | 82% | 93% | 13.7 | 0% | 7.0 | 0.3 |
+| 3 | 81% | 94% | 6.5 | 0% | 7.0 | 1.4 |
+| 4 | 80% | 94% | 9.2 | 0% | 7.0 | 2.0 |
+
+Recast (runs reaching Act 3: 177): ★★★ target sold out in 91%, Recast used in 20%, 0.2 uses / 0.3 copies / 🪙3.0 per run; ★★★ at the finale 2.1
+
+| boss (1st try) | 0 ★★★ | 1 ★★★ | 2+ ★★★ |
+|---|---|---|---|
+| Act 1 | 93% (196) | 100% (4) | - |
+| Act 2 | 85% (110) | 97% (63) | 100% (13) |
+| Act 3 | 75% (24) | 84% (45) | 97% (66) |
+| Act 4 | 0% (5) | 43% (21) | 59% (73) |
+
+| passed the Act 3 boss 1st try, by | group | runs | finale 1st try won |
+|---|---|---|---|
+| ★★★ at Ep 27 | 0 | 12 | 33% |
+| ★★★ at Ep 27 | 1 | 29 | 48% |
+| ★★★ at Ep 27 | 2 | 57 | 60% |
+| genre | army | 29 | 38% |
+| genre | ball | 23 | 57% |
+| genre | bug | 7 | 71% |
+| genre | heist | 16 | 44% |
+| genre | horror | 8 | 75% |
+| genre | kaiju | 6 | 83% |
+| genre | space | 4 | 50% |
+| genre | undead | 3 | 67% |
+| genre | west | 2 | 50% |
+
+| ★★★ on board at the finale | runs | finale 1st fight won | run won |
+|---|---|---|---|
+| 0 | 5 | 0% | 40% |
+| 1 | 21 | 43% | 52% |
+| 2 | 42 | 52% | 60% |
+| 3+ | 31 | 68% | 74% |
+
+(84 s)
+exit 0
