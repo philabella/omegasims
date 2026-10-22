@@ -1,0 +1,27 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ node fastsim/counters.js --build sims/builds/w1.html --gamelevel 10 --boards 10 --seeds 10 --cands 30 --qual 20 --workers 4 --seed c68b --out out/ctr-w1-c68b
+[0s] build w1.html 20.80 | Game Level 10 (crossovers on) | 15 teams | levels early,mid,late | boards 10 seeds 10 | items off | 4 workers
+[13s] early: 275 candidates qualified (11000 fights), 150 boards kept
+[14s] validate: side-aware copies with side E switched off = the game's own Rerun path in 291/300 fights
+[18s] early: mirror (board vs itself) side-A score: harness 49.1%, game's own Rerun path 72.5% (1500 fights)
+[196s] early: round robin 210000 fights in 178s (avg 13.6 game-seconds, 22 double wipes, 0 timeouts)
+[211s] mid: 264 candidates qualified (10560 fights), 150 boards kept
+[215s] mid: mirror (board vs itself) side-A score: harness 51.8%, game's own Rerun path 83.9% (1500 fights)
+[463s] mid: round robin 210000 fights in 248s (avg 16.7 game-seconds, 46 double wipes, 0 timeouts)
+[483s] late: 375 candidates qualified (15000 fights), 150 boards kept
+[487s] late: mirror (board vs itself) side-A score: harness 48.6%, game's own Rerun path 77.0% (1500 fights)
+[714s] late: round robin 210000 fights in 227s (avg 12.8 game-seconds, 43 double wipes, 0 timeouts)
+[714s] done in 714s -> /home/runner/work/omegasims/omegasims/out/ctr-w1-c68b/tour
+counters: /home/runner/work/omegasims/omegasims/out/ctr-w1-c68b/REPORT.md
+- **Genres with NO clear counter** (no opponent wins 60%+ against them): none.
+- **Genres that counter nothing** (no 60%+ matchup): none.
+- **Flat** (every matchup 40-60%: no counter-pick decision for or against them): none.
+- **Real counter matchups** (60/40+ and 8+ points of it is matchup, not strength): 17 of 36: Army > Swarm 76% (edge +27); Kaiju > Army 77% (edge +27); Heist Crew > Space Opera 65% (edge +24); Space Opera > Sportsball 85% (edge +23); Kaiju > Slasher 72% (edge +22); Slasher > Sportsball 73% (edge +20); Swarm > Undead 72% (edge +20); Undead > Heist Crew 69% (edge +20); Undead > Wild West 73% (edge +19); Wild West > Army 64% (edge +18); Army > Undead 67% (edge +17); Heist Crew > Slasher 65% (edge +14); Sportsball > Swarm 61% (edge +14); Sportsball > Kaiju 61% (edge +13); Swarm > Heist Crew 62% (edge +12); Slasher > Wild West 64% (edge +9); Space Opera > Kaiju 69% (edge +8).
+- **How much is rock-paper-scissors**: matchup spread beyond strength (SD of counter edges) 13.5 points; strength spread 44.9-59.5% vs an average genre. A TFT-style web needs edges of ~10-15 points.
+- **Traits with NO clear counter** (no opponent wins 60%+ against them): Guardian.
+- **Traits that counter nothing** (no 60%+ matchup): Medic.
+- **Flat** (every matchup 40-60%: no counter-pick decision for or against them): none.
+- **Real counter matchups** (60/40+ and 8+ points of it is matchup, not strength): 6 of 15: Brawler > Mystic 86% (edge +20); Stalker > Brawler 65% (edge +14); Guardian > Stalker 65% (edge +13); Guardian > Gunner 65% (edge +11); Gunner > Medic 96% (edge +9); Mystic > Medic 88% (edge +9).
+- **How much is rock-paper-scissors**: matchup spread beyond strength (SD of counter edges) 10.5 points; strength spread 17.5-63.3% vs an average trait. A TFT-style web needs edges of ~10-15 points.
+
+exit 0
