@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,11,0,10,5,3,13,5,,,,,6,76,2,28,18,36,7,3,0,2,5,commando:2 riot:2 commando:1 fixer:2 fieldmed:1,"army1,heist1",medic1,armsdeal,2,overclock stage,shock,0,0,0.6,

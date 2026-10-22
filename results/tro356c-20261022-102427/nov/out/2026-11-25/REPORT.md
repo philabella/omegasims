@@ -1,0 +1,9 @@
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 14 | human | 1 | 100% | 100% | 100% | 3.00 / 1.00 / 2.00 / 0.00 | 100% / 100% / 100% / 0% |
+| 14 | steady | 1 | 0% | 0% | - | 22.00 / 32.00 / 21.00 / 8.00 | 100% / 100% / 100% / 100% |
+
+| Level | bot | boss losses on timeout A1 / A2 / A3 / A4 | other fight losses on timeout |
+|---|---|---|---|
+| 14 | human | - / - / - / - | 0/6 |
+| 14 | steady | - / - / - / - | - |

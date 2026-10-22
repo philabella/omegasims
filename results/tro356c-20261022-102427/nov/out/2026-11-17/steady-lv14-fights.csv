@@ -1,0 +1,81 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,32.15,3,3,1,redshirts:1 counselors:1 zombies:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,14.7,3,3,1,counselors:1 redshirts:1 babysitter:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,1,1,2
+40000,curve7,1,1,0,0,0,14.7,3,3,1,redshirts:1 babykaiju:1 rifle:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,33.25,3,3,1,redshirts:1 counselors:1 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,33.25,3,3,1,redshirts:1 counselors:1 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,33.25,3,3,1,redshirts:1 counselors:1 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,33.25,3,3,1,redshirts:1 counselors:1 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,12.5,3,3,1,cheersquad:1 babykaiju:1 driver:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,11.3,4,4,2,redshirts:1 counselors:2 babykaiju:1 zombies:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,2,1,0,0,0,14.75,4,4,2,redshirts:1 babysitter:1 babysitter:1 redshirts:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,1,2,3
+40000,curve7,2,1,0,0,1,10.45,4,4,2,redshirts:1 rifle:1 lookouts:1 redshirts:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,2,1,3
+40000,curve7,2,1,0,0,0,24.25,3,3,1,redshirts:1 counselors:1 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,9,2,11
+40000,curve7,2,1,0,0,1,11.3,4,4,2,redshirts:1 counselors:2 babykaiju:1 ravager:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,2,1,0,0,0,24.25,3,3,1,redshirts:1 counselors:1 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,9,2,11
+40000,curve7,2,1,0,0,0,15.85,3,3,1,redshirts:1 counselors:1 redshirts:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,5,2,7
+40000,curve7,2,1,0,0,1,15.75,4,4,2,cheersquad:1 babykaiju:2 driver:1 cheersquad:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,4,1,0,0,1,15.5,4,4,2,redshirts:1 counselors:2 zombies:1 captain:1,f2:rats f3:double f1:double,Stunt Double,8,0,8,3,5,8
+40000,curve7,4,1,0,0,1,21.95,4,4,2,counselors:1 babysitter:2 captain:1 babysitter:1,f2:rats f3:double f1:double,Stunt Double,7,0,7,3,4,7
+40000,curve7,4,1,0,0,1,16.4,4,4,2,redshirts:1 lookouts:2 redshirts:1 captain:1,f2:rats f3:double f1:double,Stunt Double,8,0,8,4,5,9
+40000,curve7,4,1,0,0,0,29.25,4,4,2,redshirts:1 counselors:1 babykaiju:1 exorcist:1,f2:rats f3:double f1:double,Stunt Double,7,1,6,11,2,13
+40000,curve7,4,1,0,0,1,14.45,4,4,2,redshirts:1 counselors:2 babykaiju:1 captain:1,f2:rats f3:double f1:double,Stunt Double,8,0,8,3,5,8
+40000,curve7,4,1,0,0,0,29.25,4,4,2,redshirts:1 counselors:1 babykaiju:1 exorcist:1,f2:rats f3:double f1:double,Stunt Double,7,1,6,11,2,13
+40000,curve7,4,1,0,0,1,19.5,4,4,2,redshirts:1 counselors:1 redshirts:1 smuggler:1,f2:rats f3:double f1:double,Stunt Double,7,0,7,0,4,4
+40000,curve7,4,1,0,0,1,28.35,3,4,2,cheersquad:2 babykaiju:2 giantmoth:1,rival:hugo,Hugo's cast,8,0,8,1,2,3
+40000,curve7,5,1,0,0,1,12.25,4,4,2,redshirts:1 counselors:2 zombies:1 captain:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,8,0,8,13,5,18
+40000,curve7,5,1,0,0,1,19.05,4,4,2,counselors:1 babysitter:2 captain:1 babysitter:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,7,0,7,12,5,17
+40000,curve7,5,1,0,0,1,28.55,4,4,3,redshirts:1 lookouts:2 redshirts:1 captain:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,8,0,8,5,5,10
+40000,curve7,5,1,0,0,0,12.25,4,4,3,counselors:1 babykaiju:1 exorcist:1 babykaiju:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,6,1,5,10,3,13
+40000,curve7,5,1,0,0,1,12.25,4,4,2,redshirts:1 counselors:2 babykaiju:1 captain:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,8,0,8,13,5,18
+40000,curve7,5,1,0,0,0,12.25,4,4,3,counselors:1 babykaiju:1 exorcist:1 babykaiju:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,6,1,5,10,3,13
+40000,curve7,5,1,0,0,1,19.25,4,4,3,redshirts:1 counselors:1 redshirts:1 smuggler:1,f2:rats f0:mooks f1:rats f3:rats,Backstage Rats,7,0,7,0,5,5
+40000,curve7,5,1,0,0,0,18.95,3,4,2,cheersquad:2 babykaiju:2 giantmoth:1,rival:sal,Sal's cast,8,1,7,1,1,2
+40000,curve7,6,1,0,0,1,13.45,4,4,2,redshirts:1 counselors:2 zombies:2 captain:1,f1:mic b1:mic b3:mic,Boom Mic Operator,8,0,8,22,6,28
+40000,curve7,6,1,0,0,0,14.8,4,4,2,counselors:1 babysitter:2 captain:1 babysitter:1,f1:mic b1:mic b3:mic,Boom Mic Operator,7,1,6,23,1,24
+40000,curve7,6,1,0,0,1,7.95,4,4,3,rifle:2 lookouts:2 captain:1 telepath:1,f1:mic b1:mic b3:mic,Boom Mic Operator,8,0,8,13,6,19
+40000,curve7,6,1,0,0,1,11,4,4,3,babykaiju:2 exorcist:1 chainsaw:1 finalgirl:1,f1:mic b1:mic b3:mic,Boom Mic Operator,5,0,5,13,4,17
+40000,curve7,6,1,0,0,1,19.15,4,4,2,redshirts:1 counselors:2 babykaiju:1 captain:1,f1:mic b1:mic b3:mic,Boom Mic Operator,8,0,8,24,6,30
+40000,curve7,6,1,0,0,0,8.05,4,4,3,counselors:1 babykaiju:1 exorcist:1 exorcist:1,f1:mic b1:mic b3:mic,Boom Mic Operator,5,1,4,17,4,21
+40000,curve7,6,1,0,0,0,12.55,4,4,3,redshirts:1 counselors:1 redshirts:1 smuggler:1,f1:mic b1:mic b3:mic,Boom Mic Operator,7,1,6,0,1,1
+40000,curve7,6,1,0,0,0,22.75,3,4,2,cheersquad:2 babykaiju:2 giantmoth:1,rival:hugo,Hugo's cast,7,1,6,2,2,4
+40000,curve7,7,1,0,0,1,15.65,4,4,3,redshirts:1 counselors:2 zombies:2 captain:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,8,0,8,30,7,37
+40000,curve7,7,1,0,0,1,28.7,4,4,2,redshirts:1 babysitter:2 redshirts:1 captain:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,6,0,6,31,4,35
+40000,curve7,7,1,0,0,1,8.4,4,4,4,rifle:2 lookouts:2 captain:1 telepath:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,8,0,8,13,7,20
+40000,curve7,7,1,0,0,1,11.35,4,4,4,babykaiju:2 exorcist:1 chainsaw:1 finalgirl:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,5,0,5,11,5,16
+40000,curve7,7,1,0,0,1,15.65,4,4,3,redshirts:1 counselors:2 ravager:2 captain:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,8,0,8,32,7,39
+40000,curve7,7,1,0,0,1,7.25,4,4,4,exorcist:2 headcoach:1 pointguard:1 necro:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,4,0,4,6,4,10
+40000,curve7,7,1,0,0,1,11.4,4,4,3,redshirts:2 counselors:1 smuggler:1 lurker:1,f1:mic b1:actor b2:actor b3:actor,Method Actor,6,0,6,0,4,4
+40000,curve7,7,1,0,0,0,22.95,3,4,2,cheersquad:2 babykaiju:2 giantmoth:1,rival:quill,Prof. Quill's cast,6,1,5,3,2,5
+40000,curve7,8,1,0,0,1,8.9,4,4,4,zombies:2 captain:1 skelarch:2 captain:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,8,0,8,21,7,28
+40000,curve7,8,1,0,0,0,19.55,4,4,2,redshirts:1 babysitter:2 redshirts:1 captain:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,6,1,5,43,1,44
+40000,curve7,8,1,0,0,1,8.5,5,5,5,rifle:2 lookouts:2 captain:1 telepath:1 starknight:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,8,0,8,5,7,12
+40000,curve7,8,1,0,0,1,9.15,5,5,5,babykaiju:2 exorcist:1 chainsaw:1 finalgirl:1 starknight:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,5,0,5,0,5,5
+40000,curve7,8,1,0,0,1,10.1,4,4,3,counselors:2 ravager:2 captain:1 gunslinger:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,8,0,8,42,7,49
+40000,curve7,8,1,0,0,1,4.95,4,4,4,exorcist:2 headcoach:1 pointguard:1 necro:2,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,4,0,4,9,5,14
+40000,curve7,8,1,0,0,1,13.25,4,4,3,redshirts:2 counselors:2 smuggler:1 smuggler:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,6,0,6,1,5,6
+40000,curve7,8,1,0,0,0,24.55,3,4,2,cheersquad:2 babykaiju:2 giantmoth:1,f2:rats f1:mooks f3:rats f0:mooks,Backstage Rats,5,1,4,5,3,8
+40000,curve7,9,1,1,0,1,25.25,4,4,4,zombies:2 captain:2 starknight:1 starknight:1,f1:double b0:mic b2:editor,The Editor,8,0,8,6,7,13
+40000,curve7,9,1,1,0,1,36.25,5,5,5,redshirts:1 babysitter:2 redshirts:1 captain:1 scorpion:1,f1:double b0:mic b2:editor,The Editor,5,0,5,8,4,12
+40000,curve7,9,1,1,0,1,19.9,5,5,5,rifle:2 lookouts:2 captain:1 starknight:2 scorpion:1,f1:double b0:mic b2:editor,The Editor,8,0,8,7,7,14
+40000,curve7,9,1,1,0,1,28.45,5,5,5,babykaiju:2 chainsaw:1 finalgirl:1 starknight:1 finalgirl:1,f1:double b0:mic b2:editor,The Editor,5,0,5,8,6,14
+40000,curve7,9,1,1,0,1,22.95,5,5,5,counselors:2 ravager:2 captain:1 gunslinger:2 gunslinger:1,f1:double b0:mic b2:editor,The Editor,8,0,8,4,7,11
+40000,curve7,9,1,1,0,1,17.8,5,5,5,babykaiju:2 exorcist:2 headcoach:1 pointguard:1 necro:2,f1:double b0:mic b2:editor,The Editor,4,0,4,0,5,5
+40000,curve7,9,1,1,0,0,18.95,4,4,3,redshirts:2 counselors:2 smuggler:2 droids:1,f1:double b0:mic b2:editor,The Editor,6,2,4,6,1,7
+40000,curve7,9,1,1,0,0,13.55,3,4,3,cheersquad:2 babykaiju:2 giantmoth:1,f1:double b0:mic b2:editor,The Editor,4,2,2,4,4,8
+40000,curve7,10,2,0,0,1,38.6,4,4,4,captain:2 starknight:1 captain:1 starknight:1,f0:mech b0:sniper f1:mooks,Driving-Test Mech,8,0,8,19,7,26
+40000,curve7,10,2,0,0,0,13.25,5,5,5,redshirts:1 babysitter:2 redshirts:1 captain:1 scorpion:1,f0:mech b0:sniper f1:mooks,Driving-Test Mech,5,1,4,18,1,19
+40000,curve7,10,2,0,0,1,21.95,5,5,5,rifle:2 lookouts:2 captain:1 starknight:2 scorpion:1,f0:mech b0:sniper f1:mooks,Driving-Test Mech,8,0,8,20,7,27
+40000,curve7,10,2,0,0,0,36,6,6,6,babykaiju:2 chainsaw:1 finalgirl:1 starknight:1 kids:1 finalgirl:1,f0:mech b0:sniper f1:mooks,Driving-Test Mech,5,1,4,0,1,1
+40000,curve7,10,2,0,0,0,16.35,5,5,5,counselors:2 ravager:2 gunslinger:2 smuggler:2 gunslinger:1,f0:mech b0:sniper f1:mooks,Driving-Test Mech,8,1,7,15,1,16
+40000,curve7,10,2,0,0,0,17.95,5,5,5,babykaiju:2 exorcist:2 headcoach:1 necro:2 bonesetter:1,f0:mech b0:sniper f1:mooks,Driving-Test Mech,4,1,3,2,1,3
+40000,curve7,10,2,0,0,0,7.95,4,4,4,redshirts:2 counselors:2 smuggler:2 droids:2,f0:mech b0:sniper f1:mooks,Driving-Test Mech,4,1,3,1,2,3
+40000,curve7,10,2,0,0,0,23.2,3,4,4,cheersquad:2 babykaiju:2 giantmoth:1,rival:rex,Rex's cast,2,1,1,0,4,4
+40000,curve7,11,2,0,0,0,21,5,5,5,captain:2 starknight:1 captain:1 starknight:1 telepath:1,f3:double b2:auditor b1:sniper,Stunt Double,8,1,7,20,1,21
+40000,curve7,11,2,0,0,0,14.45,5,5,5,redshirts:1 captain:1 exorcist:2 scorpion:1 gravegolem:2,f3:double b2:auditor b1:sniper,Stunt Double,4,1,3,23,2,25
+40000,curve7,11,2,0,0,0,25.65,5,5,5,rifle:2 captain:1 starknight:2 scorpion:1 necro:2,f3:double b2:auditor b1:sniper,Stunt Double,8,1,7,32,1,33
+40000,curve7,11,2,0,0,1,17.3,6,6,6,babykaiju:2 chainsaw:1 finalgirl:2 starknight:1 queen:2 chainsaw:1,f3:double b2:auditor b1:sniper,Stunt Double,4,0,4,1,4,5
+40000,curve7,11,2,0,0,0,15.85,5,5,5,counselors:2 gunslinger:2 smuggler:2 gunslinger:1 gravegolem:2,f3:double b2:auditor b1:sniper,Stunt Double,7,1,6,22,2,24
+40000,curve7,11,2,0,0,0,14.7,5,5,5,exorcist:2 pointguard:2 necro:2 bonesetter:1 queen:2,f3:double b2:auditor b1:sniper,Stunt Double,3,1,2,6,2,8
+40000,curve7,11,2,0,0,0,22.05,4,4,4,redshirts:2 smuggler:2 droids:2 queen:2,f3:double b2:auditor b1:sniper,Stunt Double,3,1,2,5,2,7
+40000,curve7,11,2,0,0,0,5.85,4,5,5,cheersquad:2 babykaiju:2 driver:2 giantmoth:1,rival:kit,Kit's cast,1,1,0,0,4,4

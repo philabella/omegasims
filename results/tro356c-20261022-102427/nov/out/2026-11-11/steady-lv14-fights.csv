@@ -1,0 +1,89 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,15.2,3,3,1,skelarch:2 rifle:1 rifle:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,19.2,3,3,1,skelarch:2 rifle:1 beetles:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,0,16.05,3,3,1,skelarch:1 skelarch:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,16.05,3,3,1,skelarch:1 skelarch:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,1,13.95,3,3,1,skelarch:1 rifle:2 skelarch:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,0,16.05,3,3,1,skelarch:1 skelarch:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,17.25,3,3,1,skelarch:1 skelarch:1 muscle:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,28.35,3,3,1,muscle:1 beetles:1 deputy:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,7.9,3,4,2,skelarch:2 rifle:2 ravager:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,10.35,4,4,2,skelarch:2 beetles:1 ravager:1 ravager:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,7.9,3,3,1,skelarch:2 rifle:2 beetles:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,5,1,6
+40000,curve7,2,1,0,0,1,9.2,4,4,2,skelarch:1 skelarch:1 rifle:2 muscle:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,4.2,4,4,2,rifle:2 skelarch:1 vampbat:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,2,1,0,0,0,10.25,3,3,1,skelarch:1 skelarch:1 rifle:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,9,2,11
+40000,curve7,2,1,0,0,1,15.45,4,4,2,skelarch:1 skelarch:1 muscle:2 commando:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,1,1,2
+40000,curve7,2,1,0,0,0,21.35,4,4,2,muscle:1 beetles:1 deputy:1 muscle:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,0,2,2
+40000,curve7,4,1,0,0,1,17.9,4,4,2,gravegolem:2 rifle:2 ravager:1 ravager:1,f1:double f0:double f3:double,Stunt Double,9,0,9,11,5,16
+40000,curve7,4,1,0,0,1,14.55,4,4,2,gravegolem:2 beetles:1 ravager:2 smuggler:1,f1:double f0:double f3:double,Stunt Double,9,0,9,9,5,14
+40000,curve7,4,1,0,0,1,20.25,4,4,2,gravegolem:2 rifle:2 beetles:1 beetles:1,f1:double f0:double f3:double,Stunt Double,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,19.6,4,4,2,skelarch:1 fieldmed:2 muscle:1 beetles:1,f1:double f0:double f3:double,Stunt Double,8,0,8,11,5,16
+40000,curve7,4,1,0,0,1,11.3,4,4,2,skelarch:1 fieldmed:2 skelarch:1 vampbat:1,f1:double f0:double f3:double,Stunt Double,9,0,9,12,5,17
+40000,curve7,4,1,0,0,1,20.25,4,4,2,gravegolem:1 skelarch:1 rifle:1 vampbat:1,f1:double f0:double f3:double,Stunt Double,7,0,7,0,4,4
+40000,curve7,4,1,0,0,1,19.95,4,4,2,skelarch:1 skelarch:1 fixer:2 commando:2,f1:double f0:double f3:double,Stunt Double,8,0,8,11,5,16
+40000,curve7,4,1,0,0,0,26.7,4,4,2,muscle:2 beetles:1 deputy:1 beetles:1,rival:hugo,Hugo's cast,7,1,6,14,2,16
+40000,curve7,5,1,0,0,1,14,4,4,2,gravegolem:2 rifle:2 ravager:2 dodgeball:1,b2:mic f1:double b3:mic,Stunt Double,9,0,9,20,6,26
+40000,curve7,5,1,0,0,1,11.75,4,4,2,gravegolem:2 beetles:1 ravager:2 smuggler:1,b2:mic f1:double b3:mic,Stunt Double,9,0,9,20,6,26
+40000,curve7,5,1,0,0,1,16.05,4,4,4,gravegolem:2 rifle:2 beetles:2 dodgeball:1,b2:mic f1:double b3:mic,Stunt Double,8,0,8,0,5,5
+40000,curve7,5,1,0,0,1,25.05,4,4,2,skelarch:1 fieldmed:2 muscle:1 beetles:1,b2:mic f1:double b3:mic,Stunt Double,8,0,8,22,5,27
+40000,curve7,5,1,0,0,1,15.8,4,4,2,fieldmed:2 skelarch:1 vampbat:1 babysitter:1,b2:mic f1:double b3:mic,Stunt Double,9,0,9,21,6,27
+40000,curve7,5,1,0,0,1,14.2,4,4,3,gravegolem:1 skelarch:1 rifle:1 vampbat:1,b2:mic f1:double b3:mic,Stunt Double,7,0,7,0,5,5
+40000,curve7,5,1,0,0,0,13.6,4,4,2,skelarch:1 skelarch:1 fixer:2 commando:2,b2:mic f1:double b3:mic,Stunt Double,8,1,7,22,1,23
+40000,curve7,5,1,0,0,0,32.05,4,4,2,muscle:2 beetles:2 deputy:1 nurse:1,rival:kit,Kit's cast,6,1,5,19,3,22
+40000,curve7,6,1,0,0,1,12.15,4,4,3,gravegolem:2 rifle:2 ravager:2 dodgeball:2,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,9,0,9,20,7,27
+40000,curve7,6,1,0,0,1,10.1,4,4,2,gravegolem:2 beetles:1 ravager:2 smuggler:1,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,9,0,9,33,7,40
+40000,curve7,6,1,0,0,1,11.95,4,4,4,gravegolem:2 beetles:2 gravegolem:1 necro:1,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,8,0,8,1,6,7
+40000,curve7,6,1,0,0,1,16.05,4,4,2,skelarch:1 fieldmed:2 beetles:1 beetles:1,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,8,0,8,33,6,39
+40000,curve7,6,1,0,0,1,7.45,4,4,3,skelarch:1 vampbat:1 riot:2 fieldmed:1,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,9,0,9,20,7,27
+40000,curve7,6,1,0,0,1,15.85,4,4,3,gravegolem:1 skelarch:1 rifle:1 vampbat:1,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,7,0,7,0,5,5
+40000,curve7,6,1,0,0,1,14.25,4,4,2,fixer:2 commando:2 nurse:1 nurse:1,b3:mic f2:mooks b0:mic f1:rats,Boom Mic Operator,7,0,7,25,4,29
+40000,curve7,6,1,0,0,0,33.45,4,4,3,muscle:2 beetles:2 deputy:2 nurse:1,rival:quill,Prof. Quill's cast,5,1,4,20,4,24
+40000,curve7,7,1,0,0,1,11.4,4,4,3,gravegolem:2 ravager:2 dodgeball:2 queen:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,9,0,9,23,7,30
+40000,curve7,7,1,0,0,1,12.1,4,4,2,gravegolem:2 beetles:1 ravager:2 smuggler:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,9,0,9,41,7,48
+40000,curve7,7,1,0,0,1,19.85,4,4,4,gravegolem:2 beetles:2 gravegolem:1 necro:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,8,0,8,3,7,10
+40000,curve7,7,1,0,0,1,12.05,4,4,3,skelarch:1 fieldmed:2 beetles:1 beetles:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,8,0,8,34,7,41
+40000,curve7,7,1,0,0,1,6.2,4,4,3,vampbat:1 riot:2 fieldmed:1 wraith:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,9,0,9,24,7,31
+40000,curve7,7,1,0,0,1,12.8,4,4,3,gravegolem:1 skelarch:1 rifle:1 vampbat:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,7,0,7,0,6,6
+40000,curve7,7,1,0,0,1,18.6,4,4,3,fixer:2 commando:2 nurse:2 nurse:1,f2:rats f3:rats f0:mooks f1:mooks,Backstage Rats,7,0,7,20,5,25
+40000,curve7,7,1,0,0,1,17.8,4,4,4,muscle:2 beetles:2 bounty:2 safecracker:2,rival:hugo,Hugo's cast,2,0,2,3,1,4
+40000,curve7,8,1,0,0,1,7.7,4,4,4,gravegolem:2 ravager:2 queen:1 wraith:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,9,0,9,20,7,27
+40000,curve7,8,1,0,0,1,12.1,4,4,3,gravegolem:2 beetles:1 ravager:2 smuggler:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,9,0,9,53,7,60
+40000,curve7,8,1,0,0,1,9.55,5,5,5,gravegolem:2 rifle:2 beetles:2 gravegolem:1 necro:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,8,0,8,0,7,7
+40000,curve7,8,1,0,0,1,17.25,4,4,4,fieldmed:2 muscle:2 beetles:1 beetles:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,8,0,8,33,7,40
+40000,curve7,8,1,0,0,1,16.05,4,4,4,fieldmed:2 riot:2 babysitter:2 fieldmed:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,9,0,9,20,7,27
+40000,curve7,8,1,0,0,0,9.3,4,4,3,gravegolem:1 skelarch:1 rifle:1 vampbat:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,7,1,6,0,1,1
+40000,curve7,8,1,0,0,1,18.65,4,4,3,fixer:2 commando:2 nurse:2 nurse:1,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,7,0,7,32,5,37
+40000,curve7,8,1,0,0,1,7.25,4,4,4,muscle:2 beetles:2 bounty:2 safecracker:2,f1:mic b2:mic b3:mic b1:mic,Boom Mic Operator,2,0,2,6,5,11
+40000,curve7,9,1,1,0,1,13.25,4,4,4,gravegolem:2 queen:2 wraith:2 vampbat:2,f0:mooks f2:mooks b1:editor,The Editor,9,0,9,6,7,13
+40000,curve7,9,1,1,0,1,34.35,5,5,5,gravegolem:2 beetles:1 ravager:2 smuggler:1 nurse:1,f0:mooks f2:mooks b1:editor,The Editor,9,0,9,34,7,41
+40000,curve7,9,1,1,0,1,28.2,5,5,5,gravegolem:2 beetles:2 vampbat:2 gravegolem:1 necro:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,11,7,18
+40000,curve7,9,1,1,0,1,26.4,5,5,5,fieldmed:3 muscle:2 beetles:2 scientist:2 headcoach:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,1,7,8
+40000,curve7,9,1,1,0,1,17.4,4,4,4,skelarch:1 riot:2 wraith:2 commando:2,f0:mooks f2:mooks b1:editor,The Editor,9,0,9,6,7,13
+40000,curve7,9,1,1,0,0,9,4,4,3,gravegolem:1 skelarch:1 rifle:1 vampbat:1,f0:mooks f2:mooks b1:editor,The Editor,6,2,4,4,2,6
+40000,curve7,9,1,1,0,1,42.9,5,5,5,skelarch:1 fixer:2 commando:2 nurse:2 nurse:1,f0:mooks f2:mooks b1:editor,The Editor,7,0,7,13,6,19
+40000,curve7,9,1,1,0,1,25.7,4,4,4,muscle:2 nurse:2 bounty:2 safecracker:2,f0:mooks f2:mooks b1:editor,The Editor,2,0,2,6,5,11
+40000,curve7,10,2,0,0,1,8.25,4,4,4,gravegolem:2 queen:2 wraith:2 vampbat:2,f1:mic b0:mic b1:mic,Boom Mic Operator,9,0,9,19,7,26
+40000,curve7,10,2,0,0,0,9.05,5,5,5,gravegolem:2 beetles:1 ravager:2 nurse:1 mule:1,f1:mic b0:mic b1:mic,Boom Mic Operator,9,1,8,50,1,51
+40000,curve7,10,2,0,0,1,18.8,6,6,6,gravegolem:2 rifle:2 beetles:2 vampbat:2 gravegolem:1 necro:1,f1:mic b0:mic b1:mic,Boom Mic Operator,8,0,8,4,7,11
+40000,curve7,10,2,0,0,0,14.9,5,5,5,fieldmed:3 muscle:2 beetles:2 scientist:2 headcoach:1,f1:mic b0:mic b1:mic,Boom Mic Operator,8,1,7,13,1,14
+40000,curve7,10,2,0,0,0,5.95,4,4,4,skelarch:1 riot:2 wraith:2 commando:2,f1:mic b0:mic b1:mic,Boom Mic Operator,9,1,8,19,1,20
+40000,curve7,10,2,0,0,0,3.7,4,4,4,gravegolem:1 skelarch:1 rifle:1 vampbat:1,f1:mic b0:mic b1:mic,Boom Mic Operator,4,1,3,0,2,2
+40000,curve7,10,2,0,0,0,7.05,5,5,5,skelarch:1 fixer:2 commando:2 nurse:2 nurse:1,f1:mic b0:mic b1:mic,Boom Mic Operator,7,1,6,25,1,26
+40000,curve7,10,2,0,0,1,41,5,5,5,muscle:2 beetles:2 nurse:2 bounty:2 safecracker:2,rival:quill,Prof. Quill's cast,2,0,2,0,3,3
+40000,curve7,11,2,0,0,1,6.45,5,5,5,gravegolem:2 ravager:2 queen:2 wraith:2 vampbat:2,b2:mic b0:mic f0:ninjas,Boom Mic Operator,9,0,9,20,7,27
+40000,curve7,11,2,0,0,0,12.5,5,5,5,gravegolem:2 ravager:2 nurse:1 lurker:1 observer:1,b2:mic b0:mic f0:ninjas,Boom Mic Operator,8,1,7,53,2,55
+40000,curve7,11,2,0,0,0,16.5,6,6,6,gravegolem:2 beetles:2 vampbat:2 gravegolem:1 necro:1 gravegolem:1,b2:mic b0:mic f0:ninjas,Boom Mic Operator,8,1,7,14,1,15
+40000,curve7,11,2,0,0,0,13.8,5,5,5,fieldmed:3 muscle:2 beetles:2 scientist:2 headcoach:1,b2:mic b0:mic f0:ninjas,Boom Mic Operator,7,1,6,20,2,22
+40000,curve7,11,2,0,0,1,14.85,4,4,4,skelarch:1 riot:2 wraith:2 commando:2,b2:mic b0:mic f0:ninjas,Boom Mic Operator,8,0,8,27,4,31
+40000,curve7,11,2,0,0,0,3.7,4,4,4,gravegolem:1 skelarch:1 vampbat:2 gunslinger:1,b2:mic b0:mic f0:ninjas,Boom Mic Operator,3,1,2,0,3,3
+40000,curve7,11,2,0,0,0,6.5,5,5,5,fixer:2 commando:2 nurse:2 fixer:1 starknight:1,b2:mic b0:mic f0:ninjas,Boom Mic Operator,6,1,5,25,2,27
+40000,curve7,11,2,0,0,0,7.9,5,5,5,muscle:2 beetles:2 nurse:2 bounty:2 safecracker:2,rival:kit,Kit's cast,2,1,1,6,1,7
+40000,curve7,13,2,0,0,1,7.35,5,5,5,gravegolem:3 queen:2 wraith:2 vampbat:2 necro:2,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,7,0,7,20,9,29
+40000,curve7,13,2,0,0,1,28.25,6,6,6,gravegolem:2 ravager:2 nurse:1 lurker:1 observer:1 lurker:1,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,5,0,5,61,4,65
+40000,curve7,13,2,0,0,1,18.5,6,6,7,gravegolem:3 rifle:2 beetles:2 vampbat:2 necro:1 necro:1,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,5,0,5,6,6,12
+40000,curve7,13,2,0,0,1,41.5,5,5,5,fieldmed:3 radio:2 scientist:2 headcoach:2 sheriff:1,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,4,0,4,4,4,8
+40000,curve7,13,2,0,0,1,13.45,5,5,5,skelarch:1 fieldmed:3 riot:2 wraith:2 commando:2,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,6,0,6,22,6,28
+40000,curve7,13,2,0,0,0,14.25,5,5,5,gravegolem:1 skelarch:1 vampbat:2 gunslinger:1 radio:1,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,2,1,1,0,6,6
+40000,curve7,13,2,0,0,0,36.6,6,6,6,fixer:2 commando:2 nurse:2 nurse:1 fixer:1 starknight:1,b2:auditor b3:auditor f3:mech b1:actor,Driving-Test Mech,5,1,4,25,4,29
+40000,curve7,13,2,0,0,0,18.65,5,5,5,nurse:2 bounty:2 safecracker:2 insideman:1 insideman:1,rival:duke,Duke's cast,1,1,0,6,2,8

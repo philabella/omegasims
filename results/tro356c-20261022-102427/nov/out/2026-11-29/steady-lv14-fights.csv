@@ -1,0 +1,209 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,12.85,3,3,1,reporter:1 skelarch:1 commando:2,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,12.85,3,3,1,reporter:1 skelarch:1 commando:2,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,0,20.8,3,3,1,redshirts:1 deputy:1 muscle:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,16,3,3,1,reporter:1 skelarch:1 commando:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,16,3,3,1,reporter:1 skelarch:1 commando:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,17.2,3,3,1,reporter:1 skelarch:2 commando:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,16,3,3,1,reporter:1 skelarch:1 commando:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,1,23.05,3,3,1,spitters:1 dodgeball:2 riot:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,2,1,0,0,1,10.85,3,4,2,reporter:1 skelarch:2 commando:2,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,11.4,4,4,2,reporter:1 skelarch:1 commando:2 skelarch:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,0,24.3,3,4,2,redshirts:2 deputy:1 muscle:1,f1:double b1:actor,Stunt Double,8,1,7,0,2,2
+40000,curve7,2,1,0,0,1,17.35,4,4,2,reporter:1 skelarch:2 commando:1 commando:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,19.15,4,4,2,reporter:1 skelarch:2 skelarch:1 radio:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,0,24.3,3,4,2,reporter:2 skelarch:2 commando:1,f1:double b1:actor,Stunt Double,8,1,7,0,2,2
+40000,curve7,2,1,0,0,0,23.1,4,4,2,reporter:1 skelarch:1 skelarch:1 waterboy:1,f1:double b1:actor,Stunt Double,8,1,7,1,2,3
+40000,curve7,2,1,0,0,1,22.7,4,4,2,spitters:1 dodgeball:2 riot:1 riot:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,4,1,0,0,0,10.7,4,4,2,reporter:1 skelarch:2 commando:2 reporter:1,f0:rats b2:actor f1:rats,Method Actor,9,1,8,15,1,16
+40000,curve7,4,1,0,0,0,9,4,4,2,reporter:1 skelarch:1 commando:2 skelarch:1,f0:rats b2:actor f1:rats,Method Actor,9,1,8,16,1,17
+40000,curve7,4,1,0,0,0,17,4,4,2,redshirts:2 deputy:1 muscle:1 deputy:1,f0:rats b2:actor f1:rats,Method Actor,7,1,6,15,2,17
+40000,curve7,4,1,0,0,1,11.3,4,4,2,reporter:1 skelarch:2 commando:1 zombies:1,f0:rats b2:actor f1:rats,Method Actor,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,11.5,4,4,2,reporter:1 skelarch:2 skelarch:1 radio:2,f0:rats b2:actor f1:rats,Method Actor,8,0,8,10,5,15
+40000,curve7,4,1,0,0,1,3.35,4,4,2,reporter:2 skelarch:2 commando:1 lurker:1,f0:rats b2:actor f1:rats,Method Actor,7,0,7,14,4,18
+40000,curve7,4,1,0,0,0,5.1,4,4,2,reporter:1 skelarch:1 skelarch:1 waterboy:1,f0:rats b2:actor f1:rats,Method Actor,7,1,6,17,2,19
+40000,curve7,4,1,0,0,1,20.45,4,4,2,spitters:1 dodgeball:2 riot:2 riot:1,rival:hugo,Hugo's cast,9,0,9,14,2,16
+40000,curve7,5,1,0,0,1,13.4,4,4,2,reporter:1 skelarch:2 commando:2 reporter:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,8,0,8,21,4,25
+40000,curve7,5,1,0,0,0,18.45,4,4,2,reporter:1 skelarch:1 commando:2 skelarch:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,8,1,7,23,2,25
+40000,curve7,5,1,0,0,0,26.85,4,4,2,redshirts:2 deputy:1 muscle:1 deputy:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,6,1,5,23,3,26
+40000,curve7,5,1,0,0,1,6.5,4,4,3,skelarch:2 commando:1 zombies:2 kids:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,8,0,8,11,5,16
+40000,curve7,5,1,0,0,1,7.3,4,4,3,skelarch:2 skelarch:1 radio:2 rifle:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,8,0,8,9,5,14
+40000,curve7,5,1,0,0,1,5.4,4,4,2,reporter:2 skelarch:2 lurker:1 lurker:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,7,0,7,20,5,25
+40000,curve7,5,1,0,0,0,10.05,4,4,2,reporter:2 skelarch:1 commando:1 waterboy:1,f1:actor b0:mic b1:mic b3:actor,Method Actor,6,1,5,24,3,27
+40000,curve7,5,1,0,0,1,10.25,4,4,2,spitters:2 dodgeball:2 riot:2 riot:1,rival:sal,Sal's cast,9,0,9,21,3,24
+40000,curve7,6,1,0,0,1,7.25,4,4,3,skelarch:2 commando:2 babykaiju:2 hunter:1,f2:rats f3:double f0:double f1:double,Stunt Double,8,0,8,19,5,24
+40000,curve7,6,1,0,0,0,17.15,4,4,2,reporter:1 skelarch:1 commando:2 skelarch:1,f2:rats f3:double f0:double f1:double,Stunt Double,7,1,6,32,2,34
+40000,curve7,6,1,0,0,0,31.4,4,4,2,redshirts:2 deputy:1 muscle:1 deputy:1,f2:rats f3:double f0:double f1:double,Stunt Double,5,1,4,33,4,37
+40000,curve7,6,1,0,0,1,11.65,4,4,4,skelarch:2 commando:1 zombies:2 kids:1,f2:rats f3:double f0:double f1:double,Stunt Double,8,0,8,10,6,16
+40000,curve7,6,1,0,0,1,9.75,4,4,4,skelarch:2 skelarch:1 radio:2 rifle:1,f2:rats f3:double f0:double f1:double,Stunt Double,8,0,8,8,6,14
+40000,curve7,6,1,0,0,1,12.15,4,4,3,reporter:2 skelarch:2 lurker:1 tanks:2,f2:rats f3:double f0:double f1:double,Stunt Double,7,0,7,20,5,25
+40000,curve7,6,1,0,0,1,30.5,4,4,3,reporter:2 skelarch:1 commando:1 waterboy:2,f2:rats f3:double f0:double f1:double,Stunt Double,5,0,5,22,4,26
+40000,curve7,6,1,0,0,1,13.4,4,4,3,spitters:2 dodgeball:2 riot:2 radio:1,rival:goldie,Goldie's cast,9,0,9,20,4,24
+40000,curve7,7,1,0,0,1,6.2,4,4,3,commando:2 babykaiju:2 hunter:1 hunter:1,f2:mooks f3:double f1:double b1:actor,Stunt Double,8,0,8,28,5,33
+40000,curve7,7,1,0,0,0,13.65,4,4,2,reporter:1 skelarch:1 commando:2 skelarch:1,f2:mooks f3:double f1:double b1:actor,Stunt Double,6,1,5,42,3,45
+40000,curve7,7,1,0,0,1,10.25,5,5,5,redshirts:2 deputy:2 pointguard:1 deputy:1 gunslinger:1,f2:mooks f3:double f1:double b1:actor,Stunt Double,4,0,4,0,4,4
+40000,curve7,7,1,0,0,1,10.2,4,4,4,skelarch:2 zombies:2 necro:1 headcoach:1,f2:mooks f3:double f1:double b1:actor,Stunt Double,8,0,8,16,7,23
+40000,curve7,7,1,0,0,1,11.4,4,4,4,radio:2 necro:1 headcoach:1 gravegolem:1,f2:mooks f3:double f1:double b1:actor,Stunt Double,8,0,8,8,7,15
+40000,curve7,7,1,0,0,1,6.45,4,4,4,reporter:2 skelarch:2 lurker:2 tanks:2,f2:mooks f3:double f1:double b1:actor,Stunt Double,7,0,7,18,6,24
+40000,curve7,7,1,0,0,0,22.05,4,4,3,reporter:2 skelarch:1 commando:1 waterboy:2,f2:mooks f3:double f1:double b1:actor,Stunt Double,5,1,4,32,1,33
+40000,curve7,7,1,0,0,1,9,4,4,3,spitters:2 dodgeball:2 riot:2 finalgirl:1,rival:sal,Sal's cast,9,0,9,24,4,28
+40000,curve7,8,1,0,0,1,7,4,4,4,reporter:2 commando:2 babykaiju:2 hunter:2,f1:double b1:mic b0:mic f0:double,Stunt Double,8,0,8,20,6,26
+40000,curve7,8,1,0,0,0,11.2,4,4,3,reporter:1 skelarch:1 commando:2 skelarch:1,f1:double b1:mic b0:mic f0:double,Stunt Double,5,1,4,50,4,54
+40000,curve7,8,1,0,0,1,9.15,5,5,5,redshirts:2 deputy:2 pointguard:2 gunslinger:1 waterboy:1,f1:double b1:mic b0:mic f0:double,Stunt Double,4,0,4,1,5,6
+40000,curve7,8,1,0,0,1,7.4,5,5,5,skelarch:2 commando:2 zombies:2 necro:1 headcoach:1,f1:double b1:mic b0:mic f0:double,Stunt Double,8,0,8,11,7,18
+40000,curve7,8,1,0,0,1,9.75,4,4,4,radio:2 necro:2 headcoach:1 gravegolem:1,f1:double b1:mic b0:mic f0:double,Stunt Double,8,0,8,14,7,21
+40000,curve7,8,1,0,0,1,5.4,4,4,4,reporter:2 lurker:2 tanks:2 wraith:2,f1:double b1:mic b0:mic f0:double,Stunt Double,7,0,7,22,7,29
+40000,curve7,8,1,0,0,1,20.75,5,5,5,reporter:2 skelarch:1 commando:2 skelarch:1 waterboy:2,f1:double b1:mic b0:mic f0:double,Stunt Double,4,0,4,12,4,16
+40000,curve7,8,1,0,0,1,10.45,4,4,4,spitters:2 dodgeball:2 riot:2 rifle:2,f1:double b1:mic b0:mic f0:double,Stunt Double,9,0,9,20,7,27
+40000,curve7,9,1,1,0,1,16.45,4,4,4,reporter:2 babykaiju:2 hunter:2 smuggler:2,f1:double b0:mic b2:editor,The Editor,8,0,8,3,7,10
+40000,curve7,9,1,1,0,0,13.5,4,4,4,commando:2 radio:1 radio:1 observer:1,f1:double b0:mic b2:editor,The Editor,4,2,2,2,4,6
+40000,curve7,9,1,1,0,1,34.05,5,5,5,redshirts:2 deputy:2 pointguard:2 gunslinger:1 waterboy:1,f1:double b0:mic b2:editor,The Editor,4,0,4,2,5,7
+40000,curve7,9,1,1,0,1,12.85,5,5,5,skelarch:2 headcoach:1 necro:1 waterboy:2 headcoach:1,f1:double b0:mic b2:editor,The Editor,8,0,8,9,7,16
+40000,curve7,9,1,1,0,1,16,5,5,5,radio:2 necro:2 headcoach:1 gravegolem:1 starknight:1,f1:double b0:mic b2:editor,The Editor,8,0,8,5,7,12
+40000,curve7,9,1,1,0,1,13.45,4,4,4,reporter:2 lurker:2 wraith:2 bounty:2,f1:double b0:mic b2:editor,The Editor,7,0,7,6,7,13
+40000,curve7,9,1,1,0,1,36.05,5,5,5,reporter:2 skelarch:1 commando:2 waterboy:2 fieldmed:1,f1:double b0:mic b2:editor,The Editor,4,0,4,19,5,24
+40000,curve7,9,1,1,0,1,16.05,4,4,4,riot:2 radio:2 finalgirl:2 lurker:2,f1:double b0:mic b2:editor,The Editor,9,0,9,6,7,13
+40000,curve7,10,2,0,0,0,4.5,4,4,4,hunter:2 fieldmed:2 smuggler:2 droids:2,f3:rats b1:actor f1:ninjas,Method Actor,8,1,7,16,1,17
+40000,curve7,10,2,0,0,0,4,4,4,4,commando:2 radio:1 radio:1 observer:1,f3:rats b1:actor f1:ninjas,Method Actor,2,1,1,10,4,14
+40000,curve7,10,2,0,0,1,11.3,5,5,5,deputy:2 pointguard:2 gunslinger:2 waterboy:1 starknight:1,f3:rats b1:actor f1:ninjas,Method Actor,4,0,4,4,6,10
+40000,curve7,10,2,0,0,1,6.7,5,5,5,skelarch:2 zombies:2 necro:2 headcoach:1 pointguard:1,f3:rats b1:actor f1:ninjas,Method Actor,8,0,8,17,7,24
+40000,curve7,10,2,0,0,0,9.9,5,5,5,necro:2 headcoach:1 gravegolem:1 starknight:1 brute:1,f3:rats b1:actor f1:ninjas,Method Actor,8,1,7,9,1,10
+40000,curve7,10,2,0,0,1,7.45,4,4,4,lurker:2 wraith:2 driver:2 bounty:2,f3:rats b1:actor f1:ninjas,Method Actor,7,0,7,19,10,29
+40000,curve7,10,2,0,0,0,4.85,5,5,5,reporter:2 commando:2 waterboy:2 fieldmed:1 scientist:1,f3:rats b1:actor f1:ninjas,Method Actor,4,1,3,27,1,28
+40000,curve7,10,2,0,0,0,8.7,4,4,4,riot:2 radio:2 finalgirl:2 lurker:2,rival:echo,Echo's cast,9,1,8,21,1,22
+40000,curve7,11,2,0,0,0,15.1,4,4,4,reporter:2 hunter:2 fieldmed:2 smuggler:2,b0:auditor f3:mech b2:auditor,Driving-Test Mech,7,1,6,23,2,25
+40000,curve7,11,2,0,0,0,14.2,5,5,5,commando:2 radio:1 prospector:2 radio:1 observer:1,b0:auditor f3:mech b2:auditor,Driving-Test Mech,1,1,1,2,4,6
+40000,curve7,11,2,0,0,0,22.6,5,5,5,pointguard:2 gunslinger:2 waterboy:1 starknight:1 mascot:1,b0:auditor f3:mech b2:auditor,Driving-Test Mech,4,1,3,4,1,5
+40000,curve7,11,2,0,0,0,22.8,6,6,6,skelarch:2 commando:2 zombies:2 necro:2 headcoach:1 pointguard:1,b0:auditor f3:mech b2:auditor,Driving-Test Mech,8,1,7,11,1,12
+40000,curve7,11,2,0,0,0,38,5,5,5,necro:2 gravegolem:1 starknight:1 brute:1 mascot:1,b0:auditor f3:mech b2:auditor,Driving-Test Mech,7,1,6,8,2,10
+40000,curve7,11,2,0,0,1,8.25,5,5,5,reporter:2 lurker:2 wraith:2 driver:2 bounty:2,b0:auditor f3:mech b2:auditor,Driving-Test Mech,7,0,7,23,8,31
+40000,curve7,11,2,0,0,0,21.4,6,6,6,reporter:2 commando:2 waterboy:2 fieldmed:1 observer:1 fieldmed:1,b0:auditor f3:mech b2:auditor,Driving-Test Mech,3,1,2,9,2,11
+40000,curve7,11,2,0,0,0,9.55,4,4,4,riot:2 radio:2 finalgirl:2 lurker:2,rival:goldie,Goldie's cast,8,1,7,29,2,31
+40000,curve7,13,2,0,0,0,12.1,5,5,5,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2,f1:sniper b1:auditor b0:auditor,Vampire Auditor,6,1,5,21,2,23
+40000,curve7,13,2,0,0,0,8.8,5,5,5,commando:2 radio:1 radio:1 observer:1 riot:2,f1:sniper b1:auditor b0:auditor,Vampire Auditor,3,1,2,3,4,7
+40000,curve7,13,2,0,0,0,11.75,5,5,5,pointguard:2 gunslinger:2 waterboy:1 starknight:1 mascot:1,f1:sniper b1:auditor b0:auditor,Vampire Auditor,5,1,4,16,2,18
+40000,curve7,13,2,0,0,1,9.1,6,6,6,skelarch:2 commando:2 zombies:2 necro:2 headcoach:3 pointguard:1,f1:sniper b1:auditor b0:auditor,Vampire Auditor,7,0,7,11,4,15
+40000,curve7,13,2,0,0,0,22.15,5,5,5,necro:2 gravegolem:2 brute:1 gravegolem:1 mascot:1,f1:sniper b1:auditor b0:auditor,Vampire Auditor,6,1,5,24,2,26
+40000,curve7,13,2,0,0,1,6.85,5,5,5,lurker:2 wraith:2 driver:2 bounty:2 hunter:2,f1:sniper b1:auditor b0:auditor,Vampire Auditor,7,0,7,23,8,31
+40000,curve7,13,2,0,0,0,15.85,6,6,6,reporter:2 commando:2 waterboy:2 fieldmed:2 observer:1 observer:1,f1:sniper b1:auditor b0:auditor,Vampire Auditor,4,1,3,14,2,16
+40000,curve7,13,2,0,0,1,4.05,5,5,5,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2,rival:echo,Echo's cast,7,0,7,20,1,21
+40000,curve7,14,2,0,0,0,5.95,5,5,5,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,5,1,4,30,3,33
+40000,curve7,14,2,0,0,0,4.15,5,5,5,commando:2 radio:1 radio:1 observer:1 riot:2,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,2,1,1,10,4,14
+40000,curve7,14,2,0,0,0,7.9,6,6,6,redshirts:2 deputy:2 pointguard:2 gunslinger:2 starknight:1 mascot:1,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,4,1,3,4,2,6
+40000,curve7,14,2,0,0,1,5.05,6,6,6,skelarch:2 commando:2 zombies:2 necro:2 headcoach:3 pointguard:1,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,7,0,7,13,5,18
+40000,curve7,14,2,0,0,0,11.2,6,6,6,necro:2 gravegolem:2 brute:1 gravegolem:1 mascot:1 gravegolem:1,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,5,1,4,8,3,11
+40000,curve7,14,2,0,0,1,8.2,5,5,5,lurker:2 wraith:2 driver:2 bounty:2 hunter:2,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,7,0,7,34,10,44
+40000,curve7,14,2,0,0,0,5.7,6,6,6,commando:2 waterboy:2 fieldmed:2 observer:1 observer:1 fieldmed:1,f0:figures b0:mic b3:mic b2:sniper,Holo-Sniper,3,1,2,18,3,21
+40000,curve7,14,2,0,0,1,7.95,5,5,5,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2,rival:hugo,Hugo's cast,7,0,7,22,2,24
+40000,curve7,15,2,0,0,0,24.05,6,6,6,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2 scientist:2,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,4,1,3,7,4,11
+40000,curve7,15,2,0,0,0,10.1,6,6,6,commando:2 radio:1 prospector:2 radio:1 observer:1 riot:2,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,1,1,1,0,4,4
+40000,curve7,15,2,0,0,0,15.65,6,6,6,redshirts:2 pointguard:2 gunslinger:2 starknight:1 mascot:1 dodgeball:2,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,3,1,2,4,3,7
+40000,curve7,15,2,0,0,1,7.4,6,6,6,skelarch:2 commando:2 zombies:2 necro:2 headcoach:3 observer:1,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,7,0,7,19,5,24
+40000,curve7,15,2,0,0,1,21.2,6,6,6,necro:2 gravegolem:3 brute:1 mascot:1 brute:1 sheriff:1,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,4,0,4,3,4,7
+40000,curve7,15,2,0,0,1,12.65,6,6,6,reporter:2 lurker:2 wraith:2 driver:2 bounty:2 hunter:2,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,7,0,7,23,10,33
+40000,curve7,15,2,0,0,0,28.25,6,6,7,reporter:2 commando:2 waterboy:2 fieldmed:2 observer:2 fieldmed:1,b3:auditor f3:double b1:actor b2:auditor,Stunt Double,2,1,1,0,4,4
+40000,curve7,15,2,0,0,1,6.65,5,5,5,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2,rival:echo,Echo's cast,7,0,7,28,2,30
+40000,curve7,16,2,0,0,1,24.2,6,6,6,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2 scientist:2,b3:auditor f2:double f3:double b2:actor,Stunt Double,3,0,3,5,4,9
+40000,curve7,16,2,0,0,0,13.5,6,6,6,commando:2 radio:1 radio:1 observer:1 riot:2 rifle:2,b3:auditor f2:double f3:double b2:actor,Stunt Double,1,1,1,1,4,5
+40000,curve7,16,2,0,0,0,17.1,6,6,6,redshirts:2 pointguard:2 gunslinger:2 starknight:1 mascot:1 dodgeball:2,b3:auditor f2:double f3:double b2:actor,Stunt Double,2,1,1,12,4,16
+40000,curve7,16,2,0,0,1,10.7,6,6,6,commando:2 necro:2 headcoach:3 observer:1 queen:1 queen:1,b3:auditor f2:double f3:double b2:actor,Stunt Double,7,0,7,23,6,29
+40000,curve7,16,2,0,0,1,20.2,6,6,6,necro:2 gravegolem:3 brute:2 mascot:1 necro:1 sheriff:1,b3:auditor f2:double f3:double b2:actor,Stunt Double,4,0,4,6,5,11
+40000,curve7,16,2,0,0,1,8.45,6,6,6,lurker:2 wraith:2 driver:2 bounty:2 hunter:2 scientist:2,b3:auditor f2:double f3:double b2:actor,Stunt Double,7,0,7,22,9,31
+40000,curve7,16,2,0,0,1,37,6,6,7,commando:2 waterboy:2 fieldmed:2 observer:2 fieldmed:1 observer:1,b3:auditor f2:double f3:double b2:actor,Stunt Double,1,0,1,3,4,7
+40000,curve7,16,2,0,0,1,11.2,5,5,5,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2,rival:sal,Sal's cast,7,0,7,38,3,41
+40000,curve7,17,2,0,0,1,19.8,6,6,6,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2 scientist:2,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,3,0,3,13,5,18
+40000,curve7,17,2,0,0,1,18.85,6,6,6,commando:2 babykaiju:2 prospector:2 observer:1 riot:2 sheriff:1,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,1,0,1,2,4,6
+40000,curve7,17,2,0,0,0,11.6,6,6,6,deputy:2 pointguard:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,1,1,1,22,4,26
+40000,curve7,17,2,0,0,1,6.55,6,6,7,skelarch:2 zombies:2 necro:2 headcoach:3 queen:2 gunslinger:1,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,7,0,7,8,7,15
+40000,curve7,17,2,0,0,1,27.65,6,6,6,necro:2 gravegolem:3 brute:2 mascot:1 sheriff:1 brute:1,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,4,0,4,5,5,10
+40000,curve7,17,2,0,0,0,14.6,6,6,6,lurker:2 wraith:2 driver:2 bounty:2 hunter:2 scientist:2,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,7,1,6,32,5,37
+40000,curve7,17,2,0,0,1,13,6,6,7,commando:2 waterboy:2 fieldmed:2 observer:2 fieldmed:1 observer:1,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,1,0,1,12,5,17
+40000,curve7,17,2,0,0,1,9.1,6,6,6,spitters:2 riot:2 radio:2 rifle:2 finalgirl:3 lurker:2,f3:mooks f2:mooks f0:mooks f1:mooks b3:mooks,Nameless Mooks,7,0,7,27,7,34
+40000,curve7,18,2,1,0,0,37.1,6,6,7,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2 scientist:2,f1:mech f2:mech b1:shared,The Shared Universe,3,2,1,0,1,1
+40000,curve7,18,2,1,0,0,17.1,6,6,6,commando:2 babykaiju:2 prospector:2 observer:1 riot:2 sheriff:1,f1:mech f2:mech b1:shared,The Shared Universe,1,2,1,11,1,12
+40000,curve7,18,2,1,0,0,14.05,6,6,7,deputy:2 pointguard:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f1:mech f2:mech b1:shared,The Shared Universe,1,2,1,4,4,8
+40000,curve7,18,2,1,0,1,11.5,6,6,7,skelarch:2 zombies:2 necro:2 headcoach:3 queen:2 queen:1,f1:mech f2:mech b1:shared,The Shared Universe,7,0,7,12,7,19
+40000,curve7,18,2,1,0,1,45.25,6,6,6,necro:2 gravegolem:3 brute:2 mascot:1 sheriff:1 brute:1,f1:mech f2:mech b1:shared,The Shared Universe,4,0,4,7,6,13
+40000,curve7,18,2,1,0,0,8.25,6,6,7,lurker:2 wraith:2 driver:2 bounty:2 hunter:2 scientist:2,f1:mech f2:mech b1:shared,The Shared Universe,6,2,4,6,6,12
+40000,curve7,18,2,1,0,1,41.35,6,6,7,commando:2 waterboy:2 fieldmed:2 observer:2 observer:1 observer:1,f1:mech f2:mech b1:shared,The Shared Universe,1,0,1,18,5,23
+40000,curve7,18,2,1,0,1,29.45,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,f1:mech f2:mech b1:shared,The Shared Universe,7,0,7,3,7,10
+40000,curve7,19,3,0,0,1,40.95,6,6,7,reporter:2 babykaiju:2 hunter:2 fieldmed:3 smuggler:2 scientist:2,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,1,0,1,4,4,8
+40000,curve7,19,3,0,0,0,40.85,6,6,6,commando:2 babykaiju:2 prospector:2 observer:1 riot:2 sheriff:1,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,1,1,1,18,2,20
+40000,curve7,19,3,0,0,0,18.45,6,6,7,deputy:2 pointguard:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,1,1,1,4,4,8
+40000,curve7,19,3,0,0,1,12.85,6,6,7,necro:2 waterboy:2 headcoach:3 queen:2 queen:1 queen:1,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,7,0,7,11,7,18
+40000,curve7,19,3,0,0,1,43.15,6,6,6,necro:2 gravegolem:3 brute:2 mascot:1 sheriff:1 brute:1,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,4,0,4,19,7,26
+40000,curve7,19,3,0,0,0,31.45,6,6,7,lurker:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,4,1,3,11,2,13
+40000,curve7,19,3,0,0,1,40.05,6,6,7,commando:2 waterboy:2 fieldmed:2 observer:2 observer:1 observer:1,f2:double f1:mech f0:continuity f3:retcons,Continuity Error,1,0,1,28,6,34
+40000,curve7,19,3,0,0,1,7.95,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:hugo,Hugo's cast,7,0,7,16,4,20
+40000,curve7,20,3,0,0,0,14.75,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,1,1,1,2,1,3
+40000,curve7,20,3,0,0,0,6.95,6,6,6,commando:2 babykaiju:2 prospector:2 observer:1 riot:2 sheriff:1,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,1,1,1,17,2,19
+40000,curve7,20,3,0,0,0,6.7,6,6,7,deputy:2 pointguard:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,1,1,1,3,4,7
+40000,curve7,20,3,0,0,1,14.15,6,6,7,skelarch:2 zombies:2 headcoach:3 queen:3 captain:1 droids:1,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,4,0,4,11,7,18
+40000,curve7,20,3,0,0,0,24.55,6,6,6,necro:2 gravegolem:3 brute:2 mascot:1 sheriff:1 brute:1,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,4,1,3,23,1,24
+40000,curve7,20,3,0,0,0,6.95,6,6,7,lurker:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,3,1,2,2,3,5
+40000,curve7,20,3,0,0,1,34.05,6,6,7,commando:2 waterboy:2 fieldmed:2 observer:2 observer:1 observer:1,b3:sniper f2:figures f3:figures f1:mech,Driving-Test Mech,1,0,1,30,7,37
+40000,curve7,20,3,0,0,1,5.8,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:kit,Kit's cast,4,0,4,4,4,8
+40000,curve7,22,3,0,0,0,9.35,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,1,1,1,6,2,8
+40000,curve7,22,3,0,0,0,7.45,6,6,7,commando:2 babykaiju:2 gunslinger:2 observer:1 riot:2 sheriff:1,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,1,1,1,2,3,5
+40000,curve7,22,3,0,0,0,6.65,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,1,1,1,4,4,8
+40000,curve7,22,3,0,0,1,5.3,6,6,7,zombies:2 necro:2 headcoach:3 queen:3 captain:1 droids:1,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,4,0,4,11,7,18
+40000,curve7,22,3,0,0,0,24.65,6,6,7,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,3,1,2,7,2,9
+40000,curve7,22,3,0,0,0,4.85,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,2,1,1,3,4,7
+40000,curve7,22,3,0,0,0,13.85,6,6,7,commando:2 headcoach:2 fieldmed:2 observer:2 observer:1 observer:1,f1:spoiler b2:breaker f2:spoiler b3:auditor,Spoiler,1,1,1,51,1,52
+40000,curve7,22,3,0,0,1,6.7,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:quill,Prof. Quill's cast,4,0,4,6,4,10
+40000,curve7,23,3,0,0,0,8.1,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,1,1,1,7,2,9
+40000,curve7,23,3,0,0,0,3.7,6,6,7,commando:2 babykaiju:2 gunslinger:2 observer:1 riot:2 sheriff:1,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,1,1,1,2,4,6
+40000,curve7,23,3,0,0,0,4.6,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,1,1,1,4,4,8
+40000,curve7,23,3,0,0,0,10.05,6,6,7,zombies:2 necro:2 headcoach:3 queen:3 captain:1 droids:1,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,4,1,3,11,1,12
+40000,curve7,23,3,0,0,0,8.45,6,6,7,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,2,1,1,7,2,9
+40000,curve7,23,3,0,0,0,3.65,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,1,1,1,4,4,8
+40000,curve7,23,3,0,0,1,10.05,6,6,7,commando:2 headcoach:2 fieldmed:2 observer:2 observer:1 observer:1,f3:retcons b0:sniper f1:retcons f2:figures,Holo-Sniper,1,0,1,62,4,66
+40000,curve7,23,3,0,0,1,4.7,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:kit,Kit's cast,4,0,4,6,4,10
+40000,curve7,24,3,0,0,0,6,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,1,1,1,4,3,7
+40000,curve7,24,3,0,0,0,4.75,6,6,7,skelarch:2 commando:2 babykaiju:2 gunslinger:2 observer:1 sheriff:1,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,1,1,1,2,4,6
+40000,curve7,24,3,0,0,0,4.6,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,1,1,1,4,4,8
+40000,curve7,24,3,0,0,0,6.95,6,6,7,zombies:2 necro:2 headcoach:3 queen:3 captain:1 droids:1,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,3,1,2,11,2,13
+40000,curve7,24,3,0,0,0,9.15,6,6,7,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,1,1,1,7,3,10
+40000,curve7,24,3,0,0,0,2.55,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,1,1,1,3,4,7
+40000,curve7,24,3,0,0,0,10.15,6,6,7,commando:2 headcoach:2 fieldmed:2 observer:2 observer:1 observer:1,f0:figures b1:breaker f1:spoiler f3:figures,Spoiler,1,1,1,76,1,77
+40000,curve7,24,3,0,0,1,7.45,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:hugo,Hugo's cast,4,0,4,6,4,10
+40000,curve7,25,3,0,0,0,8.4,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,1,1,1,7,4,11
+40000,curve7,25,3,0,0,0,4.8,6,6,7,skelarch:2 commando:2 gunslinger:2 observer:1 sheriff:2 prospector:1,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,1,1,1,1,4,5
+40000,curve7,25,3,0,0,0,4.8,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,1,1,1,4,4,8
+40000,curve7,25,3,0,0,0,5.95,6,6,7,zombies:2 necro:2 headcoach:3 queen:3 captain:1 droids:1,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,2,1,1,11,2,13
+40000,curve7,25,3,0,0,0,17.4,6,6,7,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,1,1,1,7,4,11
+40000,curve7,25,3,0,0,0,5.95,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,1,1,1,2,4,6
+40000,curve7,25,3,0,0,0,11.2,6,6,7,commando:2 headcoach:2 fieldmed:2 observer:2 observer:1 observer:1,f0:spoiler b0:mic f2:spoiler b3:actor,Spoiler,1,1,1,87,2,89
+40000,curve7,25,3,0,0,1,4.6,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:kit,Kit's cast,4,0,4,6,4,10
+40000,curve7,26,3,0,0,0,21.2,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,1,1,17,4,21
+40000,curve7,26,3,0,0,0,25.4,6,6,7,skelarch:2 commando:2 gunslinger:2 observer:1 sheriff:2 prospector:1,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,1,1,10,4,14
+40000,curve7,26,3,0,0,0,12.8,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,1,1,13,4,17
+40000,curve7,26,3,0,0,1,14.5,6,6,7,zombies:2 necro:2 headcoach:3 queen:3 captain:1 droids:1,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,0,1,19,4,23
+40000,curve7,26,3,0,0,0,43.15,6,6,7,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,1,1,17,4,21
+40000,curve7,26,3,0,0,0,11.6,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,1,1,4,4,8
+40000,curve7,26,3,0,0,1,34.05,7,7,8,commando:2 headcoach:2 fieldmed:2 observer:2 fieldmed:1 observer:1 observer:1,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,1,0,1,57,4,61
+40000,curve7,26,3,0,0,1,22.05,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,b3:breaker f3:plotarmor f0:plotarmor f1:plotarmor b0:actor,Plot Armor,4,0,4,6,7,13
+40000,curve7,27,3,1,0,0,16.55,6,6,7,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 scientist:2,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,26,4,30
+40000,curve7,27,3,1,0,0,11.65,6,6,7,skelarch:2 commando:2 gunslinger:2 observer:1 sheriff:2 prospector:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,20,4,24
+40000,curve7,27,3,1,0,0,9.25,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,23,4,27
+40000,curve7,27,3,1,0,0,18.65,6,6,7,zombies:2 necro:2 headcoach:3 queen:3 captain:1 droids:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,30,1,31
+40000,curve7,27,3,1,0,0,24.25,6,6,7,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,28,4,32
+40000,curve7,27,3,1,0,0,11.65,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,4,4,8
+40000,curve7,27,3,1,0,0,28.95,7,7,8,commando:2 headcoach:3 fieldmed:2 observer:2 fieldmed:1 observer:1 observer:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,57,1,58
+40000,curve7,27,3,1,0,0,13.45,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,4,2,2,6,1,7
+40000,curve7,28,4,0,0,0,28.95,7,7,8,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 fieldmed:1 scientist:2,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,1,1,2,4,6
+40000,curve7,28,4,0,0,0,10.25,6,6,7,skelarch:2 commando:2 babykaiju:2 gunslinger:2 sheriff:2 gunslinger:1,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,1,1,30,4,34
+40000,curve7,28,4,0,0,0,10.95,6,6,7,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,1,1,34,4,38
+40000,curve7,28,4,0,0,1,14.65,7,7,8,necro:2 waterboy:2 headcoach:3 queen:3 captain:1 droids:1 gravegolem:1,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,0,1,2,4,6
+40000,curve7,28,4,0,0,1,45.9,7,7,8,necro:2 bonesetter:3 brute:2 mascot:1 necro:1 sheriff:1 brute:1,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,0,1,0,4,4
+40000,curve7,28,4,0,0,0,8.85,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,1,1,3,4,7
+40000,curve7,28,4,0,0,1,39.45,7,7,8,commando:2 headcoach:3 fieldmed:2 observer:3 fieldmed:1 brute:1 scorpion:1,f0:continuity b1:monologue f2:plotarmor f1:captain,Henchman Captain,1,0,1,57,4,61
+40000,curve7,28,4,0,0,0,6.85,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:quill,Prof. Quill's cast,2,1,1,6,2,8
+40000,curve7,29,4,0,0,0,18.5,7,7,8,reporter:2 commando:2 babykaiju:2 hunter:2 fieldmed:3 fieldmed:1 scientist:2,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,1,1,7,4,11
+40000,curve7,29,4,0,0,0,15.6,7,7,8,skelarch:2 commando:2 babykaiju:2 gunslinger:2 riot:2 sheriff:2 gunslinger:1,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,1,1,2,4,6
+40000,curve7,29,4,0,0,0,10,7,7,8,deputy:2 headcoach:2 gunslinger:2 starknight:1 mascot:1 gunslinger:1 gunslinger:1,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,1,1,4,4,8
+40000,curve7,29,4,0,0,1,13.4,7,7,8,necro:2 waterboy:2 headcoach:3 queen:3 captain:1 droids:1 gravegolem:1,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,0,1,11,5,16
+40000,curve7,29,4,0,0,1,44.8,7,7,8,necro:2 bonesetter:3 brute:2 mascot:1 sheriff:1 brute:1 sheriff:1,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,0,1,5,5,10
+40000,curve7,29,4,0,0,0,10.3,6,6,7,queen:2 wraith:2 bounty:2 hunter:2 scientist:2 smuggler:2,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,1,1,4,4,8
+40000,curve7,29,4,0,0,1,24.05,7,7,8,commando:2 headcoach:3 fieldmed:2 observer:3 fieldmed:1 brute:1 brute:1,f0:captain f3:captain f2:cliff f1:spoiler,Henchman Captain,1,0,1,71,5,76
+40000,curve7,29,4,0,0,0,10.05,6,6,7,spitters:2 radio:2 rifle:2 finalgirl:3 lurker:2 observer:1,rival:goldie,Goldie's cast,1,1,0,6,2,8

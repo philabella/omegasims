@@ -1,0 +1,137 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,15.75,2,3,1,zombies:2 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,21.95,3,3,1,zombies:1 zombies:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,24,3,3,1,dodgeball:1 zombies:1 zombies:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,21.95,3,3,1,zombies:1 zombies:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,21.95,3,3,1,zombies:1 zombies:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,21.95,3,3,1,zombies:1 zombies:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,2,1,3
+40000,curve7,1,1,0,0,0,21.95,3,3,1,zombies:1 zombies:1 rifle:1,f1:double b1:actor,Stunt Double,9,1,8,2,1,3
+40000,curve7,1,1,0,0,0,23.15,3,3,1,tanks:1 reporter:1 tanks:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,5.35,4,4,2,zombies:2 rifle:1 vampbat:1 commando:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,11.45,4,4,2,zombies:2 rifle:1 reporter:1 pilot:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,19.4,4,4,2,dodgeball:2 zombies:1 zombies:1 reporter:1,f1:double b1:actor,Stunt Double,8,0,8,2,1,3
+40000,curve7,2,1,0,0,0,21.8,3,3,1,zombies:1 zombies:1 rifle:1,f1:double b1:actor,Stunt Double,8,1,7,9,2,11
+40000,curve7,2,1,0,0,1,10.25,4,4,2,zombies:1 zombies:1 rifle:1 lookouts:1,f1:double b1:actor,Stunt Double,8,0,8,1,1,2
+40000,curve7,2,1,0,0,1,14.65,4,4,2,zombies:1 zombies:1 rifle:1 dodgeball:2,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,6.95,4,4,2,zombies:1 zombies:1 lookouts:2 safecracker:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,14.75,4,4,2,deputy:1 tanks:2 reporter:1 babykaiju:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,4,1,0,0,1,5.95,4,4,2,necro:2 rifle:1 vampbat:1 commando:1,f0:rats b0:mic f3:mooks,Boom Mic Operator,8,0,8,11,5,16
+40000,curve7,4,1,0,0,1,15.2,4,4,2,necro:2 rifle:1 reporter:1 pilot:1,f0:rats b0:mic f3:mooks,Boom Mic Operator,8,0,8,11,5,16
+40000,curve7,4,1,0,0,1,18.55,4,4,3,headcoach:2 zombies:1 zombies:1 reporter:1,f0:rats b0:mic f3:mooks,Boom Mic Operator,8,0,8,5,5,10
+40000,curve7,4,1,0,0,0,13.4,4,4,3,necro:1 zombies:1 rifle:2 pilot:1,f0:rats b0:mic f3:mooks,Boom Mic Operator,7,1,6,8,2,10
+40000,curve7,4,1,0,0,1,14.35,4,4,2,necro:1 zombies:1 rifle:1 lookouts:1,f0:rats b0:mic f3:mooks,Boom Mic Operator,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,18.5,4,4,2,zombies:1 zombies:1 rifle:1 headcoach:2,f0:rats b0:mic f3:mooks,Boom Mic Operator,8,0,8,11,5,16
+40000,curve7,4,1,0,0,1,6.95,4,4,2,zombies:1 fixer:2 safecracker:1 safecracker:1,f0:rats b0:mic f3:mooks,Boom Mic Operator,8,0,8,8,5,13
+40000,curve7,4,1,0,0,1,36.55,4,4,2,deputy:1 tanks:2 reporter:1 babykaiju:1,rival:kit,Kit's cast,8,0,8,14,2,16
+40000,curve7,5,1,0,0,1,7.3,4,4,2,necro:2 vampbat:1 commando:1 radio:1,f1:actor b2:mic b0:actor,Method Actor,8,0,8,20,5,25
+40000,curve7,5,1,0,0,1,13.25,4,4,2,necro:2 rifle:1 reporter:1 pilot:1,f1:actor b2:mic b0:actor,Method Actor,8,0,8,22,5,27
+40000,curve7,5,1,0,0,1,10.1,4,4,3,headcoach:2 zombies:1 headcoach:1 fixer:1,f1:actor b2:mic b0:actor,Method Actor,8,0,8,10,5,15
+40000,curve7,5,1,0,0,1,12.9,4,4,3,necro:1 zombies:1 rifle:2 necro:1,f1:actor b2:mic b0:actor,Method Actor,6,0,6,13,4,17
+40000,curve7,5,1,0,0,0,13.05,4,4,2,necro:1 zombies:1 rifle:1 lookouts:1,f1:actor b2:mic b0:actor,Method Actor,8,1,7,23,1,24
+40000,curve7,5,1,0,0,1,13.05,4,4,2,zombies:1 zombies:1 headcoach:2 radio:1,f1:actor b2:mic b0:actor,Method Actor,8,0,8,20,5,25
+40000,curve7,5,1,0,0,1,7.8,4,4,3,rifle:2 fixer:2 safecracker:1 safecracker:1,f1:actor b2:mic b0:actor,Method Actor,8,0,8,12,5,17
+40000,curve7,5,1,0,0,1,10.3,4,4,2,tanks:2 reporter:1 babykaiju:1 prospector:1,rival:hugo,Hugo's cast,8,0,8,20,2,22
+40000,curve7,6,1,0,0,1,7.75,4,4,3,necro:2 vampbat:2 commando:1 radio:2,f2:double f1:double f3:double,Stunt Double,8,0,8,20,6,26
+40000,curve7,6,1,0,0,1,21.65,4,4,2,necro:2 rifle:1 reporter:1 pilot:1,f2:double f1:double f3:double,Stunt Double,8,0,8,34,6,40
+40000,curve7,6,1,0,0,1,18.45,4,4,3,headcoach:2 zombies:1 headcoach:1 fixer:1,f2:double f1:double f3:double,Stunt Double,8,0,8,21,6,27
+40000,curve7,6,1,0,0,1,9.05,4,4,4,necro:2 rifle:2 pilot:2 wraith:2,f2:double f1:double f3:double,Stunt Double,6,0,6,2,5,7
+40000,curve7,6,1,0,0,0,17.15,4,4,2,necro:1 zombies:1 rifle:1 lookouts:1,f2:double f1:double f3:double,Stunt Double,7,1,6,31,2,33
+40000,curve7,6,1,0,0,1,12.4,4,4,3,headcoach:2 radio:1 radio:1 nurse:1,f2:double f1:double f3:double,Stunt Double,8,0,8,21,6,27
+40000,curve7,6,1,0,0,1,11.6,4,4,4,rifle:2 fixer:2 safecracker:2 queen:1,f2:double f1:double f3:double,Stunt Double,8,0,8,6,6,12
+40000,curve7,6,1,0,0,1,15.9,4,4,3,tanks:2 reporter:2 babykaiju:1 prospector:1,rival:quill,Prof. Quill's cast,8,0,8,20,3,23
+40000,curve7,7,1,0,0,1,7.65,4,4,3,necro:2 vampbat:2 radio:2 wraith:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,8,0,8,23,7,30
+40000,curve7,7,1,0,0,0,10.1,4,4,2,necro:2 rifle:1 reporter:1 pilot:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,8,1,7,41,1,42
+40000,curve7,7,1,0,0,1,13,4,4,4,headcoach:2 zombies:1 headcoach:1 fixer:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,8,0,8,17,7,24
+40000,curve7,7,1,0,0,1,6.25,5,5,5,necro:2 rifle:2 pilot:2 wraith:2 scientist:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,4,0,4,0,5,5
+40000,curve7,7,1,0,0,0,14.2,4,4,2,necro:1 zombies:1 lookouts:1 vampbat:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,6,1,5,33,2,35
+40000,curve7,7,1,0,0,1,11.4,4,4,3,headcoach:2 radio:2 nurse:1 gravegolem:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,8,0,8,20,7,27
+40000,curve7,7,1,0,0,1,8.05,4,4,4,rifle:2 fixer:2 safecracker:2 queen:1,f1:actor b1:actor b2:actor b3:actor,Method Actor,8,0,8,8,7,15
+40000,curve7,7,1,0,0,1,7.7,4,4,3,tanks:2 reporter:2 babykaiju:2 prospector:1,rival:hugo,Hugo's cast,6,0,6,29,4,33
+40000,curve7,8,1,0,0,1,7.7,4,4,4,necro:2 vampbat:2 radio:2 wraith:1,f0:double f2:rats f1:double f3:rats,Stunt Double,8,0,8,21,7,28
+40000,curve7,8,1,0,0,0,13.4,4,4,2,necro:2 rifle:1 pilot:1 pilot:1,f0:double f2:rats f1:double f3:rats,Stunt Double,7,1,6,50,2,52
+40000,curve7,8,1,0,0,1,7.65,5,5,5,headcoach:2 reporter:2 headcoach:1 fixer:1 captain:1,f0:double f2:rats f1:double f3:rats,Stunt Double,8,0,8,14,7,21
+40000,curve7,8,1,0,0,1,6.25,5,5,5,necro:2 rifle:2 pilot:2 wraith:2 scientist:2,f0:double f2:rats f1:double f3:rats,Stunt Double,4,0,4,1,6,7
+40000,curve7,8,1,0,0,1,11.4,4,4,3,necro:1 zombies:1 vampbat:1 vampbat:1,f0:double f2:rats f1:double f3:rats,Stunt Double,5,0,5,38,4,42
+40000,curve7,8,1,0,0,1,7.2,4,4,4,headcoach:2 radio:2 nurse:1 gravegolem:1,f0:double f2:rats f1:double f3:rats,Stunt Double,8,0,8,21,7,28
+40000,curve7,8,1,0,0,1,6.9,5,5,5,zombies:1 rifle:2 fixer:2 safecracker:2 queen:1,f0:double f2:rats f1:double f3:rats,Stunt Double,8,0,8,9,7,16
+40000,curve7,8,1,0,0,1,9.25,4,4,4,tanks:2 reporter:2 babykaiju:2 fieldmed:1,f0:double f2:rats f1:double f3:rats,Stunt Double,6,0,6,21,7,28
+40000,curve7,9,1,1,0,1,15.3,4,4,4,necro:3 vampbat:2 wraith:2 gravegolem:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,4,7,11
+40000,curve7,9,1,1,0,1,31.35,5,5,5,necro:2 rifle:2 pilot:1 pilot:1 captain:1,f0:mooks f2:mooks b1:editor,The Editor,6,0,6,24,4,28
+40000,curve7,9,1,1,0,0,26.7,5,5,5,headcoach:2 reporter:2 headcoach:1 fixer:1 headcoach:1,f0:mooks f2:mooks b1:editor,The Editor,8,2,6,22,1,23
+40000,curve7,9,1,1,0,0,21.75,5,5,5,necro:2 rifle:2 pilot:2 wraith:2 scientist:2,f0:mooks f2:mooks b1:editor,The Editor,4,2,2,9,1,10
+40000,curve7,9,1,1,0,1,25.2,5,5,5,necro:1 zombies:2 vampbat:2 wraith:1 insideman:1,f0:mooks f2:mooks b1:editor,The Editor,5,0,5,6,5,11
+40000,curve7,9,1,1,0,1,21.45,4,4,4,headcoach:2 radio:2 nurse:2 queen:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,7,7,14
+40000,curve7,9,1,1,0,1,11.6,5,5,5,fixer:2 safecracker:2 queen:2 fixer:1 queen:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,5,7,12
+40000,curve7,9,1,1,0,1,17.75,4,4,4,tanks:2 reporter:2 babykaiju:2 fieldmed:2,f0:mooks f2:mooks b1:editor,The Editor,6,0,6,4,7,11
+40000,curve7,10,2,0,0,1,9.8,4,4,4,necro:3 vampbat:2 wraith:2 gravegolem:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,8,0,8,17,7,24
+40000,curve7,10,2,0,0,0,4.95,5,5,5,necro:2 rifle:2 pilot:2 redshirts:1 captain:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,6,1,5,34,1,35
+40000,curve7,10,2,0,0,0,5.85,5,5,5,headcoach:2 reporter:2 headcoach:1 captain:2 headcoach:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,6,1,5,23,2,25
+40000,curve7,10,2,0,0,0,6.75,5,5,5,necro:2 wraith:2 scientist:2 necro:1 necro:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,2,1,1,14,2,16
+40000,curve7,10,2,0,0,0,8,5,5,5,necro:1 zombies:2 vampbat:2 wraith:1 insideman:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,5,1,4,17,1,18
+40000,curve7,10,2,0,0,0,4,4,4,4,headcoach:2 radio:2 nurse:2 queen:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,8,1,7,20,1,21
+40000,curve7,10,2,0,0,0,10.55,5,5,5,fixer:2 queen:2 fixer:1 queen:1 mascot:1,b2:sniper b0:sniper f1:ninjas,Holo-Sniper,8,1,7,10,1,11
+40000,curve7,10,2,0,0,0,24.9,4,4,4,tanks:2 reporter:2 fieldmed:2 nurse:2,rival:quill,Prof. Quill's cast,6,1,5,15,1,16
+40000,curve7,11,2,0,0,1,25.4,4,4,4,necro:3 vampbat:2 wraith:2 gravegolem:1,f0:mech b2:auditor f3:double,Driving-Test Mech,8,0,8,29,7,36
+40000,curve7,11,2,0,0,0,18.55,5,5,5,necro:2 rifle:2 pilot:2 redshirts:1 captain:1,f0:mech b2:auditor f3:double,Driving-Test Mech,5,1,4,43,2,45
+40000,curve7,11,2,0,0,0,19.65,3,5,5,headcoach:3 giantmoth:1 giantmoth:1,f0:mech b2:auditor f3:double,Driving-Test Mech,5,1,4,18,2,20
+40000,curve7,11,2,0,0,0,39.55,5,5,5,necro:2 wraith:2 scientist:2 necro:1 necro:1,f0:mech b2:auditor f3:double,Driving-Test Mech,1,1,1,20,2,22
+40000,curve7,11,2,0,0,0,25.5,5,5,5,necro:1 zombies:2 vampbat:2 insideman:1 insideman:1,f0:mech b2:auditor f3:double,Driving-Test Mech,4,1,3,5,2,7
+40000,curve7,11,2,0,0,0,14.4,4,4,4,zombies:2 headcoach:2 radio:2 nurse:2,f0:mech b2:auditor f3:double,Driving-Test Mech,7,1,6,22,2,24
+40000,curve7,11,2,0,0,1,25.65,5,5,5,fixer:3 queen:2 queen:1 mascot:1 brute:1,f0:mech b2:auditor f3:double,Driving-Test Mech,7,0,7,3,4,7
+40000,curve7,11,2,0,0,0,11.45,4,4,4,reporter:2 prospector:2 fieldmed:2 nurse:2,rival:kit,Kit's cast,5,1,4,20,2,22
+40000,curve7,13,2,0,0,1,13.3,5,5,5,necro:3 vampbat:2 wraith:2 gravegolem:2 bonesetter:1,f2:double f3:double b1:mic,Stunt Double,8,0,8,21,7,28
+40000,curve7,13,2,0,0,0,19.65,5,5,5,necro:2 pilot:2 captain:1 observer:1 observer:1,f2:double f3:double b1:mic,Stunt Double,4,1,3,52,2,54
+40000,curve7,13,2,0,0,1,8.65,5,6,6,headcoach:3 reporter:2 captain:2 waterboy:2 giantmoth:2,f2:double f3:double b1:mic,Stunt Double,6,0,6,4,4,8
+40000,curve7,13,2,0,0,0,12.45,6,6,6,necro:2 rifle:2 wraith:2 scientist:2 necro:1 necro:1,f2:double f3:double b1:mic,Stunt Double,3,1,2,17,3,20
+40000,curve7,13,2,0,0,0,19.65,5,5,5,necro:1 zombies:2 vampbat:2 insideman:1 insideman:1,f2:double f3:double b1:mic,Stunt Double,5,1,4,10,2,12
+40000,curve7,13,2,0,0,1,10.1,5,5,5,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:2,f2:double f3:double b1:mic,Stunt Double,4,0,4,5,4,9
+40000,curve7,13,2,0,0,1,22.5,6,6,6,fixer:3 safecracker:2 queen:2 queen:1 mascot:1 brute:1,f2:double f3:double b1:mic,Stunt Double,7,0,7,9,5,14
+40000,curve7,13,2,0,0,1,32.05,5,5,5,deputy:2 reporter:2 prospector:2 fieldmed:3 nurse:2,rival:hugo,Hugo's cast,4,0,4,5,1,6
+40000,curve7,14,2,0,0,1,10.25,5,5,5,necro:3 vampbat:2 wraith:2 gravegolem:2 bonesetter:1,f2:mooks f3:rats b2:actor b0:actor,Method Actor,8,0,8,35,7,42
+40000,curve7,14,2,0,0,1,11.7,6,6,6,necro:2 rifle:2 captain:2 observer:3 bonesetter:1 bonesetter:1,f2:mooks f3:rats b2:actor b0:actor,Method Actor,3,0,3,4,7,11
+40000,curve7,14,2,0,0,1,6.3,5,6,6,headcoach:3 captain:2 waterboy:2 giantmoth:2 bonesetter:1,f2:mooks f3:rats b2:actor b0:actor,Method Actor,6,0,6,6,5,11
+40000,curve7,14,2,0,0,0,9.05,6,6,6,necro:2 rifle:2 wraith:2 scientist:2 necro:1 necro:1,f2:mooks f3:rats b2:actor b0:actor,Method Actor,2,1,1,27,4,31
+40000,curve7,14,2,0,0,0,11.55,6,6,6,necro:1 zombies:2 vampbat:2 wraith:1 insideman:1 insideman:1,f2:mooks f3:rats b2:actor b0:actor,Method Actor,4,1,3,1,3,4
+40000,curve7,14,2,0,0,1,12.05,5,5,5,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:2,f2:mooks f3:rats b2:actor b0:actor,Method Actor,4,0,4,6,5,11
+40000,curve7,14,2,0,0,0,17.15,6,6,6,fixer:3 queen:2 queen:1 mascot:1 brute:1 mascot:1,f2:mooks f3:rats b2:actor b0:actor,Method Actor,7,1,6,10,1,11
+40000,curve7,14,2,0,0,0,22.15,5,5,5,reporter:2 prospector:2 fieldmed:3 nurse:2 scorpion:2,rival:goldie,Goldie's cast,4,1,3,4,1,5
+40000,curve7,15,2,0,0,1,11.55,6,6,6,necro:3 vampbat:2 radio:2 wraith:2 gravegolem:2 bonesetter:2,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,8,0,8,21,7,28
+40000,curve7,15,2,0,0,1,12.7,6,6,6,necro:2 rifle:2 captain:2 observer:3 bonesetter:1 bonesetter:1,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,3,0,3,17,8,25
+40000,curve7,15,2,0,0,1,8.8,5,6,6,headcoach:3 captain:2 waterboy:2 giantmoth:2 bonesetter:1,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,6,0,6,5,5,10
+40000,curve7,15,2,0,0,0,5.8,6,6,7,necro:2 wraith:2 scientist:2 necro:1 necro:1 bonesetter:1,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,1,1,1,12,4,16
+40000,curve7,15,2,0,0,0,8.75,6,6,6,necro:1 zombies:2 vampbat:2 wraith:1 insideman:1 insideman:1,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,3,1,2,5,4,9
+40000,curve7,15,2,0,0,1,8.8,6,6,6,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:2 vampbat:2,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,4,0,4,1,5,6
+40000,curve7,15,2,0,0,0,21.2,6,6,6,fixer:3 queen:2 queen:1 mascot:2 brute:1 queen:1,f1:double f3:ninjas b0:sniper f2:mooks,Stunt Double,6,1,5,9,2,11
+40000,curve7,15,2,0,0,0,5.9,5,5,5,reporter:2 prospector:2 fieldmed:3 nurse:2 scorpion:2,rival:kit,Kit's cast,3,1,2,9,2,11
+40000,curve7,16,2,0,0,1,11.4,6,6,6,necro:3 vampbat:2 wraith:2 gravegolem:2 bonesetter:2 mascot:1,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,8,0,8,21,7,28
+40000,curve7,16,2,0,0,1,22.9,6,6,6,necro:2 rifle:2 captain:2 observer:3 bonesetter:1 bonesetter:1,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,3,0,3,32,8,40
+40000,curve7,16,2,0,0,1,10.05,5,6,6,headcoach:3 captain:2 waterboy:2 giantmoth:2 bonesetter:1,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,6,0,6,12,6,18
+40000,curve7,16,2,0,0,0,10.25,6,6,7,necro:2 wraith:2 scientist:2 necro:1 necro:1 bonesetter:1,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,1,1,1,14,4,18
+40000,curve7,16,2,0,0,0,17.25,6,6,6,necro:1 zombies:2 vampbat:2 wraith:1 insideman:1 insideman:1,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,2,1,1,14,4,18
+40000,curve7,16,2,0,0,1,11.65,6,6,6,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:2 vampbat:2,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,4,0,4,3,6,9
+40000,curve7,16,2,0,0,1,28.7,6,6,6,fixer:3 queen:2 queen:1 mascot:2 brute:2 queen:1,b2:auditor f3:rats b3:auditor b1:auditor,Vampire Auditor,5,0,5,5,5,10
+40000,curve7,16,2,0,0,0,8.6,5,5,5,prospector:2 fieldmed:3 nurse:2 scorpion:2 scorpion:1,rival:sal,Sal's cast,2,1,1,11,2,13
+40000,curve7,17,2,0,0,1,12.55,6,6,6,necro:3 vampbat:2 wraith:2 gravegolem:2 bonesetter:2 mascot:1,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,8,0,8,35,7,42
+40000,curve7,17,2,0,0,1,10.55,6,6,6,necro:2 rifle:2 captain:2 observer:3 bonesetter:1 bonesetter:1,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,3,0,3,49,9,58
+40000,curve7,17,2,0,0,1,5.05,5,6,7,headcoach:3 captain:2 waterboy:2 giantmoth:2 scorpion:2,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,6,0,6,0,7,7
+40000,curve7,17,2,0,0,0,5.8,6,6,7,necro:2 wraith:2 scientist:2 necro:1 necro:1 bonesetter:1,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,1,1,1,13,4,17
+40000,curve7,17,2,0,0,1,13.7,6,6,7,necro:1 zombies:2 vampbat:2 wraith:1 wraith:1 insideman:2,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,1,0,1,0,6,6
+40000,curve7,17,2,0,0,1,7.2,6,6,6,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:3 vampbat:2,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,4,0,4,5,7,12
+40000,curve7,17,2,0,0,1,24.55,6,6,6,fixer:3 queen:2 queen:1 mascot:2 brute:2 queen:1,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,5,0,5,10,6,16
+40000,curve7,17,2,0,0,1,8.05,5,5,5,prospector:2 fieldmed:3 nurse:2 scorpion:2 scorpion:1,b2:sniper f2:mooks f1:ninjas f0:ninjas f3:mooks,Holo-Sniper,1,0,1,19,4,23
+40000,curve7,18,2,1,0,1,22.85,6,6,7,necro:3 vampbat:2 wraith:2 gravegolem:2 bonesetter:2 mascot:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,8,0,8,7,7,14
+40000,curve7,18,2,1,0,1,34.2,6,6,7,necro:2 captain:2 observer:3 bonesetter:1 bonesetter:1 brute:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,47,10,57
+40000,curve7,18,2,1,0,0,30.5,4,6,7,headcoach:3 giantmoth:2 scorpion:2 giantmoth:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,6,2,4,6,1,7
+40000,curve7,18,2,1,0,0,6.55,6,6,7,necro:2 wraith:2 scientist:2 necro:1 necro:1 bonesetter:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,1,2,1,1,4,5
+40000,curve7,18,2,1,0,1,37.1,6,6,7,necro:1 zombies:2 vampbat:2 wraith:1 insideman:2 insideman:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,1,0,1,5,7,12
+40000,curve7,18,2,1,0,1,26.9,6,6,6,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:3 vampbat:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,10,7,17
+40000,curve7,18,2,1,0,1,39.8,6,6,6,fixer:3 queen:2 mascot:2 brute:2 scorpion:1 brute:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,5,0,5,8,6,14
+40000,curve7,18,2,1,0,1,28.6,6,6,6,prospector:2 fieldmed:3 nurse:2 scorpion:2 bounty:2 scorpion:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,1,0,1,12,5,17
+40000,curve7,19,3,0,0,1,10.25,6,6,7,necro:3 vampbat:2 wraith:2 gravegolem:2 bonesetter:2 mascot:1,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,8,0,8,20,7,27
+40000,curve7,19,3,0,0,0,11.05,6,6,7,necro:2 rifle:2 captain:2 observer:3 bonesetter:1 bonesetter:1,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,3,1,2,61,1,62
+40000,curve7,19,3,0,0,0,8.05,4,6,7,headcoach:3 giantmoth:2 scorpion:2 giantmoth:1,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,4,1,3,2,2,4
+40000,curve7,19,3,0,0,0,4.65,6,6,7,necro:2 wraith:2 scientist:2 necro:1 necro:1 bonesetter:1,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,1,1,1,10,4,14
+40000,curve7,19,3,0,0,0,12.7,6,6,7,necro:1 zombies:2 vampbat:2 insideman:2 insideman:1 insideman:1,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,1,1,1,6,3,9
+40000,curve7,19,3,0,0,1,5.95,6,6,7,zombies:2 headcoach:3 radio:2 nurse:2 fieldmed:3 vampbat:2,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,4,0,4,2,7,9
+40000,curve7,19,3,0,0,0,20.35,6,6,6,fixer:3 queen:2 mascot:2 brute:2 scorpion:1 brute:1,b3:breaker b2:mic b1:sniper f1:double,Stunt Double,5,1,4,20,1,21
+40000,curve7,19,3,0,0,0,9.55,6,6,6,prospector:2 fieldmed:3 nurse:2 scorpion:2 bounty:2 scorpion:1,rival:hugo,Hugo's cast,1,1,0,23,1,24

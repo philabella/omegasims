@@ -1,0 +1,193 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,10.3,3,3,1,tanks:1 tanks:1 counselors:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,10.3,3,3,1,counselors:1 tanks:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,2,1,3
+40000,curve7,1,1,0,0,0,29,3,3,1,counselors:1 kids:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,2,1,3
+40000,curve7,1,1,0,0,0,29,3,3,1,counselors:1 kids:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,29,3,3,1,counselors:1 kids:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,2,1,3
+40000,curve7,1,1,0,0,0,29,3,3,1,counselors:1 kids:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,29,3,3,1,counselors:1 kids:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,1,23.8,3,3,1,beetles:1 counselors:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,2,1,0,0,0,13.55,2,4,2,tanks:2 counselors:2,f0:mooks b1:mic,Boom Mic Operator,8,1,7,0,2,2
+40000,curve7,2,1,0,0,1,13.25,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,2,1,3
+40000,curve7,2,1,0,0,1,13.25,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,2,1,3
+40000,curve7,2,1,0,0,0,11.65,3,3,1,counselors:1 kids:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,9,2,11
+40000,curve7,2,1,0,0,1,13.25,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,2,1,3
+40000,curve7,2,1,0,0,1,15.35,4,4,2,counselors:1 kids:1 tanks:1 counselors:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,4,1,5
+40000,curve7,2,1,0,0,1,10.25,4,4,2,kids:1 tanks:1 reporter:1 babysitter:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,11.95,4,4,2,beetles:1 counselors:1 rifle:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,4,1,0,0,1,10.7,4,4,2,tanks:2 counselors:2 babykaiju:1 spitters:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,7,0,7,19,4,23
+40000,curve7,4,1,0,0,0,21.25,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,8,1,7,22,1,23
+40000,curve7,4,1,0,0,0,21.25,4,4,3,counselors:2 kids:1 tanks:1 tanks:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,8,1,7,13,1,14
+40000,curve7,4,1,0,0,0,14,4,4,3,counselors:1 kids:1 tanks:1 kids:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,7,1,6,18,2,20
+40000,curve7,4,1,0,0,0,21.25,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,8,1,7,22,1,23
+40000,curve7,4,1,0,0,0,17.05,4,4,3,counselors:1 kids:1 counselors:1 kids:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,8,1,7,15,1,16
+40000,curve7,4,1,0,0,1,15,4,4,2,kids:1 tanks:1 reporter:1 babysitter:1,b2:actor b0:actor f3:mooks f2:rats,Method Actor,8,0,8,20,5,25
+40000,curve7,4,1,0,0,1,22.55,4,4,2,beetles:1 counselors:1 rifle:1 riot:1,rival:kit,Kit's cast,9,0,9,16,2,18
+40000,curve7,5,1,0,0,1,21.8,4,4,3,tanks:2 counselors:2 babykaiju:1 babykaiju:1,f0:double f3:double f1:double,Stunt Double,7,0,7,20,5,25
+40000,curve7,5,1,0,0,0,22.05,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,f0:double f3:double f1:double,Stunt Double,7,1,6,30,2,32
+40000,curve7,5,1,0,0,0,22.05,4,4,4,counselors:2 kids:1 tanks:1 tanks:1,f0:double f3:double f1:double,Stunt Double,7,1,6,8,2,10
+40000,curve7,5,1,0,0,1,20.3,4,4,4,counselors:1 kids:1 kids:1 hunter:1,f0:double f3:double f1:double,Stunt Double,6,0,6,12,4,16
+40000,curve7,5,1,0,0,0,22.05,4,4,2,counselors:2 kids:1 tanks:1 tanks:1,f0:double f3:double f1:double,Stunt Double,7,1,6,30,2,32
+40000,curve7,5,1,0,0,0,25.45,4,4,3,counselors:1 kids:1 counselors:1 kids:1,f0:double f3:double f1:double,Stunt Double,7,1,6,22,2,24
+40000,curve7,5,1,0,0,1,28.6,4,4,3,kids:1 tanks:1 reporter:1 babysitter:1,f0:double f3:double f1:double,Stunt Double,8,0,8,21,5,26
+40000,curve7,5,1,0,0,1,11.65,4,4,2,beetles:1 counselors:1 riot:1 pointguard:1,rival:rex,Rex's cast,9,0,9,22,3,25
+40000,curve7,6,1,0,0,1,9.15,4,4,3,tanks:2 babykaiju:2 captain:1 scientist:1,b0:mic f0:double b2:mic b1:mic,Stunt Double,5,0,5,20,5,25
+40000,curve7,6,1,0,0,1,10.4,4,4,3,counselors:2 radio:2 finalgirl:1 finalgirl:1,b0:mic f0:double b2:mic b1:mic,Stunt Double,4,0,4,3,4,7
+40000,curve7,6,1,0,0,1,11,4,4,4,counselors:2 tanks:1 gravegolem:1 gunslinger:1,b0:mic f0:double b2:mic b1:mic,Stunt Double,4,0,4,8,4,12
+40000,curve7,6,1,0,0,1,6.35,4,4,4,counselors:1 kids:2 reporter:2 hunter:2,b0:mic f0:double b2:mic b1:mic,Stunt Double,4,0,4,10,5,15
+40000,curve7,6,1,0,0,1,9.75,4,4,4,counselors:2 tanks:1 scientist:2 gunslinger:1,b0:mic f0:double b2:mic b1:mic,Stunt Double,4,0,4,6,4,10
+40000,curve7,6,1,0,0,1,15.15,4,4,3,counselors:2 kids:1 kids:1 captain:1,b0:mic f0:double b2:mic b1:mic,Stunt Double,4,0,4,27,4,31
+40000,curve7,6,1,0,0,1,19.5,4,4,3,kids:1 tanks:1 reporter:2 babysitter:1,b0:mic f0:double b2:mic b1:mic,Stunt Double,6,0,6,22,6,28
+40000,curve7,6,1,0,0,1,13.4,4,4,2,beetles:2 counselors:1 pointguard:1 pointguard:1,rival:quill,Prof. Quill's cast,9,0,9,21,4,25
+40000,curve7,7,1,0,0,1,10.45,4,4,4,tanks:2 babykaiju:2 captain:1 scientist:1,f3:double b2:actor f2:double b0:actor,Stunt Double,5,0,5,20,6,26
+40000,curve7,7,1,0,0,1,10.15,4,4,4,counselors:2 radio:2 finalgirl:1 finalgirl:1,f3:double b2:actor f2:double b0:actor,Stunt Double,4,0,4,0,5,5
+40000,curve7,7,1,0,0,1,10.45,4,4,4,gravegolem:1 gunslinger:1 gunslinger:1 insideman:1,f3:double b2:actor f2:double b0:actor,Stunt Double,4,0,4,5,6,11
+40000,curve7,7,1,0,0,1,6.45,5,5,5,kids:2 reporter:2 hunter:2 scientist:1 chainsaw:1,f3:double b2:actor f2:double b0:actor,Stunt Double,4,0,4,1,5,6
+40000,curve7,7,1,0,0,1,9.65,5,5,5,counselors:2 tanks:1 tanks:1 scientist:2 gunslinger:1,f3:double b2:actor f2:double b0:actor,Stunt Double,4,0,4,0,5,5
+40000,curve7,7,1,0,0,1,17.3,4,4,3,counselors:2 kids:1 kids:1 captain:1,f3:double b2:actor f2:double b0:actor,Stunt Double,4,0,4,39,5,44
+40000,curve7,7,1,0,0,1,10.4,4,4,4,kids:1 tanks:1 babysitter:1 hunter:1,f3:double b2:actor f2:double b0:actor,Stunt Double,6,0,6,20,7,27
+40000,curve7,7,1,0,0,1,20.2,4,4,3,beetles:2 redshirts:2 pointguard:1 pointguard:1,rival:rex,Rex's cast,9,0,9,26,4,30
+40000,curve7,8,1,0,0,1,9.45,4,4,4,tanks:2 babykaiju:2 captain:1 scientist:2,f1:actor b2:actor b1:actor b0:actor,Method Actor,5,0,5,20,7,27
+40000,curve7,8,1,0,0,1,10.05,4,4,4,counselors:2 radio:2 finalgirl:2 chainsaw:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,4,0,4,1,5,6
+40000,curve7,8,1,0,0,1,9.55,5,5,5,counselors:2 gravegolem:1 gunslinger:1 gunslinger:1 insideman:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,4,0,4,1,6,7
+40000,curve7,8,1,0,0,1,4.25,5,5,5,kids:2 reporter:2 hunter:2 chainsaw:1 finalgirl:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,4,0,4,1,6,7
+40000,curve7,8,1,0,0,1,12.2,5,5,5,counselors:2 tanks:1 tanks:1 scientist:2 gunslinger:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,4,0,4,9,5,14
+40000,curve7,8,1,0,0,1,16.5,4,4,4,counselors:2 kids:1 kids:1 captain:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,4,0,4,38,5,43
+40000,curve7,8,1,0,0,1,5.85,4,4,4,kids:1 tanks:1 babysitter:1 hunter:2,f1:actor b2:actor b1:actor b0:actor,Method Actor,6,0,6,21,7,28
+40000,curve7,8,1,0,0,1,11.4,4,4,4,beetles:2 redshirts:2 pointguard:2 riot:2,f1:actor b2:actor b1:actor b0:actor,Method Actor,9,0,9,17,7,24
+40000,curve7,9,1,1,0,1,25.3,4,4,4,captain:2 scientist:2 captain:1 captain:1,f1:double b0:mic b2:editor,The Editor,5,0,5,7,8,15
+40000,curve7,9,1,1,0,1,30.25,4,4,4,counselors:2 radio:2 finalgirl:2 chainsaw:2,f1:double b0:mic b2:editor,The Editor,4,0,4,3,6,9
+40000,curve7,9,1,1,0,1,37.75,5,5,5,counselors:2 gravegolem:1 gunslinger:1 gunslinger:1 insideman:1,f1:double b0:mic b2:editor,The Editor,4,0,4,8,7,15
+40000,curve7,9,1,1,0,1,12.9,5,5,5,kids:2 reporter:2 hunter:2 finalgirl:1 finalgirl:1,f1:double b0:mic b2:editor,The Editor,4,0,4,9,7,16
+40000,curve7,9,1,1,0,1,35.25,5,5,5,counselors:2 tanks:2 scientist:2 insideman:1 insideman:1,f1:double b0:mic b2:editor,The Editor,4,0,4,5,7,12
+40000,curve7,9,1,1,0,0,13.65,4,4,4,counselors:2 kids:1 kids:1 captain:1,f1:double b0:mic b2:editor,The Editor,4,2,2,52,1,53
+40000,curve7,9,1,1,0,1,24.85,4,4,4,kids:1 reporter:2 babysitter:2 hunter:2,f1:double b0:mic b2:editor,The Editor,6,0,6,3,8,11
+40000,curve7,9,1,1,0,1,25.9,4,4,4,pointguard:2 starknight:1 gravegolem:2 insideman:1,f1:double b0:mic b2:editor,The Editor,9,0,9,3,8,11
+40000,curve7,10,2,0,0,0,18.45,4,4,4,counselors:2 captain:2 captain:1 captain:1,f1:auditor b3:actor b2:auditor,Vampire Auditor,5,1,4,21,1,22
+40000,curve7,10,2,0,0,0,11.45,4,4,4,counselors:2 radio:2 finalgirl:2 chainsaw:2,f1:auditor b3:actor b2:auditor,Vampire Auditor,4,1,3,14,1,15
+40000,curve7,10,2,0,0,0,21.45,5,5,5,gravegolem:1 gunslinger:2 insideman:1 insideman:1 gravegolem:1,f1:auditor b3:actor b2:auditor,Vampire Auditor,4,1,3,5,5,10
+40000,curve7,10,2,0,0,1,16.7,6,6,6,kids:2 reporter:2 hunter:2 chainsaw:1 finalgirl:1 finalgirl:1,f1:auditor b3:actor b2:auditor,Vampire Auditor,4,0,4,0,7,7
+40000,curve7,10,2,0,0,0,39.5,5,5,5,counselors:2 tanks:2 scientist:2 insideman:2 hunter:1,f1:auditor b3:actor b2:auditor,Vampire Auditor,4,1,3,12,3,15
+40000,curve7,10,2,0,0,0,10.05,4,4,4,counselors:2 kids:1 kids:1 captain:1,f1:auditor b3:actor b2:auditor,Vampire Auditor,2,1,1,63,2,65
+40000,curve7,10,2,0,0,0,16.65,4,4,4,kids:1 reporter:2 babysitter:2 hunter:2,f1:auditor b3:actor b2:auditor,Vampire Auditor,6,1,5,17,1,18
+40000,curve7,10,2,0,0,1,15.45,4,4,4,pointguard:2 starknight:1 gravegolem:2 insideman:1,rival:penny,Penny's cast,9,0,9,17,5,22
+40000,curve7,11,2,0,0,0,18.4,5,5,5,counselors:2 captain:2 captain:1 captain:1 telepath:2,f1:actor b1:actor b0:actor,Method Actor,4,1,3,6,2,8
+40000,curve7,11,2,0,0,0,12.8,5,5,5,counselors:2 radio:2 finalgirl:2 chainsaw:2 finalgirl:1,f1:actor b1:actor b0:actor,Method Actor,3,1,2,2,2,4
+40000,curve7,11,2,0,0,1,14.2,5,5,5,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:1,f1:actor b1:actor b0:actor,Method Actor,3,0,3,8,7,15
+40000,curve7,11,2,0,0,1,9.25,6,6,6,kids:2 reporter:2 hunter:2 chainsaw:2 finalgirl:1 finalgirl:1,f1:actor b1:actor b0:actor,Method Actor,4,0,4,10,7,17
+40000,curve7,11,2,0,0,0,18.55,6,6,6,counselors:2 kids:1 tanks:2 scientist:2 insideman:2 hunter:1,f1:actor b1:actor b0:actor,Method Actor,3,1,2,1,4,5
+40000,curve7,11,2,0,0,0,9.15,5,5,5,counselors:2 kids:1 tanks:1 kids:1 captain:1,f1:actor b1:actor b0:actor,Method Actor,1,1,1,63,2,65
+40000,curve7,11,2,0,0,0,10,4,4,4,kids:1 reporter:2 babysitter:2 hunter:2,f1:actor b1:actor b0:actor,Method Actor,5,1,4,22,2,24
+40000,curve7,11,2,0,0,1,25.2,4,4,4,pointguard:2 starknight:1 gravegolem:2 insideman:1,rival:duke,Duke's cast,9,0,9,29,7,36
+40000,curve7,13,2,0,0,1,15.5,5,5,5,counselors:2 captain:3 captain:1 telepath:2 mascot:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,3,0,3,7,6,13
+40000,curve7,13,2,0,0,1,16.85,5,5,5,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,2,0,2,2,4,6
+40000,curve7,13,2,0,0,1,11.9,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,3,0,3,2,7,9
+40000,curve7,13,2,0,0,1,9.2,6,6,7,kids:2 reporter:2 hunter:2 chainsaw:2 finalgirl:2 finalgirl:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,4,0,4,0,8,8
+40000,curve7,13,2,0,0,1,16.3,6,6,6,counselors:2 tanks:2 scientist:2 insideman:2 hunter:2 mascot:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,2,0,2,7,5,12
+40000,curve7,13,2,0,0,1,25.25,6,6,6,counselors:2 captain:2 brute:2 starknight:1 brute:1 brute:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,1,0,1,3,6,9
+40000,curve7,13,2,0,0,0,8.7,5,5,5,kids:2 reporter:2 babysitter:2 hunter:2 sheriff:1,f1:actor b2:actor b3:sniper b1:actor,Method Actor,4,1,3,6,2,8
+40000,curve7,13,2,0,0,1,6.6,5,5,5,beetles:2 pointguard:2 starknight:2 gravegolem:2 insideman:1,rival:kit,Kit's cast,9,0,9,21,5,26
+40000,curve7,14,2,0,0,1,18.7,5,5,5,captain:3 captain:1 telepath:2 mascot:1 mascot:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,3,0,3,19,7,26
+40000,curve7,14,2,0,0,1,18.2,5,5,5,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,2,0,2,11,5,16
+40000,curve7,14,2,0,0,1,13.05,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,3,0,3,8,7,15
+40000,curve7,14,2,0,0,1,9,6,6,7,kids:2 reporter:2 hunter:2 chainsaw:2 finalgirl:2 finalgirl:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,4,0,4,1,8,9
+40000,curve7,14,2,0,0,1,17.5,6,6,6,counselors:2 tanks:2 scientist:2 insideman:2 hunter:2 mascot:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,2,0,2,6,6,12
+40000,curve7,14,2,0,0,1,17.25,6,6,6,counselors:2 captain:2 brute:2 starknight:2 brute:1 brute:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,1,0,1,3,8,11
+40000,curve7,14,2,0,0,0,7.25,5,5,5,kids:2 reporter:2 babysitter:2 hunter:2 sheriff:1,b1:actor b2:actor f1:rats b3:actor,Method Actor,3,1,2,13,3,16
+40000,curve7,14,2,0,0,1,12.35,5,5,5,beetles:2 pointguard:2 starknight:2 gravegolem:2 insideman:1,rival:duke,Duke's cast,9,0,9,33,5,38
+40000,curve7,15,2,0,0,1,19.2,6,6,6,captain:3 captain:1 telepath:2 mascot:1 mascot:1 starknight:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,3,0,3,2,7,9
+40000,curve7,15,2,0,0,1,20.55,6,6,6,counselors:2 radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,2,0,2,1,5,6
+40000,curve7,15,2,0,0,1,17.5,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,3,0,3,7,10,17
+40000,curve7,15,2,0,0,1,14.4,6,6,7,kids:2 reporter:2 hunter:2 chainsaw:2 finalgirl:2 brute:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,4,0,4,0,8,8
+40000,curve7,15,2,0,0,0,39.85,6,6,6,counselors:2 tanks:2 scientist:2 insideman:2 hunter:2 mascot:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,2,1,1,12,3,15
+40000,curve7,15,2,0,0,1,35.35,6,6,6,counselors:2 captain:2 brute:2 starknight:2 brute:1 brute:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,1,0,1,3,8,11
+40000,curve7,15,2,0,0,0,15.8,6,6,6,kids:2 reporter:2 babysitter:2 hunter:2 sheriff:1 redshirts:1,b3:auditor b0:auditor b1:auditor f0:double,Stunt Double,2,1,1,1,4,5
+40000,curve7,15,2,0,0,1,22.8,6,6,6,beetles:2 redshirts:2 pointguard:2 starknight:2 gravegolem:2 insideman:1,rival:goldie,Goldie's cast,9,0,9,20,6,26
+40000,curve7,16,2,0,0,1,20.75,6,6,6,captain:3 captain:1 telepath:2 mascot:1 mascot:1 starknight:1,f2:mooks f0:figures f1:figures,Nameless Mooks,3,0,3,6,8,14
+40000,curve7,16,2,0,0,1,14.4,6,6,6,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fieldmed:1,f2:mooks f0:figures f1:figures,Nameless Mooks,2,0,2,2,6,8
+40000,curve7,16,2,0,0,1,14.8,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f2:mooks f0:figures f1:figures,Nameless Mooks,3,0,3,7,11,18
+40000,curve7,16,2,0,0,1,16.55,6,6,7,kids:2 reporter:2 hunter:2 chainsaw:2 finalgirl:2 brute:1,f2:mooks f0:figures f1:figures,Nameless Mooks,4,0,4,3,8,11
+40000,curve7,16,2,0,0,0,15.8,6,6,6,tanks:2 scientist:2 insideman:2 hunter:2 mascot:1 brute:1,f2:mooks f0:figures f1:figures,Nameless Mooks,1,1,1,14,4,18
+40000,curve7,16,2,0,0,1,34.35,6,6,6,counselors:2 captain:2 brute:2 starknight:2 brute:1 brute:1,f2:mooks f0:figures f1:figures,Nameless Mooks,1,0,1,3,9,12
+40000,curve7,16,2,0,0,0,26.2,6,6,6,kids:2 reporter:2 babysitter:2 hunter:2 headcoach:3 sheriff:2,f2:mooks f0:figures f1:figures,Nameless Mooks,1,1,1,4,4,8
+40000,curve7,16,2,0,0,0,41.5,6,6,6,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:rex,Rex's cast,9,1,8,21,3,24
+40000,curve7,17,2,0,0,1,21.7,6,6,6,captain:3 captain:1 telepath:2 mascot:1 mascot:1 starknight:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,3,0,3,10,9,19
+40000,curve7,17,2,0,0,1,16.5,6,6,6,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fieldmed:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,2,0,2,3,7,10
+40000,curve7,17,2,0,0,1,19.6,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,3,0,3,8,11,19
+40000,curve7,17,2,0,0,1,11.45,6,6,7,kids:2 reporter:2 hunter:2 chainsaw:2 finalgirl:2 brute:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,4,0,4,4,8,12
+40000,curve7,17,2,0,0,1,24.3,6,6,6,tanks:2 scientist:2 insideman:2 hunter:2 mascot:1 brute:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,1,0,1,8,5,13
+40000,curve7,17,2,0,0,1,19.9,6,6,6,counselors:2 captain:2 brute:3 starknight:2 captain:1 starknight:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,1,0,1,0,10,10
+40000,curve7,17,2,0,0,0,9.25,6,6,6,kids:2 reporter:2 babysitter:2 hunter:2 headcoach:3 necro:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,1,1,1,0,4,4
+40000,curve7,17,2,0,0,1,19.7,6,6,6,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,f0:double f1:double f2:ninjas f3:ninjas,Stunt Double,8,0,8,21,8,29
+40000,curve7,18,2,1,0,1,43.7,6,6,7,captain:3 captain:1 telepath:2 mascot:1 mascot:1 starknight:1,f1:mech f2:mech b1:shared,The Shared Universe,3,0,3,1,9,10
+40000,curve7,18,2,1,0,0,31.65,6,6,6,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fieldmed:1,f1:mech f2:mech b1:shared,The Shared Universe,2,2,1,16,1,17
+40000,curve7,18,2,1,0,0,38,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f1:mech f2:mech b1:shared,The Shared Universe,3,2,1,7,6,13
+40000,curve7,18,2,1,0,0,15.95,6,6,7,kids:2 hunter:2 chainsaw:2 finalgirl:2 brute:1 brute:1,f1:mech f2:mech b1:shared,The Shared Universe,4,2,2,0,1,1
+40000,curve7,18,2,1,0,0,37.1,6,6,6,tanks:2 scientist:2 insideman:2 hunter:2 mascot:1 brute:1,f1:mech f2:mech b1:shared,The Shared Universe,1,2,1,17,3,20
+40000,curve7,18,2,1,0,1,44.25,6,6,6,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,f1:mech f2:mech b1:shared,The Shared Universe,1,0,1,12,10,22
+40000,curve7,18,2,1,0,0,38.9,6,6,6,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f1:mech f2:mech b1:shared,The Shared Universe,1,2,1,6,4,10
+40000,curve7,18,2,1,0,1,41.5,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,f1:mech f2:mech b1:shared,The Shared Universe,8,0,8,6,9,15
+40000,curve7,19,3,0,0,0,25,6,6,7,counselors:2 captain:3 telepath:2 mascot:1 mascot:1 starknight:1,f1:auditor b3:auditor b0:actor,Vampire Auditor,3,1,2,6,1,7
+40000,curve7,19,3,0,0,0,11.65,6,6,6,counselors:2 radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1,f1:auditor b3:auditor b0:actor,Vampire Auditor,1,1,1,24,2,26
+40000,curve7,19,3,0,0,0,29.85,6,6,6,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f1:auditor b3:auditor b0:actor,Vampire Auditor,1,1,1,19,6,25
+40000,curve7,19,3,0,0,1,19.15,6,6,7,kids:2 chainsaw:2 finalgirl:2 brute:1 observer:2 brute:1,f1:auditor b3:auditor b0:actor,Vampire Auditor,2,0,2,2,6,8
+40000,curve7,19,3,0,0,0,28.95,6,6,7,tanks:2 scientist:2 insideman:2 hunter:2 mascot:1 brute:2,f1:auditor b3:auditor b0:actor,Vampire Auditor,1,1,1,3,3,6
+40000,curve7,19,3,0,0,1,44.8,6,6,7,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,f1:auditor b3:auditor b0:actor,Vampire Auditor,1,0,1,9,10,19
+40000,curve7,19,3,0,0,0,18.7,6,6,6,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f1:auditor b3:auditor b0:actor,Vampire Auditor,1,1,1,12,4,16
+40000,curve7,19,3,0,0,0,21,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:goldie,Goldie's cast,8,1,7,21,3,24
+40000,curve7,20,3,0,0,1,47.55,6,6,7,counselors:2 captain:3 telepath:2 mascot:1 mascot:1 starknight:1,f1:double b2:actor f3:continuity b1:actor,Continuity Error,2,0,2,6,6,12
+40000,curve7,20,3,0,0,1,42.6,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,f1:double b2:actor f3:continuity b1:actor,Continuity Error,1,0,1,2,5,7
+40000,curve7,20,3,0,0,1,39,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f1:double b2:actor f3:continuity b1:actor,Continuity Error,1,0,1,8,7,15
+40000,curve7,20,3,0,0,1,18.25,6,6,7,kids:2 chainsaw:2 finalgirl:2 brute:1 observer:2 brute:1,f1:double b2:actor f3:continuity b1:actor,Continuity Error,2,0,2,11,7,18
+40000,curve7,20,3,0,0,1,45.9,6,6,7,tanks:2 scientist:2 insideman:2 hunter:2 mascot:1 brute:2,f1:double b2:actor f3:continuity b1:actor,Continuity Error,1,0,1,9,5,14
+40000,curve7,20,3,0,0,1,49.2,6,6,7,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,f1:double b2:actor f3:continuity b1:actor,Continuity Error,1,0,1,21,10,31
+40000,curve7,20,3,0,0,1,43.25,6,6,6,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f1:double b2:actor f3:continuity b1:actor,Continuity Error,1,0,1,22,7,29
+40000,curve7,20,3,0,0,0,12.75,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:duke,Duke's cast,7,1,6,21,4,25
+40000,curve7,22,3,0,0,0,15.7,6,6,7,counselors:2 captain:3 telepath:2 mascot:1 mascot:1 starknight:1,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,2,1,1,7,1,8
+40000,curve7,22,3,0,0,0,8,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,1,1,1,2,2,4
+40000,curve7,22,3,0,0,0,13.45,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,1,1,1,8,5,13
+40000,curve7,22,3,0,0,1,17.2,6,6,7,kids:2 hunter:2 chainsaw:2 finalgirl:2 brute:2 observer:2,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,2,0,2,0,8,8
+40000,curve7,22,3,0,0,1,32.85,5,6,7,scientist:2 insideman:2 hunter:2 brute:2 mecha:2,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,1,0,1,11,6,17
+40000,curve7,22,3,0,0,1,46.35,6,6,7,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,1,0,1,52,10,62
+40000,curve7,22,3,0,0,0,9.25,6,6,7,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,b0:actor f1:retcons f0:continuity f2:figures,Continuity Error,1,1,1,7,1,8
+40000,curve7,22,3,0,0,0,26.65,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:penny,Penny's cast,6,1,5,20,5,25
+40000,curve7,23,3,0,0,0,10.8,6,6,7,counselors:2 captain:3 scientist:2 telepath:2 mascot:2 starknight:1,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,1,1,1,7,2,9
+40000,curve7,23,3,0,0,0,5.1,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,1,1,1,1,3,4
+40000,curve7,23,3,0,0,0,9.45,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,1,1,1,7,6,13
+40000,curve7,23,3,0,0,1,18.35,6,6,7,hunter:2 chainsaw:2 finalgirl:2 brute:2 observer:3 headcoach:2,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,2,0,2,1,9,10
+40000,curve7,23,3,0,0,1,22.3,5,6,7,scientist:2 insideman:2 hunter:2 brute:2 mecha:2,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,1,0,1,4,6,10
+40000,curve7,23,3,0,0,0,27.75,6,6,7,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,1,1,1,80,1,81
+40000,curve7,23,3,0,0,0,6.85,6,6,7,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f2:retcons b1:auditor f3:figures f1:spoiler,Spoiler,1,1,1,7,2,9
+40000,curve7,23,3,0,0,0,44.8,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:quill,Prof. Quill's cast,5,1,4,20,6,26
+40000,curve7,24,3,0,0,0,13.65,6,6,7,captain:3 scientist:2 telepath:2 mascot:2 starknight:1 necro:1,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,1,1,1,7,2,9
+40000,curve7,24,3,0,0,0,6.9,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,1,1,1,3,3,6
+40000,curve7,24,3,0,0,0,11.4,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,1,1,1,7,6,13
+40000,curve7,24,3,0,0,1,32.7,6,6,7,hunter:2 chainsaw:2 finalgirl:2 brute:2 observer:3 headcoach:2,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,2,0,2,1,10,11
+40000,curve7,24,3,0,0,1,25.15,5,6,7,scientist:2 insideman:2 hunter:2 brute:2 mecha:2,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,1,0,1,7,7,14
+40000,curve7,24,3,0,0,1,46.25,6,6,7,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,1,0,1,91,7,98
+40000,curve7,24,3,0,0,0,8.05,6,6,7,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,b2:sniper b1:mic b3:mic f0:mech b0:sniper,Driving-Test Mech,1,1,1,6,2,8
+40000,curve7,24,3,0,0,0,17.05,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:kit,Kit's cast,4,1,3,7,6,13
+40000,curve7,25,3,0,0,0,24.85,6,6,7,captain:3 scientist:2 telepath:2 mascot:2 starknight:1 necro:1,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,1,1,1,6,3,9
+40000,curve7,25,3,0,0,0,7.3,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,1,1,1,3,4,7
+40000,curve7,25,3,0,0,0,21.3,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,1,1,1,7,7,14
+40000,curve7,25,3,0,0,1,38.75,6,6,7,hunter:2 chainsaw:2 finalgirl:2 brute:2 observer:3 headcoach:2,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,2,0,2,3,10,13
+40000,curve7,25,3,0,0,1,39.3,5,6,7,scientist:2 insideman:2 hunter:2 brute:2 mecha:2,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,1,0,1,0,8,8
+40000,curve7,25,3,0,0,1,47,6,6,7,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,1,0,1,106,8,114
+40000,curve7,25,3,0,0,0,12.9,6,6,7,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f2:continuity b3:auditor b0:actor b2:mic,Continuity Error,1,1,1,7,3,10
+40000,curve7,25,3,0,0,0,17.3,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,rival:goldie,Goldie's cast,3,1,2,7,6,13
+40000,curve7,26,3,0,0,0,14.25,6,6,7,captain:3 scientist:2 telepath:2 mascot:2 starknight:1 necro:1,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,1,1,1,14,4,18
+40000,curve7,26,3,0,0,0,7.55,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,1,1,1,12,4,16
+40000,curve7,26,3,0,0,0,13.55,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,1,1,1,20,8,28
+40000,curve7,26,3,0,0,1,23.45,6,6,7,hunter:2 chainsaw:2 finalgirl:2 brute:2 observer:3 headcoach:2,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,2,0,2,17,10,27
+40000,curve7,26,3,0,0,1,34.35,5,6,7,scientist:2 insideman:2 hunter:2 brute:2 mecha:2,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,1,0,1,6,8,14
+40000,curve7,26,3,0,0,0,43.65,7,7,8,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1 starknight:1,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,1,1,1,80,1,81
+40000,curve7,26,3,0,0,0,12.15,6,6,7,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,1,1,1,16,4,20
+40000,curve7,26,3,0,0,0,14.75,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,f0:figures f2:double f3:plotarmor f1:ninjas,Plot Armor,2,1,1,7,6,13
+40000,curve7,27,3,1,0,0,23.25,6,6,7,captain:3 scientist:2 telepath:2 mascot:2 starknight:1 necro:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,24,4,28
+40000,curve7,27,3,1,0,0,12.65,6,6,7,radio:2 finalgirl:3 chainsaw:2 mascot:1 mascot:1 fixer:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,22,4,26
+40000,curve7,27,3,1,0,0,17.5,6,6,7,gravegolem:2 gunslinger:2 insideman:1 insideman:1 finalgirl:2 mascot:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,35,7,42
+40000,curve7,27,3,1,0,1,44.25,7,7,8,kids:2 hunter:2 chainsaw:2 finalgirl:2 brute:2 observer:3 headcoach:2,f0:plotarmor f2:continuity b1:exec,The Network Executive,2,0,2,0,10,10
+40000,curve7,27,3,1,0,0,42.7,5,6,7,scientist:2 insideman:2 hunter:2 brute:2 mecha:2,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,11,3,14
+40000,curve7,27,3,1,0,1,49.75,7,7,8,counselors:2 captain:2 brute:3 starknight:2 starknight:1 sheriff:1 starknight:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,0,1,85,7,92
+40000,curve7,27,3,1,0,0,15.1,6,6,7,kids:2 reporter:2 hunter:2 headcoach:3 sheriff:2 brute:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,1,27,4,31
+40000,curve7,27,3,1,0,0,23.25,6,6,7,beetles:2 redshirts:2 starknight:2 gravegolem:2 insideman:1 sheriff:1,f0:plotarmor f2:continuity b1:exec,The Network Executive,1,2,-1,7,6,13

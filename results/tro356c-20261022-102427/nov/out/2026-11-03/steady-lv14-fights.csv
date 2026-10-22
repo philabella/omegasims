@@ -1,0 +1,137 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,12.4,3,3,1,doc:1 deputy:1 counselors:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,14.2,3,3,1,vampbat:1 doc:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,12.4,3,3,1,doc:1 deputy:1 counselors:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,14.2,3,3,1,vampbat:1 doc:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,14.2,3,3,1,vampbat:1 doc:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,14.2,3,3,1,vampbat:1 doc:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,14.2,3,3,1,vampbat:1 doc:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,1,26.45,3,3,1,redshirts:1 pilot:1 pilot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,2,1,0,0,0,23.25,4,4,2,doc:1 deputy:1 doc:1 deputy:1,f1:double b1:actor,Stunt Double,8,1,7,0,2,2
+40000,curve7,2,1,0,0,1,12.3,4,4,2,vampbat:1 deputy:1 safecracker:1 vampbat:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,0,23.25,4,4,2,doc:1 deputy:1 doc:1 deputy:1,f1:double b1:actor,Stunt Double,8,1,7,0,2,2
+40000,curve7,2,1,0,0,0,17.05,3,3,1,vampbat:1 doc:1 deputy:1,f1:double b1:actor,Stunt Double,8,1,7,9,2,11
+40000,curve7,2,1,0,0,1,15.45,4,4,2,doc:1 deputy:1 outlaws:1 outlaws:1,f1:double b1:actor,Stunt Double,8,0,8,1,1,2
+40000,curve7,2,1,0,0,0,18.45,4,4,2,doc:1 deputy:1 babysitter:1 nurse:1,f1:double b1:actor,Stunt Double,8,1,7,0,2,2
+40000,curve7,2,1,0,0,1,15.45,4,4,2,doc:1 deputy:1 outlaws:1 outlaws:1,f1:double b1:actor,Stunt Double,8,0,8,1,1,2
+40000,curve7,2,1,0,0,1,17.75,4,4,2,redshirts:1 pilot:1 pilot:1 redshirts:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,4,1,0,0,1,15.65,4,4,2,doc:1 deputy:1 doc:1 fieldmed:2,b0:mic f3:double f1:double,Stunt Double,7,0,7,16,4,20
+40000,curve7,4,1,0,0,1,8.05,4,4,2,vampbat:1 lookouts:1 safecracker:1 fieldmed:2,b0:mic f3:double f1:double,Stunt Double,8,0,8,14,5,19
+40000,curve7,4,1,0,0,1,15.65,4,4,2,doc:1 deputy:1 doc:1 fieldmed:2,b0:mic f3:double f1:double,Stunt Double,7,0,7,16,4,20
+40000,curve7,4,1,0,0,1,19.95,4,4,3,vampbat:1 doc:1 deputy:1 fieldmed:2,b0:mic f3:double f1:double,Stunt Double,7,0,7,15,4,19
+40000,curve7,4,1,0,0,1,9.1,4,4,2,vampbat:2 outlaws:2 fieldmed:2 outlaws:1,b0:mic f3:double f1:double,Stunt Double,8,0,8,13,5,18
+40000,curve7,4,1,0,0,1,20.8,4,4,2,doc:1 babysitter:1 nurse:1 fieldmed:2,b0:mic f3:double f1:double,Stunt Double,7,0,7,16,4,20
+40000,curve7,4,1,0,0,1,16.4,4,4,2,doc:1 deputy:1 outlaws:2 outlaws:1,b0:mic f3:double f1:double,Stunt Double,8,0,8,26,5,31
+40000,curve7,4,1,0,0,0,17.85,4,4,3,redshirts:2 pilot:1 pilot:1 counselors:2,rival:quill,Prof. Quill's cast,9,1,8,18,1,19
+40000,curve7,5,1,0,0,1,19.8,4,4,2,doc:1 doc:1 fieldmed:2 safecracker:1,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,7,0,7,24,5,29
+40000,curve7,5,1,0,0,1,6.65,4,4,2,vampbat:1 lookouts:1 safecracker:1 fieldmed:2,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,8,0,8,25,5,30
+40000,curve7,5,1,0,0,1,14.35,4,4,2,doc:1 deputy:1 doc:1 fieldmed:2,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,7,0,7,27,5,32
+40000,curve7,5,1,0,0,1,15.6,4,4,4,vampbat:1 doc:1 fieldmed:2 vampbat:1,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,7,0,7,10,5,15
+40000,curve7,5,1,0,0,1,7.4,4,4,2,vampbat:2 outlaws:2 fieldmed:2 outlaws:1,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,8,0,8,24,5,29
+40000,curve7,5,1,0,0,1,14.2,4,4,2,babysitter:2 nurse:1 fieldmed:2 nurse:1,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,7,0,7,24,5,29
+40000,curve7,5,1,0,0,1,14.35,4,4,2,doc:1 deputy:1 outlaws:2 outlaws:1,f0:mooks b2:mic b0:actor f2:mooks,Method Actor,8,0,8,39,5,44
+40000,curve7,5,1,0,0,1,15.4,4,4,3,redshirts:2 pilot:2 counselors:2 chainsaw:1,rival:penny,Penny's cast,8,0,8,20,1,21
+40000,curve7,6,1,0,0,1,8.1,4,4,3,doc:2 fieldmed:2 safecracker:1 safecracker:1,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,7,0,7,22,5,27
+40000,curve7,6,1,0,0,1,4.8,4,4,2,vampbat:1 lookouts:1 safecracker:1 fieldmed:2,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,8,0,8,38,6,44
+40000,curve7,6,1,0,0,1,8.6,4,4,2,doc:1 deputy:1 doc:1 fieldmed:2,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,7,0,7,39,5,44
+40000,curve7,6,1,0,0,1,6.05,5,5,5,vampbat:1 doc:1 fieldmed:2 vampbat:1 bounty:1,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,7,0,7,1,5,6
+40000,curve7,6,1,0,0,1,6.4,4,4,2,vampbat:2 outlaws:2 fieldmed:2 outlaws:1,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,8,0,8,36,6,42
+40000,curve7,6,1,0,0,1,10,4,4,3,babysitter:2 nurse:1 fieldmed:2 nurse:1,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,7,0,7,28,5,33
+40000,curve7,6,1,0,0,1,8.05,4,4,2,doc:1 outlaws:2 outlaws:1 bounty:1,f1:mooks f0:mooks f2:rats f3:mooks,Nameless Mooks,8,0,8,51,6,57
+40000,curve7,6,1,0,0,1,15.45,4,4,3,redshirts:2 pilot:2 counselors:2 chainsaw:2,rival:quill,Prof. Quill's cast,8,0,8,21,2,23
+40000,curve7,7,1,0,0,1,15.7,4,4,4,doc:2 deputy:2 fieldmed:2 safecracker:1,b3:actor b0:actor b1:actor f2:double,Stunt Double,7,0,7,21,6,27
+40000,curve7,7,1,0,0,1,4.75,4,4,2,lookouts:1 safecracker:1 fieldmed:2 lookouts:1,b3:actor b0:actor b1:actor f2:double,Stunt Double,8,0,8,51,7,58
+40000,curve7,7,1,0,0,1,14.7,4,4,3,doc:1 deputy:2 doc:1 fieldmed:2,b3:actor b0:actor b1:actor f2:double,Stunt Double,7,0,7,47,6,53
+40000,curve7,7,1,0,0,1,7.25,5,5,5,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:1,b3:actor b0:actor b1:actor f2:double,Stunt Double,7,0,7,1,6,7
+40000,curve7,7,1,0,0,1,8.7,4,4,2,vampbat:2 outlaws:2 fieldmed:2 outlaws:1,b3:actor b0:actor b1:actor f2:double,Stunt Double,8,0,8,51,7,58
+40000,curve7,7,1,0,0,1,15.7,4,4,4,babysitter:2 nurse:2 fieldmed:2 riot:1,b3:actor b0:actor b1:actor f2:double,Stunt Double,7,0,7,25,6,31
+40000,curve7,7,1,0,0,1,7.75,4,4,3,doc:1 outlaws:2 outlaws:1 bounty:2,b3:actor b0:actor b1:actor f2:double,Stunt Double,8,0,8,58,7,65
+40000,curve7,7,1,0,0,1,12.4,4,4,3,redshirts:2 pilot:2 counselors:2 chainsaw:2,rival:duke,Duke's cast,8,0,8,27,2,29
+40000,curve7,8,1,0,0,1,10.3,4,4,4,doc:2 deputy:2 fieldmed:2 safecracker:2,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,7,0,7,21,7,28
+40000,curve7,8,1,0,0,1,4.85,4,4,3,lookouts:1 safecracker:1 fieldmed:2 safecracker:1,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,8,0,8,62,7,69
+40000,curve7,8,1,0,0,1,12.45,4,4,4,doc:1 deputy:2 doc:1 fieldmed:2,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,7,0,7,46,7,53
+40000,curve7,8,1,0,0,1,5.85,5,5,5,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:1,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,7,0,7,12,7,19
+40000,curve7,8,1,0,0,1,8.25,4,4,3,vampbat:2 outlaws:2 fieldmed:2 chainsaw:1,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,8,0,8,61,7,68
+40000,curve7,8,1,0,0,1,15.65,4,4,4,babysitter:2 nurse:2 fieldmed:2 riot:2,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,7,0,7,36,7,43
+40000,curve7,8,1,0,0,1,4.05,4,4,4,doc:2 outlaws:2 bounty:2 prospector:1,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,8,0,8,56,7,63
+40000,curve7,8,1,0,0,1,7.8,4,4,4,redshirts:2 pilot:2 counselors:2 chainsaw:2,f3:mooks b3:mic b1:mic b0:mic,Boom Mic Operator,8,0,8,21,6,27
+40000,curve7,9,1,1,0,1,12.35,4,4,4,fieldmed:2 safecracker:2 driver:2 fixer:1,f0:rats f3:rats b1:editor,The Editor,7,0,7,6,7,13
+40000,curve7,9,1,1,0,1,9.1,5,5,5,lookouts:2 safecracker:1 fieldmed:2 safecracker:1 driver:1,f0:rats f3:rats b1:editor,The Editor,8,0,8,44,7,51
+40000,curve7,9,1,1,0,1,12.65,5,5,5,doc:2 deputy:2 fieldmed:2 bounty:2 observer:2,f0:rats f3:rats b1:editor,The Editor,7,0,7,5,7,12
+40000,curve7,9,1,1,0,1,15.65,6,6,6,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:1 hunter:1,f0:rats f3:rats b1:editor,The Editor,7,0,7,2,7,9
+40000,curve7,9,1,1,0,1,19.05,4,4,4,outlaws:2 fieldmed:2 chainsaw:2 captain:2,f0:rats f3:rats b1:editor,The Editor,8,0,8,6,7,13
+40000,curve7,9,1,1,0,1,24.05,5,5,5,babysitter:2 nurse:2 fieldmed:2 riot:2 mule:1,f0:rats f3:rats b1:editor,The Editor,7,0,7,33,7,40
+40000,curve7,9,1,1,0,1,5.05,5,5,5,doc:2 outlaws:2 bounty:2 prospector:2 gunslinger:3,f0:rats f3:rats b1:editor,The Editor,8,0,8,11,7,18
+40000,curve7,9,1,1,0,0,23.6,4,4,4,redshirts:2 counselors:2 chainsaw:2 exorcist:2,f0:rats f3:rats b1:editor,The Editor,8,2,6,7,1,8
+40000,curve7,10,2,0,0,0,18.65,4,4,4,fieldmed:2 safecracker:2 driver:2 fixer:1,b2:auditor b3:actor f2:mooks,Vampire Auditor,7,1,6,19,1,20
+40000,curve7,10,2,0,0,1,12.8,5,5,5,lookouts:2 safecracker:1 fieldmed:2 driver:2 fixer:1,b2:auditor b3:actor f2:mooks,Vampire Auditor,8,0,8,54,9,63
+40000,curve7,10,2,0,0,1,15.65,5,5,5,doc:2 deputy:2 fieldmed:2 bounty:2 observer:2,b2:auditor b3:actor f2:mooks,Vampire Auditor,7,0,7,18,9,27
+40000,curve7,10,2,0,0,0,6.95,6,6,6,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:1 gunslinger:1,b2:auditor b3:actor f2:mooks,Vampire Auditor,7,1,6,11,1,12
+40000,curve7,10,2,0,0,0,22.85,4,4,4,outlaws:2 fieldmed:2 chainsaw:2 captain:2,b2:auditor b3:actor f2:mooks,Vampire Auditor,8,1,7,19,1,20
+40000,curve7,10,2,0,0,0,21.45,5,5,5,babysitter:2 nurse:2 fieldmed:2 riot:2 observer:1,b2:auditor b3:actor f2:mooks,Vampire Auditor,7,1,6,42,1,43
+40000,curve7,10,2,0,0,1,9.55,5,5,5,doc:2 outlaws:2 bounty:2 prospector:2 gunslinger:3,b2:auditor b3:actor f2:mooks,Vampire Auditor,8,0,8,24,7,31
+40000,curve7,10,2,0,0,0,5.35,4,4,4,redshirts:2 counselors:2 chainsaw:2 exorcist:2,rival:quill,Prof. Quill's cast,6,1,5,13,2,15
+40000,curve7,11,2,0,0,1,12.95,4,4,4,fieldmed:2 safecracker:2 driver:2 fixer:1,f0:double f3:mech f1:rats,Driving-Test Mech,6,0,6,27,4,31
+40000,curve7,11,2,0,0,1,7.45,5,5,5,lookouts:2 safecracker:2 fieldmed:2 driver:2 fixer:1,f0:double f3:mech f1:rats,Driving-Test Mech,8,0,8,72,9,81
+40000,curve7,11,2,0,0,1,16.85,5,5,5,doc:2 deputy:2 fieldmed:2 bounty:2 observer:2,f0:double f3:mech f1:rats,Driving-Test Mech,7,0,7,34,9,43
+40000,curve7,11,2,0,0,1,36,6,6,6,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:1 gunslinger:1,f0:double f3:mech f1:rats,Driving-Test Mech,6,0,6,18,6,24
+40000,curve7,11,2,0,0,1,30.45,4,4,4,outlaws:2 fieldmed:2 chainsaw:2 captain:2,f0:double f3:mech f1:rats,Driving-Test Mech,7,0,7,27,4,31
+40000,curve7,11,2,0,0,1,20.3,6,6,6,babysitter:2 nurse:2 fieldmed:2 riot:2 observer:1 finalgirl:2,f0:double f3:mech f1:rats,Driving-Test Mech,6,0,6,22,4,26
+40000,curve7,11,2,0,0,1,6.3,5,5,5,doc:2 outlaws:2 bounty:2 prospector:2 gunslinger:3,f0:double f3:mech f1:rats,Driving-Test Mech,8,0,8,39,7,46
+40000,curve7,11,2,0,0,0,7.55,4,4,4,redshirts:2 counselors:2 chainsaw:2 exorcist:2,rival:duke,Duke's cast,5,1,4,21,2,23
+40000,curve7,13,2,0,0,0,19.9,5,5,5,fieldmed:2 safecracker:2 driver:2 fixer:2 fixer:1,f1:auditor b0:actor b1:auditor,Vampire Auditor,6,1,5,21,2,23
+40000,curve7,13,2,0,0,1,9.25,5,5,5,lookouts:2 safecracker:2 fieldmed:2 driver:2 fixer:1,f1:auditor b0:actor b1:auditor,Vampire Auditor,8,0,8,110,9,119
+40000,curve7,13,2,0,0,0,38.75,6,6,6,doc:2 deputy:2 fieldmed:2 gunslinger:2 observer:2 brute:1,f1:auditor b0:actor b1:auditor,Vampire Auditor,7,1,6,36,3,39
+40000,curve7,13,2,0,0,0,10.6,6,6,7,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:2 gunslinger:1,f1:auditor b0:actor b1:auditor,Vampire Auditor,6,1,5,10,2,12
+40000,curve7,13,2,0,0,1,20.5,4,4,4,outlaws:2 fieldmed:2 finalgirl:2 captain:2,f1:auditor b0:actor b1:auditor,Vampire Auditor,7,0,7,47,5,52
+40000,curve7,13,2,0,0,1,18.95,6,6,6,babysitter:2 queen:2 fieldmed:2 riot:2 observer:1 finalgirl:2,f1:auditor b0:actor b1:auditor,Vampire Auditor,6,0,6,38,5,43
+40000,curve7,13,2,0,0,1,7.05,5,5,5,doc:2 outlaws:2 bounty:2 prospector:2 gunslinger:3,f1:auditor b0:actor b1:auditor,Vampire Auditor,8,0,8,61,7,68
+40000,curve7,13,2,0,0,0,7.25,5,5,5,redshirts:2 counselors:2 chainsaw:2 exorcist:2 finalgirl:2,rival:quill,Prof. Quill's cast,4,1,3,7,3,10
+40000,curve7,14,2,0,0,1,11.4,5,5,5,fieldmed:2 safecracker:2 driver:2 fixer:2 fixer:1,f0:double b3:actor b1:actor f1:double,Stunt Double,5,0,5,24,7,31
+40000,curve7,14,2,0,0,1,7.35,6,6,6,lookouts:2 safecracker:2 fieldmed:2 driver:2 fixer:1 hacker:1,f0:double b3:actor b1:actor f1:double,Stunt Double,8,0,8,114,9,123
+40000,curve7,14,2,0,0,1,13.45,6,6,6,deputy:2 fieldmed:2 gunslinger:2 observer:2 hunter:2 observer:1,f0:double b3:actor b1:actor f1:double,Stunt Double,6,0,6,33,6,39
+40000,curve7,14,2,0,0,0,8.85,6,6,7,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:2 gunslinger:1,f0:double b3:actor b1:actor f1:double,Stunt Double,5,1,4,11,4,15
+40000,curve7,14,2,0,0,1,22.75,4,4,4,outlaws:2 fieldmed:2 finalgirl:2 captain:2,f0:double b3:actor b1:actor f1:double,Stunt Double,7,0,7,62,5,67
+40000,curve7,14,2,0,0,1,15.85,6,6,7,queen:2 fieldmed:2 riot:2 observer:1 finalgirl:2 observer:1,f0:double b3:actor b1:actor f1:double,Stunt Double,6,0,6,24,5,29
+40000,curve7,14,2,0,0,1,4.05,6,6,6,doc:2 outlaws:2 bounty:2 prospector:2 gunslinger:3 sheriff:2,f0:double b3:actor b1:actor f1:double,Stunt Double,8,0,8,58,7,65
+40000,curve7,14,2,0,0,1,14.1,5,5,5,counselors:2 chainsaw:2 exorcist:2 finalgirl:2 finalgirl:1,rival:duke,Duke's cast,3,0,3,10,1,11
+40000,curve7,15,2,0,0,1,20.05,5,5,5,fieldmed:2 safecracker:2 driver:2 fixer:2 fixer:1,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,5,0,5,39,7,46
+40000,curve7,15,2,0,0,0,24.1,6,6,7,lookouts:2 safecracker:2 fieldmed:2 driver:2 fixer:1 hacker:1,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,8,1,7,106,3,109
+40000,curve7,15,2,0,0,0,14.3,6,6,6,fieldmed:2 gunslinger:2 observer:2 hunter:2 observer:1 scientist:2,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,6,1,5,35,2,37
+40000,curve7,15,2,0,0,0,4.6,6,6,7,fieldmed:2 bounty:1 bounty:1 gunslinger:1 hunter:2 gunslinger:1,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,4,1,3,13,2,15
+40000,curve7,15,2,0,0,0,17,5,5,5,outlaws:2 fieldmed:2 finalgirl:2 captain:2 brute:1,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,7,1,6,61,1,62
+40000,curve7,15,2,0,0,1,23.6,6,6,7,queen:2 fieldmed:2 riot:2 observer:1 finalgirl:2 observer:1,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,6,0,6,32,6,38
+40000,curve7,15,2,0,0,1,5.25,6,6,6,bounty:2 prospector:2 gunslinger:3 sheriff:2 sheriff:1 sheriff:1,f0:figures b0:auditor b3:mic b1:mic,Vampire Auditor,8,0,8,67,7,74
+40000,curve7,15,2,0,0,0,6.35,5,5,5,counselors:2 chainsaw:2 exorcist:2 finalgirl:2 finalgirl:1,rival:quill,Prof. Quill's cast,3,1,2,17,1,18
+40000,curve7,16,2,0,0,0,21.95,6,6,6,doc:2 fieldmed:2 safecracker:2 driver:2 driver:1 fixer:3,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,5,1,4,21,2,23
+40000,curve7,16,2,0,0,0,18.35,6,6,7,lookouts:2 safecracker:2 driver:2 fixer:1 hacker:2 fixer:1,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,7,1,6,117,4,121
+40000,curve7,16,2,0,0,1,19.2,6,6,6,fieldmed:2 gunslinger:2 observer:2 hunter:2 observer:1 scientist:2,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,5,0,5,45,7,52
+40000,curve7,16,2,0,0,1,20.05,6,6,7,fieldmed:2 bounty:1 gunslinger:1 hunter:2 gunslinger:1 mastermind:1,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,3,0,3,10,6,16
+40000,curve7,16,2,0,0,1,24.15,5,5,5,outlaws:2 fieldmed:2 finalgirl:2 captain:2 brute:1,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,6,0,6,72,4,76
+40000,curve7,16,2,0,0,1,19.1,6,6,7,queen:2 fieldmed:2 riot:2 observer:1 finalgirl:2 observer:1,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,6,0,6,42,7,49
+40000,curve7,16,2,0,0,1,7.05,6,6,7,doc:2 outlaws:2 bounty:2 prospector:2 gunslinger:3 sheriff:3,f1:mech b0:mic f0:double b2:sniper,Driving-Test Mech,8,0,8,50,7,57
+40000,curve7,16,2,0,0,1,14.1,6,6,6,redshirts:2 counselors:2 chainsaw:2 exorcist:2 finalgirl:2 finalgirl:1,rival:duke,Duke's cast,2,0,2,1,1,2
+40000,curve7,17,2,0,0,0,17.15,6,6,7,doc:2 fieldmed:2 safecracker:2 driver:2 driver:1 fixer:3,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,4,1,3,2,3,5
+40000,curve7,17,2,0,0,0,31.2,6,6,7,lookouts:2 safecracker:2 fixer:1 hacker:2 fixer:1 insideman:1,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,6,1,5,131,4,135
+40000,curve7,17,2,0,0,0,31,6,6,7,fieldmed:2 gunslinger:2 observer:2 hunter:2 observer:1 scientist:2,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,5,1,4,35,2,37
+40000,curve7,17,2,0,0,0,10.25,6,6,7,fieldmed:2 bounty:1 gunslinger:1 hunter:2 gunslinger:1 mastermind:1,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,3,1,2,10,1,11
+40000,curve7,17,2,0,0,1,32.85,6,6,6,outlaws:2 fieldmed:2 finalgirl:2 captain:2 kids:2 brute:1,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,6,0,6,61,5,66
+40000,curve7,17,2,0,0,1,27.7,6,6,7,queen:2 fieldmed:2 riot:2 observer:1 finalgirl:2 observer:1,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,6,0,6,53,7,60
+40000,curve7,17,2,0,0,1,2.55,6,6,7,doc:2 bounty:2 prospector:2 gunslinger:3 sheriff:3 noname:1,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,8,0,8,60,7,67
+40000,curve7,17,2,0,0,0,20,6,6,6,redshirts:2 counselors:2 chainsaw:2 exorcist:2 finalgirl:2 finalgirl:1,b2:auditor f2:mech b3:auditor b0:auditor,Driving-Test Mech,2,1,1,7,1,8
+40000,curve7,18,2,1,0,1,38.15,6,6,7,fieldmed:2 safecracker:2 driver:2 driver:1 fixer:3 bonedragon:1,f1:mech f2:mech b1:shared,The Shared Universe,3,0,3,3,6,9
+40000,curve7,18,2,1,0,0,25.05,6,6,7,lookouts:2 safecracker:2 fixer:1 hacker:2 fixer:1 insideman:1,f1:mech f2:mech b1:shared,The Shared Universe,5,2,3,150,5,155
+40000,curve7,18,2,1,0,0,25.25,6,6,7,fieldmed:2 gunslinger:2 observer:2 hunter:2 observer:1 scientist:2,f1:mech f2:mech b1:shared,The Shared Universe,4,2,2,5,4,9
+40000,curve7,18,2,1,0,0,12,6,6,7,fieldmed:2 bounty:1 gunslinger:1 hunter:2 gunslinger:1 mastermind:1,f1:mech f2:mech b1:shared,The Shared Universe,2,2,1,1,2,3
+40000,curve7,18,2,1,0,1,38.1,6,6,7,fieldmed:2 finalgirl:2 captain:3 kids:2 brute:1 exorcist:2,f1:mech f2:mech b1:shared,The Shared Universe,6,0,6,6,5,11
+40000,curve7,18,2,1,0,1,36.8,6,6,7,queen:2 fieldmed:2 riot:2 observer:1 finalgirl:2 observer:1,f1:mech f2:mech b1:shared,The Shared Universe,6,0,6,67,7,74
+40000,curve7,18,2,1,0,1,6.05,6,6,7,doc:2 bounty:2 prospector:2 gunslinger:3 sheriff:3 noname:2,f1:mech f2:mech b1:shared,The Shared Universe,8,0,8,11,7,18
+40000,curve7,18,2,1,0,1,40.35,6,6,6,counselors:2 chainsaw:2 exorcist:2 finalgirl:2 finalgirl:1 brute:1,f1:mech f2:mech b1:shared,The Shared Universe,1,0,1,9,4,13
+40000,curve7,19,3,0,0,1,29.95,6,6,7,fieldmed:2 safecracker:2 driver:2 fixer:3 bonedragon:1 insideman:1,f1:breaker b2:auditor b0:sniper,Vampire Auditor,3,0,3,6,7,13
+40000,curve7,19,3,0,0,0,12.6,6,6,7,lookouts:2 safecracker:2 driver:2 fixer:1 hacker:2 insideman:1,f1:breaker b2:auditor b0:sniper,Vampire Auditor,3,1,2,52,6,58
+40000,curve7,19,3,0,0,0,7.4,6,6,7,fieldmed:2 gunslinger:2 observer:2 hunter:2 observer:1 scientist:2,f1:breaker b2:auditor b0:sniper,Vampire Auditor,2,1,1,6,2,8
+40000,curve7,19,3,0,0,0,5.95,6,6,7,fieldmed:2 bounty:1 gunslinger:1 hunter:2 gunslinger:1 mastermind:1,f1:breaker b2:auditor b0:sniper,Vampire Auditor,1,1,1,8,2,10
+40000,curve7,19,3,0,0,1,24.3,6,6,7,fieldmed:2 finalgirl:2 captain:3 kids:2 brute:1 exorcist:2,f1:breaker b2:auditor b0:sniper,Vampire Auditor,6,0,6,17,6,23
+40000,curve7,19,3,0,0,0,7.05,6,6,7,queen:3 fieldmed:2 riot:2 observer:1 finalgirl:2 observer:1,f1:breaker b2:auditor b0:sniper,Vampire Auditor,6,1,5,75,1,76
+40000,curve7,19,3,0,0,1,1.3,6,6,7,doc:2 bounty:2 prospector:2 gunslinger:3 sheriff:3 noname:2,f1:breaker b2:auditor b0:sniper,Vampire Auditor,8,0,8,24,10,34
+40000,curve7,19,3,0,0,0,15.75,6,6,6,counselors:2 chainsaw:2 exorcist:2 finalgirl:2 finalgirl:1 brute:1,rival:quill,Prof. Quill's cast,1,1,0,19,1,20

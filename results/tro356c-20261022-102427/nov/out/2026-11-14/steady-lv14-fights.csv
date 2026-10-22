@@ -1,0 +1,137 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,11.2,3,3,1,driver:1 vampbat:1 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,1,1,2
+40000,curve7,1,1,0,0,1,11.2,3,3,1,driver:1 vampbat:1 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,3,1,4
+40000,curve7,1,1,0,0,0,0.05,0,3,1,,f0:mooks b1:mic,Boom Mic Operator,9,1,8,6,1,7
+40000,curve7,1,1,0,0,1,11.2,3,3,1,driver:1 vampbat:1 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,1,1,2
+40000,curve7,1,1,0,0,1,11.2,3,3,1,driver:1 vampbat:1 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,3,1,4
+40000,curve7,1,1,0,0,1,11.2,3,3,1,driver:1 vampbat:1 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,1,1,2
+40000,curve7,1,1,0,0,1,12.4,3,3,1,vampbat:1 commando:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,7.9,3,3,1,pitcher:1 dodgeball:1 pitcher:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,2,1,0,0,1,12.95,4,4,2,driver:1 commando:1 commando:1 droids:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,15.4,4,4,2,driver:1 vampbat:1 riot:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,3,2,5
+40000,curve7,2,1,0,0,0,7.9,2,4,2,redshirts:1 redshirts:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,6,2,8
+40000,curve7,2,1,0,0,1,7.2,4,4,2,driver:1 vampbat:1 commando:1 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,8.05,4,4,2,driver:1 vampbat:1 commando:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,3,2,5
+40000,curve7,2,1,0,0,1,7.2,4,4,2,driver:1 vampbat:1 commando:1 riot:2,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,9.45,4,4,2,driver:1 vampbat:1 commando:1 riot:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,1,2,3
+40000,curve7,2,1,0,0,1,9.2,4,4,2,pitcher:2 dodgeball:1 muscle:1 dodgeball:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,2,2
+40000,curve7,4,1,0,0,0,10,4,4,2,driver:2 commando:1 commando:1 droids:1,f2:rats b0:mic b2:mic,Boom Mic Operator,9,1,8,12,1,13
+40000,curve7,4,1,0,0,1,16.05,4,4,2,driver:2 commando:1 riot:1 riot:1,f2:rats b0:mic b2:mic,Boom Mic Operator,9,0,9,16,5,21
+40000,curve7,4,1,0,0,1,27.55,4,4,2,redshirts:2 telepath:1 telepath:1 droids:1,f2:rats b0:mic b2:mic,Boom Mic Operator,7,0,7,16,4,20
+40000,curve7,4,1,0,0,1,13.25,4,4,3,driver:2 vampbat:1 commando:1 commando:1,f2:rats b0:mic b2:mic,Boom Mic Operator,9,0,9,4,5,9
+40000,curve7,4,1,0,0,1,8.4,4,4,2,driver:2 vampbat:1 commando:1 riot:1,f2:rats b0:mic b2:mic,Boom Mic Operator,9,0,9,16,5,21
+40000,curve7,4,1,0,0,1,8.25,4,4,3,vampbat:2 commando:1 riot:2 chainsaw:1,f2:rats b0:mic b2:mic,Boom Mic Operator,9,0,9,0,5,5
+40000,curve7,4,1,0,0,1,10.85,4,4,2,vampbat:1 commando:1 riot:1 chainsaw:1,f2:rats b0:mic b2:mic,Boom Mic Operator,9,0,9,10,5,15
+40000,curve7,4,1,0,0,1,18.95,4,4,2,pitcher:2 dodgeball:2 muscle:1 dodgeball:1,rival:kit,Kit's cast,9,0,9,12,2,14
+40000,curve7,5,1,0,0,0,25.65,4,4,2,driver:2 vampbat:1 commando:1 droids:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,8,1,7,19,2,21
+40000,curve7,5,1,0,0,1,10.25,4,4,2,driver:2 commando:1 riot:1 riot:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,9,0,9,28,7,35
+40000,curve7,5,1,0,0,1,24.1,4,4,2,redshirts:2 telepath:1 telepath:1 droids:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,7,0,7,27,5,32
+40000,curve7,5,1,0,0,1,5.8,4,4,3,driver:2 commando:2 safecracker:1 safecracker:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,9,0,9,0,6,6
+40000,curve7,5,1,0,0,1,10.2,4,4,2,driver:2 vampbat:1 commando:1 radio:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,9,0,9,26,6,32
+40000,curve7,5,1,0,0,1,9.2,4,4,4,driver:2 vampbat:2 riot:2 chainsaw:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,9,0,9,0,6,6
+40000,curve7,5,1,0,0,1,8.1,4,4,3,vampbat:1 commando:1 chainsaw:1 mule:1,f1:actor b2:actor b1:actor b0:actor,Method Actor,9,0,9,12,6,18
+40000,curve7,5,1,0,0,1,14.5,4,4,2,pitcher:2 dodgeball:2 muscle:1 dodgeball:1,rival:echo,Echo's cast,9,0,9,20,3,23
+40000,curve7,6,1,0,0,1,10.45,4,4,3,driver:2 droids:2 rifle:2 smuggler:1,f2:double b3:mic b0:mic b2:mic,Stunt Double,7,0,7,18,4,22
+40000,curve7,6,1,0,0,0,10.3,4,4,2,driver:2 commando:1 riot:1 riot:1,f2:double b3:mic b0:mic b2:mic,Stunt Double,9,1,8,43,1,44
+40000,curve7,6,1,0,0,0,17.55,4,4,2,redshirts:2 telepath:1 telepath:1 droids:1,f2:double b3:mic b0:mic b2:mic,Stunt Double,7,1,6,40,1,41
+40000,curve7,6,1,0,0,1,7.05,4,4,3,driver:2 vampbat:2 commando:2 safecracker:2,f2:double b3:mic b0:mic b2:mic,Stunt Double,9,0,9,1,7,8
+40000,curve7,6,1,0,0,1,12.05,4,4,3,driver:2 commando:1 radio:1 prospector:1,f2:double b3:mic b0:mic b2:mic,Stunt Double,9,0,9,33,7,40
+40000,curve7,6,1,0,0,1,9.05,4,4,4,driver:2 vampbat:2 riot:2 captain:1,f2:double b3:mic b0:mic b2:mic,Stunt Double,9,0,9,1,7,8
+40000,curve7,6,1,0,0,1,9.25,4,4,4,commando:1 chainsaw:1 chainsaw:1 mule:1,f2:double b3:mic b0:mic b2:mic,Stunt Double,9,0,9,10,7,17
+40000,curve7,6,1,0,0,0,16.05,4,4,3,pitcher:2 dodgeball:2 muscle:2 dodgeball:1,rival:ivy,Ivy's cast,9,1,8,21,1,22
+40000,curve7,7,1,0,0,1,17.4,4,4,3,droids:2 smuggler:1 smuggler:1 telepath:1,f3:double f1:double f0:double f2:double,Stunt Double,7,0,7,25,5,30
+40000,curve7,7,1,0,0,1,10.35,4,4,2,driver:2 commando:1 riot:2 vampbat:2,f3:double f1:double f0:double f2:double,Stunt Double,8,0,8,50,4,54
+40000,curve7,7,1,0,0,0,37.3,4,4,2,redshirts:2 telepath:2 droids:1 droids:1,f3:double f1:double f0:double f2:double,Stunt Double,6,1,5,47,2,49
+40000,curve7,7,1,0,0,1,9.05,4,4,3,driver:2 vampbat:2 safecracker:2 mule:2,f3:double f1:double f0:double f2:double,Stunt Double,9,0,9,6,7,13
+40000,curve7,7,1,0,0,1,9.25,5,5,5,driver:2 commando:1 riot:2 radio:1 prospector:1,f3:double f1:double f0:double f2:double,Stunt Double,9,0,9,24,7,31
+40000,curve7,7,1,0,0,1,11.4,4,4,4,driver:2 vampbat:2 captain:2 headcoach:1,f3:double f1:double f0:double f2:double,Stunt Double,9,0,9,0,8,8
+40000,curve7,7,1,0,0,1,9.8,5,5,5,driver:2 commando:1 chainsaw:2 mule:1 mule:1,f3:double f1:double f0:double f2:double,Stunt Double,9,0,9,8,7,15
+40000,curve7,7,1,0,0,1,14.65,4,4,3,pitcher:2 dodgeball:2 muscle:2 dodgeball:1,rival:sal,Sal's cast,8,0,8,26,1,27
+40000,curve7,8,1,0,0,1,11.3,4,4,3,driver:2 droids:2 smuggler:2 telepath:1,f1:actor b2:actor b3:mic b1:actor,Method Actor,7,0,7,28,5,33
+40000,curve7,8,1,0,0,1,12.45,4,4,3,driver:2 riot:2 vampbat:2 counselors:1,f1:actor b2:actor b3:mic b1:actor,Method Actor,8,0,8,51,6,57
+40000,curve7,8,1,0,0,1,10.15,5,5,5,redshirts:2 telepath:2 droids:2 smuggler:1 smuggler:1,f1:actor b2:actor b3:mic b1:actor,Method Actor,5,0,5,5,4,9
+40000,curve7,8,1,0,0,1,5.9,4,4,4,driver:2 vampbat:2 safecracker:2 mule:2,f1:actor b2:actor b3:mic b1:actor,Method Actor,9,0,9,1,7,8
+40000,curve7,8,1,0,0,1,12.05,5,5,5,driver:2 vampbat:2 riot:2 radio:1 fieldmed:1,f1:actor b2:actor b3:mic b1:actor,Method Actor,9,0,9,26,7,33
+40000,curve7,8,1,0,0,1,7.85,4,4,4,chainsaw:2 captain:2 headcoach:1 captain:1,f1:actor b2:actor b3:mic b1:actor,Method Actor,9,0,9,0,8,8
+40000,curve7,8,1,0,0,1,5.45,5,5,5,driver:2 commando:1 mule:1 mule:1 safecracker:1,f1:actor b2:actor b3:mic b1:actor,Method Actor,9,0,9,11,8,19
+40000,curve7,8,1,0,0,1,18.55,4,4,3,pitcher:2 dodgeball:2 muscle:2 deputy:2,f1:actor b2:actor b3:mic b1:actor,Method Actor,8,0,8,25,5,30
+40000,curve7,9,1,1,0,0,29.25,4,4,4,droids:2 smuggler:2 telepath:2 pilot:2,f1:double b0:mic b2:editor,The Editor,7,2,5,7,1,8
+40000,curve7,9,1,1,0,0,18,5,5,5,driver:2 commando:1 riot:2 vampbat:2 counselors:1,f1:double b0:mic b2:editor,The Editor,8,2,6,43,1,44
+40000,curve7,9,1,1,0,1,29.25,5,5,5,redshirts:2 telepath:2 droids:2 smuggler:1 captain:1,f1:double b0:mic b2:editor,The Editor,5,0,5,8,5,13
+40000,curve7,9,1,1,0,0,19.05,4,4,4,driver:2 vampbat:2 safecracker:2 mule:2,f1:double b0:mic b2:editor,The Editor,9,2,7,11,1,12
+40000,curve7,9,1,1,0,1,25.15,5,5,5,driver:2 vampbat:2 riot:2 fieldmed:1 sheriff:1,f1:double b0:mic b2:editor,The Editor,9,0,9,33,7,40
+40000,curve7,9,1,1,0,1,14.75,5,5,5,driver:2 chainsaw:2 captain:2 headcoach:1 captain:1,f1:double b0:mic b2:editor,The Editor,9,0,9,1,8,9
+40000,curve7,9,1,1,0,1,16.95,5,5,5,mule:2 riot:2 safecracker:1 fixer:2 headcoach:1,f1:double b0:mic b2:editor,The Editor,9,0,9,3,7,10
+40000,curve7,9,1,1,0,0,21.1,4,4,4,dodgeball:2 muscle:2 deputy:2 pointguard:2,f1:double b0:mic b2:editor,The Editor,8,2,6,5,1,6
+40000,curve7,10,2,0,0,0,4.75,4,4,4,droids:2 smuggler:2 telepath:2 pilot:2,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,5,1,4,13,2,15
+40000,curve7,10,2,0,0,0,7.5,5,5,5,driver:2 riot:2 vampbat:2 counselors:1 counselors:1,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,6,1,5,51,2,53
+40000,curve7,10,2,0,0,0,10.2,5,5,5,redshirts:2 telepath:2 droids:2 smuggler:2 captain:1,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,5,1,4,17,1,18
+40000,curve7,10,2,0,0,0,10.35,4,4,4,driver:2 vampbat:2 safecracker:2 mule:2,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,7,1,6,1,2,3
+40000,curve7,10,2,0,0,1,8.35,6,6,6,driver:2 vampbat:2 riot:2 radio:2 fieldmed:2 sheriff:1,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,9,0,9,25,7,32
+40000,curve7,10,2,0,0,0,14.85,5,5,5,chainsaw:2 captain:2 headcoach:1 captain:1 captain:1,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,9,1,8,1,1,2
+40000,curve7,10,2,0,0,1,8.3,5,5,5,driver:2 commando:2 mule:2 safecracker:1 headcoach:1,f3:ninjas f0:ninjas f2:mooks,Holo-Ninjas,9,0,9,10,7,17
+40000,curve7,10,2,0,0,0,7.5,4,4,4,dodgeball:2 muscle:2 deputy:2 pointguard:2,rival:penny,Penny's cast,6,1,5,11,2,13
+40000,curve7,11,2,0,0,0,15.7,5,5,5,droids:2 smuggler:2 telepath:2 pilot:2 redshirts:2,b0:mic f1:mech f0:double,Driving-Test Mech,4,1,3,1,2,3
+40000,curve7,11,2,0,0,0,17.15,5,5,5,driver:2 riot:2 vampbat:2 counselors:2 counselors:1,b0:mic f1:mech f0:double,Driving-Test Mech,5,1,4,57,2,59
+40000,curve7,11,2,0,0,1,15.85,6,6,6,redshirts:2 telepath:2 droids:2 smuggler:2 queen:2 captain:1,b0:mic f1:mech f0:double,Driving-Test Mech,4,0,4,6,4,10
+40000,curve7,11,2,0,0,0,21.8,4,4,4,driver:2 safecracker:2 mule:2 wraith:2,b0:mic f1:mech f0:double,Driving-Test Mech,6,1,5,1,2,3
+40000,curve7,11,2,0,0,1,21.35,6,6,6,driver:2 riot:2 radio:2 fieldmed:2 sheriff:1 sheriff:1,b0:mic f1:mech f0:double,Driving-Test Mech,9,0,9,30,7,37
+40000,curve7,11,2,0,0,1,22.3,5,5,5,driver:2 chainsaw:2 captain:3 headcoach:1 finalgirl:1,b0:mic f1:mech f0:double,Driving-Test Mech,8,0,8,0,6,6
+40000,curve7,11,2,0,0,1,11.4,5,5,5,driver:2 commando:2 mule:2 safecracker:1 headcoach:1,b0:mic f1:mech f0:double,Driving-Test Mech,9,0,9,20,7,27
+40000,curve7,11,2,0,0,0,4.05,4,4,4,dodgeball:2 muscle:2 deputy:2 pointguard:2,rival:rex,Rex's cast,5,1,4,19,2,21
+40000,curve7,13,2,0,0,0,4.7,5,5,5,droids:2 smuggler:2 telepath:2 pilot:2 redshirts:2,f1:mic b2:mic b0:mic,Boom Mic Operator,5,1,4,13,3,16
+40000,curve7,13,2,0,0,0,6.95,6,6,6,driver:2 riot:2 vampbat:2 counselors:2 counselors:1 finalgirl:1,f1:mic b2:mic b0:mic,Boom Mic Operator,6,1,5,55,3,58
+40000,curve7,13,2,0,0,1,13.45,6,6,6,redshirts:2 telepath:2 droids:2 smuggler:2 queen:2 captain:1,f1:mic b2:mic b0:mic,Boom Mic Operator,6,0,6,22,5,27
+40000,curve7,13,2,0,0,0,11.55,5,5,5,driver:2 vampbat:2 safecracker:2 mule:2 wraith:2,f1:mic b2:mic b0:mic,Boom Mic Operator,5,1,4,6,5,11
+40000,curve7,13,2,0,0,0,8.2,6,6,7,riot:2 radio:2 fieldmed:2 sheriff:1 sheriff:1 fieldmed:1,f1:mic b2:mic b0:mic,Boom Mic Operator,9,1,8,36,1,37
+40000,curve7,13,2,0,0,1,14.55,6,6,6,driver:2 vampbat:2 chainsaw:2 captain:3 headcoach:1 finalgirl:1,f1:mic b2:mic b0:mic,Boom Mic Operator,8,0,8,2,8,10
+40000,curve7,13,2,0,0,1,8.15,6,6,6,driver:2 commando:2 mule:2 safecracker:2 headcoach:1 mascot:1,f1:mic b2:mic b0:mic,Boom Mic Operator,9,0,9,12,7,19
+40000,curve7,13,2,0,0,0,10.05,5,5,5,pitcher:2 dodgeball:2 pointguard:2 brute:1 insideman:1,rival:quill,Prof. Quill's cast,4,1,3,7,3,10
+40000,curve7,14,2,0,0,1,31.05,6,6,6,driver:2 smuggler:2 telepath:2 pilot:2 redshirts:2 starknight:1,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,4,0,4,0,4,4
+40000,curve7,14,2,0,0,1,35.45,6,6,6,driver:2 riot:2 counselors:2 finalgirl:2 sheriff:1 sheriff:1,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,5,0,5,53,6,59
+40000,curve7,14,2,0,0,1,17,6,6,6,telepath:2 droids:2 smuggler:2 queen:2 captain:1 pilot:1,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,6,0,6,34,5,39
+40000,curve7,14,2,0,0,1,13.3,5,5,5,vampbat:2 commando:2 safecracker:2 mule:2 wraith:2,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,4,0,4,11,4,15
+40000,curve7,14,2,0,0,1,11.05,6,6,7,driver:2 vampbat:2 radio:2 fieldmed:2 sheriff:2 fieldmed:1,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,8,0,8,36,4,40
+40000,curve7,14,2,0,0,1,22.3,6,6,6,chainsaw:2 captain:3 headcoach:1 finalgirl:1 finalgirl:1 necro:1,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,8,0,8,11,8,19
+40000,curve7,14,2,0,0,1,9.25,6,6,6,mule:2 riot:2 safecracker:2 fixer:2 headcoach:1 mascot:1,f3:mooks f2:mooks f0:mech f1:double,Driving-Test Mech,9,0,9,22,7,29
+40000,curve7,14,2,0,0,0,12.25,5,5,5,pitcher:2 dodgeball:2 pointguard:2 brute:1 insideman:1,rival:rex,Rex's cast,3,1,2,20,4,24
+40000,curve7,15,2,0,0,1,39.3,6,6,6,smuggler:2 telepath:2 pilot:2 redshirts:2 starknight:1 starknight:1,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,4,0,4,3,5,8
+40000,curve7,15,2,0,0,1,38.2,6,6,6,riot:2 vampbat:2 counselors:2 finalgirl:2 sheriff:1 sheriff:1,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,5,0,5,68,7,75
+40000,curve7,15,2,0,0,1,19.3,6,6,6,telepath:2 droids:2 smuggler:2 queen:2 captain:1 pilot:1,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,6,0,6,47,6,53
+40000,curve7,15,2,0,0,1,12.5,6,6,6,hacker:2 vampbat:2 commando:2 safecracker:2 mule:2 wraith:2,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,4,0,4,1,6,7
+40000,curve7,15,2,0,0,1,13.2,6,6,7,driver:2 radio:2 fieldmed:2 sheriff:2 fieldmed:1 finalgirl:2,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,8,0,8,43,5,48
+40000,curve7,15,2,0,0,1,28.65,6,6,7,chainsaw:2 captain:3 finalgirl:1 finalgirl:1 necro:1 necro:1,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,8,0,8,1,9,10
+40000,curve7,15,2,0,0,1,15.55,6,6,7,mule:2 riot:2 safecracker:2 fixer:2 headcoach:1 mascot:1,f3:double b1:mic f0:mech f1:mech,Driving-Test Mech,9,0,9,11,7,18
+40000,curve7,15,2,0,0,1,6.7,6,6,6,dodgeball:2 muscle:2 pointguard:2 brute:1 insideman:1 insideman:1,rival:echo,Echo's cast,2,0,2,7,1,8
+40000,curve7,16,2,0,0,1,15.55,6,6,6,waterboy:2 smuggler:2 telepath:2 pilot:2 redshirts:2 starknight:2,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,4,0,4,6,5,11
+40000,curve7,16,2,0,0,0,22.7,6,6,7,driver:2 riot:2 vampbat:2 counselors:2 finalgirl:2 sheriff:2,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,5,1,4,58,3,61
+40000,curve7,16,2,0,0,1,17.25,6,6,6,telepath:2 droids:2 smuggler:2 queen:2 captain:1 pilot:1,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,6,0,6,63,7,70
+40000,curve7,16,2,0,0,1,9.15,6,6,6,hacker:2 vampbat:2 commando:2 safecracker:2 mule:2 wraith:2,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,4,0,4,6,7,13
+40000,curve7,16,2,0,0,1,16.05,6,6,7,radio:2 fieldmed:2 sheriff:2 gravegolem:2 finalgirl:2 sheriff:1,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,8,0,8,45,5,50
+40000,curve7,16,2,0,0,1,16,6,6,7,chainsaw:2 captain:3 finalgirl:1 necro:2 hivemind:1 starknight:1,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,8,0,8,0,10,10
+40000,curve7,16,2,0,0,1,11.35,6,6,7,commando:2 chainsaw:2 mule:2 safecracker:2 fixer:2 headcoach:2,f3:mech f0:ninjas f2:ninjas,Driving-Test Mech,9,0,9,12,7,19
+40000,curve7,16,2,0,0,0,11,6,6,6,dodgeball:2 muscle:2 pointguard:2 brute:1 insideman:1 insideman:1,rival:penny,Penny's cast,2,1,1,7,1,8
+40000,curve7,17,2,0,0,1,12.8,6,6,6,waterboy:2 smuggler:2 telepath:2 pilot:2 redshirts:2 starknight:2,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,4,0,4,17,6,23
+40000,curve7,17,2,0,0,1,33.9,6,6,7,vampbat:2 counselors:2 finalgirl:2 sheriff:2 insideman:1 gravegolem:1,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,4,0,4,58,7,65
+40000,curve7,17,2,0,0,0,37.65,6,6,7,telepath:2 droids:2 smuggler:2 queen:2 captain:1 spitters:1,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,6,1,5,60,1,61
+40000,curve7,17,2,0,0,1,12.45,6,6,6,hacker:2 vampbat:2 commando:2 safecracker:2 mule:2 wraith:2,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,4,0,4,15,8,23
+40000,curve7,17,2,0,0,1,16.05,6,6,7,radio:2 fieldmed:2 sheriff:2 gravegolem:2 finalgirl:2 sheriff:1,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,8,0,8,57,6,63
+40000,curve7,17,2,0,0,1,10.65,6,6,7,chainsaw:2 captain:3 finalgirl:1 necro:2 hivemind:1 starknight:1,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,8,0,8,0,10,10
+40000,curve7,17,2,0,0,0,18.55,6,6,7,chainsaw:2 mule:2 riot:2 fixer:2 headcoach:2 mascot:1,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,9,1,8,12,1,13
+40000,curve7,17,2,0,0,1,11.4,6,6,6,dodgeball:2 muscle:2 deputy:2 pointguard:2 brute:1 insideman:2,f1:actor b3:auditor b2:actor b0:auditor,Vampire Auditor,1,0,1,6,4,10
+40000,curve7,18,2,1,0,1,30.5,6,6,7,smuggler:2 telepath:2 pilot:2 redshirts:2 starknight:2 starknight:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,6,7,13
+40000,curve7,18,2,1,0,1,39.15,6,6,7,vampbat:2 finalgirl:2 sheriff:2 insideman:1 gravegolem:1 gravegolem:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,72,8,80
+40000,curve7,18,2,1,0,1,17.15,6,6,7,telepath:2 smuggler:2 queen:3 scorpion:2 scorpion:1 scorpion:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,5,0,5,10,4,14
+40000,curve7,18,2,1,0,1,21.35,6,6,7,hacker:2 vampbat:2 commando:2 safecracker:2 mule:2 wraith:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,5,9,14
+40000,curve7,18,2,1,0,1,25.35,6,6,7,radio:2 fieldmed:2 sheriff:2 gravegolem:2 finalgirl:2 sheriff:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,8,0,8,73,7,80
+40000,curve7,18,2,1,0,1,20.8,6,6,7,chainsaw:2 captain:3 finalgirl:1 necro:2 hivemind:1 starknight:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,8,0,8,0,10,10
+40000,curve7,18,2,1,0,1,24.05,6,6,7,chainsaw:2 mule:2 riot:2 fixer:2 headcoach:2 mascot:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,8,0,8,11,4,15
+40000,curve7,18,2,1,0,1,38.2,6,6,6,dodgeball:2 muscle:2 deputy:2 pointguard:2 brute:1 insideman:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,1,0,1,14,5,19
+40000,curve7,19,3,0,0,0,16,6,6,7,smuggler:2 telepath:2 pilot:2 redshirts:2 starknight:2 starknight:1,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,4,1,3,7,1,8
+40000,curve7,19,3,0,0,0,9.45,6,6,7,vampbat:2 finalgirl:2 sheriff:2 insideman:1 gravegolem:2 starknight:1,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,4,1,3,83,5,88
+40000,curve7,19,3,0,0,1,8.6,6,6,7,telepath:2 droids:2 smuggler:2 queen:3 scorpion:3 captain:1,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,5,0,5,11,5,16
+40000,curve7,19,3,0,0,0,9.2,6,6,7,hacker:2 vampbat:2 commando:2 safecracker:2 mule:2 wraith:2,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,4,1,3,4,3,7
+40000,curve7,19,3,0,0,1,5.85,6,6,7,radio:2 fieldmed:3 sheriff:2 gravegolem:2 finalgirl:2 sheriff:1,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,8,0,8,78,7,85
+40000,curve7,19,3,0,0,1,23.9,6,6,7,chainsaw:2 captain:3 finalgirl:1 necro:2 hivemind:1 starknight:1,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,8,0,8,0,10,10
+40000,curve7,19,3,0,0,0,8.1,6,6,7,chainsaw:2 mule:2 riot:2 fixer:2 headcoach:2 mascot:1,b1:breaker f0:spoiler b0:breaker b3:breaker,Spoiler,8,1,7,11,1,12
+40000,curve7,19,3,0,0,0,10.4,6,6,7,dodgeball:2 muscle:2 pointguard:2 brute:1 insideman:2 observer:1,rival:quill,Prof. Quill's cast,1,1,0,2,1,3

@@ -1,0 +1,105 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,11.2,3,3,1,ravager:1 babykaiju:1 ravager:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,1,1,0,0,0,8.1,3,3,1,doc:1 deputy:1 cheersquad:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,8.1,3,3,1,cheersquad:1 doc:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,8.1,3,3,1,doc:1 deputy:1 cheersquad:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,0,8.1,3,3,1,doc:1 deputy:1 cheersquad:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,1,1,2
+40000,curve7,1,1,0,0,0,8.1,3,3,1,doc:1 deputy:1 cheersquad:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,3,1,4
+40000,curve7,1,1,0,0,1,15.75,3,3,1,doc:1 babykaiju:1 ravager:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,3,1,4
+40000,curve7,1,1,0,0,0,7,3,3,1,doc:1 reporter:1 reporter:1,f0:mooks b1:mic,Boom Mic Operator,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,10.15,4,4,2,ravager:2 babykaiju:1 doc:1 zombies:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,0,25.65,4,4,2,doc:1 deputy:1 cheersquad:1 cheersquad:1,f1:double b1:actor,Stunt Double,8,1,7,3,2,5
+40000,curve7,2,1,0,0,0,35.25,4,4,2,cheersquad:2 doc:1 deputy:1 doc:1,f1:double b1:actor,Stunt Double,8,1,7,0,2,2
+40000,curve7,2,1,0,0,0,18.45,4,4,2,doc:1 deputy:1 cheersquad:1 cheersquad:1,f1:double b1:actor,Stunt Double,8,1,7,3,2,5
+40000,curve7,2,1,0,0,0,18.45,4,4,2,doc:1 deputy:1 cheersquad:1 doc:1,f1:double b1:actor,Stunt Double,8,1,7,2,2,4
+40000,curve7,2,1,0,0,0,17.25,3,3,1,doc:1 deputy:1 cheersquad:1,f1:double b1:actor,Stunt Double,8,1,7,9,2,11
+40000,curve7,2,1,0,0,1,12.35,4,4,2,doc:1 babykaiju:1 ravager:1 ravager:1,f1:double b1:actor,Stunt Double,9,0,9,4,2,6
+40000,curve7,2,1,0,0,1,21.55,4,4,2,doc:1 reporter:2 kids:1 deputy:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,4,1,0,0,1,13.3,4,4,2,ravager:2 babykaiju:1 zombies:1 babykaiju:1,f3:double f1:double f2:rats,Stunt Double,9,0,9,20,5,25
+40000,curve7,4,1,0,0,0,23.1,4,4,2,doc:1 deputy:1 cheersquad:2 prospector:1,f3:double f1:double f2:rats,Stunt Double,7,1,6,21,2,23
+40000,curve7,4,1,0,0,1,14.25,4,4,3,cheersquad:2 doc:1 deputy:2 waterboy:1,f3:double f1:double f2:rats,Stunt Double,7,0,7,9,4,13
+40000,curve7,4,1,0,0,0,13.5,4,4,2,doc:1 deputy:1 cheersquad:1 cheersquad:1,f3:double f1:double f2:rats,Stunt Double,7,1,6,24,2,26
+40000,curve7,4,1,0,0,0,29.1,4,4,3,doc:1 deputy:1 doc:1 deputy:1,f3:double f1:double f2:rats,Stunt Double,7,1,6,14,2,16
+40000,curve7,4,1,0,0,1,15.35,4,4,3,redshirts:2 waterboy:1 gunslinger:1 necro:1,f3:double f1:double f2:rats,Stunt Double,7,0,7,9,4,13
+40000,curve7,4,1,0,0,1,11.3,4,4,3,babykaiju:1 ravager:2 babykaiju:1 bounty:1,f3:double f1:double f2:rats,Stunt Double,9,0,9,13,5,18
+40000,curve7,4,1,0,0,1,22.05,4,4,2,doc:1 reporter:2 kids:1 deputy:1,rival:ivy,Ivy's cast,8,0,8,14,2,16
+40000,curve7,5,1,0,0,1,16.9,4,4,3,ravager:2 zombies:1 zombies:1 spitters:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,9,0,9,20,6,26
+40000,curve7,5,1,0,0,0,9.15,4,4,2,doc:1 deputy:1 cheersquad:2 prospector:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,6,1,5,30,3,33
+40000,curve7,5,1,0,0,1,12.8,4,4,3,cheersquad:2 doc:1 deputy:2 waterboy:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,7,0,7,19,5,24
+40000,curve7,5,1,0,0,1,15.45,4,4,3,doc:1 pitcher:2 prospector:2 nurse:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,6,0,6,7,4,11
+40000,curve7,5,1,0,0,1,35.4,4,4,3,doc:2 deputy:2 nurse:2 prospector:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,6,0,6,6,4,10
+40000,curve7,5,1,0,0,1,8.8,4,4,3,redshirts:2 waterboy:2 gunslinger:2 necro:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,7,0,7,5,5,10
+40000,curve7,5,1,0,0,1,9.15,4,4,3,ravager:2 gunslinger:1 necro:1 hunter:1,f2:mooks f1:rats f0:mooks,Nameless Mooks,9,0,9,16,6,22
+40000,curve7,5,1,0,0,0,11.35,4,4,2,doc:1 reporter:2 deputy:1 deputy:1,rival:echo,Echo's cast,8,1,7,21,1,22
+40000,curve7,6,1,0,0,1,9.1,4,4,3,zombies:2 babykaiju:2 safecracker:1 safecracker:1,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,9,0,9,20,7,27
+40000,curve7,6,1,0,0,1,11.5,4,4,3,prospector:2 telepath:2 telepath:1 redshirts:2,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,5,0,5,1,4,5
+40000,curve7,6,1,0,0,1,8.45,4,4,4,cheersquad:2 waterboy:1 finalgirl:1 kids:1,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,7,0,7,12,5,17
+40000,curve7,6,1,0,0,0,13,4,4,3,doc:1 prospector:2 nurse:1 doc:1,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,6,1,5,17,1,18
+40000,curve7,6,1,0,0,1,12.85,4,4,3,nurse:2 pointguard:2 fixer:1 hunter:1,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,6,0,6,0,5,5
+40000,curve7,6,1,0,0,1,8.8,4,4,4,redshirts:2 gunslinger:2 necro:1 gunslinger:1,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,7,0,7,0,5,5
+40000,curve7,6,1,0,0,1,8,4,4,3,babykaiju:2 ravager:2 necro:1 hunter:1,f2:mooks b0:actor f1:mooks f0:rats,Method Actor,9,0,9,23,7,30
+40000,curve7,6,1,0,0,0,8.6,4,4,2,doc:1 reporter:2 deputy:1 prospector:1,rival:ivy,Ivy's cast,7,1,6,20,2,22
+40000,curve7,7,1,0,0,1,9.25,4,4,4,zombies:2 babykaiju:2 safecracker:2 driver:1,f3:rats f2:rats f1:double f0:double,Stunt Double,9,0,9,17,7,24
+40000,curve7,7,1,0,0,1,10.3,4,4,3,prospector:2 telepath:2 pilot:2 redshirts:2,f3:rats f2:rats f1:double f0:double,Stunt Double,5,0,5,9,5,14
+40000,curve7,7,1,0,0,1,9,4,4,4,cheersquad:2 waterboy:1 kids:1 finalgirl:1,f3:rats f2:rats f1:double f0:double,Stunt Double,7,0,7,16,6,22
+40000,curve7,7,1,0,0,1,34.35,4,4,4,prospector:2 nurse:1 fixer:1 nurse:1,f3:rats f2:rats f1:double f0:double,Stunt Double,5,0,5,6,4,10
+40000,curve7,7,1,0,0,1,10.1,4,4,3,nurse:2 pointguard:2 fixer:1 hunter:2,f3:rats f2:rats f1:double f0:double,Stunt Double,6,0,6,0,5,5
+40000,curve7,7,1,0,0,1,10.15,4,4,4,redshirts:2 gunslinger:2 necro:1 necro:1,f3:rats f2:rats f1:double f0:double,Stunt Double,7,0,7,2,6,8
+40000,curve7,7,1,0,0,1,17.1,4,4,4,babykaiju:2 ravager:2 necro:1 necro:1,f3:rats f2:rats f1:double f0:double,Stunt Double,9,0,9,22,7,29
+40000,curve7,7,1,0,0,0,23.85,4,4,3,doc:1 reporter:2 prospector:1 hacker:1,rival:penny,Penny's cast,6,1,5,23,2,25
+40000,curve7,8,1,0,0,1,14.45,4,4,4,zombies:2 safecracker:2 bonesetter:1 gravegolem:1,b3:actor f2:double f3:double f1:double,Stunt Double,9,0,9,21,7,28
+40000,curve7,8,1,0,0,1,17.15,4,4,3,prospector:2 telepath:2 pilot:2 redshirts:2,b3:actor f2:double f3:double f1:double,Stunt Double,5,0,5,20,5,25
+40000,curve7,8,1,0,0,1,14.4,5,5,5,cheersquad:2 waterboy:1 kids:1 finalgirl:1 captain:1,b3:actor f2:double f3:double f1:double,Stunt Double,7,0,7,10,7,17
+40000,curve7,8,1,0,0,0,33,5,5,5,doc:1 prospector:2 nurse:1 fixer:1 nurse:1,b3:actor f2:double f3:double f1:double,Stunt Double,5,1,4,0,1,1
+40000,curve7,8,1,0,0,1,17.35,4,4,3,nurse:2 pointguard:2 fixer:1 hunter:2,b3:actor f2:double f3:double f1:double,Stunt Double,6,0,6,0,6,6
+40000,curve7,8,1,0,0,1,7.55,4,4,4,gunslinger:2 necro:2 gunslinger:1 gunslinger:1,b3:actor f2:double f3:double f1:double,Stunt Double,7,0,7,0,7,7
+40000,curve7,8,1,0,0,1,10.2,5,5,5,babykaiju:2 ravager:2 necro:1 hunter:2 necro:1,b3:actor f2:double f3:double f1:double,Stunt Double,9,0,9,15,7,22
+40000,curve7,8,1,0,0,0,20.6,4,4,3,reporter:2 prospector:1 hacker:1 fieldmed:1,b3:actor f2:double f3:double f1:double,Stunt Double,5,1,4,31,3,34
+40000,curve7,9,1,1,0,1,28.45,4,4,4,zombies:2 bonesetter:1 gravegolem:2 bonesetter:1,f1:double b0:mic b2:editor,The Editor,9,0,9,6,7,13
+40000,curve7,9,1,1,0,0,27.55,5,5,5,prospector:2 telepath:2 telepath:1 pilot:2 redshirts:2,f1:double b0:mic b2:editor,The Editor,5,2,3,4,1,5
+40000,curve7,9,1,1,0,1,35.45,5,5,5,cheersquad:2 waterboy:2 captain:1 observer:1 gravegolem:1,f1:double b0:mic b2:editor,The Editor,7,0,7,5,7,12
+40000,curve7,9,1,1,0,1,37.85,5,5,5,doc:1 prospector:2 nurse:2 fixer:1 fieldmed:1,f1:double b0:mic b2:editor,The Editor,4,0,4,1,4,5
+40000,curve7,9,1,1,0,0,16.35,4,4,4,nurse:2 pointguard:2 fixer:1 hunter:2,f1:double b0:mic b2:editor,The Editor,6,2,4,2,1,3
+40000,curve7,9,1,1,0,1,18.5,4,4,4,gunslinger:2 necro:2 finalgirl:1 finalgirl:1,f1:double b0:mic b2:editor,The Editor,7,0,7,9,7,16
+40000,curve7,9,1,1,0,0,14.35,5,5,5,babykaiju:2 ravager:2 necro:1 hunter:2 necro:1,f1:double b0:mic b2:editor,The Editor,9,2,7,24,1,25
+40000,curve7,9,1,1,0,0,18,4,4,4,reporter:2 deputy:2 hacker:2 fieldmed:2,f1:double b0:mic b2:editor,The Editor,4,2,2,7,4,11
+40000,curve7,10,2,0,0,0,11.9,4,4,4,zombies:2 bonesetter:1 gravegolem:2 bonesetter:1,b3:mic b0:sniper f2:rats,Holo-Sniper,9,1,8,19,1,20
+40000,curve7,10,2,0,0,0,4.2,5,5,5,prospector:2 telepath:2 pilot:2 gravegolem:1 necro:1,b3:mic b0:sniper f2:rats,Holo-Sniper,3,1,2,2,2,4
+40000,curve7,10,2,0,0,0,7.4,5,5,5,cheersquad:2 waterboy:2 captain:1 observer:1 gravegolem:1,b3:mic b0:sniper f2:rats,Holo-Sniper,7,1,6,13,1,14
+40000,curve7,10,2,0,0,0,3.75,5,5,5,prospector:2 nurse:2 fixer:1 fieldmed:1 fieldmed:1,b3:mic b0:sniper f2:rats,Holo-Sniper,4,1,3,6,1,7
+40000,curve7,10,2,0,0,0,4.15,4,4,4,nurse:2 pointguard:2 fixer:1 hunter:2,b3:mic b0:sniper f2:rats,Holo-Sniper,4,1,3,0,2,2
+40000,curve7,10,2,0,0,1,12.8,5,5,5,redshirts:2 gunslinger:2 necro:2 gunslinger:1 finalgirl:2,b3:mic b0:sniper f2:rats,Holo-Sniper,7,0,7,0,11,11
+40000,curve7,10,2,0,0,0,13.15,5,5,5,babykaiju:2 necro:2 hunter:2 scientist:2 queen:2,b3:mic b0:sniper f2:rats,Holo-Sniper,7,1,6,10,2,12
+40000,curve7,10,2,0,0,1,10.05,4,4,4,reporter:2 deputy:2 hacker:2 fieldmed:2,rival:rex,Rex's cast,2,0,2,15,1,16
+40000,curve7,11,2,0,0,1,32.5,4,4,4,zombies:2 bonesetter:1 gravegolem:2 bonesetter:1,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,8,0,8,27,4,31
+40000,curve7,11,2,0,0,0,12.95,5,5,5,prospector:2 telepath:2 pilot:2 gravegolem:1 necro:1,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,2,1,1,5,2,7
+40000,curve7,11,2,0,0,1,19.3,5,5,5,cheersquad:2 waterboy:2 captain:2 observer:1 gravegolem:1,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,6,0,6,10,4,14
+40000,curve7,11,2,0,0,0,33.6,5,5,5,prospector:2 nurse:2 fixer:2 fieldmed:1 fieldmed:1,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,3,1,2,2,2,4
+40000,curve7,11,2,0,0,0,18.55,4,4,4,nurse:2 pointguard:2 hunter:2 lurker:2,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,3,1,2,5,2,7
+40000,curve7,11,2,0,0,1,17.55,5,5,5,redshirts:2 gunslinger:3 necro:2 finalgirl:2 insideman:1,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,7,0,7,1,12,13
+40000,curve7,11,2,0,0,1,20.8,5,5,5,babykaiju:2 necro:2 hunter:2 scientist:2 queen:2,b0:actor b3:auditor f2:mech b1:actor,Driving-Test Mech,6,0,6,6,4,10
+40000,curve7,11,2,0,0,1,4.5,5,5,5,reporter:2 deputy:2 hacker:2 fieldmed:2 fieldmed:1,rival:penny,Penny's cast,2,0,2,3,2,5
+40000,curve7,13,2,0,0,1,22.25,5,5,5,zombies:2 safecracker:2 bonesetter:2 gravegolem:2 gravegolem:1,f2:mech b0:actor f0:ninjas,Driving-Test Mech,6,0,6,17,5,22
+40000,curve7,13,2,0,0,0,11.05,5,5,5,gunslinger:2 telepath:2 pilot:2 redshirts:2 vampbat:2,f2:mech b0:actor f0:ninjas,Driving-Test Mech,1,1,1,4,3,7
+40000,curve7,13,2,0,0,1,18.7,6,6,6,cheersquad:2 waterboy:2 finalgirl:2 observer:2 gravegolem:1 observer:1,f2:mech b0:actor f0:ninjas,Driving-Test Mech,4,0,4,3,5,8
+40000,curve7,13,2,0,0,0,11.15,6,6,6,prospector:2 nurse:2 fixer:2 fieldmed:1 fieldmed:1 fixer:1,f2:mech b0:actor f0:ninjas,Driving-Test Mech,2,1,1,2,2,4
+40000,curve7,13,2,0,0,1,25.3,5,5,5,queen:2 pointguard:2 hunter:2 waterboy:1 lurker:2,f2:mech b0:actor f0:ninjas,Driving-Test Mech,2,0,2,2,4,6
+40000,curve7,13,2,0,0,1,14.4,6,6,6,redshirts:2 gunslinger:3 necro:2 finalgirl:2 insideman:2 starknight:1,f2:mech b0:actor f0:ninjas,Driving-Test Mech,5,0,5,1,15,16
+40000,curve7,13,2,0,0,1,18.05,6,6,6,babykaiju:2 necro:2 hunter:2 scientist:2 scorpion:2 queen:2,f2:mech b0:actor f0:ninjas,Driving-Test Mech,4,0,4,13,5,18
+40000,curve7,13,2,0,0,1,5.8,5,5,5,reporter:2 hacker:2 fieldmed:2 fieldmed:1 observer:1,rival:quill,Prof. Quill's cast,2,0,2,2,2,4
+40000,curve7,14,2,0,0,0,29.65,5,5,5,zombies:2 safecracker:2 bonesetter:2 gravegolem:2 gravegolem:1,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,6,1,5,28,1,29
+40000,curve7,14,2,0,0,1,18.05,5,5,5,gunslinger:2 telepath:2 pilot:2 redshirts:2 bounty:2,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,1,0,1,10,4,14
+40000,curve7,14,2,0,0,1,20.35,6,6,6,finalgirl:2 captain:3 observer:2 gravegolem:2 observer:1 observer:1,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,4,0,4,4,5,9
+40000,curve7,14,2,0,0,0,14.9,6,6,6,prospector:2 nurse:2 fixer:2 fieldmed:1 fieldmed:1 fixer:1,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,1,1,1,4,3,7
+40000,curve7,14,2,0,0,0,39.85,5,5,5,queen:2 pointguard:2 hunter:2 lurker:2 queen:1,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,2,1,1,5,1,6
+40000,curve7,14,2,0,0,1,13.8,6,6,6,gunslinger:3 necro:2 finalgirl:2 insideman:2 starknight:2 brute:1,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,5,0,5,0,15,15
+40000,curve7,14,2,0,0,1,10.25,6,6,6,necro:2 hunter:2 scientist:2 scorpion:2 queen:3 scorpion:1,f3:double f2:mech b2:auditor b3:actor,Driving-Test Mech,4,0,4,15,5,20
+40000,curve7,14,2,0,0,0,4.45,5,5,5,hacker:2 fieldmed:2 fieldmed:1 fieldmed:1 observer:1,rival:rex,Rex's cast,2,1,1,5,1,6
+40000,curve7,15,2,0,0,1,18.65,5,5,5,zombies:2 babykaiju:2 bonesetter:2 gravegolem:2 gravegolem:1,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,5,0,5,36,4,40
+40000,curve7,15,2,0,0,0,7.55,6,6,6,gunslinger:2 telepath:2 pilot:2 redshirts:2 vampbat:2 bounty:2,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,1,1,1,2,1,3
+40000,curve7,15,2,0,0,1,7.75,6,6,6,finalgirl:2 captain:3 observer:2 gravegolem:2 observer:1 observer:1,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,4,0,4,10,6,16
+40000,curve7,15,2,0,0,0,11.25,6,6,6,prospector:2 nurse:2 fixer:3 fieldmed:1 fieldmed:1 queen:1,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,1,1,1,1,4,5
+40000,curve7,15,2,0,0,0,8.45,5,5,5,queen:2 pointguard:2 hunter:2 lurker:2 queen:1,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,1,1,1,8,2,10
+40000,curve7,15,2,0,0,1,8.25,6,6,6,gunslinger:3 necro:2 finalgirl:2 insideman:2 starknight:2 brute:1,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,5,0,5,22,15,37
+40000,curve7,15,2,0,0,1,8.25,6,6,7,necro:2 hunter:2 scientist:2 scorpion:2 queen:3 scorpion:1,f0:rats f3:mooks f2:mooks f1:rats,Backstage Rats,4,0,4,1,6,7
+40000,curve7,15,2,0,0,0,5.05,5,5,5,hacker:2 fieldmed:2 fieldmed:1 fieldmed:1 observer:1,rival:quill,Prof. Quill's cast,1,1,0,11,2,13

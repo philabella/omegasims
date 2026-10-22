@@ -1,0 +1,63 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ cd fastsim && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-01 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-01';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-02 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-02';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-03 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-03';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-04 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-04';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-05 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-05';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-06 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-06';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-07 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-07';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-08 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-08';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-09 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-09';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-10 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-10';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-11 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-11';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-12 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-12';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-13 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-13';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-14 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-14';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-15 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-15';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-16 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-16';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-17 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-17';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-18 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-18';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-19 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-19';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-20 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-20';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-21 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-21';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-22 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-22';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-23 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-23';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-24 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-24';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-25 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-25';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-26 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-26';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-27 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-27';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-28 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-28';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-29 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-29';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null && node actloss.js --build ../tropebrawl.html --levels 14 --expert 1 --steady 1 --workers 1 --out ../out/2026-11-30 --sub "const dly=ch?null:DAILY_NEXT=>const dly=ch?null:'2026-11-30';;lvClamp(dly?4:ch=>lvClamp(dly?14:ch" > /dev/null
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 4 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 4 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 2 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 4 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 2 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 2 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 2 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 2 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 4 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 3 s
+exit 0

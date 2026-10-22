@@ -1,0 +1,129 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,14.85,2,3,1,babykaiju:2 skelarch:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,24.4,3,3,1,skelarch:1 muscle:1 counselors:1,f1:double b1:actor,Stunt Double,9,1,8,3,3,6
+40000,curve7,1,1,0,0,0,14.85,2,3,1,babykaiju:2 skelarch:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,1,1,0,0,0,24.4,3,3,1,skelarch:1 muscle:1 counselors:1,f1:double b1:actor,Stunt Double,9,1,8,1,3,4
+40000,curve7,1,1,0,0,0,24.4,3,3,1,skelarch:1 muscle:1 counselors:1,f1:double b1:actor,Stunt Double,9,1,8,3,3,6
+40000,curve7,1,1,0,0,0,23.2,3,3,1,skelarch:1 muscle:1 babykaiju:1,f1:double b1:actor,Stunt Double,9,1,8,2,4,6
+40000,curve7,1,1,0,0,0,24.4,3,3,1,skelarch:1 muscle:1 counselors:1,f1:double b1:actor,Stunt Double,9,1,8,3,3,6
+40000,curve7,1,1,0,0,0,16.05,2,3,1,riot:2 zombies:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,20.35,2,4,2,babykaiju:2 skelarch:2,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,12.85,4,4,2,skelarch:1 counselors:1 lookouts:1 counselors:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,3,2,5
+40000,curve7,2,1,0,0,1,20.35,2,4,2,babykaiju:2 skelarch:2,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,21.65,4,4,2,skelarch:1 muscle:1 counselors:1 muscle:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,3,3
+40000,curve7,2,1,0,0,0,14.65,3,3,1,muscle:1 counselors:1 counselors:1,f0:mooks b1:mic,Boom Mic Operator,8,1,7,10,2,12
+40000,curve7,2,1,0,0,1,6.95,4,4,2,muscle:2 babykaiju:2 beetles:1 mule:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,1,1,2
+40000,curve7,2,1,0,0,1,21.15,4,4,2,muscle:1 counselors:2 muscle:1 beetles:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,3,2,5
+40000,curve7,2,1,0,0,1,22.35,2,4,2,riot:2 zombies:2,f0:mooks b1:mic,Boom Mic Operator,8,0,8,0,1,1
+40000,curve7,4,1,0,0,1,7.7,4,4,2,babykaiju:2 skelarch:2 counselors:1 outlaws:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,11.45,4,4,2,skelarch:1 counselors:1 lookouts:2 counselors:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,8,0,8,18,6,24
+40000,curve7,4,1,0,0,1,6.5,4,4,2,babykaiju:2 skelarch:2 outlaws:1 pitcher:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,16.75,4,4,3,skelarch:1 muscle:2 counselors:1 deputy:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,8,0,8,7,6,13
+40000,curve7,4,1,0,0,1,22.15,4,4,3,muscle:1 counselors:1 counselors:1 muscle:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,7,0,7,15,5,20
+40000,curve7,4,1,0,0,1,7.9,4,4,3,muscle:2 babykaiju:2 mule:1 mule:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,8,0,8,5,5,10
+40000,curve7,4,1,0,0,1,31.4,4,4,2,muscle:1 counselors:2 muscle:1 beetles:1,f3:double f1:rats b0:mic f2:rats,Stunt Double,8,0,8,19,6,25
+40000,curve7,4,1,0,0,0,34.35,4,4,2,riot:2 zombies:2 counselors:1 deputy:1,rival:penny,Penny's cast,8,1,7,12,1,13
+40000,curve7,5,1,0,0,1,17.9,4,4,2,babykaiju:2 skelarch:2 counselors:1 exorcist:1,b2:actor f2:double f3:double f0:double,Stunt Double,8,0,8,21,5,26
+40000,curve7,5,1,0,0,1,17.8,4,4,2,skelarch:1 counselors:1 lookouts:2 counselors:1,b2:actor f2:double f3:double f0:double,Stunt Double,8,0,8,31,6,37
+40000,curve7,5,1,0,0,1,10.4,4,4,2,babykaiju:2 skelarch:2 outlaws:1 pitcher:1,b2:actor f2:double f3:double f0:double,Stunt Double,8,0,8,23,5,28
+40000,curve7,5,1,0,0,1,25.45,4,4,3,skelarch:1 muscle:2 counselors:1 deputy:1,b2:actor f2:double f3:double f0:double,Stunt Double,8,0,8,19,7,26
+40000,curve7,5,1,0,0,0,34.35,4,4,4,muscle:1 counselors:1 counselors:1 muscle:1,b2:actor f2:double f3:double f0:double,Stunt Double,7,1,6,12,1,13
+40000,curve7,5,1,0,0,1,12.25,4,4,3,muscle:2 babykaiju:2 mule:1 mule:1,b2:actor f2:double f3:double f0:double,Stunt Double,8,0,8,14,5,19
+40000,curve7,5,1,0,0,1,36.7,4,4,2,muscle:1 counselors:2 muscle:1 beetles:1,b2:actor f2:double f3:double f0:double,Stunt Double,8,0,8,32,6,38
+40000,curve7,5,1,0,0,0,39.85,4,4,2,riot:2 zombies:2 counselors:1 deputy:1,rival:rex,Rex's cast,7,1,6,19,2,21
+40000,curve7,6,1,0,0,1,10.6,4,4,3,babykaiju:2 skelarch:2 outlaws:2 exorcist:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,6,0,6,21,6,27
+40000,curve7,6,1,0,0,1,14.1,4,4,2,skelarch:1 counselors:1 lookouts:2 counselors:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,6,0,6,45,8,53
+40000,curve7,6,1,0,0,1,9.55,4,4,2,babykaiju:2 skelarch:2 outlaws:1 safecracker:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,6,0,6,33,7,40
+40000,curve7,6,1,0,0,1,25.35,4,4,3,skelarch:1 muscle:2 counselors:1 deputy:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,6,0,6,33,9,42
+40000,curve7,6,1,0,0,1,28.25,4,4,4,counselors:1 counselors:1 deputy:2 exorcist:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,4,0,4,10,4,14
+40000,curve7,6,1,0,0,1,10.15,4,4,3,muscle:2 babykaiju:2 mule:2 mule:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,6,0,6,21,6,27
+40000,curve7,6,1,0,0,0,39.5,4,4,2,muscle:1 counselors:2 muscle:1 beetles:1,b1:actor f3:mooks f0:double f2:mooks,Stunt Double,6,1,5,46,2,48
+40000,curve7,6,1,0,0,1,12.85,4,4,3,riot:2 zombies:2 deputy:2 mule:1,rival:penny,Penny's cast,4,0,4,4,1,5
+40000,curve7,7,1,0,0,1,22.75,4,4,4,babykaiju:2 outlaws:2 exorcist:1 exorcist:1,f1:mooks b2:actor f3:mooks,Method Actor,6,0,6,20,7,27
+40000,curve7,7,1,0,0,0,8.15,4,4,3,counselors:1 lookouts:2 counselors:1 doc:1,f1:mooks b2:actor f3:mooks,Method Actor,6,1,5,58,2,60
+40000,curve7,7,1,0,0,1,10.75,4,4,3,babykaiju:2 skelarch:2 outlaws:1 safecracker:1,f1:mooks b2:actor f3:mooks,Method Actor,6,0,6,45,9,54
+40000,curve7,7,1,0,0,0,15.85,4,4,3,skelarch:1 muscle:2 counselors:1 deputy:1,f1:mooks b2:actor f3:mooks,Method Actor,6,1,5,51,4,55
+40000,curve7,7,1,0,0,0,9.15,4,4,4,deputy:2 exorcist:1 exorcist:1 headcoach:1,f1:mooks b2:actor f3:mooks,Method Actor,4,1,3,15,1,16
+40000,curve7,7,1,0,0,1,9.25,4,4,4,muscle:2 babykaiju:2 mule:2 mule:1,f1:mooks b2:actor f3:mooks,Method Actor,6,0,6,22,7,29
+40000,curve7,7,1,0,0,0,24.2,4,4,3,muscle:1 counselors:2 muscle:1 beetles:1,f1:mooks b2:actor f3:mooks,Method Actor,5,1,4,50,2,52
+40000,curve7,7,1,0,0,1,16.05,4,4,3,riot:2 zombies:2 deputy:2 mule:2,rival:duke,Duke's cast,4,0,4,5,2,7
+40000,curve7,8,1,0,0,1,9.7,4,4,4,babykaiju:2 exorcist:2 babysitter:2 scientist:1,f2:double f3:rats f0:double f1:double,Stunt Double,6,0,6,21,7,28
+40000,curve7,8,1,0,0,1,19.8,4,4,4,counselors:2 lookouts:2 doc:2 gravegolem:1,f2:double f3:rats f0:double f1:double,Stunt Double,5,0,5,48,5,53
+40000,curve7,8,1,0,0,1,8.85,5,5,5,babykaiju:2 skelarch:2 outlaws:1 safecracker:1 safecracker:1,f2:double f3:rats f0:double f1:double,Stunt Double,6,0,6,30,8,38
+40000,curve7,8,1,0,0,1,26.8,4,4,3,skelarch:1 muscle:2 counselors:1 deputy:1,f2:double f3:rats f0:double f1:double,Stunt Double,5,0,5,64,6,70
+40000,curve7,8,1,0,0,1,13.25,4,4,4,deputy:2 exorcist:2 headcoach:1 finalgirl:1,f2:double f3:rats f0:double f1:double,Stunt Double,3,0,3,17,4,21
+40000,curve7,8,1,0,0,1,11.2,5,5,5,muscle:2 babykaiju:2 beetles:2 mule:2 mule:1,f2:double f3:rats f0:double f1:double,Stunt Double,6,0,6,15,7,22
+40000,curve7,8,1,0,0,1,11.35,5,5,5,counselors:2 beetles:2 gravegolem:2 observer:1 insideman:1,f2:double f3:rats f0:double f1:double,Stunt Double,4,0,4,2,5,7
+40000,curve7,8,1,0,0,1,12.05,4,4,4,riot:2 zombies:2 deputy:2 mule:2,f2:double f3:rats f0:double f1:double,Stunt Double,4,0,4,0,5,5
+40000,curve7,9,1,1,0,1,23,4,4,4,babykaiju:2 exorcist:2 scientist:2 reporter:2,f1:double b0:mic b2:editor,The Editor,6,0,6,9,7,16
+40000,curve7,9,1,1,0,1,39.4,5,5,5,counselors:2 lookouts:2 doc:2 gravegolem:1 gravegolem:1,f1:double b0:mic b2:editor,The Editor,5,0,5,42,7,49
+40000,curve7,9,1,1,0,1,11.9,5,5,5,babykaiju:2 outlaws:2 safecracker:2 pitcher:2 captain:2,f1:double b0:mic b2:editor,The Editor,6,0,6,3,9,12
+40000,curve7,9,1,1,0,0,14.7,4,4,4,skelarch:1 muscle:2 counselors:1 deputy:1,f1:double b0:mic b2:editor,The Editor,5,2,3,72,4,76
+40000,curve7,9,1,1,0,1,24.45,5,5,5,deputy:2 exorcist:2 headcoach:1 finalgirl:1 finalgirl:1,f1:double b0:mic b2:editor,The Editor,3,0,3,9,5,14
+40000,curve7,9,1,1,0,1,25.7,5,5,5,muscle:2 babykaiju:2 beetles:2 mule:2 mule:1,f1:double b0:mic b2:editor,The Editor,6,0,6,26,7,33
+40000,curve7,9,1,1,0,1,27.65,5,5,5,counselors:2 gravegolem:2 observer:1 insideman:1 insideman:1,f1:double b0:mic b2:editor,The Editor,4,0,4,6,5,11
+40000,curve7,9,1,1,0,1,24.05,4,4,4,riot:2 zombies:2 deputy:2 mule:2,f1:double b0:mic b2:editor,The Editor,4,0,4,7,6,13
+40000,curve7,10,2,0,0,0,8.2,4,4,4,babykaiju:2 exorcist:2 scientist:2 reporter:2,f1:mic b1:mic b3:mic,Boom Mic Operator,6,1,5,22,1,23
+40000,curve7,10,2,0,0,0,7.05,5,5,5,counselors:2 lookouts:2 doc:2 gravegolem:1 gravegolem:1,f1:mic b1:mic b3:mic,Boom Mic Operator,5,1,4,57,7,64
+40000,curve7,10,2,0,0,1,8.95,5,5,5,babykaiju:2 outlaws:2 safecracker:2 pitcher:2 captain:2,f1:mic b1:mic b3:mic,Boom Mic Operator,6,0,6,18,9,27
+40000,curve7,10,2,0,0,0,3.7,4,4,4,skelarch:2 muscle:2 counselors:1 deputy:1,f1:mic b1:mic b3:mic,Boom Mic Operator,3,1,2,85,4,89
+40000,curve7,10,2,0,0,0,11.55,6,6,6,counselors:1 deputy:2 exorcist:2 headcoach:1 finalgirl:1 finalgirl:1,f1:mic b1:mic b3:mic,Boom Mic Operator,3,1,2,0,1,1
+40000,curve7,10,2,0,0,1,13.45,5,5,5,muscle:2 babykaiju:2 mule:2 scorpion:1 scorpion:1,f1:mic b1:mic b3:mic,Boom Mic Operator,6,0,6,33,7,40
+40000,curve7,10,2,0,0,1,17.25,5,5,5,counselors:2 gravegolem:2 observer:1 insideman:1 insideman:1,f1:mic b1:mic b3:mic,Boom Mic Operator,4,0,4,17,8,25
+40000,curve7,10,2,0,0,1,12.75,5,5,5,riot:2 zombies:2 deputy:2 mule:2 necro:1,rival:sal,Sal's cast,4,0,4,0,4,4
+40000,curve7,11,2,0,0,0,9.1,4,4,4,exorcist:2 babysitter:2 scientist:2 reporter:2,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,5,1,4,31,2,33
+40000,curve7,11,2,0,0,0,9,5,5,5,doc:2 gravegolem:1 gravegolem:1 mascot:1 bounty:1,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,4,1,3,62,5,67
+40000,curve7,11,2,0,0,1,6.65,5,5,5,outlaws:2 safecracker:2 pitcher:2 captain:2 captain:1,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,6,0,6,31,9,40
+40000,curve7,11,2,0,0,1,18.4,4,4,4,nurse:2 sheriff:1 fixer:3 pointguard:2,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,2,0,2,25,5,30
+40000,curve7,11,2,0,0,1,23.05,6,6,6,counselors:1 deputy:2 exorcist:2 headcoach:1 finalgirl:2 counselors:1,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,2,0,2,3,4,7
+40000,curve7,11,2,0,0,1,5.7,5,5,5,babykaiju:2 beetles:2 mule:2 scorpion:2 insideman:1,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,6,0,6,42,7,49
+40000,curve7,11,2,0,0,1,9.3,5,5,5,beetles:2 gravegolem:2 observer:1 insideman:2 observer:1,f1:figures f3:figures b0:auditor f2:rats,Vampire Auditor,4,0,4,25,6,31
+40000,curve7,11,2,0,0,1,9.3,5,5,5,riot:2 zombies:2 deputy:2 mule:2 wraith:2,rival:quill,Prof. Quill's cast,4,0,4,5,4,9
+40000,curve7,13,2,0,0,1,33.25,5,5,5,exorcist:2 scientist:2 reporter:2 finalgirl:2 tanks:2,f1:mech f3:mech f2:mech,Driving-Test Mech,4,0,4,6,4,10
+40000,curve7,13,2,0,0,1,32.9,5,5,5,gravegolem:1 mascot:2 mule:1 rifle:2 fieldmed:1,f1:mech f3:mech f2:mech,Driving-Test Mech,3,0,3,4,7,11
+40000,curve7,13,2,0,0,1,14.5,5,5,5,outlaws:2 safecracker:2 pitcher:2 captain:2 captain:1,f1:mech f3:mech f2:mech,Driving-Test Mech,4,0,4,5,9,14
+40000,curve7,13,2,0,0,1,31.25,5,5,5,nurse:2 fixer:3 pointguard:2 waterboy:2 bonesetter:2,f1:mech f3:mech f2:mech,Driving-Test Mech,2,0,2,4,6,10
+40000,curve7,13,2,0,0,1,33.8,6,6,6,deputy:2 exorcist:2 headcoach:1 finalgirl:2 headcoach:1 sheriff:1,f1:mech f3:mech f2:mech,Driving-Test Mech,2,0,2,20,5,25
+40000,curve7,13,2,0,0,1,16.4,6,6,6,babykaiju:2 mule:2 necro:2 scorpion:2 insideman:1 observer:1,f1:mech f3:mech f2:mech,Driving-Test Mech,4,0,4,56,7,63
+40000,curve7,13,2,0,0,1,27.7,5,5,5,beetles:2 gravegolem:2 observer:1 insideman:2 observer:1,f1:mech f3:mech f2:mech,Driving-Test Mech,4,0,4,52,7,59
+40000,curve7,13,2,0,0,1,10.05,5,5,5,riot:2 zombies:2 mule:2 wraith:2 necro:2,rival:hugo,Hugo's cast,4,0,4,6,4,10
+40000,curve7,14,2,0,0,1,9.2,5,5,5,exorcist:2 scientist:2 reporter:2 finalgirl:2 tanks:2,f0:figures f1:rats f2:figures,Bootleg Figures,4,0,4,16,5,21
+40000,curve7,14,2,0,0,1,10.65,6,6,6,skelarch:2 lookouts:2 mascot:2 mule:1 rifle:2 fieldmed:1,f0:figures f1:rats f2:figures,Bootleg Figures,3,0,3,1,11,12
+40000,curve7,14,2,0,0,1,6.25,6,6,6,outlaws:2 safecracker:2 pitcher:2 captain:2 captain:1 captain:1,f0:figures f1:rats f2:figures,Bootleg Figures,4,0,4,1,9,10
+40000,curve7,14,2,0,0,1,14.45,5,5,5,nurse:2 fixer:3 pointguard:2 waterboy:2 bonesetter:3,f0:figures f1:rats f2:figures,Bootleg Figures,2,0,2,1,7,8
+40000,curve7,14,2,0,0,1,18.7,6,6,7,exorcist:2 headcoach:1 finalgirl:2 headcoach:1 sheriff:1 sheriff:1,f0:figures f1:rats f2:figures,Bootleg Figures,2,0,2,1,5,6
+40000,curve7,14,2,0,0,1,4.7,6,6,6,babykaiju:2 mule:2 necro:2 scorpion:2 insideman:1 observer:1,f0:figures f1:rats f2:figures,Bootleg Figures,4,0,4,69,7,76
+40000,curve7,14,2,0,0,1,6.95,6,6,6,beetles:2 deputy:2 gravegolem:2 observer:1 insideman:2 observer:1,f0:figures f1:rats f2:figures,Bootleg Figures,4,0,4,51,8,59
+40000,curve7,14,2,0,0,1,10.05,6,6,6,riot:2 zombies:2 mule:2 wraith:2 necro:2 gravegolem:1,rival:echo,Echo's cast,4,0,4,0,4,4
+40000,curve7,15,2,0,0,1,20.1,6,6,6,exorcist:2 babysitter:2 scientist:2 reporter:2 finalgirl:2 tanks:2,f2:double f0:mech f3:double f1:double,Driving-Test Mech,4,0,4,7,5,12
+40000,curve7,15,2,0,0,1,8.95,6,6,6,skelarch:2 mascot:2 mule:1 rifle:2 fieldmed:2 observer:1,f2:double f0:mech f3:double f1:double,Driving-Test Mech,3,0,3,0,8,8
+40000,curve7,15,2,0,0,1,10.4,6,6,6,outlaws:2 safecracker:2 pitcher:2 captain:3 ravager:1 nurse:1,f2:double f0:mech f3:double f1:double,Driving-Test Mech,4,0,4,3,9,12
+40000,curve7,15,2,0,0,1,19.4,5,5,5,nurse:2 fixer:3 waterboy:2 bonesetter:3 necro:2,f2:double f0:mech f3:double f1:double,Driving-Test Mech,2,0,2,0,7,7
+40000,curve7,15,2,0,0,1,25.95,6,6,7,counselors:2 exorcist:2 headcoach:2 finalgirl:2 sheriff:1 sheriff:1,f2:double f0:mech f3:double f1:double,Driving-Test Mech,2,0,2,3,6,9
+40000,curve7,15,2,0,0,1,14.2,6,6,7,mule:2 necro:2 scorpion:2 insideman:1 observer:1 observer:1,f2:double f0:mech f3:double f1:double,Driving-Test Mech,4,0,4,56,7,63
+40000,curve7,15,2,0,0,1,18.65,6,6,6,beetles:2 deputy:2 gravegolem:2 observer:1 insideman:2 observer:1,f2:double f0:mech f3:double f1:double,Driving-Test Mech,4,0,4,69,8,77
+40000,curve7,15,2,0,0,0,7,6,6,6,zombies:2 mule:2 wraith:2 necro:2 gravegolem:1 gravegolem:1,rival:hugo,Hugo's cast,4,1,3,5,1,6
+40000,curve7,16,2,0,0,0,9.35,6,6,6,exorcist:2 scientist:2 reporter:2 finalgirl:2 tanks:2 hunter:2,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,4,1,3,3,1,4
+40000,curve7,16,2,0,0,1,7.8,6,6,6,skelarch:2 mascot:2 mule:1 rifle:2 fieldmed:2 observer:1,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,3,0,3,13,9,22
+40000,curve7,16,2,0,0,1,7.4,6,6,6,outlaws:2 safecracker:2 pitcher:2 captain:3 ravager:1 scorpion:1,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,4,0,4,15,9,24
+40000,curve7,16,2,0,0,1,14.25,5,5,5,nurse:2 fixer:3 waterboy:2 bonesetter:3 necro:2,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,2,0,2,9,9,18
+40000,curve7,16,2,0,0,1,18.05,6,6,7,counselors:2 exorcist:2 headcoach:2 finalgirl:2 sheriff:2 brute:1,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,2,0,2,2,7,9
+40000,curve7,16,2,0,0,1,10.2,6,6,7,mule:2 necro:2 scorpion:2 insideman:1 observer:1 observer:1,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,4,0,4,67,9,76
+40000,curve7,16,2,0,0,1,12.7,6,6,7,beetles:2 deputy:2 gravegolem:2 observer:1 insideman:2 observer:1,b1:mic f1:mooks b2:mic b3:sniper,Holo-Sniper,4,0,4,55,10,65
+40000,curve7,16,2,0,0,0,16.85,6,6,6,zombies:2 mule:2 wraith:2 necro:3 gravegolem:1 gravegolem:1,rival:penny,Penny's cast,3,1,2,5,2,7
+40000,curve7,17,2,0,0,1,17.8,6,6,6,exorcist:2 scientist:2 reporter:2 finalgirl:2 tanks:2 hunter:2,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,3,0,3,9,4,13
+40000,curve7,17,2,0,0,1,8.1,6,6,6,skelarch:2 mascot:2 mule:1 rifle:2 fieldmed:2 observer:1,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,3,0,3,29,10,39
+40000,curve7,17,2,0,0,1,8.6,6,6,7,outlaws:2 safecracker:2 pitcher:2 captain:3 ravager:1 scorpion:1,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,4,0,4,3,9,12
+40000,curve7,17,2,0,0,1,14.05,6,6,6,nurse:2 fixer:3 pointguard:2 waterboy:2 bonesetter:3 necro:2,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,2,0,2,0,9,9
+40000,curve7,17,2,0,0,1,16.8,6,6,7,counselors:2 exorcist:2 headcoach:2 finalgirl:2 sheriff:2 brute:1,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,2,0,2,1,7,8
+40000,curve7,17,2,0,0,1,10.7,6,6,7,mule:2 necro:2 scorpion:2 insideman:1 observer:1 observer:1,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,4,0,4,82,9,91
+40000,curve7,17,2,0,0,1,15.75,6,6,7,beetles:2 deputy:2 gravegolem:2 observer:1 insideman:2 observer:1,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,4,0,4,75,10,85
+40000,curve7,17,2,0,0,1,25.5,6,6,6,zombies:2 mule:2 wraith:2 necro:3 gravegolem:1 gravegolem:1,b1:auditor f3:mooks f2:ninjas b3:actor,Vampire Auditor,2,0,2,10,4,14
+40000,curve7,18,2,1,0,1,29.1,6,6,6,exorcist:2 scientist:2 reporter:2 finalgirl:2 tanks:2 hunter:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,18,5,23
+40000,curve7,18,2,1,0,1,19.95,6,6,7,mascot:2 mule:1 rifle:2 fieldmed:2 observer:1 starknight:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,18,10,28
+40000,curve7,18,2,1,0,1,15.55,6,6,7,outlaws:2 safecracker:2 pitcher:2 captain:3 scorpion:1 scorpion:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,5,9,14
+40000,curve7,18,2,1,0,1,22.7,6,6,6,nurse:2 fixer:3 pointguard:2 waterboy:2 bonesetter:3 necro:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,2,0,2,14,9,23
+40000,curve7,18,2,1,0,1,29.4,6,6,7,exorcist:2 headcoach:3 finalgirl:2 sheriff:2 brute:1 brute:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,2,0,2,2,7,9
+40000,curve7,18,2,1,0,1,17.05,6,6,7,mule:2 necro:2 scorpion:2 insideman:1 observer:2 insideman:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,96,9,105
+40000,curve7,18,2,1,0,1,27.85,6,6,7,beetles:3 gravegolem:2 observer:2 insideman:2 sheriff:1 sheriff:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,6,11,17
+40000,curve7,18,2,1,0,0,32.75,6,6,6,zombies:2 mule:2 wraith:2 necro:3 gravegolem:1 gravegolem:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,2,2,0,20,1,21
