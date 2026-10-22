@@ -1,0 +1,18 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ cd fastsim && node actloss.js --build ../tropebrawl.html --levels 14 --expert 200 --steady 1 --workers 4 --out ../out/2026-10-24 --sub "const dly=ch?null:DAILY_NEXT;=>const dly=ch?null:'2026-10-24';;;lvClamp(dly?4:ch=>lvClamp(dly?14:ch"
+/home/runner/work/omegasims/omegasims/fastsim/actloss.js:23
+  if (n !== 1) throw new Error(`--sub "${f}" matched ${n} times (need 1)`); src = src.replace(f, r);
+               ^
+
+Error: --sub ";lvClamp(dly?4:ch" matched 0 times (need 1)
+    at Object.<anonymous> (/home/runner/work/omegasims/omegasims/fastsim/actloss.js:23:22)
+    at Module._compile (node:internal/modules/cjs/loader:1781:14)
+    at Object..js (node:internal/modules/cjs/loader:1913:10)
+    at Module.load (node:internal/modules/cjs/loader:1505:32)
+    at Function._load (node:internal/modules/cjs/loader:1309:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:254:19)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49
+
+Node.js v22.23.3
+exit 1
