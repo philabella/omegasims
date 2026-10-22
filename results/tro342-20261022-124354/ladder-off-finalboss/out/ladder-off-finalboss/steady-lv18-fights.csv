@@ -1,0 +1,177 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,17.25,3,3,1,outlaws:1 doc:1 rifle:1,f1:double b1:actor,Stunt Double,8,1,7,3,1,4
+40000,curve7,1,1,0,0,0,16.05,3,3,1,skelarch:1 droids:1 babysitter:1,f1:double b1:actor,Stunt Double,8,1,7,3,1,4
+40000,curve7,1,1,0,0,1,21.7,3,3,1,reporter:1 dodgeball:2 lookouts:1,f1:double b1:actor,Stunt Double,8,0,8,1,1,2
+40000,curve7,1,1,0,0,1,25.45,3,3,1,dodgeball:1 vampbat:1 rifle:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,0,18.35,3,3,1,ravager:1 ravager:1 cheersquad:1,f1:double b1:actor,Stunt Double,8,1,7,3,1,4
+40000,curve7,1,1,0,0,1,12.5,3,3,1,zombies:1 pitcher:1 pitcher:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,1,1,0,0,0,10.15,3,3,1,reporter:1 droids:1 commando:1,f1:double b1:actor,Stunt Double,8,1,7,3,1,4
+40000,curve7,1,1,0,0,0,15.9,2,3,1,lookouts:2 rifle:1,f1:double b1:actor,Stunt Double,8,1,7,0,1,1
+40000,curve7,2,1,0,0,1,10.2,4,4,2,outlaws:2 doc:2 rifle:1 rifle:1,f1:double b1:actor,Stunt Double,7,0,7,0,1,1
+40000,curve7,2,1,0,0,0,18.35,4,4,2,skelarch:1 droids:1 babysitter:1 droids:1,f1:double b1:actor,Stunt Double,7,1,6,3,2,5
+40000,curve7,2,1,0,0,1,34.3,3,3,1,reporter:1 dodgeball:2 lookouts:1,f1:double b1:actor,Stunt Double,8,0,8,7,2,9
+40000,curve7,2,1,0,0,1,18.45,4,4,2,dodgeball:1 vampbat:1 rifle:1 dodgeball:1,f1:double b1:actor,Stunt Double,8,0,8,4,2,6
+40000,curve7,2,1,0,0,0,21.45,4,4,2,ravager:2 cheersquad:1 cheersquad:1 babysitter:1,f1:double b1:actor,Stunt Double,7,1,6,0,2,2
+40000,curve7,2,1,0,0,1,9.05,4,4,2,zombies:1 pitcher:1 pitcher:1 skelarch:1,f1:double b1:actor,Stunt Double,8,0,8,0,2,2
+40000,curve7,2,1,0,0,0,23.05,4,4,2,reporter:1 droids:1 commando:1 commando:1,f1:double b1:actor,Stunt Double,7,1,6,0,2,2
+40000,curve7,2,1,0,0,0,14.75,2,4,2,lookouts:2 rifle:2,f1:double b1:actor,Stunt Double,7,1,6,0,2,2
+40000,curve7,4,1,0,0,1,17.65,4,4,3,outlaws:2 doc:2 rifle:2 rifle:1,f1:actor b0:mic b3:actor,Method Actor,5,0,5,18,5,23
+40000,curve7,4,1,0,0,1,12.9,4,4,3,skelarch:2 droids:2 babysitter:1 necro:1,f1:actor b0:mic b3:actor,Method Actor,6,0,6,5,4,9
+40000,curve7,4,1,0,0,1,26.8,4,4,3,dodgeball:2 lookouts:1 waterboy:1 lookouts:1,f1:actor b0:mic b3:actor,Method Actor,8,0,8,7,5,12
+40000,curve7,4,1,0,0,0,14.4,4,4,2,headcoach:1 vampbat:1 rifle:1 dodgeball:1,f1:actor b0:mic b3:actor,Method Actor,8,1,7,17,1,18
+40000,curve7,4,1,0,0,0,15.6,4,4,3,ravager:2 cheersquad:1 babysitter:2 fixer:1,f1:actor b0:mic b3:actor,Method Actor,6,1,5,0,2,2
+40000,curve7,4,1,0,0,0,12.8,4,4,2,zombies:1 pitcher:1 pitcher:1 skelarch:1,f1:actor b0:mic b3:actor,Method Actor,8,1,7,20,1,21
+40000,curve7,4,1,0,0,1,14.05,4,4,4,commando:1 commando:1 finalgirl:1 radio:1,f1:actor b0:mic b3:actor,Method Actor,4,0,4,0,4,4
+40000,curve7,4,1,0,0,1,8.6,4,4,2,lookouts:2 rifle:2 hacker:1 spitters:1,f1:actor b0:mic b3:actor,Method Actor,6,0,6,13,4,17
+40000,curve7,5,1,0,0,1,16.4,4,4,4,outlaws:2 doc:2 rifle:2 rifle:1,f2:double b2:actor f1:double b3:actor,Stunt Double,5,0,5,18,5,23
+40000,curve7,5,1,0,0,0,17,4,4,3,skelarch:2 droids:2 babysitter:1 necro:1,f2:double b2:actor f1:double b3:actor,Stunt Double,6,1,5,14,1,15
+40000,curve7,5,1,0,0,1,21.4,4,4,4,dodgeball:2 lookouts:2 waterboy:1 waterboy:1,f2:double b2:actor f1:double b3:actor,Stunt Double,8,0,8,1,6,7
+40000,curve7,5,1,0,0,1,24.55,4,4,2,headcoach:1 vampbat:1 rifle:1 dodgeball:1,f2:double b2:actor f1:double b3:actor,Stunt Double,7,0,7,24,4,28
+40000,curve7,5,1,0,0,1,32.1,4,4,3,ravager:2 cheersquad:2 babysitter:2 fixer:1,f2:double b2:actor f1:double b3:actor,Stunt Double,5,0,5,0,4,4
+40000,curve7,5,1,0,0,1,12.3,4,4,3,zombies:1 pitcher:1 dodgeball:2 pitcher:1,f2:double b2:actor f1:double b3:actor,Stunt Double,7,0,7,19,4,23
+40000,curve7,5,1,0,0,1,9.15,4,4,4,commando:2 finalgirl:1 gunslinger:1 headcoach:1,f2:double b2:actor f1:double b3:actor,Stunt Double,4,0,4,1,5,6
+40000,curve7,5,1,0,0,1,10.25,4,4,2,lookouts:2 rifle:2 hacker:1 hacker:1,rival:sal,Sal's cast,6,0,6,20,2,22
+40000,curve7,6,1,0,0,0,20.05,4,4,4,outlaws:2 doc:2 rifle:2 rifle:1,f1:mooks b1:actor f2:rats,Method Actor,5,1,4,18,1,19
+40000,curve7,6,1,0,0,1,12.85,4,4,3,skelarch:2 droids:2 necro:1 necro:1,f1:mooks b1:actor f2:rats,Method Actor,5,0,5,4,4,8
+40000,curve7,6,1,0,0,1,12.8,4,4,4,lookouts:2 driver:2 pilot:1 fixer:1,f1:mooks b1:actor f2:rats,Method Actor,8,0,8,0,7,7
+40000,curve7,6,1,0,0,0,6,4,4,3,vampbat:1 rifle:1 lookouts:1 lookouts:1,f1:mooks b1:actor f2:rats,Method Actor,7,1,6,26,1,27
+40000,curve7,6,1,0,0,0,12.9,4,4,3,ravager:2 cheersquad:2 babysitter:2 fixer:1,f1:mooks b1:actor f2:rats,Method Actor,5,1,4,1,1,2
+40000,curve7,6,1,0,0,1,5.5,4,4,3,pitcher:2 dodgeball:2 skelarch:2 gravegolem:1,f1:mooks b1:actor f2:rats,Method Actor,5,0,5,20,5,25
+40000,curve7,6,1,0,0,1,8.85,4,4,4,finalgirl:1 gunslinger:1 headcoach:1 gunslinger:1,f1:mooks b1:actor f2:rats,Method Actor,4,0,4,3,5,8
+40000,curve7,6,1,0,0,1,6.7,4,4,2,lookouts:2 rifle:2 hacker:1 spitters:2,f1:mooks b1:actor f2:rats,Method Actor,6,0,6,19,5,24
+40000,curve7,7,1,0,0,1,10.2,5,5,5,outlaws:2 doc:2 rifle:2 necro:1 necro:1,b3:actor f1:mooks b2:actor b1:actor,Method Actor,4,0,4,1,4,5
+40000,curve7,7,1,0,0,1,12.75,4,4,3,skelarch:2 droids:2 necro:1 necro:1,b3:actor f1:mooks b2:actor b1:actor,Method Actor,5,0,5,13,5,18
+40000,curve7,7,1,0,0,1,14.2,4,4,4,lookouts:2 driver:2 pilot:1 fixer:1,b3:actor f1:mooks b2:actor b1:actor,Method Actor,8,0,8,12,7,19
+40000,curve7,7,1,0,0,1,15.3,4,4,3,vampbat:2 lookouts:1 lookouts:1 mule:1,b3:actor f1:mooks b2:actor b1:actor,Method Actor,6,0,6,26,4,30
+40000,curve7,7,1,0,0,1,11.35,4,4,3,ravager:2 cheersquad:2 babysitter:2 safecracker:2,b3:actor f1:mooks b2:actor b1:actor,Method Actor,4,0,4,2,4,6
+40000,curve7,7,1,0,0,1,6.6,4,4,4,pitcher:2 dodgeball:2 skelarch:2 gravegolem:1,b3:actor f1:mooks b2:actor b1:actor,Method Actor,5,0,5,20,5,25
+40000,curve7,7,1,0,0,1,7.8,4,4,4,finalgirl:1 gunslinger:1 gunslinger:1 starknight:1,b3:actor f1:mooks b2:actor b1:actor,Method Actor,4,0,4,4,6,10
+40000,curve7,7,1,0,0,1,9,4,4,3,lookouts:2 rifle:2 hacker:1 spitters:2,rival:ace,Ace's cast,6,0,6,25,3,28
+40000,curve7,8,1,0,0,1,16.85,5,5,5,outlaws:2 doc:2 rifle:2 necro:1 starknight:1,f2:double f0:double f3:double f1:double,Stunt Double,4,0,4,4,5,9
+40000,curve7,8,1,0,0,1,18.1,4,4,3,skelarch:2 droids:2 necro:1 necro:1,f2:double f0:double f3:double f1:double,Stunt Double,5,0,5,24,5,29
+40000,curve7,8,1,0,0,1,20.9,5,5,5,reporter:2 lookouts:2 driver:2 fixer:1 fixer:1,f2:double f0:double f3:double f1:double,Stunt Double,8,0,8,0,7,7
+40000,curve7,8,1,0,0,1,10.45,4,4,4,vampbat:2 rifle:2 lookouts:1 mule:2,f2:double f0:double f3:double f1:double,Stunt Double,6,0,6,23,5,28
+40000,curve7,8,1,0,0,1,19.7,4,4,3,ravager:2 cheersquad:2 babysitter:2 safecracker:2,f2:double f0:double f3:double f1:double,Stunt Double,4,0,4,3,5,8
+40000,curve7,8,1,0,0,1,21.5,4,4,4,zombies:2 dodgeball:2 skelarch:2 gravegolem:1,f2:double f0:double f3:double f1:double,Stunt Double,5,0,5,22,6,28
+40000,curve7,8,1,0,0,1,10.25,5,5,5,finalgirl:1 tanks:2 gunslinger:1 gunslinger:1 starknight:1,f2:double f0:double f3:double f1:double,Stunt Double,4,0,4,2,7,9
+40000,curve7,8,1,0,0,1,11.25,4,4,3,lookouts:2 rifle:2 spitters:2 tanks:2,f2:double f0:double f3:double f1:double,Stunt Double,6,0,6,34,7,41
+40000,curve7,9,1,1,0,1,27.45,5,5,5,outlaws:2 doc:2 rifle:2 deputy:2 fieldmed:1,f1:double b0:mic b2:editor,The Editor,4,0,4,11,5,16
+40000,curve7,9,1,1,0,1,21.05,4,4,4,skelarch:2 necro:2 pitcher:2 zombies:2,f1:double b0:mic b2:editor,The Editor,5,0,5,6,6,12
+40000,curve7,9,1,1,0,1,40.2,5,5,5,reporter:2 lookouts:2 driver:2 fixer:1 fixer:1,f1:double b0:mic b2:editor,The Editor,8,0,8,8,7,15
+40000,curve7,9,1,1,0,1,16.05,5,5,5,vampbat:2 rifle:2 lookouts:2 mule:2 safecracker:1,f1:double b0:mic b2:editor,The Editor,6,0,6,15,5,20
+40000,curve7,9,1,1,0,0,15.95,4,4,4,ravager:2 cheersquad:2 babysitter:2 safecracker:2,f1:double b0:mic b2:editor,The Editor,4,2,2,1,1,2
+40000,curve7,9,1,1,0,1,34.35,4,4,4,gravegolem:2 wraith:2 mascot:1 mascot:1,f1:double b0:mic b2:editor,The Editor,5,0,5,4,7,11
+40000,curve7,9,1,1,0,1,24.15,5,5,5,finalgirl:1 gunslinger:2 starknight:1 starknight:1 mascot:1,f1:double b0:mic b2:editor,The Editor,4,0,4,1,7,8
+40000,curve7,9,1,1,0,1,26.3,4,4,4,lookouts:2 rifle:2 spitters:2 queen:2,f1:double b0:mic b2:editor,The Editor,6,0,6,7,7,14
+40000,curve7,10,2,0,0,1,14.3,5,5,5,rifle:2 necro:2 fieldmed:1 fieldmed:1 observer:1,f0:ninjas b3:sniper f1:rats,Holo-Sniper,4,0,4,8,6,14
+40000,curve7,10,2,0,0,1,7.3,4,4,4,necro:2 pitcher:2 zombies:2 cheersquad:2,f0:ninjas b3:sniper f1:rats,Holo-Sniper,5,0,5,17,7,24
+40000,curve7,10,2,0,0,0,5.7,6,6,6,reporter:2 lookouts:2 driver:2 pilot:2 fixer:1 fixer:1,f0:ninjas b3:sniper f1:rats,Holo-Sniper,8,1,7,1,1,2
+40000,curve7,10,2,0,0,1,6.8,5,5,5,vampbat:2 rifle:2 lookouts:2 mule:2 safecracker:1,f0:ninjas b3:sniper f1:rats,Holo-Sniper,6,0,6,27,6,33
+40000,curve7,10,2,0,0,0,8.5,4,4,4,ravager:2 beetles:2 babysitter:2 safecracker:2,f0:ninjas b3:sniper f1:rats,Holo-Sniper,2,1,1,1,2,3
+40000,curve7,10,2,0,0,1,12.05,4,4,4,dodgeball:2 gravegolem:2 mascot:1 mascot:1,f0:ninjas b3:sniper f1:rats,Holo-Sniper,5,0,5,17,7,24
+40000,curve7,10,2,0,0,0,26.55,5,5,5,gunslinger:2 starknight:1 starknight:1 mascot:1 gunslinger:1,f0:ninjas b3:sniper f1:rats,Holo-Sniper,4,1,3,5,1,6
+40000,curve7,10,2,0,0,1,11.45,4,4,4,lookouts:2 spitters:2 mule:2 queen:2,rival:cue,Cue's cast,6,0,6,20,4,24
+40000,curve7,11,2,0,0,1,30.5,5,5,5,rifle:2 necro:2 fieldmed:2 observer:1 fieldmed:1,f3:mech f2:mech b0:mic,Driving-Test Mech,4,0,4,8,7,15
+40000,curve7,11,2,0,0,1,17.85,4,4,4,necro:2 pitcher:2 zombies:2 cheersquad:2,f3:mech f2:mech b0:mic,Driving-Test Mech,5,0,5,31,7,38
+40000,curve7,11,2,0,0,1,40.95,6,6,6,reporter:2 lookouts:2 driver:2 pilot:2 fixer:1 fixer:1,f3:mech f2:mech b0:mic,Driving-Test Mech,7,0,7,7,4,11
+40000,curve7,11,2,0,0,1,22.05,5,5,5,vampbat:2 rifle:2 lookouts:2 mule:2 gunslinger:1,f3:mech f2:mech b0:mic,Driving-Test Mech,6,0,6,34,7,41
+40000,curve7,11,2,0,0,0,43.6,4,4,4,ravager:2 beetles:2 babysitter:2 safecracker:2,f3:mech f2:mech b0:mic,Driving-Test Mech,1,1,1,8,2,10
+40000,curve7,11,2,0,0,1,35.35,4,4,4,dodgeball:2 gravegolem:2 mascot:1 mascot:1,f3:mech f2:mech b0:mic,Driving-Test Mech,5,0,5,31,7,38
+40000,curve7,11,2,0,0,1,38.8,5,5,5,gunslinger:2 starknight:1 starknight:1 gunslinger:1 gunslinger:1,f3:mech f2:mech b0:mic,Driving-Test Mech,3,0,3,6,4,10
+40000,curve7,11,2,0,0,0,4.05,4,4,4,lookouts:2 spitters:2 mule:2 queen:2,rival:sal,Sal's cast,6,1,5,31,1,32
+40000,curve7,13,2,0,0,1,19,6,6,6,outlaws:2 doc:2 rifle:2 necro:2 fieldmed:3 observer:1,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,4,0,4,5,7,12
+40000,curve7,13,2,0,0,1,17,4,4,4,necro:2 headcoach:2 zombies:2 cheersquad:2,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,5,0,5,55,7,62
+40000,curve7,13,2,0,0,1,41,6,6,6,reporter:2 lookouts:2 driver:2 fixer:2 bonesetter:1 bonesetter:1,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,7,0,7,13,7,20
+40000,curve7,13,2,0,0,1,16.05,6,6,6,vampbat:2 rifle:2 lookouts:2 mule:2 gunslinger:1 brute:1,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,6,0,6,42,7,49
+40000,curve7,13,2,0,0,1,31.8,4,4,4,ravager:2 beetles:2 safecracker:2 chainsaw:2,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,3,0,3,20,4,24
+40000,curve7,13,2,0,0,1,34.35,5,5,5,pitcher:2 dodgeball:2 mascot:2 mascot:1 mascot:1,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,5,0,5,21,7,28
+40000,curve7,13,2,0,0,1,31.3,6,6,6,gunslinger:2 starknight:1 starknight:1 gunslinger:1 gunslinger:1 sheriff:1,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,3,0,3,1,5,6
+40000,curve7,13,2,0,0,1,14.3,5,5,5,lookouts:2 rifle:2 spitters:2 mule:2 queen:3,f0:mech f3:mooks f2:mech f1:double,Driving-Test Mech,5,0,5,20,4,24
+40000,curve7,14,2,0,0,0,11,6,6,6,outlaws:2 doc:2 rifle:2 necro:2 fieldmed:3 observer:1,b0:mic b3:sniper f1:ninjas,Holo-Sniper,4,1,3,11,1,12
+40000,curve7,14,2,0,0,0,10.5,5,5,5,skelarch:2 necro:2 headcoach:2 cheersquad:2 headcoach:1,b0:mic b3:sniper f1:ninjas,Holo-Sniper,5,1,4,52,1,53
+40000,curve7,14,2,0,0,0,8,6,6,7,reporter:2 lookouts:2 fixer:2 insideman:1 bonesetter:1 bonesetter:1,b0:mic b3:sniper f1:ninjas,Holo-Sniper,7,1,6,0,1,1
+40000,curve7,14,2,0,0,0,8.05,6,6,7,vampbat:2 rifle:2 lookouts:2 mule:2 safecracker:2 brute:1,b0:mic b3:sniper f1:ninjas,Holo-Sniper,6,1,5,30,1,31
+40000,curve7,14,2,0,0,0,10.2,5,5,5,ravager:2 beetles:2 safecracker:2 pitcher:2 chainsaw:2,b0:mic b3:sniper f1:ninjas,Holo-Sniper,3,1,2,2,1,3
+40000,curve7,14,2,0,0,0,11.75,5,5,5,pitcher:2 dodgeball:2 mascot:2 mascot:1 mascot:1,b0:mic b3:sniper f1:ninjas,Holo-Sniper,5,1,4,35,1,36
+40000,curve7,14,2,0,0,1,8.8,6,6,6,gunslinger:2 starknight:2 gunslinger:1 gunslinger:1 sheriff:1 sheriff:1,b0:mic b3:sniper f1:ninjas,Holo-Sniper,3,0,3,1,5,6
+40000,curve7,14,2,0,0,0,4.65,5,5,5,lookouts:2 rifle:2 spitters:2 mule:2 queen:3,rival:kit,Kit's cast,5,1,4,31,1,32
+40000,curve7,15,2,0,0,1,14.7,6,6,6,doc:2 rifle:2 necro:2 fieldmed:3 observer:1 observer:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,3,0,3,6,4,10
+40000,curve7,15,2,0,0,1,12.85,5,5,5,skelarch:2 necro:2 headcoach:2 cheersquad:2 headcoach:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,4,0,4,51,4,55
+40000,curve7,15,2,0,0,0,9.25,6,6,7,reporter:2 lookouts:2 fixer:2 insideman:1 bonesetter:1 bonesetter:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,4,1,3,6,2,8
+40000,curve7,15,2,0,0,1,4.05,6,6,7,rifle:2 lookouts:2 mule:2 safecracker:2 brute:1 brute:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,5,0,5,28,4,32
+40000,curve7,15,2,0,0,0,8.55,5,5,5,cheersquad:2 safecracker:2 pitcher:2 chainsaw:2 captain:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,2,1,1,5,2,7
+40000,curve7,15,2,0,0,1,6.7,6,6,6,pitcher:2 dodgeball:2 gravegolem:2 mascot:2 mascot:1 mascot:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,4,0,4,6,4,10
+40000,curve7,15,2,0,0,1,13.35,6,6,6,commando:2 starknight:2 observer:1 gravegolem:1 fixer:1 starknight:1,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,3,0,3,2,6,8
+40000,curve7,15,2,0,0,1,4.15,6,6,6,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,f2:mooks f1:figures f3:ninjas f0:mooks,Nameless Mooks,4,0,4,1,4,5
+40000,curve7,16,2,0,0,0,25.55,6,6,6,doc:2 rifle:2 necro:2 fieldmed:3 observer:1 observer:1,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,3,1,2,16,1,17
+40000,curve7,16,2,0,0,1,14.35,5,5,5,skelarch:2 necro:2 headcoach:2 cheersquad:2 headcoach:1,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,4,0,4,63,5,68
+40000,curve7,16,2,0,0,0,21.25,6,6,7,reporter:2 lookouts:2 driver:2 fixer:2 insideman:1 bonesetter:2,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,3,1,2,7,6,13
+40000,curve7,16,2,0,0,1,10.05,6,6,7,rifle:2 lookouts:2 mule:2 safecracker:2 brute:1 brute:1,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,5,0,5,34,5,39
+40000,curve7,16,2,0,0,0,7.95,5,5,5,cheersquad:2 safecracker:2 pitcher:2 chainsaw:2 captain:1,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,1,1,1,12,2,14
+40000,curve7,16,2,0,0,1,8,6,6,6,pitcher:2 dodgeball:2 gravegolem:2 wraith:2 mascot:3 pointguard:1,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,4,0,4,8,5,13
+40000,curve7,16,2,0,0,0,24.1,6,6,6,starknight:2 observer:1 gravegolem:1 fixer:1 starknight:1 gravegolem:1,f1:figures b0:auditor b1:actor b2:auditor,Vampire Auditor,3,1,2,2,1,3
+40000,curve7,16,2,0,0,0,5.85,6,6,6,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,rival:sal,Sal's cast,4,1,3,6,1,7
+40000,curve7,17,2,0,0,1,26.85,6,6,6,doc:2 rifle:2 deputy:2 necro:2 fieldmed:3 observer:2,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,2,0,2,17,4,21
+40000,curve7,17,2,0,0,0,10.6,6,6,6,skelarch:2 droids:2 necro:2 headcoach:2 cheersquad:2 headcoach:1,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,4,1,3,57,1,58
+40000,curve7,17,2,0,0,1,22.8,6,6,7,lookouts:2 driver:2 fixer:2 insideman:1 bonesetter:2 fixer:1,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,2,0,2,12,8,20
+40000,curve7,17,2,0,0,1,10.05,6,6,7,rifle:2 lookouts:2 mule:2 safecracker:2 brute:1 brute:1,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,5,0,5,41,5,46
+40000,curve7,17,2,0,0,0,6.75,5,5,5,cheersquad:2 safecracker:2 pitcher:2 chainsaw:2 captain:1,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,1,1,1,20,3,23
+40000,curve7,17,2,0,0,1,6.6,6,6,6,pitcher:2 dodgeball:2 gravegolem:2 wraith:2 mascot:3 pointguard:2,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,4,0,4,15,5,20
+40000,curve7,17,2,0,0,0,31,6,6,6,starknight:2 observer:1 gravegolem:1 starknight:1 gravegolem:1 bonesetter:1,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,2,1,1,3,2,5
+40000,curve7,17,2,0,0,1,10.25,6,6,6,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,f1:mech b2:sniper b3:sniper f2:ninjas,Driving-Test Mech,3,0,3,11,4,15
+40000,curve7,18,2,1,0,1,32.4,6,6,7,doc:2 rifle:2 deputy:2 necro:2 fieldmed:3 observer:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,2,0,2,3,5,8
+40000,curve7,18,2,1,0,1,24.75,6,6,7,skelarch:2 droids:2 necro:2 headcoach:3 cheersquad:2 captain:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,6,6,12
+40000,curve7,18,2,1,0,1,17.4,6,6,7,lookouts:2 driver:2 fixer:3 insideman:2 bonesetter:2 sheriff:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,2,0,2,3,10,13
+40000,curve7,18,2,1,0,0,17.85,6,6,7,rifle:2 lookouts:2 mule:2 safecracker:2 brute:1 brute:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,5,2,3,49,1,50
+40000,curve7,18,2,1,0,0,8.25,6,6,6,cheersquad:2 babysitter:2 safecracker:2 pitcher:2 chainsaw:2 captain:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,1,2,1,4,4,8
+40000,curve7,18,2,1,0,1,12.15,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 wraith:2 mascot:3 pointguard:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,2,6,8
+40000,curve7,18,2,1,0,0,44.4,6,6,6,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:1 bonesetter:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,1,2,1,1,2,3
+40000,curve7,18,2,1,0,1,17.7,6,6,6,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,21,5,26
+40000,curve7,19,3,0,0,0,8.45,6,6,7,doc:2 rifle:2 deputy:2 necro:2 fieldmed:3 observer:2,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,2,1,1,9,1,10
+40000,curve7,19,3,0,0,0,6.8,6,6,7,skelarch:2 droids:2 necro:2 headcoach:3 cheersquad:2 captain:2,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,3,1,2,18,1,19
+40000,curve7,19,3,0,0,0,35.5,6,6,7,fixer:3 insideman:2 bonesetter:2 sheriff:1 insideman:1 insideman:1,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,2,1,1,1,5,6
+40000,curve7,19,3,0,0,1,3.75,6,6,7,vampbat:2 rifle:2 lookouts:2 mule:2 safecracker:2 brute:2,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,3,0,3,46,5,51
+40000,curve7,19,3,0,0,0,5,6,6,6,cheersquad:2 babysitter:2 safecracker:2 pitcher:2 chainsaw:2 captain:1,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,1,1,1,3,4,7
+40000,curve7,19,3,0,0,1,7.3,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 wraith:2 mascot:3 pointguard:2,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,4,0,4,9,7,16
+40000,curve7,19,3,0,0,0,22.65,6,6,6,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:2 fixer:1,b2:sniper f0:ninjas f1:ninjas,Holo-Sniper,1,1,1,0,3,3
+40000,curve7,19,3,0,0,1,9,6,6,7,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,rival:cue,Cue's cast,3,0,3,7,2,9
+40000,curve7,20,3,0,0,0,5.85,6,6,7,doc:2 rifle:2 necro:2 fieldmed:3 observer:2 observer:1,b0:actor f1:figures f2:retcons,Method Actor,3,1,2,10,2,12
+40000,curve7,20,3,0,0,0,11.35,6,6,7,droids:2 necro:2 headcoach:3 cheersquad:2 captain:3 starknight:1,b0:actor f1:figures f2:retcons,Method Actor,2,1,1,6,2,8
+40000,curve7,20,3,0,0,1,17.15,6,6,7,fixer:3 insideman:3 bonesetter:2 sheriff:2 sheriff:1 brute:1,b0:actor f1:figures f2:retcons,Method Actor,1,0,1,1,8,9
+40000,curve7,20,3,0,0,0,9.2,5,6,7,mule:2 safecracker:2 brute:2 queen:2 giantmoth:2,b0:actor f1:figures f2:retcons,Method Actor,3,1,2,54,1,55
+40000,curve7,20,3,0,0,0,4.75,6,6,6,cheersquad:2 babysitter:2 safecracker:2 pitcher:2 chainsaw:2 captain:1,b0:actor f1:figures f2:retcons,Method Actor,1,1,1,18,4,22
+40000,curve7,20,3,0,0,1,11.9,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 mascot:3 pointguard:2 headcoach:1,b0:actor f1:figures f2:retcons,Method Actor,4,0,4,6,7,13
+40000,curve7,20,3,0,0,0,16.75,6,6,6,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:2 observer:1,b0:actor f1:figures f2:retcons,Method Actor,3,1,2,2,4,6
+40000,curve7,20,3,0,0,0,12.15,6,6,7,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,rival:goldie,Goldie's cast,3,1,2,6,1,7
+40000,curve7,22,3,0,0,1,42.35,6,6,7,doc:2 rifle:2 necro:2 fieldmed:3 observer:2 observer:1,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,2,0,2,10,4,14
+40000,curve7,22,3,0,0,1,39,6,6,7,necro:3 headcoach:3 cheersquad:2 captain:3 starknight:1 starknight:1,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,1,0,1,7,7,14
+40000,curve7,22,3,0,0,1,42.25,6,6,7,fixer:3 insideman:3 bonesetter:2 sheriff:2 sheriff:1 brute:2,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,1,0,1,6,8,14
+40000,curve7,22,3,0,0,0,36.9,5,6,7,mule:2 safecracker:2 brute:2 queen:2 giantmoth:2,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,4,1,3,61,2,63
+40000,curve7,22,3,0,0,0,14.6,6,6,7,cheersquad:2 babysitter:2 safecracker:2 pitcher:2 chainsaw:2 finalgirl:2,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,3,1,2,3,4,7
+40000,curve7,22,3,0,0,1,11.55,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 mascot:3 pointguard:2 headcoach:2,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,4,0,4,7,7,14
+40000,curve7,22,3,0,0,1,46.6,6,6,7,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:2 observer:1,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,2,0,2,5,4,9
+40000,curve7,22,3,0,0,1,26.65,6,6,7,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,f3:continuity b1:auditor f0:continuity f2:double,Continuity Error,2,0,2,6,4,10
+40000,curve7,23,3,0,0,0,37.95,6,6,7,doc:2 rifle:2 necro:2 fieldmed:3 observer:2 observer:1,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,2,1,1,10,1,11
+40000,curve7,23,3,0,0,1,36.65,6,6,7,necro:3 headcoach:3 cheersquad:2 captain:3 starknight:1 starknight:1,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,1,0,1,6,8,14
+40000,curve7,23,3,0,0,1,46.65,6,6,7,fixer:3 insideman:3 bonesetter:2 sheriff:2 sheriff:1 brute:2,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,1,0,1,0,10,10
+40000,curve7,23,3,0,0,0,16.85,5,6,7,mule:2 safecracker:2 brute:2 queen:2 giantmoth:2,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,3,1,2,58,2,60
+40000,curve7,23,3,0,0,0,10.2,6,6,7,cheersquad:2 babysitter:2 safecracker:2 pitcher:2 chainsaw:2 finalgirl:2,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,2,1,1,2,4,6
+40000,curve7,23,3,0,0,1,10.1,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 mascot:3 pointguard:2 headcoach:2,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,4,0,4,6,7,13
+40000,curve7,23,3,0,0,0,32.15,6,6,7,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:2 observer:1,f2:plotarmor b0:auditor f1:continuity f3:figures,Continuity Error,2,1,1,4,1,5
+40000,curve7,23,3,0,0,0,6.15,6,6,7,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,rival:cue,Cue's cast,2,1,1,6,1,7
+40000,curve7,24,3,0,0,0,14.4,6,6,7,doc:2 rifle:2 necro:2 fieldmed:3 observer:2 observer:1,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,1,1,1,9,2,11
+40000,curve7,24,3,0,0,1,30.45,6,6,7,necro:3 headcoach:3 cheersquad:2 captain:3 starknight:1 starknight:1,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,1,0,1,6,8,14
+40000,curve7,24,3,0,0,1,35.2,6,6,7,fixer:3 insideman:3 bonesetter:2 sheriff:2 sheriff:1 brute:2,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,1,0,1,2,12,14
+40000,curve7,24,3,0,0,0,18.35,5,6,7,mule:2 safecracker:2 brute:2 queen:2 giantmoth:2,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,2,1,1,54,3,57
+40000,curve7,24,3,0,0,0,14.45,6,6,7,babysitter:2 safecracker:2 chainsaw:2 finalgirl:2 headcoach:2 bonedragon:1,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,1,1,1,0,4,4
+40000,curve7,24,3,0,0,1,10.1,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 mascot:3 pointguard:2 headcoach:2,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,4,0,4,7,7,14
+40000,curve7,24,3,0,0,0,34,6,6,7,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:2 observer:1,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,1,1,1,4,2,6
+40000,curve7,24,3,0,0,1,20.05,6,6,7,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,f3:double b1:actor f1:double f2:plotarmor b3:auditor,Plot Armor,1,0,1,6,4,10
+40000,curve7,25,3,0,0,0,8.05,6,6,7,rifle:2 deputy:2 necro:2 fieldmed:3 observer:2 observer:1,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,1,1,1,9,2,11
+40000,curve7,25,3,0,0,1,22.5,6,6,7,necro:3 headcoach:3 cheersquad:2 captain:3 starknight:1 starknight:1,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,1,0,1,6,9,15
+40000,curve7,25,3,0,0,1,21.15,6,6,7,fixer:3 insideman:3 bonesetter:2 sheriff:2 sheriff:1 brute:2,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,1,0,1,1,13,14
+40000,curve7,25,3,0,0,0,4.85,4,6,7,brute:2 queen:3 giantmoth:2 giantmoth:1,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,1,1,1,49,4,53
+40000,curve7,25,3,0,0,0,10.15,6,6,7,safecracker:2 chainsaw:2 finalgirl:2 headcoach:2 bonedragon:1 bonedragon:1,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,1,1,1,1,4,5
+40000,curve7,25,3,0,0,1,6.95,6,6,7,pitcher:2 dodgeball:2 gravegolem:2 mascot:3 pointguard:2 headcoach:2,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,4,0,4,6,7,13
+40000,curve7,25,3,0,0,0,15.85,6,6,7,starknight:2 observer:1 gravegolem:2 starknight:1 bonesetter:2 observer:1,f3:figures f1:ninjas f0:figures b3:auditor,Vampire Auditor,1,1,1,5,2,7
+40000,curve7,25,3,0,0,0,11.3,6,6,7,lookouts:2 rifle:2 spitters:2 mule:2 queen:3 finalgirl:2,rival:ace,Ace's cast,1,1,0,6,1,7

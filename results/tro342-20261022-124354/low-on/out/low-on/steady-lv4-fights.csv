@@ -1,0 +1,65 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,37.45,3,3,1,rifle:1 droids:1 dodgeball:1,f1:double b1:actor,Stunt Double,10,2,8,3,1,4
+40000,curve7,1,1,0,0,1,10.35,3,3,1,zombies:1 zombies:1 babykaiju:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,2,1,0,0,1,22.5,4,4,2,rifle:1 droids:1 dodgeball:1 dodgeball:1,f0:mooks b1:mic,Boom Mic Operator,8,0,8,3,1,4
+40000,curve7,2,1,0,0,1,7,4,4,2,zombies:1 zombies:1 babykaiju:2 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,0,2,2
+40000,curve7,4,1,0,0,1,9,4,4,2,rifle:2 dodgeball:2 rifle:1 commando:1,f1:mic b1:mic b2:mic b0:mic,Boom Mic Operator,8,0,8,12,2,14
+40000,curve7,4,1,0,0,1,6.95,4,4,2,zombies:2 babykaiju:2 babykaiju:1 zombies:1,f1:mic b1:mic b2:mic b0:mic,Boom Mic Operator,10,0,10,14,2,16
+40000,curve7,5,1,0,0,1,11.5,4,4,2,rifle:2 dodgeball:2 rifle:1 commando:1,f1:actor b2:actor b0:actor,Method Actor,8,0,8,20,2,22
+40000,curve7,5,1,0,0,1,22.2,4,4,2,zombies:2 babykaiju:2 babykaiju:1 zombies:1,rival:sal,Sal's cast,10,0,10,21,3,24
+40000,curve7,6,1,0,0,1,10.2,4,4,3,rifle:2 dodgeball:2 rifle:1 pointguard:1,f0:double f1:double f2:double,Stunt Double,8,0,8,27,3,30
+40000,curve7,6,1,0,0,1,12.55,4,4,3,zombies:2 babykaiju:2 babykaiju:1 ravager:2,rival:sal,Sal's cast,10,0,10,21,4,25
+40000,curve7,7,1,0,0,1,7.9,4,4,4,rifle:2 droids:2 dodgeball:2 pointguard:1,f1:mic b3:mic b1:mic b2:mic,Boom Mic Operator,8,0,8,25,4,29
+40000,curve7,7,1,0,0,1,6.95,4,4,4,zombies:2 babykaiju:2 babykaiju:1 ravager:2,f1:mic b3:mic b1:mic b2:mic,Boom Mic Operator,10,0,10,20,4,24
+40000,curve7,8,1,0,0,1,15.15,4,4,4,rifle:2 droids:2 dodgeball:2 pointguard:1,f3:double f0:double f2:double f1:double,Stunt Double,8,0,8,33,4,37
+40000,curve7,8,1,0,0,1,10.15,4,4,4,zombies:2 babykaiju:2 ravager:2 scorpion:1,f3:double f0:double f2:double f1:double,Stunt Double,10,0,10,20,4,24
+40000,curve7,9,1,1,0,1,17.85,5,5,5,rifle:2 droids:2 dodgeball:2 pointguard:2 captain:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,26,7,33
+40000,curve7,9,1,1,0,1,12.7,4,4,4,zombies:2 ravager:2 scorpion:1 chainsaw:2,f0:mooks f2:mooks b1:editor,The Editor,10,0,10,5,7,12
+40000,curve7,10,2,0,0,0,8.8,5,5,5,rifle:2 droids:2 dodgeball:2 pointguard:2 brute:1,f1:actor b1:sniper b2:actor,Method Actor,8,2,6,36,1,37
+40000,curve7,10,2,0,0,1,9.25,4,4,4,zombies:2 ravager:2 scorpion:1 chainsaw:2,f1:actor b1:sniper b2:actor,Method Actor,10,0,10,18,4,22
+40000,curve7,11,2,0,0,1,10.45,6,6,6,rifle:2 droids:2 dodgeball:2 pointguard:2 brute:1 headcoach:1,ghost:11:16,Rerun: Space Opera + Sportsball cast,6,0,6,25,1,26
+40000,curve7,11,2,0,0,1,10.15,4,4,4,zombies:2 ravager:2 scorpion:1 chainsaw:2,ghost:11:16,Rerun: Space Opera + Sportsball cast,10,0,10,29,4,33
+40000,curve7,13,2,0,0,1,12.9,6,6,6,dodgeball:2 pointguard:2 brute:1 headcoach:2 brute:1 starknight:1,f3:double f1:double b0:mic,Stunt Double,6,0,6,30,2,32
+40000,curve7,13,2,0,0,1,7.95,5,5,5,zombies:2 ravager:2 scorpion:1 chainsaw:2 captain:2,rival:sal,Sal's cast,10,0,10,20,4,24
+40000,curve7,14,2,0,0,1,9.4,6,6,6,rifle:2 dodgeball:2 pointguard:2 brute:2 headcoach:2 starknight:1,b1:actor f3:figures b3:actor b2:auditor,Vampire Auditor,6,0,6,33,2,35
+40000,curve7,14,2,0,0,1,8.7,5,5,5,ravager:2 scorpion:1 chainsaw:2 captain:2 scorpion:1,b1:actor f3:figures b3:actor b2:auditor,Vampire Auditor,10,0,10,27,4,31
+40000,curve7,15,2,0,0,1,17.75,6,6,6,dodgeball:2 pointguard:2 brute:2 headcoach:2 starknight:1 starknight:1,f0:figures f3:mech f2:rats f1:mech,Driving-Test Mech,6,0,6,31,3,34
+40000,curve7,15,2,0,0,1,11.65,5,5,5,ravager:2 scorpion:1 chainsaw:2 captain:2 scorpion:1,f0:figures f3:mech f2:rats f1:mech,Driving-Test Mech,10,0,10,39,4,43
+40000,curve7,16,2,0,0,1,12.25,6,6,6,dodgeball:2 pointguard:2 brute:2 headcoach:2 starknight:1 starknight:1,ghost:16:11,Rerun: Kaiju + Slasher cast,6,0,6,42,4,46
+40000,curve7,16,2,0,0,1,11.75,6,6,6,zombies:2 ravager:2 scorpion:2 chainsaw:2 captain:2 captain:1,ghost:16:11,Rerun: Kaiju + Slasher cast,10,0,10,18,4,22
+40000,curve7,17,2,0,0,1,8.95,6,6,7,dodgeball:2 pointguard:2 brute:2 headcoach:2 starknight:1 starknight:1,ghost:17:7,Rerun: Space Opera cast,6,0,6,39,4,43
+40000,curve7,17,2,0,0,1,6.55,6,6,6,zombies:2 ravager:2 scorpion:2 chainsaw:2 captain:2 captain:1,ghost:17:7,Rerun: Space Opera cast,10,0,10,29,4,33
+40000,curve7,18,2,1,0,1,38.65,6,6,7,dodgeball:2 pointguard:2 brute:2 headcoach:2 starknight:1 starknight:1,f1:mech f2:mech b1:shared,The Shared Universe,6,0,6,52,7,59
+40000,curve7,18,2,1,0,1,13.75,6,6,7,zombies:2 ravager:2 scorpion:2 chainsaw:2 captain:3 scorpion:1,f1:mech f2:mech b1:shared,The Shared Universe,10,0,10,4,7,11
+40000,curve7,19,3,0,0,1,44.25,6,6,7,dodgeball:2 pointguard:2 brute:3 headcoach:2 starknight:1 starknight:1,f1:spoiler b0:auditor b3:auditor,Spoiler,6,0,6,61,4,65
+40000,curve7,19,3,0,0,1,6.75,6,6,7,zombies:2 ravager:2 scorpion:2 chainsaw:2 captain:3 scorpion:1,rival:sal,Sal's cast,10,0,10,17,4,21
+40000,curve7,20,3,0,0,1,12.1,6,6,7,dodgeball:2 pointguard:2 brute:3 headcoach:2 starknight:2 brute:1,ghost:20:16,Rerun: Undead + Kaiju cast,6,0,6,65,4,69
+40000,curve7,20,3,0,0,1,7.95,6,6,7,ravager:2 scorpion:2 chainsaw:2 captain:3 scorpion:1 scorpion:1,ghost:20:16,Rerun: Undead + Kaiju cast,10,0,10,20,4,24
+40000,curve7,22,3,0,0,1,13.75,6,6,7,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1,f0:retcons f1:figures f2:mech f3:double,Driving-Test Mech,6,0,6,89,4,93
+40000,curve7,22,3,0,0,1,8.1,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:1,rival:sal,Sal's cast,10,0,10,20,4,24
+40000,curve7,23,3,0,0,1,21.65,6,6,7,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1,ghost:23:24,Rerun: Slasher + Wild West cast,6,0,6,103,4,107
+40000,curve7,23,3,0,0,1,7.25,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,ghost:23:24,Rerun: Slasher + Wild West cast,10,0,10,20,4,24
+40000,curve7,24,3,0,0,1,11,6,6,7,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1,b1:mic f2:spoiler b3:actor f1:spoiler,Spoiler,6,0,6,117,4,121
+40000,curve7,24,3,0,0,1,6.25,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,b1:mic f2:spoiler b3:actor f1:spoiler,Spoiler,10,0,10,20,4,24
+40000,curve7,25,3,0,0,1,10.45,6,6,7,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1,f1:breaker b3:breaker b2:breaker b1:breaker,Fourth-Wall Breaker,6,0,6,131,4,135
+40000,curve7,25,3,0,0,1,5.45,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,f1:breaker b3:breaker b2:breaker b1:breaker,Fourth-Wall Breaker,10,0,10,20,4,24
+40000,curve7,26,3,0,0,1,9.7,7,7,8,rifle:2 dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1,f1:retcons b2:auditor b3:auditor f2:ninjas f0:retcons,Vampire Auditor,6,0,6,109,4,113
+40000,curve7,26,3,0,0,1,6,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,f1:retcons b2:auditor b3:auditor f2:ninjas f0:retcons,Vampire Auditor,10,0,10,21,4,25
+40000,curve7,27,3,1,0,1,38.35,7,7,8,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1,f0:retcons f2:retcons b1:exec b3:breaker,The Network Executive,6,0,6,119,7,126
+40000,curve7,27,3,1,0,1,14.15,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,f0:retcons f2:retcons b1:exec b3:breaker,The Network Executive,10,0,10,6,7,13
+40000,curve7,28,4,0,0,1,25.8,7,7,8,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1,ghost:28:24,Rerun: Kaiju + Slasher cast,6,0,6,136,4,140
+40000,curve7,28,4,0,0,1,11.35,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,ghost:28:24,Rerun: Kaiju + Slasher cast,10,0,10,19,4,23
+40000,curve7,29,4,0,0,1,10.9,7,7,8,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1,f2:cliff b2:twist b0:twist b3:breaker,Cliffhanger,6,0,6,150,4,154
+40000,curve7,29,4,0,0,1,16.85,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,rival:sal,Sal's cast,10,0,10,20,4,24
+40000,curve7,31,4,0,0,1,10.55,8,8,9,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1 gunny:1,b0:monologue f2:cgi f3:cgi f0:captain,Henchman Captain,4,0,4,142,4,146
+40000,curve7,31,4,0,0,1,7.7,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,b0:monologue f2:cgi f3:cgi f0:captain,Henchman Captain,10,0,10,21,4,25
+40000,curve7,32,4,0,0,1,8.25,8,8,9,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1 gunny:1,f3:cgi f1:retcons f2:ninjas f0:cgi,CGI Army,4,0,4,156,4,160
+40000,curve7,32,4,0,0,0,7,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,rival:sal,Sal's cast,10,3,7,20,1,21
+40000,curve7,33,4,0,0,1,18.1,8,8,9,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1 gunny:1,f2:mech f0:captain f1:mech f3:mech b0:mech,Henchman Captain,4,0,4,170,4,174
+40000,curve7,33,4,0,0,1,17.65,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,f2:mech f0:captain f1:mech f3:mech b0:mech,Henchman Captain,7,0,7,20,1,21
+40000,curve7,34,4,0,0,1,9.8,8,8,9,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1 gunny:1,f2:spoiler f1:retcons b2:monologue b1:breaker,Villain Monologue,4,0,4,184,4,188
+40000,curve7,34,4,0,0,1,10.7,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,f2:spoiler f1:retcons b2:monologue b1:breaker,Villain Monologue,7,0,7,20,2,22
+40000,curve7,35,4,0,0,1,15,8,8,9,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1 gunny:1,b1:breaker f2:cgi f0:retcons f1:continuity f3:spoiler,Continuity Error,4,0,4,198,4,202
+40000,curve7,35,4,0,0,0,7.3,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,rival:sal,Sal's cast,7,3,4,21,1,22
+40000,curve7,36,4,1,0,1,39.95,8,8,9,dodgeball:2 pointguard:2 brute:3 headcoach:3 starknight:2 brute:1 starknight:1 gunny:1,f0:captain f1:cgi f2:plotarmor b0:twist b1:deus b2:monologue,Deus Ex Machina,4,0,4,212,7,219
+40000,curve7,36,4,1,0,1,14.8,6,6,7,zombies:2 ravager:2 scorpion:3 chainsaw:2 captain:3 starknight:2,f0:captain f1:cgi f2:plotarmor b0:twist b1:deus b2:monologue,Deus Ex Machina,4,0,4,7,4,11

@@ -1,0 +1,14 @@
+[exploit 0s] fuzzing...
+[exploit 4s] fuzz: 178 shop snapshots from 40 runs
+# Exploit check: fix.html
+
+2026-10-22T12:54 · policy champion.json
+
+## 1. Arbitrage fuzzer
+
+84000 random player actions from 178 real shop states.
+
+No free gold, no gold loops, no crashes.
+
+**Clean.**
+[exploit 493s] done

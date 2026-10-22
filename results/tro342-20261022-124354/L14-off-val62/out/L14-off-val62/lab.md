@@ -1,0 +1,91 @@
+# Balance lab: fix14.html, expert bot, 300 paired runs per config, enemies x1, tune {"rvPivotUniq":0}
+
+Baseline win 48.7%. Delta = config minus baseline on the same seeds (points); |z| >= 2 is a real difference, below that it may be noise.
+
+## custom
+
+| config | win % | delta | z | lives (win) | rank | Mythic % |
+|---|---|---|---|---|---|---|
+| pair:ball+heist | 60.3 | +11.7 | 3.1 | 3.4 | 8.8 | 79.3 |
+| pair:west+army | 56.0 | +7.3 | 2.0 | 3.4 | 8.6 | 67.3 |
+| pair:army+undead | 52.3 | +3.7 | 1.0 | 3.4 | 8.6 | 64.7 |
+| bait:west+army | 37.3 | -11.3 | -2.9 | 3.5 | 8.3 | 36.7 |
+| bait:ball+heist | 34.7 | -14.0 | -3.6 | 3.6 | 8.2 | 42.3 |
+| bait:army+undead | 33.7 | -15.0 | -3.8 | 3.2 | 8.1 | 33.0 |
+
+## character use in free play (final board)
+
+| character | genre | trait | rarity | on final board | win when on board |
+|---|---|---|---|---|---|
+| Forward Observer | army | guardian | Epic | 39.3% | 54.2% |
+| Field Medic | army | medic | Rare | 37.3% | 54.5% |
+| Team Mascot | ball | guardian | Epic | 36.7% | 48.2% |
+| Head Coach | ball | mystic | Rare | 36.0% | 50.9% |
+| Inside Man | heist | guardian | Epic | 21.3% | 62.5% |
+| Star Quarterback | ball | stalker | Mythic | 21.0% | 65.1% |
+| The Fixer | heist | medic | Rare | 20.0% | 56.7% |
+| Rifle Squad | army | gunner | Common | 19.3% | 48.3% |
+| Giant Mecha | kaiju | guardian | Epic | 18.3% | 49.1% |
+| Gunnery Sergeant | army | gunner | Mythic | 17.3% | 73.1% |
+| Dodgeball Team | ball | guardian | Common | 17.3% | 51.9% |
+| Ammo Mule | army | brawler | Uncommon | 15.7% | 59.6% |
+| Radio Operator | army | mystic | Uncommon | 15.3% | 69.6% |
+| Point Guard | ball | gunner | Uncommon | 15.0% | 46.7% |
+| Emperor Scorpion | bug | brawler | Epic | 13.3% | 25.0% |
+| The Brute | horror | guardian | Epic | 13.3% | 50.0% |
+| Bonesetter | undead | medic | Epic | 12.7% | 44.7% |
+| The Mastermind | heist | gunner | Mythic | 12.7% | 76.3% |
+| Giant Moth | kaiju | mystic | Rare | 12.7% | 47.4% |
+| The Final Girl | horror | gunner | Rare | 10.7% | 46.9% |
+| Star Knight | space | guardian | Epic | 10.7% | 40.6% |
+| Water Boy | ball | medic | Uncommon | 10.3% | 35.5% |
+| Cheer Squad | ball | medic | Common | 10.0% | 46.7% |
+| Grave Golem | undead | guardian | Rare | 9.3% | 50.0% |
+| Necromancer | undead | mystic | Rare | 9.3% | 50.0% |
+| Brood Queen | bug | mystic | Rare | 8.0% | 33.3% |
+| Lookouts | heist | gunner | Common | 7.7% | 60.9% |
+| Starship Captain | space | brawler | Rare | 7.7% | 60.9% |
+| The Leviathan | kaiju | brawler | Mythic | 7.3% | 72.7% |
+| Riot Shield | army | guardian | Common | 7.0% | 71.4% |
+| Bone Dragon | undead | brawler | Mythic | 6.7% | 75.0% |
+| Safecracker | heist | brawler | Uncommon | 6.7% | 65.0% |
+| The Gunslinger | west | gunner | Rare | 6.7% | 30.0% |
+| The Dream Stalker | horror | mystic | Mythic | 6.7% | 70.0% |
+| The Hacker | heist | mystic | Uncommon | 6.0% | 66.7% |
+| Spotter | army | stalker | Common | 5.7% | 58.8% |
+| Sky Screamers | kaiju | gunner | Common | 5.7% | 35.3% |
+| Big-Game Hunter | kaiju | stalker | Uncommon | 5.3% | 43.8% |
+| The Hive Mind | bug | mystic | Mythic | 5.0% | 40.0% |
+| The Sheriff | west | guardian | Epic | 4.7% | 42.9% |
+| Chainsaw Maniac | horror | brawler | Uncommon | 4.7% | 57.1% |
+| Camp Counselors | horror | guardian | Common | 4.3% | 30.8% |
+| The Dark Lord | space | mystic | Mythic | 4.3% | 61.5% |
+| Baby Kaiju | kaiju | brawler | Common | 4.0% | 33.3% |
+| Burrow Lurker | bug | stalker | Uncommon | 3.7% | 45.5% |
+| Wraith | undead | stalker | Uncommon | 3.3% | 50.0% |
+| Ravager Brood | bug | brawler | Common | 3.0% | 33.3% |
+| Skeleton Archers | undead | gunner | Common | 3.0% | 55.6% |
+| Hothead Pitcher | ball | brawler | Common | 3.0% | 44.4% |
+| The Drifter | west | stalker | Mythic | 3.0% | 33.3% |
+| The Priest | horror | mystic | Uncommon | 3.0% | 77.8% |
+| Redshirts | space | guardian | Common | 3.0% | 22.2% |
+| Acid Spitters | bug | gunner | Common | 2.7% | 12.5% |
+| Shellback Beetles | bug | guardian | Common | 2.3% | 0.0% |
+| Zombie Mob | undead | brawler | Common | 2.3% | 14.3% |
+| The Scientist | kaiju | mystic | Uncommon | 2.3% | 42.9% |
+| Nurse Bee | bug | medic | Uncommon | 2.0% | 50.0% |
+| The Muscle | heist | guardian | Common | 2.0% | 50.0% |
+| Getaway Driver | heist | stalker | Common | 2.0% | 50.0% |
+| Outlaw Gang | west | brawler | Common | 2.0% | 16.7% |
+| Creepy Kids | horror | stalker | Common | 1.7% | 60.0% |
+| The Telepath | space | mystic | Uncommon | 1.7% | 80.0% |
+| Prospector | west | mystic | Uncommon | 1.3% | 25.0% |
+| Bounty Hunter | west | stalker | Uncommon | 1.0% | 66.7% |
+| Repair Bots | space | medic | Common | 1.0% | 66.7% |
+| Space Smuggler | space | stalker | Uncommon | 1.0% | 66.7% |
+| Vampire Bat | undead | stalker | Common | 0.7% | 50.0% |
+| The Babysitter | horror | medic | Common | 0.3% | 0.0% |
+| Hotshot Pilot | space | gunner | Common | 0.3% | 0.0% |
+| TV Reporter | kaiju | medic | Common | 0.3% | 100.0% |
+| Deputy | west | guardian | Common | 0.0% | - |
+| Saloon Doc | west | medic | Common | 0.0% | - |

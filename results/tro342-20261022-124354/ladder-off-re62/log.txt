@@ -1,0 +1,26 @@
+nproc 4 · node v22.23.3 · timeout 200 min
+$ mkdir -p out && node fastsim/actloss.js --build sims/builds/fix.html --levels 16,17,18 --expert 300 --steady 1 --workers 4 --sub 'rvPivotUniq:1=>rvPivotUniq:0' --seedtag re62 --out out/ladder-off-re62
+[smartbot] engine: vm (fastsim, no browser)
+Lv16 done in 122 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv17 done in 112 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv18 done in 117 s
+| Level | bot | n | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|
+| 16 | human | 300 | 35% | 49% | 64% | 1.74 / 1.36 / 1.23 / 1.33 | 85% / 67% / 58% / 65% |
+| 16 | steady | 1 | 0% | 0% | - | 10.00 / 22.00 / - / - | 100% / 100% / - / - |
+| 17 | human | 300 | 29% | 42% | 54% | 1.86 / 1.53 / 1.54 / 1.29 | 84% / 73% / 74% / 68% |
+| 17 | steady | 1 | 0% | 0% | - | 16.00 / 32.00 / - / - | 100% / 100% / - / - |
+| 18 | human | 300 | 32% | 51% | 55% | 1.80 / 1.58 / 1.25 / 1.27 | 86% / 73% / 67% / 66% |
+| 18 | steady | 1 | 0% | 0% | - | 17.00 / 25.00 / 27.00 / - | 100% / 100% / 100% / - |
+
+| Level | bot | boss losses on timeout A1 / A2 / A3 / A4 | other fight losses on timeout |
+|---|---|---|---|
+| 16 | human | 0/14 / 0/23 / 0/32 / 0/83 | 0/1352 |
+| 16 | steady | - / - / - / - | - |
+| 17 | human | 0/16 / 0/35 / 0/33 / 0/91 | 0/1434 |
+| 17 | steady | - / - / - / - | - |
+| 18 | human | 0/12 / 0/20 / 0/22 / 0/112 | 0/1398 |
+| 18 | steady | - / - / - / - | - |
+exit 0

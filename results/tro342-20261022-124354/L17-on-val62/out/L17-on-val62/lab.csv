@@ -1,0 +1,8 @@
+group,key,label,n,errors,win_pct,delta_vs_baseline_pts,paired_z,lives_on_win,avg_rank,mythic_pct,avg_tier
+base,baseline,"Baseline (free play)",300,0,26.3,0.0,0.00,2.90,8.00,42.0,2.96
+custom,bait:west+army,"bait:west+army",300,0,17.0,-9.3,-2.89,3.20,7.60,19.7,2.29
+custom,pair:west+army,"pair:west+army",300,0,30.3,4.0,1.09,2.75,8.00,47.7,2.76
+custom,bait:ball+heist,"bait:ball+heist",300,0,19.3,-7.0,-2.20,2.76,7.75,32.7,2.35
+custom,pair:ball+heist,"pair:ball+heist",300,0,38.0,11.7,3.38,2.77,8.39,64.7,2.88
+custom,bait:army+undead,"bait:army+undead",300,0,22.0,-4.3,-1.36,2.91,7.71,31.0,2.29
+custom,pair:army+undead,"pair:army+undead",300,0,30.7,4.3,1.29,2.82,8.20,53.7,2.84
