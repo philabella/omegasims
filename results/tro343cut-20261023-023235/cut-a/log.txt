@@ -1,0 +1,9 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ TB_CPU_LOCK=0 node balance/v19/lab-tro343/cut.js --build tropebrawl.html --level 18 --runs 300 --rounds 4,5,8 --seedtag tro343a --workers 4 --out out/cut-a
+[smartbot] engine: vm (fastsim, no browser)
+arm none: win 28.0% n=300 err 0  cuts=0
+arm 4: win 28.0% n=300 err 0  cuts=300
+arm 5: win 26.3% n=300 err 0  cuts=300
+arm 8: win 19.3% n=300 err 0  cuts=300
+done 3.4 min
+exit 0
