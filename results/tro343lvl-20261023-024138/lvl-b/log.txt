@@ -1,0 +1,7 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ TB_CPU_LOCK=0 node balance/v19/lab-tro343/lvl.js --build tropebrawl.html --levels 9,12,15 --runs 300 --seedtag tro343b --workers 4 --out out/lvl-b
+[smartbot] engine: vm (fastsim, no browser)
+Lv9: win 58.7% n=300 err 0
+Lv12: win 56.7% n=300 err 0
+Lv15: win 45.0% n=300 err 0
+exit 0
