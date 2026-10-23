@@ -1,0 +1,22 @@
+nproc 4 · node v22.23.3 · timeout 60 min
+$ node fastsim/exploit.js --build sims/builds/b465.html --only lean --workers 4 --out sims/out465/leannew
+[exploit 0s] reliance (expert with one mechanic off at a time)...
+# Exploit check: b465.html
+
+2026-10-23T23:11 · policy champion.json
+
+## 2. What the expert leans on
+
+Expert win rate 100%. Each row switches one mechanic off on the same seeds.
+
+| Without | Win | Change | |
+|---|---|---|---|
+| no selling | 100% | 0 |  |
+| no rerolls | 99% | -1 |  |
+| no fight lookahead | 100% | 0 |  |
+| no items | 100% | 0 |  |
+| no Legendary | 100% | 0 |  |
+
+**Clean.**
+[exploit 29s] done
+exit 0
