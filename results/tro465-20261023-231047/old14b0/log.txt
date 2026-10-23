@@ -1,0 +1,18 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ node sims/builds/plans.js --build tropebrawl.html --level 14 --runs 300 --seedtag tro465b --workers 4 --only free,it:prop,it:kevlar,it:energy,it:coin,it:battery,it:fangs,it:smoke,it:hollow,it:spikes,it:flare,it:plating,it:ledger --extra '[{"key":"it:prop","label":"prop","opts":{"giveItem":"prop"}},{"key":"it:kevlar","label":"kevlar","opts":{"giveItem":"kevlar"}},{"key":"it:energy","label":"energy","opts":{"giveItem":"energy"}},{"key":"it:coin","label":"coin","opts":{"giveItem":"coin"}},{"key":"it:battery","label":"battery","opts":{"giveItem":"battery"}},{"key":"it:fangs","label":"fangs","opts":{"giveItem":"fangs"}},{"key":"it:smoke","label":"smoke","opts":{"giveItem":"smoke"}},{"key":"it:hollow","label":"hollow","opts":{"giveItem":"hollow"}},{"key":"it:spikes","label":"spikes","opts":{"giveItem":"spikes"}},{"key":"it:flare","label":"flare","opts":{"giveItem":"flare"}},{"key":"it:plating","label":"plating","opts":{"giveItem":"plating"}},{"key":"it:ledger","label":"ledger","opts":{"giveItem":"ledger"}},{"key":"it:overclock","label":"overclock","opts":{"giveItem":"overclock"}},{"key":"it:tesla","label":"tesla","opts":{"giveItem":"tesla"}},{"key":"it:extralife","label":"extralife","opts":{"giveItem":"extralife"}},{"key":"it:crest","label":"crest","opts":{"giveItem":"crest"}},{"key":"it:glass","label":"glass","opts":{"giveItem":"glass"}},{"key":"it:scope","label":"scope","opts":{"giveItem":"scope"}},{"key":"it:banner","label":"banner","opts":{"giveItem":"banner"}},{"key":"it:stage","label":"stage","opts":{"giveItem":"stage"}},{"key":"it:teamup","label":"teamup","opts":{"giveItem":"teamup"}},{"key":"it:residuals","label":"residuals","opts":{"giveItem":"residuals"}},{"key":"it:slowburn","label":"slowburn","opts":{"giveItem":"slowburn"}},{"key":"it:extras","label":"extras","opts":{"giveItem":"extras"}},{"key":"it:understudy","label":"understudy","opts":{"giveItem":"understudy"}}]' --out sims/out465/old-lv14-tro465b-0
+[smartbot] engine: vm (fastsim, no browser)
+lv14 tro465b: 13 plans x 300 in 24.4 min
+  free           43.0%  err 0
+  it:prop        45.0%  err 0
+  it:kevlar      51.7%  err 0
+  it:energy      50.7%  err 0
+  it:coin        53.3%  err 0
+  it:battery     51.0%  err 0
+  it:fangs       48.0%  err 0
+  it:smoke       53.0%  err 0
+  it:hollow      53.3%  err 0
+  it:spikes      51.3%  err 0
+  it:flare       48.3%  err 0
+  it:plating     48.7%  err 0
+  it:ledger      55.3%  err 0
+exit 0
