@@ -1,0 +1,11 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ TB_CPU_LOCK=0 node fastsim/smartbot-vm/tro418plans.js --build sims/builds/fin.html --level 14 --runs 300 --workers 4 --seedtag tro418d --only free,rand,pt --out out/c14-tro418d
+[smartbot] engine: vm (fastsim, no browser)
+lv14 tro418d: 6 plans x 300 in 10.4 min
+  free           39.0%  err 0
+  rand           38.7%  err 0
+  pt:indie       40.0%  err 0
+  pt:spin        41.0%  err 0
+  pt:reshoot     40.0%  err 0
+  pt:xo          45.3%  err 0
+exit 0
