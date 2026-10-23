@@ -1,0 +1,12 @@
+nproc 4 · node v22.23.3 · timeout 150 min
+$ TB_CPU_LOCK=0 node fastsim/smartbot-vm/tro427plans.js --build tropebrawl.html --level 14 --runs 300 --workers 4 --seedtag tro427b --only free,rand,pick,pt --out out/p14-tro427b
+[smartbot] engine: vm (fastsim, no browser)
+lv14 tro427b: 7 plans x 300 in 12.8 min
+  free           47.0%  err 0
+  rand           48.7%  err 0
+  pt:indie       48.0%  err 0
+  pt:spin        51.3%  err 0
+  pt:reshoot     51.0%  err 0
+  pt:xo          45.3%  err 0
+  pick           44.3%  err 0
+exit 0
