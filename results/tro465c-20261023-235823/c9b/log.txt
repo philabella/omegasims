@@ -1,0 +1,8 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ node sims/builds/plans.js --build sims/builds/b465c.html --level 9 --runs 300 --seedtag tro465b --workers 4 --only free,it:glass,it:banner --extra '[{"key":"it:glass","label":"glass","opts":{"giveItem":"glass"}},{"key":"it:banner","label":"banner","opts":{"giveItem":"banner"}}]' --out sims/out465/c-lv9-tro465b
+[smartbot] engine: vm (fastsim, no browser)
+lv9 tro465b: 3 plans x 300 in 2.6 min
+  free           57.0%  err 0
+  it:glass       60.0%  err 0
+  it:banner      58.7%  err 0
+exit 0
