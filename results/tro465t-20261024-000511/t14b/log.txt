@@ -1,0 +1,8 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ node sims/builds/plans.js --build sims/builds/b465c.html --level 14 --runs 300 --seedtag tro465b --workers 4 --only free,trio,trioban --extra '[{"key":"trio","label":"3 genres","opts":{"maxG":3,"cap":3}},{"key":"trioban","label":"3 genres + Banner","opts":{"maxG":3,"cap":3,"giveItem":"banner"}}]' --out sims/out465/t-lv14-tro465b
+[smartbot] engine: vm (fastsim, no browser)
+lv14 tro465b: 3 plans x 300 in 3.5 min
+  free           49.0%  err 0
+  trio           11.7%  err 0
+  trioban        10.7%  err 0
+exit 0
