@@ -1,0 +1,13 @@
+nproc 4 · node v22.23.3 · timeout 90 min
+$ node sims/builds/plans.js --build sims/builds/b465d.html --level 9 --runs 300 --seedtag tro465a --workers 4 --only free,it:glass,it:scope,it:kevlar,it:energy,it:banner,it:crest,it:fangs --extra '[{"key":"it:glass","label":"glass","opts":{"giveItem":"glass"}},{"key":"it:scope","label":"scope","opts":{"giveItem":"scope"}},{"key":"it:kevlar","label":"kevlar","opts":{"giveItem":"kevlar"}},{"key":"it:energy","label":"energy","opts":{"giveItem":"energy"}},{"key":"it:banner","label":"banner","opts":{"giveItem":"banner"}},{"key":"it:crest","label":"crest","opts":{"giveItem":"crest"}},{"key":"it:fangs","label":"fangs","opts":{"giveItem":"fangs"}}]' --out sims/out465/d-lv9-tro465a
+[smartbot] engine: vm (fastsim, no browser)
+lv9 tro465a: 8 plans x 300 in 6.8 min
+  free           59.3%  err 0
+  it:glass       61.7%  err 0
+  it:scope       69.3%  err 0
+  it:kevlar      65.3%  err 0
+  it:energy      62.3%  err 0
+  it:banner      67.3%  err 0
+  it:crest       69.7%  err 0
+  it:fangs       57.7%  err 0
+exit 0
