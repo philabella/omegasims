@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,20,0,18,10,6,12,7,,,,,6,155,14,75,10,80,18,12,-7,3,6,ravager:2 scorpion:2 fixer:2 queen:2 queen:1 queen:1,"bug2,heist1",brawler1,locusts,3,glass hollow slowburn,brood,0,1,0.167,
