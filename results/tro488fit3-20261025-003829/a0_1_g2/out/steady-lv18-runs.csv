@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,16,0,14,6,7,15,6,,,,,6,123,13,56,16,56,15,7,-10,4,6,ravager:2 outlaws:2 mule:2 zombies:2 gravegolem:2 safecracker:2,undead1,brawler2,,1,glass,bloodline,0,0,0.833,

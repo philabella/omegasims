@@ -1,0 +1,73 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,0,26.75,2,3,1,droids:2 zombies:1,f1:double b1:actor,Stunt Double,8,1,7,2,1,3
+40000,curve7,1,1,0,0,1,23.3,3,3,1,pitcher:1 riot:1 deputy:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,8.4,3,3,1,driver:1 muscle:1 kids:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,1,1,0,0,1,9.15,3,3,1,zombies:1 tanks:1 pilot:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,10.3,3,3,1,riot:1 skelarch:1 lookouts:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,0,34,2,3,1,counselors:1 redshirts:2,f1:double b1:actor,Stunt Double,8,1,7,0,1,1
+40000,curve7,1,1,0,0,1,8.05,3,3,1,driver:1 commando:1 babykaiju:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,24.05,3,3,1,ravager:1 babysitter:1 doc:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,1,24.1,4,4,2,droids:2 zombies:1 zombies:1 riot:1,f1:double b1:actor,Stunt Double,7,0,7,0,1,1
+40000,curve7,2,1,0,0,0,14.4,3,3,1,pitcher:1 riot:1 deputy:1,f1:double b1:actor,Stunt Double,8,1,7,9,1,10
+40000,curve7,2,1,0,0,1,8.4,4,4,2,vampbat:1 kids:1 kids:1 vampbat:1,f1:double b1:actor,Stunt Double,8,0,8,0,2,2
+40000,curve7,2,1,0,0,0,18.2,3,3,1,zombies:1 tanks:1 pilot:1,f1:double b1:actor,Stunt Double,8,1,7,9,1,10
+40000,curve7,2,1,0,0,0,18.4,3,3,1,riot:1 skelarch:1 lookouts:1,f1:double b1:actor,Stunt Double,8,1,7,9,1,10
+40000,curve7,2,1,0,0,1,22.15,4,4,2,counselors:1 redshirts:2 counselors:1 pilot:1,f1:double b1:actor,Stunt Double,7,0,7,0,1,1
+40000,curve7,2,1,0,0,1,13.65,4,4,2,driver:1 commando:1 babykaiju:1 driver:1,f1:double b1:actor,Stunt Double,8,0,8,3,2,5
+40000,curve7,2,1,0,0,1,17.65,4,4,2,ravager:1 babysitter:1 doc:1 outlaws:1,f1:double b1:actor,Stunt Double,8,0,8,1,2,3
+40000,curve7,4,1,0,0,1,12.3,4,4,2,droids:2 zombies:2 captain:1 babysitter:2,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,0,7,9,5,14
+40000,curve7,4,1,0,0,0,10.1,4,4,3,riot:1 deputy:1 deputy:1 riot:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,1,6,17,2,19
+40000,curve7,4,1,0,0,1,7.25,4,4,2,vampbat:1 kids:2 gravegolem:1 chainsaw:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,8,0,8,10,5,15
+40000,curve7,4,1,0,0,0,15.8,4,4,3,tanks:1 pilot:1 pilot:1 telepath:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,1,6,8,2,10
+40000,curve7,4,1,0,0,0,11.4,4,4,3,riot:1 skelarch:1 skelarch:1 riot:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,1,6,11,2,13
+40000,curve7,4,1,0,0,1,11.25,4,4,2,counselors:2 captain:2 pilot:1 smuggler:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,0,7,8,5,13
+40000,curve7,4,1,0,0,1,13.3,4,4,2,fixer:1 commando:1 babykaiju:1 driver:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,8,0,8,16,5,21
+40000,curve7,4,1,0,0,0,9.8,4,4,2,ravager:1 babysitter:1 doc:1 outlaws:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,8,1,7,17,1,18
+40000,curve7,5,1,0,0,1,14.25,4,4,2,droids:2 zombies:2 captain:1 babysitter:2,b2:actor f0:double b1:actor f1:double,Stunt Double,7,0,7,20,5,25
+40000,curve7,5,1,0,0,1,12.25,4,4,4,riot:1 deputy:2 gunslinger:1 scorpion:1,b2:actor f0:double b1:actor f1:double,Stunt Double,6,0,6,5,4,9
+40000,curve7,5,1,0,0,1,7.25,4,4,2,vampbat:2 kids:2 gravegolem:1 chainsaw:1,b2:actor f0:double b1:actor f1:double,Stunt Double,8,0,8,20,6,26
+40000,curve7,5,1,0,0,1,11.7,4,4,4,tanks:2 pilot:2 telepath:1 hacker:1,b2:actor f0:double b1:actor f1:double,Stunt Double,6,0,6,0,4,4
+40000,curve7,5,1,0,0,1,27.9,4,4,3,skelarch:2 fixer:1 hacker:1 nurse:1,b2:actor f0:double b1:actor f1:double,Stunt Double,6,0,6,12,4,16
+40000,curve7,5,1,0,0,1,8.15,4,4,2,captain:2 pilot:2 smuggler:1 zombies:1,b2:actor f0:double b1:actor f1:double,Stunt Double,7,0,7,14,5,19
+40000,curve7,5,1,0,0,1,14.3,4,4,2,fixer:1 commando:1 driver:1 wraith:1,b2:actor f0:double b1:actor f1:double,Stunt Double,8,0,8,26,6,32
+40000,curve7,5,1,0,0,0,11.5,4,4,2,doc:1 outlaws:1 outlaws:1 mule:1,rival:kit,Kit's cast,7,1,6,21,2,23
+40000,curve7,6,1,0,0,1,23.3,4,4,3,zombies:2 riot:1 babysitter:2 nurse:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,7,0,7,23,6,29
+40000,curve7,6,1,0,0,1,6.85,4,4,4,deputy:2 gunslinger:1 scorpion:1 queen:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,4,0,4,10,5,15
+40000,curve7,6,1,0,0,1,8.4,4,4,3,vampbat:2 gravegolem:1 driver:2 beetles:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,8,0,8,20,7,27
+40000,curve7,6,1,0,0,1,9.05,4,4,4,tanks:2 pilot:2 telepath:1 hacker:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,4,0,4,9,5,14
+40000,curve7,6,1,0,0,0,32.6,4,4,4,riot:2 skelarch:2 fixer:1 hacker:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,6,1,5,9,1,10
+40000,curve7,6,1,0,0,1,7,4,4,3,captain:2 pilot:2 smuggler:1 hunter:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,5,0,5,14,6,20
+40000,curve7,6,1,0,0,1,11.75,4,4,3,commando:1 wraith:1 wraith:1 babykaiju:2,b3:actor b2:actor b0:actor f0:rats,Method Actor,8,0,8,31,7,38
+40000,curve7,6,1,0,0,1,9.15,4,4,3,doc:2 mule:2 babykaiju:2 gunslinger:1,b3:actor b2:actor b0:actor f0:rats,Method Actor,4,0,4,2,4,6
+40000,curve7,7,1,0,0,0,30.4,4,4,3,zombies:2 babysitter:2 nurse:1 waterboy:1,f1:double f3:double f0:double f2:double,Stunt Double,7,1,6,32,1,33
+40000,curve7,7,1,0,0,1,13.5,5,5,5,deputy:2 gunslinger:1 scorpion:1 queen:1 brute:1,f1:double f3:double f0:double f2:double,Stunt Double,4,0,4,1,5,6
+40000,curve7,7,1,0,0,1,5.6,4,4,4,vampbat:2 gravegolem:1 driver:2 lookouts:2,f1:double f3:double f0:double f2:double,Stunt Double,8,0,8,20,7,27
+40000,curve7,7,1,0,0,1,17.95,4,4,4,tanks:2 pilot:2 fixer:2 fixer:1,f1:double f3:double f0:double f2:double,Stunt Double,4,0,4,3,5,8
+40000,curve7,7,1,0,0,1,27.4,4,4,4,riot:2 skelarch:2 fixer:1 starknight:1,f1:double f3:double f0:double f2:double,Stunt Double,5,0,5,10,4,14
+40000,curve7,7,1,0,0,1,9,4,4,4,pilot:2 smuggler:1 hunter:1 babykaiju:1,f1:double f3:double f0:double f2:double,Stunt Double,5,0,5,14,7,21
+40000,curve7,7,1,0,0,1,17.9,4,4,4,wraith:1 wraith:1 babykaiju:2 queen:1,f1:double f3:double f0:double f2:double,Stunt Double,8,0,8,28,7,35
+40000,curve7,7,1,0,0,0,4.3,4,4,3,doc:2 mule:2 babykaiju:2 gunslinger:1,rival:echo,Echo's cast,4,1,3,11,1,12
+40000,curve7,8,1,0,0,0,15.8,4,4,4,zombies:2 babysitter:2 nurse:1 doc:2,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,6,1,5,25,2,27
+40000,curve7,8,1,0,0,1,10.1,5,5,5,deputy:2 gunslinger:1 scorpion:1 brute:1 chainsaw:1,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,4,0,4,2,6,8
+40000,curve7,8,1,0,0,1,4.3,4,4,4,vampbat:2 gravegolem:1 driver:2 lookouts:2,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,8,0,8,21,7,28
+40000,curve7,8,1,0,0,1,14,4,4,4,tanks:2 pilot:2 fixer:2 fixer:1,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,4,0,4,4,6,10
+40000,curve7,8,1,0,0,1,39.85,4,4,4,riot:2 starknight:1 gravegolem:1 gravegolem:1,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,5,0,5,12,5,17
+40000,curve7,8,1,0,0,1,12.3,5,5,5,counselors:2 pilot:2 smuggler:1 hunter:1 babykaiju:1,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,5,0,5,9,7,16
+40000,curve7,8,1,0,0,1,10.6,5,5,5,wraith:1 wraith:1 babykaiju:2 queen:1 commando:2,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,8,0,8,26,7,33
+40000,curve7,8,1,0,0,1,11.15,4,4,4,doc:2 outlaws:2 mule:2 babykaiju:2,f0:mooks f2:mooks f3:double f1:mooks,Stunt Double,3,0,3,3,4,7
+40000,curve7,9,1,1,0,1,36.75,5,5,5,zombies:2 babysitter:2 doc:2 riot:2 observer:1,f1:double b0:mic b2:editor,The Editor,5,0,5,7,4,11
+40000,curve7,9,1,1,0,1,31.85,5,5,5,deputy:2 scorpion:1 brute:1 chainsaw:1 finalgirl:1,f1:double b0:mic b2:editor,The Editor,4,0,4,11,7,18
+40000,curve7,9,1,1,0,0,30.35,4,4,4,vampbat:2 gravegolem:2 gravegolem:1 gravegolem:1,f1:double b0:mic b2:editor,The Editor,8,2,6,7,1,8
+40000,curve7,9,1,1,0,0,21.65,4,4,4,zombies:2 tanks:2 pilot:2 fixer:3,f1:double b0:mic b2:editor,The Editor,4,2,2,3,1,4
+40000,curve7,9,1,1,0,0,33.1,5,5,5,riot:2 skelarch:2 starknight:1 gravegolem:1 gravegolem:1,f1:double b0:mic b2:editor,The Editor,5,2,3,1,1,2
+40000,curve7,9,1,1,0,0,30.5,5,5,5,pilot:2 smuggler:1 zombies:2 hunter:1 babykaiju:1,f1:double b0:mic b2:editor,The Editor,5,2,3,12,1,13
+40000,curve7,9,1,1,0,0,15.95,5,5,5,wraith:1 babykaiju:2 queen:1 commando:2 necro:1,f1:double b0:mic b2:editor,The Editor,8,2,6,34,1,35
+40000,curve7,9,1,1,0,0,14.8,4,4,4,doc:2 outlaws:2 mule:2 babykaiju:2,f1:double b0:mic b2:editor,The Editor,3,2,1,6,1,7
+40000,curve7,10,2,0,0,0,4.75,5,5,5,zombies:2 babysitter:2 doc:2 waterboy:2 riot:2,f1:mic b3:mic b1:sniper,Holo-Sniper,5,1,4,15,1,16
+40000,curve7,10,2,0,0,0,24.5,6,6,6,deputy:2 scorpion:1 brute:1 chainsaw:1 finalgirl:1 brute:1,f1:mic b3:mic b1:sniper,Holo-Sniper,4,1,3,0,1,1
+40000,curve7,10,2,0,0,0,6.9,4,4,4,vampbat:2 gravegolem:2 gravegolem:1 gravegolem:1,f1:mic b3:mic b1:sniper,Holo-Sniper,6,1,5,13,2,15
+40000,curve7,10,2,0,0,0,6.85,4,4,4,tanks:2 pilot:2 fixer:3 pointguard:2,f1:mic b3:mic b1:sniper,Holo-Sniper,2,1,1,1,2,3
+40000,curve7,10,2,0,0,0,6.9,5,5,5,riot:2 skelarch:2 starknight:1 gravegolem:1 gravegolem:1,f1:mic b3:mic b1:sniper,Holo-Sniper,3,1,2,7,2,9
+40000,curve7,10,2,0,0,0,5.75,5,5,5,pilot:2 smuggler:1 zombies:2 hunter:1 babykaiju:2,f1:mic b3:mic b1:sniper,Holo-Sniper,3,1,2,17,2,19
+40000,curve7,10,2,0,0,0,5.9,5,5,5,wraith:2 babykaiju:2 commando:2 necro:1 sheriff:1,f1:mic b3:mic b1:sniper,Holo-Sniper,6,1,5,31,2,33
+40000,curve7,10,2,0,0,0,6.6,4,4,4,doc:2 outlaws:2 mule:2 babykaiju:2,rival:ivy,Ivy's cast,1,1,0,12,2,14

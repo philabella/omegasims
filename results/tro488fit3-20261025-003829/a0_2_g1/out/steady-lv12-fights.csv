@@ -1,0 +1,161 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,9,3,3,1,outlaws:1 skelarch:1 babykaiju:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,11.8,3,3,1,dodgeball:1 dodgeball:1 cheersquad:1,f1:double b1:actor,Stunt Double,9,0,9,1,1,2
+40000,curve7,1,1,0,0,1,10.3,3,3,1,pilot:1 ravager:1 babykaiju:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,17.95,3,3,1,zombies:1 muscle:1 spitters:1,f1:double b1:actor,Stunt Double,9,0,9,3,1,4
+40000,curve7,1,1,0,0,1,9.25,3,3,1,babykaiju:1 pitcher:1 babykaiju:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,15.85,3,3,1,ravager:1 beetles:1 dodgeball:1,f1:double b1:actor,Stunt Double,9,0,9,2,1,3
+40000,curve7,1,1,0,0,1,9,3,3,1,commando:1 outlaws:1 rifle:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,0,19.65,3,3,1,babysitter:1 doc:1 doc:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,13.45,3,3,1,outlaws:1 skelarch:1 babykaiju:2,f1:double b1:actor,Stunt Double,9,0,9,5,2,7
+40000,curve7,2,1,0,0,1,13.25,4,4,2,dodgeball:2 cheersquad:1 kids:1 kids:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,10.35,4,4,2,pilot:1 ravager:1 babykaiju:2 pilot:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,10.25,3,3,1,muscle:1 spitters:2 lookouts:1,f1:double b1:actor,Stunt Double,9,0,9,6,2,8
+40000,curve7,2,1,0,0,1,10.15,4,4,2,babykaiju:1 pitcher:2 babykaiju:1 reporter:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,5.7,4,4,2,ravager:1 beetles:1 dodgeball:1 pitcher:1,f1:double b1:actor,Stunt Double,9,0,9,2,2,4
+40000,curve7,2,1,0,0,0,17.05,3,3,1,commando:1 rifle:1 lookouts:1,f1:double b1:actor,Stunt Double,9,1,8,5,1,6
+40000,curve7,2,1,0,0,1,21,4,4,2,ravager:1 babysitter:1 doc:2 ravager:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,4,1,0,0,1,8.8,4,4,4,outlaws:1 skelarch:2 babykaiju:2 gunslinger:1,f1:actor b2:actor b0:actor,Method Actor,7,0,7,0,5,5
+40000,curve7,4,1,0,0,1,22.35,4,4,2,spitters:1 dodgeball:2 cheersquad:1 rifle:1,f1:actor b2:actor b0:actor,Method Actor,9,0,9,9,5,14
+40000,curve7,4,1,0,0,1,9.2,4,4,2,pilot:2 ravager:1 babykaiju:2 rifle:1,f1:actor b2:actor b0:actor,Method Actor,9,0,9,10,5,15
+40000,curve7,4,1,0,0,1,12.9,4,4,3,muscle:1 spitters:2 lookouts:2 cheersquad:1,f1:actor b2:actor b0:actor,Method Actor,7,0,7,12,5,17
+40000,curve7,4,1,0,0,1,10.25,4,4,2,babykaiju:1 pitcher:2 babykaiju:1 reporter:1,f1:actor b2:actor b0:actor,Method Actor,9,0,9,16,5,21
+40000,curve7,4,1,0,0,1,8.1,4,4,4,ravager:1 beetles:1 dodgeball:1 waterboy:1,f1:actor b2:actor b0:actor,Method Actor,7,0,7,8,5,13
+40000,curve7,4,1,0,0,0,14.4,4,4,2,commando:1 rifle:1 droids:2 rifle:1,f1:actor b2:actor b0:actor,Method Actor,6,1,5,26,2,28
+40000,curve7,4,1,0,0,0,13.65,4,4,2,ravager:2 babysitter:1 doc:2 babysitter:1,rival:hugo,Hugo's cast,8,1,7,12,1,13
+40000,curve7,5,1,0,0,1,5.05,4,4,4,outlaws:2 skelarch:2 gunslinger:1 gunslinger:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,7,0,7,1,6,7
+40000,curve7,5,1,0,0,1,12.45,4,4,2,dodgeball:2 deputy:2 kids:1 kids:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,9,0,9,21,6,27
+40000,curve7,5,1,0,0,1,8.05,4,4,3,pilot:2 babykaiju:2 fieldmed:1 rifle:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,9,0,9,9,6,15
+40000,curve7,5,1,0,0,1,10.25,4,4,3,muscle:1 spitters:2 lookouts:2 cheersquad:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,7,0,7,23,6,29
+40000,curve7,5,1,0,0,1,8.1,4,4,3,babykaiju:2 pitcher:2 reporter:1 nurse:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,9,0,9,9,6,15
+40000,curve7,5,1,0,0,1,11.45,4,4,4,beetles:2 pitcher:2 waterboy:1 fieldmed:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,7,0,7,7,6,13
+40000,curve7,5,1,0,0,1,4.6,4,4,4,commando:2 rifle:1 telepath:2 starknight:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,5,0,5,3,4,7
+40000,curve7,5,1,0,0,1,19.1,4,4,2,ravager:2 babysitter:2 doc:2 counselors:1,rival:sal,Sal's cast,7,0,7,17,1,18
+40000,curve7,6,1,0,0,1,12.75,4,4,4,skelarch:2 babykaiju:2 dodgeball:2 headcoach:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,7,0,7,1,7,8
+40000,curve7,6,1,0,0,1,29.05,4,4,3,dodgeball:2 deputy:2 kids:2 kids:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,9,0,9,20,7,27
+40000,curve7,6,1,0,0,1,7.85,4,4,4,babykaiju:2 fieldmed:1 hunter:1 rifle:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,9,0,9,10,7,17
+40000,curve7,6,1,0,0,0,24.4,4,4,3,muscle:1 spitters:2 lookouts:2 cheersquad:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,5,1,4,36,1,37
+40000,curve7,6,1,0,0,1,18,4,4,3,babykaiju:2 pitcher:2 reporter:1 nurse:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,9,0,9,21,7,28
+40000,curve7,6,1,0,0,1,14.6,4,4,4,beetles:2 pitcher:2 waterboy:2 fieldmed:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,5,0,5,7,7,14
+40000,curve7,6,1,0,0,0,15.95,4,4,4,commando:2 rifle:1 rifle:1 skelarch:1,b0:actor b1:actor f0:double b3:mic,Stunt Double,5,1,4,17,1,18
+40000,curve7,6,1,0,0,0,7.05,4,4,3,ravager:2 babysitter:2 doc:2 counselors:1,rival:goldie,Goldie's cast,5,1,4,20,1,21
+40000,curve7,7,1,0,0,1,17.1,4,4,4,skelarch:2 babykaiju:2 dodgeball:2 headcoach:1,f0:double b0:actor b1:actor f1:double,Stunt Double,7,0,7,12,7,19
+40000,curve7,7,1,0,0,1,16.9,4,4,4,spitters:2 dodgeball:2 deputy:2 kids:2,f0:double b0:actor b1:actor f1:double,Stunt Double,9,0,9,10,7,17
+40000,curve7,7,1,0,0,1,7.2,4,4,4,babykaiju:2 fieldmed:1 hunter:1 rifle:2,f0:double b0:actor b1:actor f1:double,Stunt Double,9,0,9,12,7,19
+40000,curve7,7,1,0,0,1,16.6,4,4,4,muscle:1 spitters:2 lookouts:2 cheersquad:1,f0:double b0:actor b1:actor f1:double,Stunt Double,4,0,4,45,4,49
+40000,curve7,7,1,0,0,1,18.55,4,4,4,babykaiju:2 pitcher:2 reporter:1 nurse:1,f0:double b0:actor b1:actor f1:double,Stunt Double,9,0,9,35,7,42
+40000,curve7,7,1,0,0,1,5.6,4,4,4,ravager:1 beetles:2 pitcher:2 waterboy:2,f0:double b0:actor b1:actor f1:double,Stunt Double,5,0,5,12,7,19
+40000,curve7,7,1,0,0,1,15.8,4,5,5,commando:2 rifle:2 giantmoth:1 fixer:1,f0:double b0:actor b1:actor f1:double,Stunt Double,4,0,4,2,4,6
+40000,curve7,7,1,0,0,1,23.45,4,4,4,babysitter:2 doc:2 counselors:2 scorpion:1,rival:hugo,Hugo's cast,4,0,4,1,1,2
+40000,curve7,8,1,0,0,1,9.55,5,5,5,skelarch:2 babykaiju:2 dodgeball:2 headcoach:1 scientist:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,7,0,7,1,7,8
+40000,curve7,8,1,0,0,0,15.85,4,4,4,dodgeball:2 kids:2 babysitter:2 babysitter:2,f1:actor b2:actor b3:actor b0:actor,Method Actor,9,1,8,19,1,20
+40000,curve7,8,1,0,0,1,7.7,5,5,5,babykaiju:2 fieldmed:1 rifle:2 ravager:2 tanks:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,9,0,9,12,7,19
+40000,curve7,8,1,0,0,1,7.25,4,4,4,muscle:1 spitters:2 lookouts:2 nurse:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,4,0,4,56,5,61
+40000,curve7,8,1,0,0,1,10.35,4,4,4,babykaiju:2 pitcher:2 nurse:1 captain:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,9,0,9,46,7,53
+40000,curve7,8,1,0,0,1,18.5,5,5,5,beetles:2 waterboy:2 fieldmed:1 queen:1 fieldmed:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,5,0,5,7,7,14
+40000,curve7,8,1,0,0,1,10.85,4,5,5,commando:2 rifle:2 giantmoth:1 insideman:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,4,0,4,4,5,9
+40000,curve7,8,1,0,0,1,13.4,4,4,4,babysitter:2 doc:2 counselors:2 scorpion:1,f1:actor b2:actor b3:actor b0:actor,Method Actor,4,0,4,7,5,12
+40000,curve7,9,1,1,0,1,37.1,5,5,5,skelarch:2 babykaiju:2 dodgeball:2 headcoach:1 headcoach:1,f0:rats f3:rats b1:editor,The Editor,7,0,7,11,7,18
+40000,curve7,9,1,1,0,1,30.3,5,5,5,dodgeball:2 kids:2 sheriff:1 observer:1 fixer:1,f0:rats f3:rats b1:editor,The Editor,8,0,8,0,4,4
+40000,curve7,9,1,1,0,1,15.7,6,6,6,babykaiju:2 fieldmed:1 hunter:1 rifle:2 ravager:2 finalgirl:1,f0:rats f3:rats b1:editor,The Editor,9,0,9,1,7,8
+40000,curve7,9,1,1,0,1,17.8,5,5,5,lookouts:2 nurse:2 safecracker:2 insideman:1 fixer:2,f0:rats f3:rats b1:editor,The Editor,4,0,4,7,7,14
+40000,curve7,9,1,1,0,1,19.15,5,5,5,babykaiju:2 pitcher:2 nurse:2 captain:3 reporter:2,f0:rats f3:rats b1:editor,The Editor,9,0,9,5,8,13
+40000,curve7,9,1,1,0,1,22.9,5,5,5,fieldmed:1 queen:1 fieldmed:1 queen:1 observer:1,f0:rats f3:rats b1:editor,The Editor,5,0,5,3,7,10
+40000,curve7,9,1,1,0,1,28.05,4,5,5,commando:2 rifle:2 giantmoth:1 insideman:1,f0:rats f3:rats b1:editor,The Editor,4,0,4,8,5,13
+40000,curve7,9,1,1,0,1,14.85,4,4,4,babysitter:2 scorpion:1 lurker:2 scorpion:1,f0:rats f3:rats b1:editor,The Editor,4,0,4,7,5,12
+40000,curve7,10,2,0,0,1,9.5,5,5,5,skelarch:2 dodgeball:2 headcoach:1 headcoach:1 zombies:1,f3:mooks f1:mooks f0:rats,Nameless Mooks,7,0,7,11,7,18
+40000,curve7,10,2,0,0,0,15.8,5,5,5,kids:2 babysitter:2 babysitter:2 sheriff:1 observer:1,f3:mooks f1:mooks f0:rats,Nameless Mooks,8,1,7,12,1,13
+40000,curve7,10,2,0,0,1,12.8,6,6,6,babykaiju:2 fieldmed:1 rifle:2 ravager:2 tanks:2 finalgirl:1,f3:mooks f1:mooks f0:rats,Nameless Mooks,9,0,9,11,7,18
+40000,curve7,10,2,0,0,1,19.8,5,5,5,muscle:2 nurse:2 safecracker:2 insideman:1 fixer:2,f3:mooks f1:mooks f0:rats,Nameless Mooks,4,0,4,20,8,28
+40000,curve7,10,2,0,0,1,13.65,5,5,5,babykaiju:2 safecracker:1 fixer:1 safecracker:1 reporter:2,f3:mooks f1:mooks f0:rats,Nameless Mooks,9,0,9,11,8,19
+40000,curve7,10,2,0,0,1,14.35,5,5,5,dodgeball:2 waterboy:2 fieldmed:1 observer:1 observer:1,f3:mooks f1:mooks f0:rats,Nameless Mooks,5,0,5,9,7,16
+40000,curve7,10,2,0,0,1,10.05,4,5,5,commando:2 rifle:2 giantmoth:1 insideman:1,f3:mooks f1:mooks f0:rats,Nameless Mooks,4,0,4,10,6,16
+40000,curve7,10,2,0,0,1,4.75,5,5,5,ravager:2 babysitter:2 scorpion:1 lurker:2 scorpion:1,rival:duke,Duke's cast,4,0,4,0,3,3
+40000,curve7,11,2,0,0,1,40,6,6,6,babykaiju:2 dodgeball:2 headcoach:1 telepath:2 headcoach:1 insideman:1,f0:mech f1:mech b3:auditor,Driving-Test Mech,7,0,7,11,7,18
+40000,curve7,11,2,0,0,0,40.4,5,5,5,kids:2 babysitter:2 babysitter:2 sheriff:1 observer:1,f0:mech f1:mech b3:auditor,Driving-Test Mech,7,1,6,19,2,21
+40000,curve7,11,2,0,0,0,24.35,6,6,6,babykaiju:2 rifle:2 tanks:2 finalgirl:1 finalgirl:1 fieldmed:1,f0:mech f1:mech b3:auditor,Driving-Test Mech,9,1,8,13,1,14
+40000,curve7,11,2,0,0,1,37.65,5,5,5,muscle:2 nurse:2 safecracker:2 insideman:1 fixer:2,f0:mech f1:mech b3:auditor,Driving-Test Mech,4,0,4,35,9,44
+40000,curve7,11,2,0,0,1,35.35,5,5,5,babykaiju:2 pitcher:2 nurse:2 captain:3 reporter:2,f0:mech f1:mech b3:auditor,Driving-Test Mech,9,0,9,25,8,33
+40000,curve7,11,2,0,0,1,39.45,5,5,5,dodgeball:2 waterboy:2 fieldmed:1 fieldmed:1 observer:2,f0:mech f1:mech b3:auditor,Driving-Test Mech,5,0,5,10,7,17
+40000,curve7,11,2,0,0,1,39.2,4,5,5,lookouts:2 giantmoth:1 insideman:1 scientist:1,f0:mech f1:mech b3:auditor,Driving-Test Mech,4,0,4,12,7,19
+40000,curve7,11,2,0,0,0,13.15,5,5,5,ravager:2 babysitter:2 scorpion:1 lurker:2 scorpion:1,rival:goldie,Goldie's cast,4,1,3,7,1,8
+40000,curve7,13,2,0,0,0,15.55,6,6,7,babykaiju:2 dodgeball:2 headcoach:2 telepath:2 headcoach:1 insideman:1,f3:double f1:double b0:mic,Stunt Double,7,1,6,0,1,1
+40000,curve7,13,2,0,0,0,14.65,5,5,5,kids:2 babysitter:2 babysitter:2 observer:1 counselors:2,f3:double f1:double b0:mic,Stunt Double,6,1,5,22,2,24
+40000,curve7,13,2,0,0,1,12.95,6,6,6,babykaiju:2 hunter:2 rifle:2 ravager:2 finalgirl:3 fieldmed:2,f3:double f1:double b0:mic,Stunt Double,6,0,6,14,7,21
+40000,curve7,13,2,0,0,1,23.15,5,5,5,muscle:2 nurse:2 safecracker:2 insideman:1 fixer:2,f3:double f1:double b0:mic,Stunt Double,4,0,4,63,9,72
+40000,curve7,13,2,0,0,1,13.15,6,6,6,babykaiju:2 pitcher:2 nurse:2 captain:3 safecracker:2 reporter:2,f3:double f1:double b0:mic,Stunt Double,7,0,7,37,8,45
+40000,curve7,13,2,0,0,1,14.85,6,6,6,headcoach:2 fieldmed:2 queen:2 observer:2 observer:1 gravegolem:1,f3:double f1:double b0:mic,Stunt Double,5,0,5,6,7,13
+40000,curve7,13,2,0,0,0,13.05,5,6,7,commando:2 fixer:2 giantmoth:1 insideman:1 insideman:1,f3:double f1:double b0:mic,Stunt Double,4,1,3,0,1,1
+40000,curve7,13,2,0,0,1,5.5,5,5,5,captain:2 scorpion:1 lurker:2 scorpion:1 nurse:2,rival:duke,Duke's cast,3,0,3,6,1,7
+40000,curve7,14,2,0,0,1,31.6,6,6,7,babykaiju:2 dodgeball:2 headcoach:3 telepath:2 scientist:2 insideman:1,b0:auditor b2:actor f3:mech,Driving-Test Mech,6,0,6,1,4,5
+40000,curve7,14,2,0,0,0,18.45,5,5,5,kids:2 babysitter:2 babysitter:2 observer:1 counselors:2,b0:auditor b2:actor f3:mech,Driving-Test Mech,5,1,4,31,3,34
+40000,curve7,14,2,0,0,1,20.35,6,6,6,babykaiju:2 hunter:2 rifle:2 ravager:2 finalgirl:3 fieldmed:1,b0:auditor b2:actor f3:mech,Driving-Test Mech,6,0,6,13,8,21
+40000,curve7,14,2,0,0,1,14.25,6,6,6,muscle:2 lookouts:2 nurse:2 safecracker:2 insideman:1 fixer:2,b0:auditor b2:actor f3:mech,Driving-Test Mech,4,0,4,62,9,71
+40000,curve7,14,2,0,0,1,24.2,5,6,7,captain:3 safecracker:2 brute:1 mascot:1 brute:1,b0:auditor b2:actor f3:mech,Driving-Test Mech,7,0,7,11,10,21
+40000,curve7,14,2,0,0,1,20.05,6,6,6,headcoach:2 fieldmed:2 queen:2 observer:2 observer:1 mascot:1,b0:auditor b2:actor f3:mech,Driving-Test Mech,5,0,5,7,7,14
+40000,curve7,14,2,0,0,1,31.05,5,6,7,commando:2 rifle:2 fixer:2 giantmoth:1 insideman:2,b0:auditor b2:actor f3:mech,Driving-Test Mech,3,0,3,0,4,4
+40000,curve7,14,2,0,0,1,8.65,5,5,5,ravager:2 captain:2 scorpion:2 lurker:2 nurse:2,rival:sal,Sal's cast,3,0,3,6,2,8
+40000,curve7,15,2,0,0,1,27.85,6,6,7,babykaiju:2 dodgeball:2 headcoach:3 telepath:2 scientist:2 insideman:1,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,6,0,6,0,5,5
+40000,curve7,15,2,0,0,0,32.45,6,6,6,kids:2 babysitter:2 babysitter:2 observer:1 counselors:2 finalgirl:1,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,4,1,3,8,4,12
+40000,curve7,15,2,0,0,1,19.05,6,6,7,babykaiju:2 hunter:2 rifle:2 finalgirl:3 headcoach:2 fieldmed:1,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,4,0,4,3,8,11
+40000,curve7,15,2,0,0,1,16.7,6,6,6,muscle:2 lookouts:2 nurse:2 safecracker:2 insideman:1 fixer:2,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,4,0,4,76,9,85
+40000,curve7,15,2,0,0,1,43.15,6,6,7,nurse:2 safecracker:2 brute:1 mascot:1 brute:1 insideman:1,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,7,0,7,32,10,42
+40000,curve7,15,2,0,0,1,21.25,6,6,6,fieldmed:2 observer:2 observer:1 gravegolem:2 mascot:2 observer:1,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,5,0,5,7,7,14
+40000,curve7,15,2,0,0,1,22.05,5,6,7,commando:2 rifle:2 fixer:2 giantmoth:1 brute:1,f0:mech b3:mic b0:auditor f1:mech,Driving-Test Mech,3,0,3,6,5,11
+40000,curve7,15,2,0,0,1,5.65,5,5,5,ravager:2 captain:2 scorpion:2 lurker:2 nurse:2,rival:duke,Duke's cast,3,0,3,5,2,7
+40000,curve7,16,2,0,0,1,21.3,5,6,7,babykaiju:2 dodgeball:2 headcoach:3 scientist:2 insideman:1,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,6,0,6,10,5,15
+40000,curve7,16,2,0,0,0,35.45,6,6,6,kids:2 babysitter:2 babysitter:2 observer:1 counselors:2 mule:2,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,3,1,2,9,4,13
+40000,curve7,16,2,0,0,1,19.9,6,6,7,babykaiju:2 hunter:2 ravager:2 fieldmed:2 headcoach:2 scorpion:1,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,4,0,4,13,9,22
+40000,curve7,16,2,0,0,1,10.2,6,6,7,muscle:2 lookouts:2 safecracker:2 insideman:1 fixer:2 insideman:1,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,4,0,4,67,9,76
+40000,curve7,16,2,0,0,1,9.55,5,7,8,pitcher:2 safecracker:2 mascot:1 insideman:1 mascot:1,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,7,0,7,12,9,21
+40000,curve7,16,2,0,0,1,22.5,6,6,6,fieldmed:2 observer:2 observer:1 gravegolem:2 mascot:2 observer:1,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,5,0,5,8,7,15
+40000,curve7,16,2,0,0,1,22.05,5,6,7,commando:2 rifle:2 fixer:2 giantmoth:1 brute:1,b2:actor f0:mech b1:auditor b3:auditor,Driving-Test Mech,3,0,3,10,5,15
+40000,curve7,16,2,0,0,1,14.7,5,5,5,ravager:2 captain:2 scorpion:2 lurker:2 nurse:2,rival:goldie,Goldie's cast,3,0,3,12,3,15
+40000,curve7,17,2,0,0,1,7.4,6,6,7,babykaiju:2 dodgeball:2 headcoach:3 telepath:2 scientist:2 insideman:2,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,6,0,6,2,6,8
+40000,curve7,17,2,0,0,1,23.85,6,6,6,kids:2 babysitter:2 babysitter:2 observer:1 counselors:2 mule:2,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,2,0,2,19,4,23
+40000,curve7,17,2,0,0,1,10.9,5,6,7,finalgirl:3 fieldmed:2 headcoach:2 scorpion:1 insideman:1,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,4,0,4,5,10,15
+40000,curve7,17,2,0,0,1,11.4,6,6,7,muscle:2 lookouts:2 nurse:2 safecracker:2 insideman:2 fixer:3,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,4,0,4,75,11,86
+40000,curve7,17,2,0,0,1,16.55,7,7,8,pitcher:2 safecracker:2 brute:2 mascot:1 insideman:2 mascot:1 brute:1,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,7,0,7,15,11,26
+40000,curve7,17,2,0,0,1,14.65,6,6,6,fieldmed:2 observer:2 observer:1 gravegolem:3 mascot:2 observer:1,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,5,0,5,8,7,15
+40000,curve7,17,2,0,0,1,42.35,4,6,7,fixer:2 giantmoth:1 brute:2 sheriff:1,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,3,0,3,6,7,13
+40000,curve7,17,2,0,0,1,9.05,6,6,6,ravager:2 captain:2 scorpion:2 lurker:2 nurse:2 chainsaw:2,f0:rats f3:double b1:sniper b0:mic f2:mech,Driving-Test Mech,3,0,3,0,7,7
+40000,curve7,18,2,1,0,1,11.8,6,6,7,dodgeball:2 headcoach:3 telepath:2 scientist:2 insideman:2 necro:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,6,0,6,1,9,10
+40000,curve7,18,2,1,0,1,29.05,5,6,6,sheriff:1 observer:1 sheriff:1 mule:2 gunslinger:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,2,0,2,2,5,7
+40000,curve7,18,2,1,0,0,21.1,6,6,7,babykaiju:2 hunter:2 fieldmed:2 headcoach:2 scorpion:2 queen:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,2,2,12,1,13
+40000,curve7,18,2,1,0,1,21.25,6,6,7,muscle:2 safecracker:2 insideman:2 fixer:3 starknight:2 insideman:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,4,0,4,8,13,21
+40000,curve7,18,2,1,0,1,24.3,7,7,8,brute:2 mascot:1 insideman:2 mascot:1 brute:1 brute:1 qb:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,7,0,7,6,12,18
+40000,curve7,18,2,1,0,1,13.2,5,6,6,headcoach:2 fieldmed:2 observer:2 observer:1 mascot:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,5,0,5,2,7,9
+40000,curve7,18,2,1,0,1,39.3,5,6,7,fixer:2 giantmoth:2 brute:2 sheriff:2 queen:1,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,7,9,16
+40000,curve7,18,2,1,0,1,16.25,6,6,6,ravager:2 captain:2 scorpion:2 lurker:2 nurse:2 chainsaw:2,f0:ninjas f3:ninjas b1:shared b2:sniper,The Shared Universe,3,0,3,10,7,17
+40000,curve7,19,3,0,0,1,4.45,6,6,7,dodgeball:2 headcoach:3 telepath:2 scientist:2 insideman:2 necro:3,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,6,0,6,0,8,8
+40000,curve7,19,3,0,0,0,7.05,6,6,7,sheriff:1 observer:1 counselors:2 sheriff:1 mule:2 gunslinger:1,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,2,1,1,1,1,2
+40000,curve7,19,3,0,0,0,8.65,6,6,7,babykaiju:2 hunter:2 fieldmed:2 headcoach:2 scorpion:3 bonesetter:1,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,2,1,1,0,2,2
+40000,curve7,19,3,0,0,1,6.8,6,6,7,muscle:2 safecracker:2 insideman:2 fixer:3 starknight:2 insideman:1,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,4,0,4,28,13,41
+40000,curve7,19,3,0,0,1,11.4,7,7,8,brute:2 mascot:1 insideman:2 mascot:1 brute:1 brute:1 qb:1,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,7,0,7,24,12,36
+40000,curve7,19,3,0,0,1,10.05,6,6,6,fieldmed:2 observer:2 observer:1 gravegolem:3 mascot:2 observer:1,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,5,0,5,11,7,18
+40000,curve7,19,3,0,0,1,22.15,5,6,7,fixer:2 giantmoth:2 brute:2 sheriff:2 bonesetter:1,f1:mic b1:breaker b2:mic,Fourth-Wall Breaker,3,0,3,17,9,26
+40000,curve7,19,3,0,0,1,10.55,6,6,6,ravager:2 captain:2 scorpion:2 lurker:2 nurse:2 chainsaw:2,rival:ivy,Ivy's cast,3,0,3,23,4,27
+40000,curve7,20,3,0,0,1,9.4,6,6,7,dodgeball:2 headcoach:3 telepath:2 insideman:2 necro:3 pointguard:2,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,6,0,6,2,8,10
+40000,curve7,20,3,0,0,1,36.05,5,6,7,sheriff:1 observer:1 sheriff:1 mule:2 gunslinger:1,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,3,0,3,1,7,8
+40000,curve7,20,3,0,0,1,13.55,5,6,7,finalgirl:3 fieldmed:2 headcoach:2 scorpion:3 bonesetter:1,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,3,0,3,3,7,10
+40000,curve7,20,3,0,0,1,22.5,6,6,7,muscle:2 safecracker:2 insideman:2 fixer:3 starknight:2 insideman:1,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,4,0,4,56,13,69
+40000,curve7,20,3,0,0,1,38.2,7,7,8,brute:2 mascot:1 insideman:2 mascot:1 brute:1 brute:1 qb:1,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,7,0,7,36,12,48
+40000,curve7,20,3,0,0,1,35.35,6,6,7,fieldmed:2 observer:2 observer:1 gravegolem:3 mascot:2 observer:1,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,5,0,5,11,7,18
+40000,curve7,20,3,0,0,0,36.6,3,6,7,giantmoth:2 giantmoth:1 giantmoth:1,f1:mech b3:breaker f2:plotarmor f3:continuity,Continuity Error,3,1,2,27,1,28
+40000,curve7,20,3,0,0,0,25.1,6,6,7,ravager:2 captain:3 scorpion:2 lurker:2 nurse:2 chainsaw:2,rival:penny,Penny's cast,3,1,2,6,1,7
+40000,curve7,22,3,0,0,1,7.25,6,6,7,dodgeball:2 headcoach:3 insideman:2 necro:3 pointguard:2 mascot:1,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,6,0,6,0,8,8
+40000,curve7,22,3,0,0,0,7.9,6,6,7,sheriff:1 observer:1 sheriff:1 fieldmed:2 starknight:1 radio:1,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,3,1,2,8,1,9
+40000,curve7,22,3,0,0,1,10.1,6,6,7,babykaiju:2 hunter:2 fieldmed:2 headcoach:2 scorpion:3 bonesetter:2,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,3,0,3,15,8,23
+40000,curve7,22,3,0,0,1,9.45,6,6,7,muscle:2 safecracker:2 insideman:2 fixer:3 starknight:2 insideman:1,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,4,0,4,92,13,105
+40000,curve7,22,3,0,0,1,26.6,7,7,8,brute:2 mascot:1 insideman:2 mascot:1 brute:1 brute:1 qb:1,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,7,0,7,35,12,47
+40000,curve7,22,3,0,0,1,17.15,6,6,7,fieldmed:2 observer:2 observer:1 gravegolem:3 mascot:2 observer:1,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,5,0,5,9,7,16
+40000,curve7,22,3,0,0,1,39.2,4,6,7,giantmoth:3 brute:2 giantmoth:1 bonesetter:2,f0:mech f3:figures b3:actor f1:retcons,Driving-Test Mech,2,0,2,20,4,24
+40000,curve7,22,3,0,0,0,5.85,6,6,7,captain:3 scorpion:2 lurker:2 nurse:2 chainsaw:2 queen:2,rival:goldie,Goldie's cast,2,1,1,3,2,5
+40000,curve7,23,3,0,0,1,4.65,6,6,7,dodgeball:2 headcoach:3 insideman:2 necro:3 pointguard:2 mascot:1,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,6,0,6,1,9,10
+40000,curve7,23,3,0,0,0,5.9,6,6,7,sheriff:2 observer:1 fieldmed:2 starknight:1 radio:1 gunslinger:2,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,2,1,1,1,2,3
+40000,curve7,23,3,0,0,1,9.05,6,6,7,babykaiju:2 hunter:2 fieldmed:2 headcoach:2 scorpion:3 bonesetter:2,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,3,0,3,14,8,22
+40000,curve7,23,3,0,0,1,6.9,6,6,7,muscle:2 safecracker:2 insideman:2 fixer:3 starknight:2 insideman:1,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,4,0,4,115,13,128
+40000,curve7,23,3,0,0,1,17.4,7,7,8,brute:2 mascot:1 insideman:2 mascot:1 brute:1 brute:1 qb:1,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,7,0,7,36,12,48
+40000,curve7,23,3,0,0,1,9.55,6,6,7,fieldmed:2 observer:2 observer:1 gravegolem:3 mascot:2 observer:1,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,5,0,5,8,7,15
+40000,curve7,23,3,0,0,0,18.95,4,6,7,giantmoth:3 brute:2 giantmoth:1 bonesetter:2,f3:retcons f1:spoiler b3:sniper f2:ninjas,Spoiler,2,1,1,26,1,27
+40000,curve7,23,3,0,0,0,9.55,6,6,7,captain:3 scorpion:2 lurker:2 nurse:2 chainsaw:2 queen:2,rival:penny,Penny's cast,1,1,0,6,2,8

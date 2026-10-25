@@ -1,0 +1,59 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,36.55,3,3,1,rifle:1 droids:1 dodgeball:1,f1:double b1:actor,Stunt Double,10,0,10,3,1,4
+40000,curve7,1,1,0,0,1,9.2,3,3,1,zombies:1 zombies:1 babykaiju:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,2,1,0,0,1,9.3,4,4,2,rifle:1 droids:1 dodgeball:2 cheersquad:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,2,2,4
+40000,curve7,2,1,0,0,1,7,4,4,2,zombies:1 zombies:1 babykaiju:2 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,0,2,2
+40000,curve7,4,1,0,0,1,14.5,4,4,2,rifle:1 droids:1 dodgeball:2 cheersquad:1,f1:mic b1:mic b2:mic b0:mic,Boom Mic Operator,10,0,10,23,2,25
+40000,curve7,4,1,0,0,1,9.25,4,4,2,zombies:2 babykaiju:2 babykaiju:1 zombies:1,f1:mic b1:mic b2:mic b0:mic,Boom Mic Operator,10,0,10,14,2,16
+40000,curve7,5,1,0,0,1,10.05,4,4,3,droids:1 dodgeball:2 cheersquad:1 telepath:1,b1:mic b0:mic f2:rats f3:mooks,Boom Mic Operator,10,0,10,25,3,28
+40000,curve7,5,1,0,0,1,15.8,4,4,2,zombies:2 babykaiju:2 babykaiju:1 zombies:1,rival:sal,Sal's cast,10,0,10,20,3,23
+40000,curve7,6,1,0,0,1,5.45,4,4,3,rifle:2 dodgeball:2 telepath:1 finalgirl:2,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,10,0,10,31,4,35
+40000,curve7,6,1,0,0,1,13.35,4,4,3,zombies:2 babykaiju:2 wraith:2 skelarch:2,rival:sal,Sal's cast,10,0,10,20,4,24
+40000,curve7,7,1,0,0,1,10.1,4,4,4,rifle:2 dodgeball:2 telepath:2 finalgirl:2,f3:double f0:double f2:double f1:double,Stunt Double,10,0,10,28,4,32
+40000,curve7,7,1,0,0,1,9,4,4,3,zombies:2 babykaiju:2 wraith:2 skelarch:2,f3:double f0:double f2:double f1:double,Stunt Double,10,0,10,29,4,33
+40000,curve7,8,1,0,0,1,8.6,4,4,4,rifle:2 dodgeball:2 telepath:2 finalgirl:2,f1:double b0:mic b1:actor b3:mic b2:mic,Stunt Double,10,0,10,40,4,44
+40000,curve7,8,1,0,0,1,7.2,4,4,4,zombies:2 wraith:2 skelarch:2 chainsaw:2,f1:double b0:mic b1:actor b3:mic b2:mic,Stunt Double,10,0,10,20,4,24
+40000,curve7,9,1,1,0,1,12.95,6,6,6,rifle:2 dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:1,f0:rats f3:rats b1:editor,The Editor,10,0,10,3,7,10
+40000,curve7,9,1,1,0,1,12.9,4,4,4,zombies:2 wraith:2 chainsaw:2 gravegolem:2,f0:rats f3:rats b1:editor,The Editor,10,0,10,6,7,13
+40000,curve7,10,2,0,0,1,13.2,6,6,6,rifle:2 dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:1,f0:mooks b2:auditor b0:auditor,Vampire Auditor,10,0,10,16,4,20
+40000,curve7,10,2,0,0,1,21.8,4,4,4,zombies:2 wraith:2 chainsaw:2 gravegolem:2,f0:mooks b2:auditor b0:auditor,Vampire Auditor,10,0,10,19,4,23
+40000,curve7,11,2,0,0,1,10.85,6,6,6,rifle:2 dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:1,f1:mooks f0:rats f2:mooks,Nameless Mooks,10,0,10,27,4,31
+40000,curve7,11,2,0,0,0,29.8,4,4,4,zombies:2 wraith:2 chainsaw:2 gravegolem:2,rival:sal,Sal's cast,10,2,8,30,1,31
+40000,curve7,13,2,0,0,1,26.7,6,6,7,dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:1 starknight:1,f1:mic b1:auditor b0:actor b3:auditor,Vampire Auditor,10,0,10,37,4,41
+40000,curve7,13,2,0,0,1,12.75,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 gravegolem:3,rival:sal,Sal's cast,8,0,8,17,1,18
+40000,curve7,14,2,0,0,1,31.7,6,6,7,dodgeball:2 telepath:2 finalgirl:2 starknight:1 starknight:1 sheriff:1,b2:mic b1:actor f2:mech b3:actor,Driving-Test Mech,10,0,10,46,4,50
+40000,curve7,14,2,0,0,1,16.55,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 gravegolem:3,b2:mic b1:actor f2:mech b3:actor,Driving-Test Mech,8,0,8,21,2,23
+40000,curve7,15,2,0,0,1,14.15,6,6,7,dodgeball:2 telepath:2 finalgirl:2 starknight:1 starknight:1 sheriff:1,b0:actor f3:rats f2:rats f1:mooks,Method Actor,10,0,10,60,4,64
+40000,curve7,15,2,0,0,1,19,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 gravegolem:3,rival:sal,Sal's cast,8,0,8,26,2,28
+40000,curve7,16,2,0,0,1,6.85,7,7,8,dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:2 sheriff:1 gunslinger:1,f1:ninjas b1:sniper b3:mic b0:mic,Holo-Sniper,10,0,10,12,4,16
+40000,curve7,16,2,0,0,1,8.85,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 gravegolem:3,f1:ninjas b1:sniper b3:mic b0:mic,Holo-Sniper,8,0,8,35,3,38
+40000,curve7,17,2,0,0,1,10.6,7,7,8,dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:2 sheriff:1 gunslinger:1,f1:rats b3:auditor f2:figures f3:ninjas,Vampire Auditor,10,0,10,22,4,26
+40000,curve7,17,2,0,0,1,8.45,6,6,6,zombies:2 babykaiju:2 wraith:2 skelarch:2 chainsaw:2 gravegolem:3,f1:rats b3:auditor f2:figures f3:ninjas,Vampire Auditor,8,0,8,27,4,31
+40000,curve7,18,2,1,0,1,38.45,7,7,8,dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:2 sheriff:1 gunslinger:1,f1:mech f2:mech b1:shared,The Shared Universe,10,0,10,33,7,40
+40000,curve7,18,2,1,0,1,33.25,6,6,7,zombies:2 wraith:2 skelarch:2 chainsaw:2 gravegolem:3 captain:2,f1:mech f2:mech b1:shared,The Shared Universe,8,0,8,5,7,12
+40000,curve7,19,3,0,0,1,15.1,7,7,8,dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:2 sheriff:1 sheriff:1,f3:retcons f2:ninjas f1:retcons f0:figures,Retcons,10,0,10,45,4,49
+40000,curve7,19,3,0,0,1,8.65,6,6,7,zombies:2 wraith:2 skelarch:2 chainsaw:2 gravegolem:3 captain:2,f3:retcons f2:ninjas f1:retcons f0:figures,Retcons,8,0,8,18,4,22
+40000,curve7,20,3,0,0,1,9.1,7,7,8,dodgeball:2 cheersquad:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1,b0:sniper b2:sniper f0:spoiler b1:breaker,Spoiler,10,0,10,48,4,52
+40000,curve7,20,3,0,0,1,8.2,6,6,7,zombies:2 wraith:2 skelarch:2 chainsaw:2 gravegolem:3 captain:2,b0:sniper b2:sniper f0:spoiler b1:breaker,Spoiler,8,0,8,21,4,25
+40000,curve7,22,3,0,0,1,18.05,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,f3:figures f2:double f1:retcons f0:retcons,Stunt Double,10,0,10,72,4,76
+40000,curve7,22,3,0,0,1,15.25,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,rival:sal,Sal's cast,8,0,8,21,4,25
+40000,curve7,23,3,0,0,1,25.3,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,ghost:23:23,Rerun: Sportsball + Space Opera cast,10,0,10,86,4,90
+40000,curve7,23,3,0,0,1,6.9,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,ghost:23:23,Rerun: Sportsball + Space Opera cast,8,0,8,20,4,24
+40000,curve7,24,3,0,0,1,19.55,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,f1:actor b0:actor b2:actor b1:actor,Method Actor,10,0,10,100,4,104
+40000,curve7,24,3,0,0,1,9.75,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f1:actor b0:actor b2:actor b1:actor,Method Actor,8,0,8,21,4,25
+40000,curve7,25,3,0,0,1,18.05,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,f1:spoiler f3:retcons b0:auditor f0:figures f2:ninjas,Spoiler,10,0,10,114,4,118
+40000,curve7,25,3,0,0,1,8.2,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f1:spoiler f3:retcons b0:auditor f0:figures f2:ninjas,Spoiler,8,0,8,20,4,24
+40000,curve7,26,3,0,0,1,40.4,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,b1:actor f0:mech f1:mech f3:double f2:mech,Driving-Test Mech,10,0,10,128,4,132
+40000,curve7,26,3,0,0,1,28.7,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,b1:actor f0:mech f1:mech f3:double f2:mech,Driving-Test Mech,8,0,8,21,4,25
+40000,curve7,27,3,1,0,0,22.1,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,f1:plotarmor b0:breaker b2:exec,The Network Executive,10,4,6,142,1,143
+40000,curve7,27,3,1,0,1,37.65,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f1:plotarmor b0:breaker b2:exec,The Network Executive,8,0,8,6,7,13
+40000,curve7,28,4,0,0,0,36.6,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,f3:cliff b0:auditor b2:sniper b3:auditor,Cliffhanger,6,3,3,153,2,155
+40000,curve7,28,4,0,0,1,11.7,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f3:cliff b0:auditor b2:sniper b3:auditor,Cliffhanger,8,0,8,19,4,23
+40000,curve7,29,4,0,0,0,8.65,7,7,8,dodgeball:2 telepath:2 finalgirl:2 starknight:2 sheriff:2 sheriff:1 starknight:1,f1:monologue b3:monologue b2:sniper b1:sniper,Villain Monologue,3,3,0,165,2,167
+40000,curve7,29,4,0,0,1,11.6,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,rival:sal,Sal's cast,8,0,8,20,4,24
+40000,curve7,31,4,0,0,1,16.05,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f3:retcons f1:plotarmor f2:ninjas f0:retcons,Plot Armor,8,0,8,20,4,24
+40000,curve7,32,4,0,0,0,12.9,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,b2:sniper f1:retcons f0:ninjas f3:ninjas f2:ninjas,Holo-Sniper,8,3,5,21,1,22
+40000,curve7,33,4,0,0,0,7.05,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,b3:breaker b0:breaker b2:breaker b1:breaker f3:breaker,Fourth-Wall Breaker,5,3,2,21,2,23
+40000,curve7,34,4,0,0,1,8.65,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,ghost:34:15,Rerun: Sportsball + Heist Crew cast,2,0,2,6,1,7
+40000,curve7,35,4,0,0,1,40.25,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f2:mech f0:captain f1:ninjas f3:continuity b3:plotarmor,Henchman Captain,2,0,2,6,2,8
+40000,curve7,36,4,1,0,0,34.5,6,6,7,zombies:2 wraith:2 chainsaw:2 gravegolem:3 captain:3 finalgirl:2,f0:cliff f1:captain f2:continuity b0:twist b1:deus b2:monologue,Deus Ex Machina,2,4,-2,7,1,8

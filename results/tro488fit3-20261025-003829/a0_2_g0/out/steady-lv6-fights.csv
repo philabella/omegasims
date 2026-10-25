@@ -1,0 +1,73 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,7.4,3,3,1,vampbat:1 skelarch:1 zombies:1,f1:double b1:actor,Stunt Double,10,0,10,3,1,4
+40000,curve7,1,1,0,0,1,20.15,3,3,1,babykaiju:1 redshirts:1 deputy:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,1,1,0,0,0,19.55,3,3,1,droids:1 babysitter:1 babysitter:1,f1:double b1:actor,Stunt Double,10,1,9,2,1,3
+40000,curve7,1,1,0,0,0,15.95,3,3,1,babysitter:1 doc:1 babysitter:1,f1:double b1:actor,Stunt Double,10,1,9,0,1,1
+40000,curve7,2,1,0,0,1,6.8,3,3,1,skelarch:2 zombies:1 zombies:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,6,2,8
+40000,curve7,2,1,0,0,1,21.1,4,4,2,babykaiju:1 redshirts:1 deputy:1 redshirts:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,0,2,2
+40000,curve7,2,1,0,0,1,10.45,4,4,2,droids:1 babysitter:2 kids:2 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,2,1,0,0,1,32.55,4,4,2,ravager:1 babysitter:1 doc:2 babysitter:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,4,1,0,0,1,6.5,3,4,2,skelarch:2 zombies:2 vampbat:2,b1:actor b0:actor f2:mooks,Method Actor,10,0,10,21,5,26
+40000,curve7,4,1,0,0,0,18.4,4,4,2,babykaiju:1 redshirts:1 deputy:1 redshirts:1,b1:actor b0:actor f2:mooks,Method Actor,8,1,7,29,1,30
+40000,curve7,4,1,0,0,1,4.4,4,4,2,babysitter:2 kids:2 commando:1 rifle:1,b1:actor b0:actor f2:mooks,Method Actor,9,0,9,12,5,17
+40000,curve7,4,1,0,0,1,17,4,4,2,ravager:1 babysitter:2 doc:2 finalgirl:1,rival:sal,Sal's cast,9,0,9,9,2,11
+40000,curve7,5,1,0,0,1,7.9,4,4,3,skelarch:2 zombies:2 vampbat:2 wraith:1,f0:double f1:rats f2:double f3:double,Stunt Double,10,0,10,27,6,33
+40000,curve7,5,1,0,0,1,24.4,4,4,3,babykaiju:1 redshirts:2 reporter:1 babykaiju:1,f0:double f1:rats f2:double f3:double,Stunt Double,7,0,7,32,4,36
+40000,curve7,5,1,0,0,1,7.45,4,4,2,babysitter:2 kids:2 commando:1 rifle:1,f0:double f1:rats f2:double f3:double,Stunt Double,9,0,9,23,5,28
+40000,curve7,5,1,0,0,0,8.4,4,4,2,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:penny,Penny's cast,9,1,8,16,1,17
+40000,curve7,6,1,0,0,1,6.35,4,4,4,skelarch:2 zombies:2 vampbat:2 fixer:2,f2:double f1:double b3:mic f0:double,Stunt Double,10,0,10,27,7,34
+40000,curve7,6,1,0,0,1,38.75,4,4,4,babykaiju:2 redshirts:2 cheersquad:2 fieldmed:1,f2:double f1:double b3:mic f0:double,Stunt Double,7,0,7,29,5,34
+40000,curve7,6,1,0,0,1,10.3,4,4,2,babysitter:2 kids:2 commando:1 rifle:1,f2:double f1:double b3:mic f0:double,Stunt Double,9,0,9,40,6,46
+40000,curve7,6,1,0,0,0,8.15,4,4,3,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:sal,Sal's cast,8,1,7,20,2,22
+40000,curve7,7,1,0,0,1,4.2,5,5,5,skelarch:2 zombies:2 vampbat:2 wraith:1 fixer:2,f0:double b2:actor f2:mooks b0:actor,Stunt Double,10,0,10,25,7,32
+40000,curve7,7,1,0,0,1,27.6,4,4,4,babykaiju:2 redshirts:2 cheersquad:2 fieldmed:1,f0:double b2:actor f2:mooks b0:actor,Stunt Double,7,0,7,40,5,45
+40000,curve7,7,1,0,0,1,6.55,5,5,5,babysitter:2 kids:2 commando:1 rifle:1 rifle:1,f0:double b2:actor f2:mooks b0:actor,Stunt Double,9,0,9,9,7,16
+40000,curve7,7,1,0,0,1,32.45,4,4,3,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:hugo,Hugo's cast,7,0,7,29,1,30
+40000,curve7,8,1,0,0,1,4.45,5,5,5,skelarch:2 zombies:2 vampbat:2 wraith:1 fixer:2,f0:rats b1:mic f2:double f3:double,Stunt Double,10,0,10,37,7,44
+40000,curve7,8,1,0,0,1,8.4,5,5,5,babykaiju:2 redshirts:2 cheersquad:2 fieldmed:2 hunter:1,f0:rats b1:mic f2:double f3:double,Stunt Double,7,0,7,30,6,36
+40000,curve7,8,1,0,0,1,7.4,5,5,5,babysitter:2 kids:2 commando:1 rifle:1 rifle:1,f0:rats b1:mic f2:double f3:double,Stunt Double,9,0,9,22,7,29
+40000,curve7,8,1,0,0,0,12.35,4,4,4,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:penny,Penny's cast,7,1,6,20,1,21
+40000,curve7,9,1,1,0,1,7.45,5,5,5,skelarch:2 zombies:2 vampbat:2 wraith:2 fixer:2,f0:rats f3:rats b1:editor,The Editor,10,0,10,43,7,50
+40000,curve7,9,1,1,0,1,12,5,5,5,babykaiju:2 cheersquad:2 fieldmed:3 hunter:2 mascot:1,f0:rats f3:rats b1:editor,The Editor,7,0,7,5,7,12
+40000,curve7,9,1,1,0,1,15.35,5,5,5,kids:2 rifle:2 exorcist:2 observer:1 brute:1,f0:rats f3:rats b1:editor,The Editor,9,0,9,8,7,15
+40000,curve7,9,1,1,0,1,16.55,4,4,4,babysitter:2 doc:2 finalgirl:2 chainsaw:2,f0:rats f3:rats b1:editor,The Editor,6,0,6,5,4,9
+40000,curve7,10,2,0,0,1,7.75,5,5,5,skelarch:2 zombies:2 vampbat:2 wraith:2 fixer:2,f1:sniper b1:mic,Holo-Sniper,10,0,10,57,9,66
+40000,curve7,10,2,0,0,1,27.35,5,5,5,babykaiju:2 cheersquad:2 fieldmed:3 hunter:2 mascot:1,f1:sniper b1:mic,Holo-Sniper,7,0,7,18,7,25
+40000,curve7,10,2,0,0,1,9.05,5,6,6,rifle:2 exorcist:2 observer:1 brute:1 brute:1,f1:sniper b1:mic,Holo-Sniper,9,0,9,9,7,16
+40000,curve7,10,2,0,0,0,8.85,4,4,4,babysitter:2 finalgirl:2 kids:2 chainsaw:2,rival:sal,Sal's cast,6,1,5,14,1,15
+40000,curve7,11,2,0,0,1,7.95,5,6,7,skelarch:2 wraith:2 fixer:2 gravegolem:2 fixer:1,f0:mooks b2:sniper b3:sniper,Holo-Sniper,10,0,10,9,9,18
+40000,curve7,11,2,0,0,1,12.05,5,5,5,babykaiju:2 cheersquad:2 fieldmed:3 hunter:2 mascot:1,f0:mooks b2:sniper b3:sniper,Holo-Sniper,7,0,7,31,7,38
+40000,curve7,11,2,0,0,1,9.4,6,6,6,rifle:2 exorcist:2 observer:1 brute:1 brute:1 observer:1,f0:mooks b2:sniper b3:sniper,Holo-Sniper,9,0,9,18,7,25
+40000,curve7,11,2,0,0,0,15.9,4,4,4,babysitter:2 finalgirl:2 kids:2 chainsaw:2,rival:penny,Penny's cast,5,1,4,21,2,23
+40000,curve7,13,2,0,0,1,7,6,6,7,skelarch:2 zombies:2 wraith:2 fixer:2 gravegolem:2 bonesetter:1,f1:mooks f0:figures f2:mooks,Nameless Mooks,10,0,10,31,8,39
+40000,curve7,13,2,0,0,1,9.6,5,5,5,reporter:2 fieldmed:3 hunter:2 mascot:2 mascot:1,f1:mooks f0:figures f2:mooks,Nameless Mooks,7,0,7,30,7,37
+40000,curve7,13,2,0,0,1,9.1,6,6,6,rifle:2 exorcist:2 observer:1 brute:1 brute:1 observer:1,f1:mooks f0:figures f2:mooks,Nameless Mooks,9,0,9,49,7,56
+40000,curve7,13,2,0,0,0,14.65,5,5,5,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1,rival:sal,Sal's cast,4,1,3,7,2,9
+40000,curve7,14,2,0,0,1,6.8,6,6,7,skelarch:2 zombies:2 wraith:2 fixer:2 gravegolem:2 bonesetter:1,f1:mic b0:sniper b1:actor,Holo-Sniper,10,0,10,45,8,53
+40000,curve7,14,2,0,0,1,12.05,6,6,6,babykaiju:2 reporter:2 fieldmed:3 hunter:2 mascot:2 mascot:1,f1:mic b0:sniper b1:actor,Holo-Sniper,7,0,7,30,7,37
+40000,curve7,14,2,0,0,1,10.25,5,7,8,rifle:2 exorcist:2 observer:1 brute:1 observer:1,f1:mic b0:sniper b1:actor,Holo-Sniper,9,0,9,12,7,19
+40000,curve7,14,2,0,0,1,35.45,5,5,5,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1,rival:penny,Penny's cast,3,0,3,14,1,15
+40000,curve7,15,2,0,0,1,9.05,6,6,7,zombies:2 vampbat:2 wraith:2 fixer:2 gravegolem:2 bonesetter:1,f1:rats f2:double b0:actor b2:mic,Stunt Double,10,0,10,67,8,75
+40000,curve7,15,2,0,0,1,6.55,6,6,6,babykaiju:2 reporter:2 fieldmed:3 hunter:2 mascot:3 tanks:2,f1:rats f2:double b0:actor b2:mic,Stunt Double,7,0,7,31,7,38
+40000,curve7,15,2,0,0,1,13.35,7,7,8,rifle:2 exorcist:2 observer:1 brute:1 observer:1 necro:2 brute:1,f1:rats f2:double b0:actor b2:mic,Stunt Double,9,0,9,21,7,28
+40000,curve7,15,2,0,0,0,20.25,6,6,6,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1 brute:1,rival:sal,Sal's cast,3,1,2,2,1,3
+40000,curve7,16,2,0,0,1,14.45,6,6,7,vampbat:2 wraith:2 fixer:2 gravegolem:2 bonesetter:1 bonesetter:1,f0:double b0:sniper b2:actor f3:figures,Stunt Double,10,0,10,81,10,91
+40000,curve7,16,2,0,0,1,6.05,5,6,7,babykaiju:2 cheersquad:2 hunter:2 mascot:3 tanks:2,f0:double b0:sniper b2:actor f3:figures,Stunt Double,7,0,7,13,7,20
+40000,curve7,16,2,0,0,1,15.8,7,7,8,rifle:2 exorcist:2 observer:1 brute:1 observer:1 necro:2 brute:1,f0:double b0:sniper b2:actor f3:figures,Stunt Double,9,0,9,35,7,42
+40000,curve7,16,2,0,0,1,32.9,6,6,6,babysitter:2 finalgirl:3 kids:2 chainsaw:2 brute:1 brute:1,rival:penny,Penny's cast,2,0,2,5,1,6
+40000,curve7,17,2,0,0,1,6.8,6,6,7,vampbat:2 wraith:2 fixer:2 gravegolem:2 bonesetter:1 bonesetter:1,f1:sniper b2:sniper b3:sniper b0:mic,Holo-Sniper,10,0,10,101,8,109
+40000,curve7,17,2,0,0,1,8.7,6,6,7,babykaiju:2 reporter:2 fieldmed:3 hunter:2 mascot:3 tanks:2,f1:sniper b2:sniper b3:sniper b0:mic,Holo-Sniper,7,0,7,23,7,30
+40000,curve7,17,2,0,0,1,9.5,7,7,8,babysitter:2 rifle:2 exorcist:2 observer:1 brute:2 observer:1 necro:2,f1:sniper b2:sniper b3:sniper b0:mic,Holo-Sniper,9,0,9,45,7,52
+40000,curve7,17,2,0,0,0,21.45,6,6,6,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1 brute:2,rival:sal,Sal's cast,2,1,1,3,1,4
+40000,curve7,18,2,1,0,1,42.35,6,6,7,vampbat:2 wraith:2 fixer:2 gravegolem:2 bonesetter:1 bonesetter:1,f1:mech f2:mech b1:shared,The Shared Universe,10,0,10,119,10,129
+40000,curve7,18,2,1,0,1,33.8,4,6,7,cheersquad:2 hunter:2 mascot:3 giantmoth:1,f1:mech f2:mech b1:shared,The Shared Universe,7,0,7,3,7,10
+40000,curve7,18,2,1,0,1,15.2,7,7,8,babysitter:2 rifle:2 exorcist:2 observer:3 brute:2 necro:2 gunny:1,f1:mech f2:mech b1:shared,The Shared Universe,9,0,9,10,7,17
+40000,curve7,18,2,1,0,1,38.85,6,6,6,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1 brute:2,f1:mech f2:mech b1:shared,The Shared Universe,1,0,1,10,4,14
+40000,curve7,19,3,0,0,1,5.4,6,6,7,skelarch:2 vampbat:2 wraith:2 fixer:2 gravegolem:2 bonesetter:2,f3:ninjas f2:ninjas b1:breaker,Fourth-Wall Breaker,10,0,10,132,11,143
+40000,curve7,19,3,0,0,1,10.1,5,6,7,reporter:2 fieldmed:3 hunter:2 mascot:3 giantmoth:1,f3:ninjas f2:ninjas b1:breaker,Fourth-Wall Breaker,7,0,7,12,7,19
+40000,curve7,19,3,0,0,1,7.9,7,7,8,babysitter:2 rifle:2 exorcist:2 observer:3 brute:2 necro:2 gunny:1,f3:ninjas f2:ninjas b1:breaker,Fourth-Wall Breaker,9,0,9,23,7,30
+40000,curve7,19,3,0,0,1,23.95,6,6,7,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1 brute:2,rival:hugo,Hugo's cast,1,0,1,0,2,2
+40000,curve7,20,3,0,0,1,37.65,6,6,7,skelarch:2 vampbat:2 wraith:2 fixer:2 gravegolem:2 bonesetter:2,f2:mech f1:mech f3:mech,Driving-Test Mech,10,0,10,158,9,167
+40000,curve7,20,3,0,0,1,31.6,5,6,7,reporter:2 fieldmed:3 hunter:2 mascot:3 giantmoth:1,f2:mech f1:mech f3:mech,Driving-Test Mech,7,0,7,14,7,21
+40000,curve7,20,3,0,0,1,13.7,7,7,8,babysitter:2 rifle:2 exorcist:2 observer:3 brute:2 necro:2 gunny:1,f2:mech f1:mech f3:mech,Driving-Test Mech,9,0,9,44,7,51
+40000,curve7,20,3,0,0,0,17.7,6,6,7,babysitter:2 finalgirl:3 kids:2 chainsaw:2 finalgirl:1 brute:2,rival:sal,Sal's cast,1,1,0,7,1,8

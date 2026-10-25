@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,27,-1,24,12,5,57,7,,,,,6,211,3,45,92,76,35,10,2,9,6,babysitter:2 captain:2 mule:2 scorpion:1 smuggler:2 captain:1,space1,brawler1,,3,overclock fangs tesla,shieldgen,0,1,0.5,
