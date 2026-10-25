@@ -1,0 +1,32 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ cd fastsim && node actloss.js --build ../sims/builds/arm-live.html --levels 5,6,7,8 --expert 400 --steady 1 --workers 4 --seedtag v6488 --out ../out
+[smartbot] engine: vm (fastsim, no browser)
+Lv5 done in 107 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv6 done in 111 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv7 done in 127 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv8 done in 120 s
+| Level | bot | n | Ep 1 won | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|---|
+| 5 | human | 400 | 97% | 90% | 91% | 95% | 0.54 / 0.97 / 0.71 / 0.67 | 38% / 50% / 35% / 30% |
+| 5 | steady | 1 | 100% | 100% | 100% | 100% | 3.00 / 4.00 / 2.00 / 7.00 | 100% / 100% / 100% / 100% |
+| 6 | human | 400 | 97% | 68% | 88% | 52% | 0.55 / 1.02 / 0.93 / 1.80 | 38% / 53% / 40% / 59% |
+| 6 | steady | 1 | 100% | 0% | 0% | - | 9.00 / 7.00 / - / - | 100% / 100% / - / - |
+| 7 | human | 400 | 97% | 67% | 90% | 52% | 0.70 / 0.89 / 0.76 / 1.78 | 47% / 48% / 38% / 60% |
+| 7 | steady | 1 | 100% | 0% | 0% | - | 10.00 / 12.00 / - / - | 100% / 100% / - / - |
+| 8 | human | 400 | 97% | 65% | 80% | 68% | 0.69 / 1.01 / 1.14 / 1.50 | 47% / 53% / 48% / 52% |
+| 8 | steady | 1 | 100% | 0% | 0% | - | 4.00 / 12.00 / - / - | 100% / 100% / - / - |
+
+| Level | bot | boss losses on timeout A1 / A2 / A3 / A4 | other fight losses on timeout |
+|---|---|---|---|
+| 5 | human | - / 0/15 / 0/23 / 0/24 | 0/1083 |
+| 5 | steady | - / - / - / - | - |
+| 6 | human | - / 0/17 / 0/35 / 0/394 | 0/1241 |
+| 6 | steady | - / - / - / - | - |
+| 7 | human | - / 0/14 / 0/31 / 0/400 | 0/1178 |
+| 7 | steady | - / - / - / - | - |
+| 8 | human | 0/6 / 0/22 / 0/41 / 0/187 | 0/1426 |
+| 8 | steady | - / - / - / - | - |
+exit 0

@@ -1,0 +1,638 @@
+{
+ "13": {
+  "human": {
+   "n": 400,
+   "err": 0,
+   "r1win": 0.975,
+   "win": 0.4975,
+   "r36": 0.6375,
+   "r36first": 0.6862745098039216,
+   "bossLoss": [
+    {
+     "lost": 19,
+     "to": 0
+    },
+    {
+     "lost": 41,
+     "to": 0
+    },
+    {
+     "lost": 50,
+     "to": 0
+    },
+    {
+     "lost": 142,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 1477,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 400,
+     "lost": 0.9225,
+     "anyLost": 0.5725
+    },
+    {
+     "reached": 400,
+     "lost": 1.3075,
+     "anyLost": 0.635
+    },
+    {
+     "reached": 380,
+     "lost": 1.3157894736842106,
+     "anyLost": 0.6105263157894737
+    },
+    {
+     "reached": 295,
+     "lost": 1.1423728813559322,
+     "anyLost": 0.5220338983050847
+    }
+   ]
+  },
+  "steady": {
+   "n": 1,
+   "err": 0,
+   "r1win": 1,
+   "win": 0,
+   "r36": 0,
+   "r36first": null,
+   "bossLoss": [
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 0,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 1,
+     "lost": 14,
+     "anyLost": 1
+    },
+    {
+     "reached": 1,
+     "lost": 26,
+     "anyLost": 1
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    }
+   ]
+  }
+ },
+ "14": {
+  "human": {
+   "n": 400,
+   "err": 0,
+   "r1win": 0.975,
+   "win": 0.475,
+   "r36": 0.555,
+   "r36first": 0.7927927927927928,
+   "bossLoss": [
+    {
+     "lost": 27,
+     "to": 0
+    },
+    {
+     "lost": 45,
+     "to": 0
+    },
+    {
+     "lost": 54,
+     "to": 0
+    },
+    {
+     "lost": 84,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 1529,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 400,
+     "lost": 0.985,
+     "anyLost": 0.5525
+    },
+    {
+     "reached": 400,
+     "lost": 1.365,
+     "anyLost": 0.655
+    },
+    {
+     "reached": 372,
+     "lost": 1.413978494623656,
+     "anyLost": 0.6370967741935484
+    },
+    {
+     "reached": 280,
+     "lost": 0.975,
+     "anyLost": 0.5035714285714286
+    }
+   ]
+  },
+  "steady": {
+   "n": 1,
+   "err": 0,
+   "r1win": 0,
+   "win": 0,
+   "r36": 0,
+   "r36first": null,
+   "bossLoss": [
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 0,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 1,
+     "lost": 27,
+     "anyLost": 1
+    },
+    {
+     "reached": 1,
+     "lost": 34,
+     "anyLost": 1
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    }
+   ]
+  }
+ },
+ "15": {
+  "human": {
+   "n": 400,
+   "err": 0,
+   "r1win": 0.975,
+   "win": 0.4175,
+   "r36": 0.5325,
+   "r36first": 0.6807511737089202,
+   "bossLoss": [
+    {
+     "lost": 26,
+     "to": 0
+    },
+    {
+     "lost": 46,
+     "to": 0
+    },
+    {
+     "lost": 51,
+     "to": 0
+    },
+    {
+     "lost": 90,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 1748,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 400,
+     "lost": 1.1,
+     "anyLost": 0.6425
+    },
+    {
+     "reached": 399,
+     "lost": 1.5538847117794485,
+     "anyLost": 0.7092731829573935
+    },
+    {
+     "reached": 367,
+     "lost": 1.6076294277929155,
+     "anyLost": 0.6920980926430518
+    },
+    {
+     "reached": 262,
+     "lost": 1.1870229007633588,
+     "anyLost": 0.6183206106870229
+    }
+   ]
+  },
+  "steady": {
+   "n": 1,
+   "err": 0,
+   "r1win": 1,
+   "win": 0,
+   "r36": 0,
+   "r36first": null,
+   "bossLoss": [
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 0,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 1,
+     "lost": 23,
+     "anyLost": 1
+    },
+    {
+     "reached": 1,
+     "lost": 18,
+     "anyLost": 1
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    }
+   ]
+  }
+ },
+ "16": {
+  "human": {
+   "n": 400,
+   "err": 0,
+   "r1win": 0.975,
+   "win": 0.3325,
+   "r36": 0.4475,
+   "r36first": 0.6703910614525139,
+   "bossLoss": [
+    {
+     "lost": 24,
+     "to": 0
+    },
+    {
+     "lost": 41,
+     "to": 0
+    },
+    {
+     "lost": 44,
+     "to": 0
+    },
+    {
+     "lost": 87,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 1685,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 400,
+     "lost": 1.1425,
+     "anyLost": 0.6575
+    },
+    {
+     "reached": 399,
+     "lost": 1.5889724310776943,
+     "anyLost": 0.7017543859649122
+    },
+    {
+     "reached": 354,
+     "lost": 1.4124293785310735,
+     "anyLost": 0.6836158192090396
+    },
+    {
+     "reached": 235,
+     "lost": 1.2340425531914894,
+     "anyLost": 0.6085106382978723
+    }
+   ]
+  },
+  "steady": {
+   "n": 1,
+   "err": 0,
+   "r1win": 1,
+   "win": 0,
+   "r36": 0,
+   "r36first": null,
+   "bossLoss": [
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 0,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 1,
+     "lost": 18,
+     "anyLost": 1
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    }
+   ]
+  }
+ },
+ "17": {
+  "human": {
+   "n": 400,
+   "err": 0,
+   "r1win": 0.975,
+   "win": 0.2925,
+   "r36": 0.4125,
+   "r36first": 0.593939393939394,
+   "bossLoss": [
+    {
+     "lost": 31,
+     "to": 0
+    },
+    {
+     "lost": 39,
+     "to": 0
+    },
+    {
+     "lost": 41,
+     "to": 0
+    },
+    {
+     "lost": 103,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 1738,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 400,
+     "lost": 1.2125,
+     "anyLost": 0.6675
+    },
+    {
+     "reached": 397,
+     "lost": 1.6423173803526447,
+     "anyLost": 0.7355163727959698
+    },
+    {
+     "reached": 344,
+     "lost": 1.447674418604651,
+     "anyLost": 0.7005813953488372
+    },
+    {
+     "reached": 231,
+     "lost": 1.3722943722943723,
+     "anyLost": 0.658008658008658
+    }
+   ]
+  },
+  "steady": {
+   "n": 1,
+   "err": 0,
+   "r1win": 1,
+   "win": 0,
+   "r36": 0,
+   "r36first": null,
+   "bossLoss": [
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 0,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 1,
+     "lost": 18,
+     "anyLost": 1
+    },
+    {
+     "reached": 1,
+     "lost": 5,
+     "anyLost": 1
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    }
+   ]
+  }
+ },
+ "18": {
+  "human": {
+   "n": 400,
+   "err": 0,
+   "r1win": 0.975,
+   "win": 0.355,
+   "r36": 0.585,
+   "r36first": 0.5384615384615384,
+   "bossLoss": [
+    {
+     "lost": 17,
+     "to": 0
+    },
+    {
+     "lost": 38,
+     "to": 0
+    },
+    {
+     "lost": 40,
+     "to": 0
+    },
+    {
+     "lost": 170,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 1357,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 400,
+     "lost": 0.915,
+     "anyLost": 0.61
+    },
+    {
+     "reached": 400,
+     "lost": 1.32,
+     "anyLost": 0.6625
+    },
+    {
+     "reached": 369,
+     "lost": 1.089430894308943,
+     "anyLost": 0.5826558265582655
+    },
+    {
+     "reached": 278,
+     "lost": 1.1726618705035972,
+     "anyLost": 0.6007194244604317
+    }
+   ]
+  },
+  "steady": {
+   "n": 1,
+   "err": 0,
+   "r1win": 0,
+   "win": 0,
+   "r36": 0,
+   "r36first": null,
+   "bossLoss": [
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    },
+    {
+     "lost": 0,
+     "to": 0
+    }
+   ],
+   "fightLoss": {
+    "lost": 0,
+    "to": 0
+   },
+   "acts": [
+    {
+     "reached": 1,
+     "lost": 16,
+     "anyLost": 1
+    },
+    {
+     "reached": 1,
+     "lost": 37,
+     "anyLost": 1
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    },
+    {
+     "reached": 0,
+     "lost": null,
+     "anyLost": null
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,65 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,31.05,3,3,1,dodgeball:1 skelarch:1 reporter:1,f1:double b1:actor,Stunt Double,9,0,9,3,1,4
+40000,curve7,1,1,0,0,1,20.7,3,3,1,cheersquad:1 counselors:1 dodgeball:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,16.65,3,3,1,reporter:1 dodgeball:2 lookouts:1,f1:double b1:actor,Stunt Double,9,0,9,1,1,2
+40000,curve7,1,1,0,0,1,16.05,3,3,1,dodgeball:1 riot:1 rifle:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,18,3,3,1,ravager:1 ravager:1 cheersquad:1,f1:double b1:actor,Stunt Double,9,0,9,3,1,4
+40000,curve7,1,1,0,0,1,29.8,3,3,1,babysitter:1 commando:1 dodgeball:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,1,1,0,0,1,10.2,3,3,1,ravager:1 outlaws:1 reporter:1,f1:double b1:actor,Stunt Double,9,0,9,3,1,4
+40000,curve7,1,1,0,0,1,25.65,3,3,1,ravager:1 babysitter:1 doc:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,2,1,0,0,0,23.1,4,4,2,reporter:2 reporter:1 riot:1 tanks:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,32.15,3,3,1,cheersquad:1 counselors:1 dodgeball:1,f1:double b1:actor,Stunt Double,9,0,9,6,2,8
+40000,curve7,2,1,0,0,1,18.45,4,4,2,reporter:1 dodgeball:2 lookouts:1 reporter:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,1,8.05,4,4,2,dodgeball:2 riot:1 rifle:1 cheersquad:1,f1:double b1:actor,Stunt Double,9,0,9,0,2,2
+40000,curve7,2,1,0,0,0,22.8,4,4,2,ravager:1 ravager:1 cheersquad:1 cheersquad:1,f1:double b1:actor,Stunt Double,9,1,8,3,1,4
+40000,curve7,2,1,0,0,0,34.35,4,4,2,babysitter:1 commando:1 dodgeball:1 dodgeball:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,2,1,0,0,1,10.15,4,4,2,ravager:1 outlaws:1 outlaws:1 zombies:1,f1:double b1:actor,Stunt Double,9,0,9,1,2,3
+40000,curve7,2,1,0,0,0,25.4,4,4,2,ravager:2 babysitter:1 doc:1 doc:1,f1:double b1:actor,Stunt Double,9,1,8,0,1,1
+40000,curve7,4,1,0,0,0,9.35,4,4,2,reporter:2 reporter:1 riot:1 tanks:1,f1:mic b3:mic b2:mic,Boom Mic Operator,8,1,7,14,2,16
+40000,curve7,4,1,0,0,1,8,4,4,3,cheersquad:1 counselors:2 dodgeball:1 finalgirl:1,f1:mic b3:mic b2:mic,Boom Mic Operator,7,0,7,1,5,6
+40000,curve7,4,1,0,0,0,40.65,4,4,3,dodgeball:2 lookouts:1 reporter:2 lookouts:1,f1:mic b3:mic b2:mic,Boom Mic Operator,9,1,8,7,1,8
+40000,curve7,4,1,0,0,1,6.65,4,4,2,riot:1 rifle:1 wraith:1 skelarch:1,f1:mic b3:mic b2:mic,Boom Mic Operator,9,0,9,12,5,17
+40000,curve7,4,1,0,0,1,3.95,4,4,2,ravager:2 cheersquad:2 queen:1 pointguard:1,f1:mic b3:mic b2:mic,Boom Mic Operator,8,0,8,9,4,13
+40000,curve7,4,1,0,0,0,11.55,4,4,2,babysitter:1 commando:1 dodgeball:1 dodgeball:1,f1:mic b3:mic b2:mic,Boom Mic Operator,8,1,7,20,2,22
+40000,curve7,4,1,0,0,1,18.95,4,4,2,ravager:1 outlaws:1 outlaws:1 zombies:1,f1:mic b3:mic b2:mic,Boom Mic Operator,7,0,7,30,5,35
+40000,curve7,4,1,0,0,0,19.2,4,4,2,ravager:2 babysitter:1 doc:1 doc:1,rival:goldie,Goldie's cast,8,1,7,14,2,16
+40000,curve7,5,1,0,0,0,26.65,4,4,2,reporter:2 reporter:1 riot:1 tanks:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,7,1,6,22,2,24
+40000,curve7,5,1,0,0,1,15.4,4,4,3,cheersquad:2 counselors:2 kids:2 finalgirl:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,7,0,7,2,6,8
+40000,curve7,5,1,0,0,1,19.45,4,4,3,dodgeball:2 lookouts:2 reporter:2 telepath:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,8,0,8,10,4,14
+40000,curve7,5,1,0,0,1,8.8,4,4,3,riot:1 rifle:1 skelarch:1 wraith:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,9,0,9,12,6,18
+40000,curve7,5,1,0,0,1,13.4,4,4,2,ravager:2 cheersquad:2 beetles:2 queen:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,8,0,8,18,5,23
+40000,curve7,5,1,0,0,0,12.3,4,4,2,babysitter:1 commando:1 dodgeball:1 dodgeball:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,7,1,6,29,2,31
+40000,curve7,5,1,0,0,1,7.9,4,4,2,ravager:1 outlaws:2 zombies:1 lurker:1,f2:double b2:mic b1:actor f1:rats,Stunt Double,7,0,7,40,6,46
+40000,curve7,5,1,0,0,0,6.45,4,4,2,ravager:2 babysitter:1 doc:1 doc:1,rival:ivy,Ivy's cast,7,1,6,21,2,23
+40000,curve7,6,1,0,0,0,11.65,4,4,2,reporter:2 reporter:1 riot:1 tanks:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,6,1,5,23,3,26
+40000,curve7,6,1,0,0,1,10.25,4,4,3,counselors:2 kids:2 finalgirl:1 finalgirl:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,7,0,7,1,7,8
+40000,curve7,6,1,0,0,1,17.35,4,4,3,dodgeball:2 lookouts:2 reporter:2 fieldmed:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,8,0,8,10,5,15
+40000,curve7,6,1,0,0,1,18.4,4,4,4,dodgeball:2 riot:2 fieldmed:1 doc:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,9,0,9,10,7,17
+40000,curve7,6,1,0,0,1,11.45,4,4,2,cheersquad:2 pointguard:2 scientist:1 outlaws:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,8,0,8,26,5,31
+40000,curve7,6,1,0,0,0,8.75,4,4,3,babysitter:1 commando:1 counselors:1 redshirts:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,6,1,5,33,3,36
+40000,curve7,6,1,0,0,1,9.2,4,4,2,ravager:1 outlaws:2 lurker:1 ravager:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,5,0,5,54,7,61
+40000,curve7,6,1,0,0,1,38.25,4,4,3,ravager:2 babysitter:2 doc:2 fieldmed:1,rival:kit,Kit's cast,4,0,4,7,1,8
+40000,curve7,7,1,0,0,0,13.7,4,4,4,reporter:2 reporter:1 riot:1 radio:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,5,1,4,8,4,12
+40000,curve7,7,1,0,0,1,10.4,4,4,3,counselors:2 kids:2 finalgirl:1 finalgirl:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,7,0,7,13,7,20
+40000,curve7,7,1,0,0,1,21.5,4,4,4,dodgeball:2 lookouts:2 reporter:2 fieldmed:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,8,0,8,9,5,14
+40000,curve7,7,1,0,0,1,18.45,4,4,4,dodgeball:2 riot:2 fieldmed:1 fixer:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,9,0,9,19,7,26
+40000,curve7,7,1,0,0,1,16.9,4,4,2,cheersquad:2 pointguard:2 scientist:1 outlaws:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,8,0,8,39,6,45
+40000,curve7,7,1,0,0,0,9.1,4,4,3,babysitter:1 counselors:1 counselors:1 wraith:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,5,1,4,41,4,45
+40000,curve7,7,1,0,0,1,11.35,4,4,4,ravager:1 outlaws:2 lurker:1 ravager:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,5,0,5,51,7,58
+40000,curve7,7,1,0,0,0,19.1,4,4,4,ravager:2 babysitter:2 doc:2 fieldmed:1,rival:ivy,Ivy's cast,4,1,3,1,1,2
+40000,curve7,8,1,0,0,1,17.05,4,4,4,reporter:2 riot:2 radio:1 brute:1,f0:double f2:double b0:mic f1:double,Stunt Double,4,0,4,3,4,7
+40000,curve7,8,1,0,0,1,16.5,4,4,4,cheersquad:2 counselors:2 kids:2 finalgirl:2,f0:double f2:double b0:mic f1:double,Stunt Double,7,0,7,1,7,8
+40000,curve7,8,1,0,0,1,33.6,4,4,4,reporter:2 fieldmed:1 fieldmed:1 mascot:1,f0:double f2:double b0:mic f1:double,Stunt Double,8,0,8,12,6,18
+40000,curve7,8,1,0,0,1,14.2,5,5,5,dodgeball:2 riot:2 fieldmed:1 scorpion:1 nurse:1,f0:double f2:double b0:mic f1:double,Stunt Double,9,0,9,12,7,19
+40000,curve7,8,1,0,0,1,27.6,4,4,3,cheersquad:2 pointguard:2 scientist:1 outlaws:1,f0:double f2:double b0:mic f1:double,Stunt Double,8,0,8,50,7,57
+40000,curve7,8,1,0,0,1,13.75,5,5,5,wraith:2 gravegolem:2 gravegolem:1 starknight:1 observer:1,f0:double f2:double b0:mic f1:double,Stunt Double,4,0,4,2,4,6
+40000,curve7,8,1,0,0,1,5.55,5,5,5,ravager:1 outlaws:2 lurker:2 ravager:1 doc:1,f0:double f2:double b0:mic f1:double,Stunt Double,5,0,5,47,7,54
+40000,curve7,8,1,0,0,0,30.25,4,4,4,ravager:2 babysitter:2 doc:2 waterboy:2,f0:double f2:double b0:mic f1:double,Stunt Double,3,1,2,1,2,3
+40000,curve7,9,1,1,0,1,43.5,4,4,4,skelarch:2 reporter:2 riot:2 brute:1,f0:rats f3:rats b1:editor,The Editor,4,0,4,7,5,12
+40000,curve7,9,1,1,0,1,28.25,4,4,4,cheersquad:2 counselors:2 finalgirl:2 exorcist:2,f0:rats f3:rats b1:editor,The Editor,7,0,7,1,7,8
+40000,curve7,9,1,1,0,1,36.55,5,5,5,reporter:2 fieldmed:1 fieldmed:1 mascot:1 smuggler:2,f0:rats f3:rats b1:editor,The Editor,8,0,8,3,7,10
+40000,curve7,9,1,1,0,1,36.05,5,5,5,dodgeball:2 riot:2 fieldmed:1 nurse:1 captain:1,f0:rats f3:rats b1:editor,The Editor,9,0,9,14,7,21
+40000,curve7,9,1,1,0,1,21.8,5,5,5,cheersquad:2 pointguard:2 scientist:1 finalgirl:1 chainsaw:1,f0:rats f3:rats b1:editor,The Editor,8,0,8,29,7,36
+40000,curve7,9,1,1,0,1,31.35,5,5,5,wraith:2 gravegolem:2 gravegolem:1 starknight:1 gravegolem:1,f0:rats f3:rats b1:editor,The Editor,4,0,4,4,5,9
+40000,curve7,9,1,1,0,1,9.85,5,5,5,ravager:2 outlaws:2 lurker:2 doc:2 prospector:2,f0:rats f3:rats b1:editor,The Editor,5,0,5,10,7,17
+40000,curve7,9,1,1,0,0,15.35,4,4,4,babysitter:2 doc:2 mule:2 waterboy:2,f0:rats f3:rats b1:editor,The Editor,2,2,0,1,2,3

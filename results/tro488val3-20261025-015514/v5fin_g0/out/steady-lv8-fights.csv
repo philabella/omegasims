@@ -1,0 +1,51 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,9.2,3,3,1,zombies:1 outlaws:1 outlaws:1,f1:double b1:actor,Stunt Double,10,0,10,2,1,3
+40000,curve7,1,1,0,0,1,31.05,3,3,1,counselors:1 dodgeball:1 babykaiju:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,1,1,0,0,1,17.9,3,3,1,counselors:1 dodgeball:1 pilot:1,f1:double b1:actor,Stunt Double,10,0,10,3,1,4
+40000,curve7,1,1,0,0,1,10.7,3,3,1,beetles:1 spitters:1 beetles:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,1,1,0,0,0,15.9,3,3,1,babysitter:1 doc:1 doc:1,f1:double b1:actor,Stunt Double,10,1,9,0,1,1
+40000,curve7,2,1,0,0,1,7.95,4,4,2,zombies:1 outlaws:2 ravager:1 ravager:1,f1:double b1:actor,Stunt Double,10,0,10,1,2,3
+40000,curve7,2,1,0,0,1,10.1,4,4,2,counselors:1 dodgeball:1 babykaiju:1 pitcher:1,f1:double b1:actor,Stunt Double,10,0,10,1,2,3
+40000,curve7,2,1,0,0,1,29.15,4,4,2,counselors:1 dodgeball:1 pilot:1 counselors:1,f1:double b1:actor,Stunt Double,10,0,10,4,2,6
+40000,curve7,2,1,0,0,1,12.9,3,3,1,beetles:2 spitters:2 dodgeball:1,f1:double b1:actor,Stunt Double,10,0,10,0,2,2
+40000,curve7,2,1,0,0,1,19.95,4,4,2,ravager:1 babysitter:1 doc:2 ravager:1,f1:double b1:actor,Stunt Double,9,0,9,0,1,1
+40000,curve7,4,1,0,0,1,10.35,4,4,2,zombies:1 outlaws:2 ravager:1 ravager:1,b1:actor b0:actor f2:mooks,Method Actor,10,0,10,22,5,27
+40000,curve7,4,1,0,0,1,14.7,4,4,2,counselors:1 dodgeball:1 babykaiju:1 pitcher:1,b1:actor b0:actor f2:mooks,Method Actor,8,0,8,30,5,35
+40000,curve7,4,1,0,0,0,11.65,4,4,2,counselors:1 dodgeball:1 pilot:1 counselors:1,b1:actor b0:actor f2:mooks,Method Actor,10,1,9,25,1,26
+40000,curve7,4,1,0,0,1,4.25,4,4,3,pitcher:1 beetles:2 spitters:2 dodgeball:1,b1:actor b0:actor f2:mooks,Method Actor,8,0,8,9,5,14
+40000,curve7,4,1,0,0,0,45.35,4,4,2,ravager:2 babysitter:1 doc:2 finalgirl:1,rival:rex,Rex's cast,9,1,8,9,1,10
+40000,curve7,5,1,0,0,1,10.2,4,4,2,zombies:1 outlaws:2 ravager:1 ravager:1,b3:mic f1:rats b0:mic,Boom Mic Operator,10,0,10,34,6,40
+40000,curve7,5,1,0,0,1,9.8,4,4,3,counselors:1 dodgeball:1 pitcher:1 exorcist:1,b3:mic f1:rats b0:mic,Boom Mic Operator,8,0,8,33,6,39
+40000,curve7,5,1,0,0,0,30.55,4,4,3,counselors:2 dodgeball:1 pilot:1 dodgeball:1,b3:mic f1:rats b0:mic,Boom Mic Operator,9,1,8,23,2,25
+40000,curve7,5,1,0,0,1,5.2,4,4,3,pitcher:1 beetles:2 spitters:2 dodgeball:1,b3:mic f1:rats b0:mic,Boom Mic Operator,8,0,8,20,6,26
+40000,curve7,5,1,0,0,1,22.65,4,4,2,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:penny,Penny's cast,8,0,8,15,1,16
+40000,curve7,6,1,0,0,1,11.4,4,4,2,zombies:2 outlaws:2 ravager:2 ravager:1,b1:mic b2:mic b3:mic f0:double,Stunt Double,10,0,10,37,7,44
+40000,curve7,6,1,0,0,1,11.35,4,4,4,dodgeball:1 pitcher:1 dodgeball:1 captain:1,b1:mic b2:mic b3:mic f0:double,Stunt Double,8,0,8,33,7,40
+40000,curve7,6,1,0,0,1,26.8,4,4,3,dodgeball:2 fixer:1 nurse:1 nurse:1,b1:mic b2:mic b3:mic f0:double,Stunt Double,8,0,8,23,4,27
+40000,curve7,6,1,0,0,1,10.35,4,4,3,pitcher:2 dodgeball:2 telepath:2 exorcist:1,b1:mic b2:mic b3:mic f0:double,Stunt Double,8,0,8,0,7,7
+40000,curve7,6,1,0,0,0,10.25,4,4,2,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:rex,Rex's cast,6,1,5,20,1,21
+40000,curve7,7,1,0,0,1,11.25,4,4,2,zombies:2 outlaws:2 ravager:2 ravager:1,f1:rats f3:double b1:actor f2:mooks,Stunt Double,10,0,10,50,7,57
+40000,curve7,7,1,0,0,1,9.25,5,5,5,dodgeball:1 pitcher:1 dodgeball:1 captain:1 pointguard:1,f1:rats f3:double b1:actor f2:mooks,Stunt Double,8,0,8,31,7,38
+40000,curve7,7,1,0,0,1,31,4,4,4,dodgeball:2 zombies:2 fixer:1 nurse:1,f1:rats f3:double b1:actor f2:mooks,Stunt Double,8,0,8,24,5,29
+40000,curve7,7,1,0,0,1,12.3,4,4,4,pitcher:2 dodgeball:2 telepath:2 exorcist:1,f1:rats f3:double b1:actor f2:mooks,Stunt Double,8,0,8,1,7,8
+40000,curve7,7,1,0,0,0,45,4,4,3,ravager:2 babysitter:2 doc:2 kids:2,rival:sal,Sal's cast,5,1,4,20,2,22
+40000,curve7,8,1,0,0,1,8.1,4,4,4,zombies:2 outlaws:2 ravager:2 babykaiju:2,b3:actor f1:mooks b2:actor b1:actor b0:actor,Method Actor,10,0,10,49,7,56
+40000,curve7,8,1,0,0,1,8.7,5,5,5,dodgeball:2 captain:1 pointguard:1 babykaiju:2 gravegolem:1,b3:actor f1:mooks b2:actor b1:actor b0:actor,Method Actor,8,0,8,32,7,39
+40000,curve7,8,1,0,0,1,26.45,4,4,4,dodgeball:2 zombies:2 fixer:1 nurse:1,b3:actor f1:mooks b2:actor b1:actor b0:actor,Method Actor,8,0,8,36,5,41
+40000,curve7,8,1,0,0,1,8.6,4,4,4,pitcher:2 dodgeball:2 telepath:2 exorcist:2,b3:actor f1:mooks b2:actor b1:actor b0:actor,Method Actor,8,0,8,5,7,12
+40000,curve7,8,1,0,0,0,16.85,4,4,4,babysitter:2 doc:2 kids:2 bonesetter:1,rival:rex,Rex's cast,4,1,3,6,2,8
+40000,curve7,9,1,1,0,1,13.25,5,5,5,zombies:2 outlaws:2 ravager:2 chainsaw:2 scorpion:1,f0:mooks f2:mooks b1:editor,The Editor,10,0,10,6,7,13
+40000,curve7,9,1,1,0,1,13.05,5,5,5,dodgeball:2 captain:2 pointguard:2 babykaiju:2 gravegolem:2,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,4,7,11
+40000,curve7,9,1,1,0,1,45.85,5,5,5,dodgeball:2 zombies:2 fixer:1 nurse:1 nurse:1,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,33,6,39
+40000,curve7,9,1,1,0,1,34.35,4,4,4,pitcher:2 dodgeball:2 telepath:2 exorcist:2,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,1,7,8
+40000,curve7,9,1,1,0,0,23.85,4,4,4,babysitter:2 doc:2 kids:2 bonesetter:1,f0:mooks f2:mooks b1:editor,The Editor,3,2,1,4,3,7
+40000,curve7,10,2,0,0,1,11,5,5,5,zombies:2 outlaws:2 ravager:2 chainsaw:2 scorpion:1,f0:figures b2:mic b0:actor,Method Actor,10,0,10,19,7,26
+40000,curve7,10,2,0,0,1,10.75,5,5,5,dodgeball:2 captain:2 pointguard:2 babykaiju:2 gravegolem:2,f0:figures b2:mic b0:actor,Method Actor,8,0,8,17,7,24
+40000,curve7,10,2,0,0,0,9.15,5,5,5,dodgeball:2 zombies:2 fixer:1 nurse:1 fixer:1,f0:figures b2:mic b0:actor,Method Actor,8,1,7,41,1,42
+40000,curve7,10,2,0,0,0,16.7,4,4,4,pitcher:2 dodgeball:2 telepath:2 exorcist:2,f0:figures b2:mic b0:actor,Method Actor,8,1,7,9,1,10
+40000,curve7,10,2,0,0,1,42.25,4,4,4,babysitter:2 doc:2 kids:2 bonesetter:1,rival:sal,Sal's cast,1,0,1,10,1,11
+40000,curve7,11,2,0,0,1,14.35,5,5,5,zombies:2 outlaws:2 ravager:2 chainsaw:2 scorpion:1,f0:figures f3:double f1:ninjas,Stunt Double,10,0,10,33,7,40
+40000,curve7,11,2,0,0,1,11.05,5,5,5,dodgeball:2 captain:2 pointguard:2 babykaiju:2 gravegolem:2,f0:figures f3:double f1:ninjas,Stunt Double,8,0,8,31,7,38
+40000,curve7,11,2,0,0,1,13.4,6,6,6,zombies:2 fixer:2 nurse:2 scorpion:1 scorpion:1 queen:1,f0:figures f3:double f1:ninjas,Stunt Double,7,0,7,15,4,19
+40000,curve7,11,2,0,0,1,10.45,5,5,5,pitcher:2 dodgeball:2 telepath:2 exorcist:2 captain:1,f0:figures f3:double f1:ninjas,Stunt Double,7,0,7,1,4,5
+40000,curve7,11,2,0,0,0,12.55,5,5,5,ravager:2 babysitter:2 doc:2 kids:2 bonesetter:1,rival:rex,Rex's cast,1,1,0,0,1,1
