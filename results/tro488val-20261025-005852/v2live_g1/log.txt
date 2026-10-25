@@ -1,0 +1,38 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ cd fastsim && node actloss.js --build ../sims/builds/arm-live.html --levels 9,10,11,12,13 --expert 400 --steady 300 --workers 4 --seedtag v2488 --out ../out
+[smartbot] engine: vm (fastsim, no browser)
+Lv9 done in 197 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv10 done in 208 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv11 done in 227 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv12 done in 240 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv13 done in 245 s
+| Level | bot | n | Ep 1 won | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|---|
+| 9 | human | 400 | 96% | 59% | 74% | 67% | 0.89 / 1.26 / 1.33 / 1.44 | 54% / 62% / 53% / 55% |
+| 9 | steady | 300 | 85% | 2% | 8% | 8% | 6.96 / 12.92 / 12.64 / 15.52 | 100% / 100% / 100% / 100% |
+| 10 | human | 400 | 96% | 61% | 75% | 70% | 0.74 / 1.01 / 1.50 / 1.36 | 49% / 53% / 58% / 53% |
+| 10 | steady | 300 | 88% | 7% | 19% | 46% | 6.99 / 12.00 / 13.50 / 17.17 | 99% / 100% / 100% / 100% |
+| 11 | human | 400 | 97% | 56% | 69% | 72% | 0.79 / 1.05 / 1.37 / 1.12 | 54% / 55% / 58% / 50% |
+| 11 | steady | 300 | 91% | 6% | 13% | 18% | 7.34 / 13.52 / 15.94 / 20.80 | 99% / 100% / 100% / 100% |
+| 12 | human | 400 | 95% | 52% | 64% | 74% | 0.89 / 1.08 / 1.37 / 1.22 | 54% / 55% / 63% / 55% |
+| 12 | steady | 300 | 89% | 5% | 15% | 38% | 9.82 / 15.77 / 18.81 / 24.40 | 100% / 100% / 100% / 100% |
+| 13 | human | 400 | 95% | 49% | 65% | 66% | 1.00 / 1.23 / 1.29 / 1.29 | 56% / 62% / 61% / 55% |
+| 13 | steady | 300 | 88% | 3% | 11% | 33% | 9.93 / 20.59 / 21.39 / 25.83 | 100% / 100% / 100% / 100% |
+
+| Level | bot | boss losses on timeout A1 / A2 / A3 / A4 | other fight losses on timeout |
+|---|---|---|---|
+| 9 | human | 0/4 / 0/17 / 0/42 / 0/175 | 0/1649 |
+| 9 | steady | - / - / - / - | - |
+| 10 | human | 0/2 / 0/20 / 0/44 / 0/167 | 0/1535 |
+| 10 | steady | - / - / - / - | - |
+| 11 | human | 0/3 / 0/23 / 0/38 / 0/122 | 0/1439 |
+| 11 | steady | - / - / - / - | - |
+| 12 | human | 0/14 / 0/32 / 0/63 / 0/113 | 0/1458 |
+| 12 | steady | - / - / - / - | - |
+| 13 | human | 0/19 / 0/26 / 0/60 / 0/139 | 0/1524 |
+| 13 | steady | - / - / - / - | - |
+exit 0
