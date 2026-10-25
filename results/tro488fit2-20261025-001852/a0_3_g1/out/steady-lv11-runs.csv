@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,10,0,9,2,4,11,5,,,,,6,72,4,35,10,36,5,7,0,1,5,ravager:2 doc:2 finalgirl:1 fieldmed:2 babysitter:2,"army1,horror1",medic1,nightpatrol,2,hollow kevlar,shock,0,0,0.6,

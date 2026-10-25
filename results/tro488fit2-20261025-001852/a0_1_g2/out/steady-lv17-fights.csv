@@ -1,0 +1,81 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,19.95,3,3,1,droids:2 redshirts:1 zombies:1,f1:double b1:actor,Stunt Double,8,0,8,1,1,2
+40000,curve7,1,1,0,0,0,24.45,3,3,1,ravager:1 muscle:1 doc:1,f1:double b1:actor,Stunt Double,8,1,7,3,1,4
+40000,curve7,1,1,0,0,1,14.65,3,3,1,commando:1 riot:1 outlaws:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,12.5,3,3,1,ravager:1 babykaiju:1 dodgeball:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,30.5,3,3,1,dodgeball:1 kids:1 riot:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,0,27.85,3,3,1,counselors:1 redshirts:1 redshirts:1,f1:double b1:actor,Stunt Double,8,1,7,0,1,1
+40000,curve7,1,1,0,0,1,8.45,3,3,1,driver:1 commando:1 babykaiju:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,24.05,3,3,1,ravager:1 babysitter:1 doc:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,2,1,0,0,0,20.85,3,3,1,droids:2 redshirts:1 zombies:1,f1:double b1:actor,Stunt Double,8,1,7,7,1,8
+40000,curve7,2,1,0,0,0,14.75,3,3,1,ravager:1 muscle:1 doc:1,f1:double b1:actor,Stunt Double,7,1,6,9,2,11
+40000,curve7,2,1,0,0,1,20.05,4,4,2,commando:1 riot:1 outlaws:1 redshirts:1,f1:double b1:actor,Stunt Double,8,0,8,4,2,6
+40000,curve7,2,1,0,0,1,27.7,4,4,2,babykaiju:1 dodgeball:1 babykaiju:1 dodgeball:1,f1:double b1:actor,Stunt Double,8,0,8,3,2,5
+40000,curve7,2,1,0,0,1,33.25,4,4,2,dodgeball:1 riot:1 dodgeball:1 cheersquad:1,f1:double b1:actor,Stunt Double,8,0,8,2,2,4
+40000,curve7,2,1,0,0,1,22.45,4,4,2,counselors:1 redshirts:2 counselors:1 commando:1,f1:double b1:actor,Stunt Double,7,0,7,0,1,1
+40000,curve7,2,1,0,0,1,16.9,4,4,2,driver:1 commando:1 babykaiju:1 commando:1,f1:double b1:actor,Stunt Double,8,0,8,3,2,5
+40000,curve7,2,1,0,0,1,15.45,4,4,2,ravager:1 babysitter:1 doc:1 outlaws:1,f1:double b1:actor,Stunt Double,8,0,8,1,2,3
+40000,curve7,4,1,0,0,0,25.2,4,4,3,droids:2 redshirts:1 redshirts:1 commando:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,1,6,8,2,10
+40000,curve7,4,1,0,0,0,18,4,4,3,ravager:1 muscle:1 doc:2 deputy:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,6,1,5,13,2,15
+40000,curve7,4,1,0,0,1,12.05,4,4,3,commando:1 riot:1 redshirts:2 nurse:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,6,0,6,21,5,26
+40000,curve7,4,1,0,0,1,17.1,3,4,2,babykaiju:2 dodgeball:1 giantmoth:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,8,0,8,15,5,20
+40000,curve7,4,1,0,0,0,14.7,4,4,2,headcoach:1 riot:1 dodgeball:1 cheersquad:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,8,1,7,14,1,15
+40000,curve7,4,1,0,0,0,15.65,4,4,3,counselors:1 redshirts:2 counselors:1 commando:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,7,1,6,12,1,13
+40000,curve7,4,1,0,0,1,6.4,4,4,2,driver:2 commando:2 babykaiju:2 hacker:1,f2:mooks b1:mic f3:rats f1:mooks,Boom Mic Operator,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,18.9,4,4,2,ravager:1 babysitter:1 doc:1 outlaws:1,rival:cue,Cue's cast,8,0,8,17,2,19
+40000,curve7,5,1,0,0,0,17,4,4,3,droids:2 redshirts:1 redshirts:1 commando:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,6,1,5,16,2,18
+40000,curve7,5,1,0,0,0,14.95,4,4,4,ravager:1 muscle:1 doc:2 deputy:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,5,1,4,10,3,13
+40000,curve7,5,1,0,0,0,21.5,4,4,3,redshirts:2 nurse:1 nurse:1 fieldmed:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,6,1,5,29,1,30
+40000,curve7,5,1,0,0,1,11.9,3,4,2,babykaiju:2 dodgeball:2 giantmoth:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,8,0,8,25,6,31
+40000,curve7,5,1,0,0,1,16.35,4,4,2,headcoach:1 kids:2 riot:1 dodgeball:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,7,0,7,20,4,24
+40000,curve7,5,1,0,0,1,6.45,4,4,3,redshirts:2 lurker:1 nurse:1 captain:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,6,0,6,11,4,15
+40000,curve7,5,1,0,0,1,4.4,4,4,3,driver:2 commando:2 hacker:1 riot:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,8,0,8,12,7,19
+40000,curve7,5,1,0,0,0,10.35,4,4,2,doc:1 outlaws:1 doc:1 exorcist:1,rival:ace,Ace's cast,8,1,7,21,1,22
+40000,curve7,6,1,0,0,1,23.7,4,4,4,droids:2 commando:1 commando:1 captain:1,f2:rats b2:actor b3:actor,Method Actor,5,0,5,1,4,5
+40000,curve7,6,1,0,0,1,31.05,4,4,4,muscle:1 doc:2 muscle:1 brute:1,f2:rats b2:actor b3:actor,Method Actor,4,0,4,11,4,15
+40000,curve7,6,1,0,0,1,32.15,4,4,3,redshirts:2 nurse:2 bounty:1 necro:1,f2:rats b2:actor b3:actor,Method Actor,5,0,5,28,4,32
+40000,curve7,6,1,0,0,1,14.4,3,4,2,babykaiju:2 dodgeball:2 giantmoth:1,f2:rats b2:actor b3:actor,Method Actor,8,0,8,30,7,37
+40000,curve7,6,1,0,0,0,14.2,4,4,2,headcoach:1 dodgeball:1 dodgeball:1 radio:1,f2:rats b2:actor b3:actor,Method Actor,7,1,6,27,1,28
+40000,curve7,6,1,0,0,1,7.4,4,4,3,counselors:2 lurker:1 commando:2 queen:1,f2:rats b2:actor b3:actor,Method Actor,6,0,6,14,5,19
+40000,curve7,6,1,0,0,1,4.6,4,4,3,driver:2 commando:2 babykaiju:2 hacker:2,f2:rats b2:actor b3:actor,Method Actor,8,0,8,15,7,22
+40000,curve7,6,1,0,0,0,21.2,4,4,3,ravager:2 doc:1 doc:1 exorcist:1,rival:cue,Cue's cast,5,1,4,19,2,21
+40000,curve7,7,1,0,0,1,12.35,4,4,4,droids:2 commando:2 redshirts:2 pilot:2,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,5,0,5,1,5,6
+40000,curve7,7,1,0,0,1,27.8,4,4,4,muscle:2 doc:2 brute:1 ravager:2,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,4,0,4,17,5,22
+40000,curve7,7,1,0,0,0,18.95,4,4,4,redshirts:2 nurse:2 bounty:1 necro:1,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,5,1,4,28,1,29
+40000,curve7,7,1,0,0,1,13.6,3,4,2,babykaiju:2 giantmoth:1 reporter:2,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,8,0,8,43,7,50
+40000,curve7,7,1,0,0,1,4.5,4,4,3,headcoach:1 dodgeball:2 cheersquad:2 pitcher:2,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,6,0,6,25,4,29
+40000,curve7,7,1,0,0,1,7.4,4,4,4,counselors:2 lurker:1 commando:2 queen:1,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,6,0,6,13,5,18
+40000,curve7,7,1,0,0,1,4.35,4,4,3,driver:2 commando:2 babykaiju:2 hacker:2,f2:rats f0:mooks f1:rats b3:mic,Boom Mic Operator,8,0,8,26,7,33
+40000,curve7,7,1,0,0,1,17.9,4,4,4,ravager:2 exorcist:2 prospector:1 scorpion:1,rival:ace,Ace's cast,4,0,4,4,1,5
+40000,curve7,8,1,0,0,1,16.55,4,4,4,droids:2 commando:2 captain:1 redshirts:2,f1:actor b3:actor b2:actor b1:actor,Method Actor,5,0,5,8,5,13
+40000,curve7,8,1,0,0,1,17.2,5,5,5,muscle:2 doc:2 brute:1 waterboy:2 brute:1,f1:actor b3:actor b2:actor b1:actor,Method Actor,4,0,4,0,5,5
+40000,curve7,8,1,0,0,1,12.55,4,4,4,redshirts:2 nurse:2 necro:2 insideman:1,f1:actor b3:actor b2:actor b1:actor,Method Actor,4,0,4,23,4,27
+40000,curve7,8,1,0,0,1,24.1,3,4,3,babykaiju:2 giantmoth:1 reporter:2,f1:actor b3:actor b2:actor b1:actor,Method Actor,8,0,8,52,7,59
+40000,curve7,8,1,0,0,1,7.25,4,4,3,headcoach:1 dodgeball:2 cheersquad:2 pitcher:2,f1:actor b3:actor b2:actor b1:actor,Method Actor,6,0,6,33,5,38
+40000,curve7,8,1,0,0,1,12.9,4,4,4,counselors:2 commando:2 queen:2 finalgirl:1,f1:actor b3:actor b2:actor b1:actor,Method Actor,6,0,6,16,6,22
+40000,curve7,8,1,0,0,1,14.45,4,4,4,driver:2 commando:2 babykaiju:2 hacker:2,f1:actor b3:actor b2:actor b1:actor,Method Actor,8,0,8,27,7,34
+40000,curve7,8,1,0,0,1,7.25,4,4,4,ravager:2 exorcist:2 prospector:2 scorpion:1,f1:actor b3:actor b2:actor b1:actor,Method Actor,4,0,4,2,5,7
+40000,curve7,9,1,1,0,1,33.8,4,4,4,droids:2 commando:2 captain:2 starknight:1,f0:mooks f2:mooks b1:editor,The Editor,5,0,5,3,6,9
+40000,curve7,9,1,1,0,1,41.5,5,5,5,muscle:2 doc:2 brute:2 ravager:2 waterboy:2,f0:mooks f2:mooks b1:editor,The Editor,4,0,4,5,6,11
+40000,curve7,9,1,1,0,1,35.45,4,4,4,redshirts:2 nurse:2 necro:2 insideman:1,f0:mooks f2:mooks b1:editor,The Editor,4,0,4,28,5,33
+40000,curve7,9,1,1,0,0,34.75,4,5,5,babykaiju:2 giantmoth:1 reporter:2 hunter:1,f0:mooks f2:mooks b1:editor,The Editor,8,2,6,32,1,33
+40000,curve7,9,1,1,0,1,36.8,5,5,5,dodgeball:2 cheersquad:2 pitcher:2 radio:2 insideman:1,f0:mooks f2:mooks b1:editor,The Editor,6,0,6,3,5,8
+40000,curve7,9,1,1,0,1,19.45,5,5,5,counselors:2 commando:2 wraith:2 finalgirl:1 rifle:1,f0:mooks f2:mooks b1:editor,The Editor,6,0,6,8,7,15
+40000,curve7,9,1,1,0,1,20.05,5,5,5,driver:2 commando:2 babykaiju:2 hacker:2 riot:2,f0:mooks f2:mooks b1:editor,The Editor,8,0,8,25,7,32
+40000,curve7,9,1,1,0,0,20.05,4,4,4,exorcist:2 prospector:2 scorpion:1 scorpion:1,f0:mooks f2:mooks b1:editor,The Editor,4,2,2,6,1,7
+40000,curve7,10,2,0,0,0,12.9,4,4,4,commando:2 captain:2 redshirts:2 starknight:1,f1:actor b3:auditor,Vampire Auditor,5,1,4,14,1,15
+40000,curve7,10,2,0,0,0,34.05,5,5,5,ravager:2 waterboy:2 pitcher:1 nurse:1 dodgeball:1,f1:actor b3:auditor,Vampire Auditor,4,1,3,11,1,12
+40000,curve7,10,2,0,0,0,17.25,5,5,5,redshirts:2 nurse:2 necro:2 insideman:1 fixer:1,f1:actor b3:auditor,Vampire Auditor,4,1,3,9,3,12
+40000,curve7,10,2,0,0,0,14.2,3,5,5,babykaiju:2 giantmoth:1 giantmoth:1,f1:actor b3:auditor,Vampire Auditor,6,1,5,31,2,33
+40000,curve7,10,2,0,0,0,28.4,5,5,5,headcoach:1 dodgeball:2 cheersquad:2 radio:2 observer:1,f1:actor b3:auditor,Vampire Auditor,6,1,5,9,1,10
+40000,curve7,10,2,0,0,0,7.35,5,5,5,counselors:2 commando:2 wraith:2 finalgirl:1 rifle:1,f1:actor b3:auditor,Vampire Auditor,6,1,5,16,1,17
+40000,curve7,10,2,0,0,0,8.6,5,5,5,driver:2 commando:2 babykaiju:2 hacker:2 riot:2,f1:actor b3:auditor,Vampire Auditor,8,1,7,34,1,35
+40000,curve7,10,2,0,0,0,12.5,4,4,4,exorcist:2 prospector:2 scorpion:1 scorpion:1,rival:cue,Cue's cast,2,1,1,8,2,10
+40000,curve7,11,2,0,0,0,10.2,4,4,4,commando:2 captain:2 redshirts:2 starknight:1,b1:actor b3:actor f0:figures,Method Actor,4,1,3,21,2,23
+40000,curve7,11,2,0,0,0,14.55,5,5,5,doc:2 brute:2 ravager:2 waterboy:2 pitcher:2,b1:actor b3:actor f0:figures,Method Actor,3,1,2,17,2,19
+40000,curve7,11,2,0,0,1,23.2,5,5,5,nurse:2 chainsaw:2 necro:2 insideman:1 fixer:2,b1:actor b3:actor f0:figures,Method Actor,3,0,3,12,6,18
+40000,curve7,11,2,0,0,0,10,4,5,5,giantmoth:2 hunter:2 insideman:1 insideman:1,b1:actor b3:actor f0:figures,Method Actor,5,1,4,23,2,25
+40000,curve7,11,2,0,0,1,16.05,5,5,5,dodgeball:2 cheersquad:2 pitcher:2 radio:2 observer:1,b1:actor b3:actor f0:figures,Method Actor,5,0,5,18,4,22
+40000,curve7,11,2,0,0,0,13.5,5,5,5,counselors:2 queen:2 finalgirl:1 fieldmed:1 radio:1,b1:actor b3:actor f0:figures,Method Actor,5,1,4,18,2,20
+40000,curve7,11,2,0,0,0,8.15,5,5,5,driver:2 commando:2 babykaiju:2 hacker:2 riot:2,b1:actor b3:actor f0:figures,Method Actor,7,1,6,39,2,41
+40000,curve7,11,2,0,0,0,15.9,5,5,5,exorcist:2 prospector:2 scorpion:1 hacker:2 scorpion:1,rival:ivy,Ivy's cast,1,1,0,1,3,4

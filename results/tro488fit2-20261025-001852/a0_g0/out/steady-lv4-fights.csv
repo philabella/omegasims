@@ -1,0 +1,47 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,36,3,3,1,rifle:1 droids:1 dodgeball:1,f1:double b1:actor,Stunt Double,10,0,10,3,1,4
+40000,curve7,1,1,0,0,1,9.2,3,3,1,zombies:1 zombies:1 babykaiju:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,2,1,0,0,1,22.35,4,4,2,rifle:1 droids:1 dodgeball:1 dodgeball:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,3,2,5
+40000,curve7,2,1,0,0,1,7,4,4,2,zombies:1 zombies:1 babykaiju:2 babykaiju:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,0,2,2
+40000,curve7,4,1,0,0,1,8.6,4,4,2,rifle:2 droids:1 dodgeball:2 fieldmed:1,f1:mic b1:mic b2:mic b0:mic,Boom Mic Operator,10,0,10,14,2,16
+40000,curve7,4,1,0,0,1,9.25,4,4,2,zombies:2 babykaiju:2 babykaiju:1 zombies:1,f1:mic b1:mic b2:mic b0:mic,Boom Mic Operator,10,0,10,14,2,16
+40000,curve7,5,1,0,0,1,8.05,4,4,2,rifle:2 droids:1 dodgeball:2 fieldmed:1,b1:mic b0:mic f2:rats f3:mooks,Boom Mic Operator,10,0,10,22,3,25
+40000,curve7,5,1,0,0,0,15.25,4,4,2,zombies:2 babykaiju:2 babykaiju:1 zombies:1,rival:sal,Sal's cast,10,2,8,20,1,21
+40000,curve7,6,1,0,0,1,4.6,4,4,3,rifle:2 droids:2 dodgeball:2 fieldmed:1,f1:rats f0:rats f2:rats f3:rats,Backstage Rats,10,0,10,32,4,36
+40000,curve7,6,1,0,0,1,7.9,4,4,3,zombies:2 babykaiju:2 wraith:2 skelarch:2,rival:sal,Sal's cast,8,0,8,20,1,21
+40000,curve7,7,1,0,0,1,12.05,4,4,4,rifle:2 droids:2 dodgeball:2 fieldmed:1,f3:double f0:double f2:double f1:double,Stunt Double,10,0,10,29,4,33
+40000,curve7,7,1,0,0,1,9,4,4,3,zombies:2 babykaiju:2 wraith:2 skelarch:2,f3:double f0:double f2:double f1:double,Stunt Double,8,0,8,26,2,28
+40000,curve7,8,1,0,0,1,11.65,5,5,5,rifle:2 droids:2 dodgeball:2 fieldmed:1 gravegolem:1,f1:double b0:mic b1:actor b3:mic b2:mic,Stunt Double,10,0,10,25,4,29
+40000,curve7,8,1,0,0,1,7.8,4,4,4,zombies:2 babykaiju:2 wraith:2 skelarch:2,f1:double b0:mic b1:actor b3:mic b2:mic,Stunt Double,8,0,8,21,2,23
+40000,curve7,9,1,1,0,1,32.05,5,5,5,rifle:2 droids:2 dodgeball:2 fieldmed:1 gravegolem:1,f1:double b0:mic b2:editor,The Editor,10,0,10,33,7,40
+40000,curve7,9,1,1,0,1,14.05,4,4,4,zombies:2 wraith:2 chainsaw:2 necro:2,f1:double b0:mic b2:editor,The Editor,8,0,8,3,6,9
+40000,curve7,10,2,0,0,1,44.35,6,6,6,rifle:2 droids:2 dodgeball:2 fieldmed:1 captain:1 sheriff:1,f0:double b2:auditor b0:sniper,Stunt Double,10,0,10,26,4,30
+40000,curve7,10,2,0,0,1,11.15,4,4,4,zombies:2 wraith:2 chainsaw:2 necro:2,f0:double b2:auditor b0:sniper,Stunt Double,8,0,8,14,4,18
+40000,curve7,11,2,0,0,1,30.35,6,6,6,rifle:2 droids:2 dodgeball:2 fieldmed:1 sheriff:1 starknight:1,ghost:11:21,Rerun: Army + Kaiju cast,10,0,10,33,4,37
+40000,curve7,11,2,0,0,0,20.65,4,4,4,zombies:2 wraith:2 chainsaw:2 necro:2,ghost:11:21,Rerun: Army + Kaiju cast,8,2,6,24,1,25
+40000,curve7,13,2,0,0,1,33.65,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:1 starknight:1 starknight:1,f0:mech f1:mech f2:mech,Driving-Test Mech,10,0,10,27,6,33
+40000,curve7,13,2,0,0,1,19.55,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3,f0:mech f1:mech f2:mech,Driving-Test Mech,6,0,6,21,1,22
+40000,curve7,14,2,0,0,1,8.5,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:1 starknight:1 starknight:1,f1:figures f0:figures f2:figures,Bootleg Figures,10,0,10,35,6,41
+40000,curve7,14,2,0,0,1,7.35,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3,f1:figures f0:figures f2:figures,Bootleg Figures,6,0,6,29,2,31
+40000,curve7,15,2,0,0,1,5.95,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:1 starknight:1 starknight:1,ghost:15:18,Rerun: Wild West cast,10,0,10,46,6,52
+40000,curve7,15,2,0,0,1,5.2,5,5,5,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3,ghost:15:18,Rerun: Wild West cast,6,0,6,39,2,41
+40000,curve7,16,2,0,0,1,23.4,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:1 starknight:1 starknight:1,f1:mooks f2:mech f3:mooks f0:rats,Driving-Test Mech,10,0,10,55,6,61
+40000,curve7,16,2,0,0,1,7.85,6,6,6,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,f1:mooks f2:mech f3:mooks f0:rats,Driving-Test Mech,6,0,6,18,3,21
+40000,curve7,17,2,0,0,1,24.35,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:1 starknight:1 starknight:1,f2:mech f0:mech b0:sniper f3:double f1:ninjas,Driving-Test Mech,10,0,10,71,6,77
+40000,curve7,17,2,0,0,1,10.7,6,6,6,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,f2:mech f0:mech b0:sniper f3:double f1:ninjas,Driving-Test Mech,6,0,6,26,4,30
+40000,curve7,18,2,1,0,1,40.4,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:1 starknight:1 starknight:1,f0:mech f2:figures b1:shared,The Shared Universe,10,0,10,87,9,96
+40000,curve7,18,2,1,0,1,19.45,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,f0:mech f2:figures b1:shared,The Shared Universe,6,0,6,6,7,13
+40000,curve7,19,3,0,0,1,9.4,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:2 starknight:1 starknight:1,f2:ninjas f0:ninjas f3:ninjas f1:ninjas,Holo-Ninjas,10,0,10,100,7,107
+40000,curve7,19,3,0,0,1,5.6,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,f2:ninjas f0:ninjas f3:ninjas f1:ninjas,Holo-Ninjas,6,0,6,19,4,23
+40000,curve7,20,3,0,0,1,9.6,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:2 starknight:2 starknight:1,b0:actor f1:spoiler f3:spoiler,Spoiler,10,0,10,107,7,114
+40000,curve7,20,3,0,0,1,8.4,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,b0:actor f1:spoiler f3:spoiler,Spoiler,6,0,6,20,4,24
+40000,curve7,22,3,0,0,1,31.8,6,6,7,droids:2 fieldmed:2 captain:2 sheriff:2 starknight:2 starknight:1,ghost:22:0,Rerun: Slasher cast,8,0,8,150,7,157
+40000,curve7,22,3,0,0,1,15.35,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,ghost:22:0,Rerun: Slasher cast,6,0,6,21,4,25
+40000,curve7,23,3,0,0,0,14.9,6,6,7,droids:2 fieldmed:2 captain:3 sheriff:2 starknight:2 starknight:1,ghost:23:4,Rerun: Heist Crew + Undead cast,8,3,5,162,1,163
+40000,curve7,23,3,0,0,1,18.35,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,ghost:23:4,Rerun: Heist Crew + Undead cast,6,0,6,20,4,24
+40000,curve7,24,3,0,0,1,22.85,6,6,7,droids:2 fieldmed:3 captain:3 sheriff:2 starknight:2 starknight:1,b0:sniper b1:breaker b2:mic f0:plotarmor,Plot Armor,5,0,5,162,4,166
+40000,curve7,24,3,0,0,0,21.35,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,b0:sniper b1:breaker b2:mic f0:plotarmor,Plot Armor,6,3,3,21,1,22
+40000,curve7,25,3,0,0,1,12.05,6,6,7,fieldmed:3 captain:3 sheriff:2 starknight:2 starknight:1 starknight:1,f3:figures f0:figures f1:figures f2:figures,Bootleg Figures,5,0,5,172,5,177
+40000,curve7,25,3,0,0,1,9.55,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,f3:figures f0:figures f1:figures f2:figures,Bootleg Figures,3,0,3,7,1,8
+40000,curve7,26,3,0,0,1,31.6,7,7,8,fieldmed:3 captain:3 sheriff:2 starknight:2 starknight:1 sheriff:1 starknight:1,b1:breaker b3:breaker f2:plotarmor f3:double b2:sniper,Plot Armor,5,0,5,161,5,166
+40000,curve7,26,3,0,0,0,22.6,6,6,7,zombies:2 babykaiju:2 wraith:2 chainsaw:2 necro:3 queen:2,b1:breaker b3:breaker f2:plotarmor f3:double b2:sniper,Plot Armor,3,3,0,7,1,8

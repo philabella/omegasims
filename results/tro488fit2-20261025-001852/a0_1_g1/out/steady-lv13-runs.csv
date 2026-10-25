@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,24,0,21,12,9,36,7,,,,,6,205,10,70,56,76,15,28,-11,8,6,ravager:2 scorpion:2 nurse:2 spitters:2 scorpion:1 queen:2,bug3,brawler1,,4,hollow glass stage banner,pheromone,0,2,0.5,
