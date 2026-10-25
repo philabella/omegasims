@@ -1,0 +1,65 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,13.25,3,3,1,zombies:1 commando:1 riot:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,0,26.75,3,3,1,babykaiju:1 riot:1 doc:1,f1:double b1:actor,Stunt Double,8,1,7,3,1,4
+40000,curve7,1,1,0,0,1,7.95,3,3,1,zombies:1 skelarch:1 vampbat:1,f1:double b1:actor,Stunt Double,8,0,8,0,1,1
+40000,curve7,1,1,0,0,1,12.5,3,3,1,ravager:1 dodgeball:1 babykaiju:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,10.3,3,3,1,riot:1 skelarch:1 lookouts:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,36,3,3,1,counselors:1 redshirts:1 redshirts:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,1,22.95,3,3,1,muscle:1 counselors:1 pilot:1,f1:double b1:actor,Stunt Double,8,0,8,3,1,4
+40000,curve7,1,1,0,0,0,15.85,3,3,1,babysitter:1 doc:1 doc:1,f1:double b1:actor,Stunt Double,8,1,7,0,1,1
+40000,curve7,2,1,0,0,1,18.9,4,4,2,zombies:1 commando:1 riot:1 riot:1,f1:double b1:actor,Stunt Double,8,0,8,3,2,5
+40000,curve7,2,1,0,0,1,15.2,4,4,2,babykaiju:1 babykaiju:1 kids:1 tanks:1,f1:double b1:actor,Stunt Double,7,0,7,2,1,3
+40000,curve7,2,1,0,0,1,6.65,4,4,2,zombies:2 skelarch:1 vampbat:1 vampbat:1,f1:double b1:actor,Stunt Double,8,0,8,0,2,2
+40000,curve7,2,1,0,0,1,12.3,4,4,2,ravager:1 dodgeball:1 babykaiju:2 pilot:1,f1:double b1:actor,Stunt Double,8,0,8,2,2,4
+40000,curve7,2,1,0,0,0,19.6,3,3,1,riot:1 skelarch:1 lookouts:1,f1:double b1:actor,Stunt Double,8,1,7,9,1,10
+40000,curve7,2,1,0,0,0,18.55,3,3,1,counselors:1 redshirts:1 redshirts:1,f1:double b1:actor,Stunt Double,8,1,7,9,1,10
+40000,curve7,2,1,0,0,1,14,4,4,2,muscle:2 counselors:1 pilot:2 pilot:1,f1:double b1:actor,Stunt Double,8,0,8,0,2,2
+40000,curve7,2,1,0,0,0,33.8,4,4,2,ravager:1 babysitter:1 doc:2 doc:1,f1:double b1:actor,Stunt Double,7,1,6,0,2,2
+40000,curve7,4,1,0,0,1,20.05,4,4,2,zombies:1 commando:1 riot:1 riot:1,f2:rats f0:rats f1:mooks,Backstage Rats,6,0,6,32,5,37
+40000,curve7,4,1,0,0,1,9.25,3,4,2,babykaiju:2 kids:1 giantmoth:1,f2:rats f0:rats f1:mooks,Backstage Rats,7,0,7,12,5,17
+40000,curve7,4,1,0,0,1,12.3,4,4,2,skelarch:1 vampbat:2 driver:1 exorcist:1,f2:rats f0:rats f1:mooks,Backstage Rats,8,0,8,12,5,17
+40000,curve7,4,1,0,0,1,16.9,4,4,2,ravager:1 dodgeball:1 babykaiju:2 pilot:1,f2:rats f0:rats f1:mooks,Backstage Rats,8,0,8,23,5,28
+40000,curve7,4,1,0,0,1,24.2,4,4,3,fieldmed:1 skelarch:1 lookouts:1 lookouts:1,f2:rats f0:rats f1:mooks,Backstage Rats,7,0,7,9,4,13
+40000,curve7,4,1,0,0,1,29.3,4,4,3,counselors:2 redshirts:2 riot:1 wraith:1,f2:rats f0:rats f1:mooks,Backstage Rats,7,0,7,4,4,8
+40000,curve7,4,1,0,0,1,11.9,4,4,2,fixer:2 counselors:2 pilot:2 hacker:1,f2:rats f0:rats f1:mooks,Backstage Rats,8,0,8,8,5,13
+40000,curve7,4,1,0,0,0,25.25,4,4,2,ravager:1 babysitter:1 doc:2 doc:1,rival:goldie,Goldie's cast,6,1,5,16,2,18
+40000,curve7,5,1,0,0,1,12.05,4,4,2,zombies:1 commando:1 riot:1 riot:1,f0:rats f1:rats f2:rats,Backstage Rats,6,0,6,45,6,51
+40000,curve7,5,1,0,0,1,7.95,3,4,2,babykaiju:2 kids:2 giantmoth:1,f0:rats f1:rats f2:rats,Backstage Rats,7,0,7,21,5,26
+40000,curve7,5,1,0,0,1,4.2,4,4,3,zombies:2 vampbat:2 exorcist:1 chainsaw:1,f0:rats f1:rats f2:rats,Backstage Rats,8,0,8,12,6,18
+40000,curve7,5,1,0,0,1,9.05,4,4,3,ravager:1 dodgeball:1 babykaiju:2 wraith:1,f0:rats f1:rats f2:rats,Backstage Rats,8,0,8,25,6,31
+40000,curve7,5,1,0,0,0,13.9,4,4,3,fieldmed:1 lookouts:1 fieldmed:1 pointguard:1,f0:rats f1:rats f2:rats,Backstage Rats,7,1,6,11,1,12
+40000,curve7,5,1,0,0,1,9.4,4,4,3,counselors:2 redshirts:2 riot:2 wraith:2,f0:rats f1:rats f2:rats,Backstage Rats,7,0,7,3,5,8
+40000,curve7,5,1,0,0,1,12.95,4,4,3,fixer:2 counselors:2 pilot:2 hacker:1,f0:rats f1:rats f2:rats,Backstage Rats,8,0,8,9,6,15
+40000,curve7,5,1,0,0,0,11.6,4,4,2,babysitter:1 doc:2 doc:1 reporter:1,rival:kit,Kit's cast,5,1,4,22,3,25
+40000,curve7,6,1,0,0,1,5.45,4,4,3,zombies:2 vampbat:2 skelarch:2 wraith:2,f3:double b1:actor b0:actor b2:actor,Stunt Double,6,0,6,2,7,9
+40000,curve7,6,1,0,0,1,19.9,3,4,2,babykaiju:2 kids:2 giantmoth:1,f3:double b1:actor b0:actor b2:actor,Stunt Double,7,0,7,22,6,28
+40000,curve7,6,1,0,0,1,8.9,4,4,3,skelarch:2 vampbat:2 exorcist:1 chainsaw:1,f3:double b1:actor b0:actor b2:actor,Stunt Double,8,0,8,13,7,20
+40000,curve7,6,1,0,0,1,13.55,4,4,3,ravager:1 babykaiju:2 wraith:1 radio:1,f3:double b1:actor b0:actor b2:actor,Stunt Double,8,0,8,29,7,36
+40000,curve7,6,1,0,0,1,17.8,4,4,3,lookouts:2 pointguard:1 nurse:1 lurker:1,f3:double b1:actor b0:actor b2:actor,Stunt Double,6,0,6,16,4,20
+40000,curve7,6,1,0,0,1,30.35,4,4,3,counselors:2 redshirts:2 riot:2 deputy:2,f3:double b1:actor b0:actor b2:actor,Stunt Double,7,0,7,2,5,7
+40000,curve7,6,1,0,0,1,12.95,4,4,3,fixer:2 counselors:2 pilot:2 hacker:1,f3:double b1:actor b0:actor b2:actor,Stunt Double,8,0,8,12,7,19
+40000,curve7,6,1,0,0,0,22.35,4,4,3,ravager:2 babysitter:2 doc:2 reporter:2,rival:sal,Sal's cast,4,1,3,7,4,11
+40000,curve7,7,1,0,0,1,6.2,4,4,3,zombies:2 bounty:2 vampbat:2 wraith:2,b0:mic f1:mooks b2:mic b1:actor,Method Actor,6,0,6,14,7,21
+40000,curve7,7,1,0,0,0,22.7,3,4,3,babykaiju:2 kids:2 giantmoth:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,7,1,6,28,1,29
+40000,curve7,7,1,0,0,1,9.4,4,4,4,skelarch:2 vampbat:2 exorcist:1 chainsaw:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,8,0,8,13,7,20
+40000,curve7,7,1,0,0,1,20.05,4,4,4,babykaiju:2 wraith:1 radio:1 radio:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,8,0,8,28,7,35
+40000,curve7,7,1,0,0,1,16.5,4,4,4,lookouts:2 pointguard:1 nurse:1 lurker:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,6,0,6,10,5,15
+40000,curve7,7,1,0,0,0,32.5,4,4,3,counselors:2 redshirts:2 riot:2 deputy:2,b0:mic f1:mooks b2:mic b1:actor,Method Actor,7,1,6,12,1,13
+40000,curve7,7,1,0,0,1,19,4,4,4,fixer:2 counselors:2 pilot:2 hacker:1,b0:mic f1:mooks b2:mic b1:actor,Method Actor,8,0,8,9,7,16
+40000,curve7,7,1,0,0,0,13.8,4,4,4,babysitter:2 doc:2 reporter:2 lurker:2,rival:ivy,Ivy's cast,3,1,2,0,4,4
+40000,curve7,8,1,0,0,1,9.2,4,4,3,bounty:2 vampbat:2 driver:2 wraith:2,f2:double f1:double f0:double f3:double,Stunt Double,6,0,6,28,7,35
+40000,curve7,8,1,0,0,0,37.65,3,4,3,babykaiju:2 kids:2 giantmoth:1,f2:double f1:double f0:double f3:double,Stunt Double,6,1,5,29,2,31
+40000,curve7,8,1,0,0,1,10.2,5,5,5,zombies:2 skelarch:2 vampbat:2 exorcist:1 chainsaw:2,f2:double f1:double f0:double f3:double,Stunt Double,8,0,8,7,7,14
+40000,curve7,8,1,0,0,1,15.75,5,5,5,babykaiju:2 wraith:1 radio:1 radio:1 scientist:1,f2:double f1:double f0:double f3:double,Stunt Double,8,0,8,25,7,32
+40000,curve7,8,1,0,0,1,9.2,4,4,4,lookouts:2 lurker:2 finalgirl:1 finalgirl:1,f2:double f1:double f0:double f3:double,Stunt Double,6,0,6,0,5,5
+40000,curve7,8,1,0,0,1,37.65,4,4,4,counselors:2 redshirts:2 riot:2 brute:1,f2:double f1:double f0:double f3:double,Stunt Double,6,0,6,1,4,5
+40000,curve7,8,1,0,0,1,19.4,4,4,4,fixer:2 counselors:2 hacker:2 bonesetter:1,f2:double f1:double f0:double f3:double,Stunt Double,8,0,8,16,7,23
+40000,curve7,8,1,0,0,1,10.5,4,4,4,babysitter:2 doc:2 reporter:2 lurker:2,f2:double f1:double f0:double f3:double,Stunt Double,2,0,2,5,4,9
+40000,curve7,9,1,1,0,1,20.2,5,5,5,zombies:2 bounty:2 vampbat:2 driver:2 wraith:2,f1:double b0:mic b2:editor,The Editor,6,0,6,12,7,19
+40000,curve7,9,1,1,0,0,24.15,4,5,5,babykaiju:2 kids:2 giantmoth:1 tanks:2,f1:double b0:mic b2:editor,The Editor,5,2,3,4,2,6
+40000,curve7,9,1,1,0,1,23.45,5,5,5,zombies:2 skelarch:2 exorcist:1 chainsaw:2 gunslinger:1,f1:double b0:mic b2:editor,The Editor,8,0,8,13,7,20
+40000,curve7,9,1,1,0,0,27.35,5,5,5,ravager:2 babykaiju:2 radio:1 headcoach:1 fieldmed:1,f1:double b0:mic b2:editor,The Editor,8,2,6,35,1,36
+40000,curve7,9,1,1,0,0,22.1,4,4,4,lookouts:2 lurker:2 finalgirl:1 finalgirl:1,f1:double b0:mic b2:editor,The Editor,6,2,4,10,1,11
+40000,curve7,9,1,1,0,0,25.3,4,4,4,counselors:2 redshirts:2 riot:2 brute:1,f1:double b0:mic b2:editor,The Editor,6,2,4,3,1,4
+40000,curve7,9,1,1,0,1,36,5,5,5,fixer:2 bonesetter:1 gravegolem:1 fixer:1 scorpion:1,f1:double b0:mic b2:editor,The Editor,8,0,8,2,9,11
+40000,curve7,9,1,1,0,0,36.55,4,4,4,babysitter:2 doc:2 lurker:2 nurse:2,f1:double b0:mic b2:editor,The Editor,2,2,0,2,1,3

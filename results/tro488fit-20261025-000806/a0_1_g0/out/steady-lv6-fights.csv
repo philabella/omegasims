@@ -1,0 +1,45 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,7.4,3,3,1,vampbat:1 skelarch:1 zombies:1,f1:double b1:actor,Stunt Double,10,0,10,3,1,4
+40000,curve7,1,1,0,0,1,20.15,3,3,1,babykaiju:1 redshirts:1 deputy:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,1,1,0,0,0,19.55,3,3,1,droids:1 babysitter:1 babysitter:1,f1:double b1:actor,Stunt Double,10,1,9,2,1,3
+40000,curve7,1,1,0,0,0,15.95,3,3,1,babysitter:1 doc:1 babysitter:1,f1:double b1:actor,Stunt Double,10,1,9,0,1,1
+40000,curve7,2,1,0,0,1,5.45,4,4,2,vampbat:1 skelarch:2 zombies:1 zombies:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,2,2,4
+40000,curve7,2,1,0,0,1,21.1,4,4,2,babykaiju:1 redshirts:1 deputy:1 redshirts:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,0,2,2
+40000,curve7,2,1,0,0,1,10.45,4,4,2,droids:1 babysitter:2 kids:2 commando:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,2,1,0,0,1,32.55,4,4,2,ravager:1 babysitter:1 doc:2 babysitter:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,4,1,0,0,1,7.85,4,4,2,skelarch:2 zombies:1 zombies:1 necro:1,b1:actor b0:actor f2:mooks,Method Actor,10,0,10,14,5,19
+40000,curve7,4,1,0,0,0,18.4,4,4,2,babykaiju:1 redshirts:1 deputy:1 redshirts:1,b1:actor b0:actor f2:mooks,Method Actor,8,1,7,29,1,30
+40000,curve7,4,1,0,0,1,4.4,4,4,2,babysitter:2 kids:2 commando:1 rifle:1,b1:actor b0:actor f2:mooks,Method Actor,9,0,9,12,5,17
+40000,curve7,4,1,0,0,0,11.4,4,4,2,ravager:1 babysitter:2 doc:2 finalgirl:1,rival:sal,Sal's cast,9,1,8,9,1,10
+40000,curve7,5,1,0,0,1,5.8,4,4,2,vampbat:1 skelarch:2 zombies:2 necro:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,10,0,10,23,6,29
+40000,curve7,5,1,0,0,1,16.95,4,4,3,babykaiju:1 redshirts:2 reporter:1 babykaiju:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,7,0,7,32,4,36
+40000,curve7,5,1,0,0,1,5.25,4,4,2,babysitter:2 kids:2 commando:1 rifle:1,b2:mic b1:mic f0:rats b0:mic,Boom Mic Operator,9,0,9,23,5,28
+40000,curve7,5,1,0,0,0,8.4,4,4,2,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:penny,Penny's cast,8,1,7,15,2,17
+40000,curve7,6,1,0,0,1,5.05,4,4,3,skelarch:2 zombies:2 necro:1 gunslinger:2,f2:rats b1:actor b3:mic f3:mooks,Method Actor,10,0,10,30,7,37
+40000,curve7,6,1,0,0,1,18.5,4,4,4,babykaiju:2 redshirts:2 cheersquad:2 fieldmed:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,7,0,7,29,5,34
+40000,curve7,6,1,0,0,1,5.35,4,4,2,babysitter:2 kids:2 commando:1 rifle:1,f2:rats b1:actor b3:mic f3:mooks,Method Actor,9,0,9,47,6,53
+40000,curve7,6,1,0,0,0,10.25,4,4,3,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:sal,Sal's cast,7,1,6,20,2,22
+40000,curve7,7,1,0,0,1,5.05,4,4,4,vampbat:2 skelarch:2 zombies:2 gunslinger:2,f0:mooks f2:rats f1:mooks b3:mic,Boom Mic Operator,10,0,10,31,7,38
+40000,curve7,7,1,0,0,1,26.65,4,4,4,babykaiju:2 redshirts:2 cheersquad:2 fieldmed:1,f0:mooks f2:rats f1:mooks b3:mic,Boom Mic Operator,7,0,7,40,5,45
+40000,curve7,7,1,0,0,1,5.8,5,5,5,babysitter:2 kids:2 commando:1 rifle:1 exorcist:1,f0:mooks f2:rats f1:mooks b3:mic,Boom Mic Operator,9,0,9,12,7,19
+40000,curve7,7,1,0,0,1,31.6,4,4,3,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:hugo,Hugo's cast,6,0,6,28,1,29
+40000,curve7,8,1,0,0,1,3.25,5,5,5,vampbat:2 skelarch:2 zombies:2 necro:1 gunslinger:2,f1:actor b3:actor b2:actor b1:actor,Method Actor,10,0,10,26,7,33
+40000,curve7,8,1,0,0,1,5.6,5,5,5,babykaiju:2 redshirts:2 cheersquad:2 fieldmed:2 hunter:1,f1:actor b3:actor b2:actor b1:actor,Method Actor,7,0,7,30,6,36
+40000,curve7,8,1,0,0,1,7.4,5,6,6,babysitter:2 kids:2 commando:1 rifle:1 exorcist:1,f1:actor b3:actor b2:actor b1:actor,Method Actor,9,0,9,12,7,19
+40000,curve7,8,1,0,0,0,8.25,4,4,4,ravager:2 babysitter:2 doc:2 kids:2,rival:penny,Penny's cast,6,1,5,21,1,22
+40000,curve7,9,1,1,0,1,10.35,5,5,5,vampbat:2 skelarch:2 zombies:2 necro:1 gunslinger:2,f1:double b0:mic b2:editor,The Editor,10,0,10,36,7,43
+40000,curve7,9,1,1,0,1,8.5,5,6,6,babykaiju:2 cheersquad:2 hunter:2 pointguard:1 pointguard:1,f1:double b0:mic b2:editor,The Editor,7,0,7,6,7,13
+40000,curve7,9,1,1,0,1,33.25,6,6,6,droids:2 babysitter:2 kids:2 exorcist:2 brute:1 necro:1,f1:double b0:mic b2:editor,The Editor,9,0,9,5,7,12
+40000,curve7,9,1,1,0,0,32.1,4,4,4,babysitter:2 doc:2 kids:2 mule:2,f1:double b0:mic b2:editor,The Editor,5,2,3,6,2,8
+40000,curve7,10,2,0,0,1,11.2,5,5,5,vampbat:2 skelarch:2 zombies:2 necro:1 gunslinger:2,f0:mooks b2:auditor b0:auditor,Vampire Auditor,10,0,10,50,7,57
+40000,curve7,10,2,0,0,0,32.4,6,6,6,babykaiju:2 cheersquad:2 fieldmed:2 hunter:2 pointguard:2 mascot:1,f0:mooks b2:auditor b0:auditor,Vampire Auditor,7,1,6,11,1,12
+40000,curve7,10,2,0,0,1,22.75,6,6,6,droids:2 babysitter:2 kids:2 exorcist:2 brute:1 necro:2,f0:mooks b2:auditor b0:auditor,Vampire Auditor,9,0,9,15,7,22
+40000,curve7,10,2,0,0,0,12.9,5,5,5,babysitter:2 doc:2 finalgirl:1 kids:2 mule:2,rival:hugo,Hugo's cast,3,1,2,0,2,2
+40000,curve7,11,2,0,0,1,6.05,6,6,6,vampbat:2 skelarch:2 zombies:2 necro:1 gunslinger:2 bonesetter:1,f1:mic b0:mic b3:mic,Boom Mic Operator,10,0,10,46,7,53
+40000,curve7,11,2,0,0,1,8.05,5,6,6,cheersquad:2 fieldmed:2 pointguard:2 mascot:1 fieldmed:1,f1:mic b0:mic b3:mic,Boom Mic Operator,6,0,6,10,4,14
+40000,curve7,11,2,0,0,1,20.7,6,6,6,droids:2 babysitter:2 kids:2 exorcist:2 brute:1 necro:2,f1:mic b0:mic b3:mic,Boom Mic Operator,9,0,9,29,7,36
+40000,curve7,11,2,0,0,0,10.25,5,5,5,babysitter:2 doc:2 finalgirl:1 kids:2 mule:2,rival:sal,Sal's cast,2,1,1,7,3,10
+40000,curve7,13,2,0,0,1,7.45,5,7,8,skelarch:2 zombies:2 gunslinger:2 bonesetter:1 bonesetter:1,b2:mic f3:rats f0:double,Stunt Double,8,0,8,13,7,20
+40000,curve7,13,2,0,0,1,16.05,6,6,6,cheersquad:2 fieldmed:3 pointguard:2 mascot:1 starknight:1 starknight:1,b2:mic f3:rats f0:double,Stunt Double,6,0,6,17,5,22
+40000,curve7,13,2,0,0,1,21.25,6,6,6,droids:2 babysitter:2 kids:2 exorcist:2 brute:1 necro:2,b2:mic f3:rats f0:double,Stunt Double,9,0,9,60,7,67
+40000,curve7,13,2,0,0,0,12.55,5,5,5,babysitter:2 finalgirl:2 kids:2 mule:2 counselors:2,rival:hugo,Hugo's cast,1,1,0,7,4,11

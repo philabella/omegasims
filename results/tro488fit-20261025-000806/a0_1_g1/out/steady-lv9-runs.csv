@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,17,0,15,3,7,21,6,,,,,6,132,10,59,22,56,13,18,6,17,6,babysitter:2 exorcist:2 chainsaw:2 bonesetter:1 nurse:2 bonesetter:1,horror1,medic1,,1,overclock,lightsout,0,2,0.667,
