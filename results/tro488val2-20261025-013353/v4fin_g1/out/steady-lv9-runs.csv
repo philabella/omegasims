@@ -1,0 +1,2 @@
+seed,policy,kind,focus,forced_legend,result,round,lives,fights,fights_won,merges,rerolls,rank,rank2_round,rank3_round,rank4_round,rank5_round,gold_start,gold_earned,gold_sold,gold_spent_buy,gold_spent_reroll,gold_spent_rank,gold_interest,gold_streak,gold_other,gold_left,board_n,board,genres,traits,crossovers,items_n,items,legendary,mythic_fielded,epic_plus,common_share,err
+40000,curve7,greedy,,,lose,16,0,14,5,6,15,6,,,,,6,111,7,50,14,52,11,8,0,8,6,babysitter:2 doc:2 headcoach:2 fixer:2 cheersquad:2 nurse:2,"heist1,ball1",medic2,fixed,2,overclock battery,halftime,0,0,0.667,

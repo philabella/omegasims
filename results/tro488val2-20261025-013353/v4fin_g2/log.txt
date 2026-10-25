@@ -1,0 +1,44 @@
+nproc 4 · node v22.23.3 · timeout 120 min
+$ cd fastsim && node actloss.js --build ../sims/builds/fin.html --levels 13,14,15,16,17,18 --expert 400 --steady 1 --workers 4 --seedtag v4488 --out ../out
+[smartbot] engine: vm (fastsim, no browser)
+Lv13 done in 106 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv14 done in 105 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv15 done in 101 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv16 done in 101 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv17 done in 100 s
+[smartbot] engine: vm (fastsim, no browser)
+Lv18 done in 113 s
+| Level | bot | n | Ep 1 won | run win | reached R36 | R36 won 1st try | fights lost per act (A1/A2/A3/A4) | runs losing 1+ fight in the act |
+|---|---|---|---|---|---|---|---|---|
+| 13 | human | 400 | 95% | 43% | 69% | 50% | 1.07 / 1.41 / 0.98 / 1.23 | 65% / 68% / 54% / 60% |
+| 13 | steady | 1 | 100% | 0% | 0% | - | 11.00 / 14.00 / - / - | 100% / 100% / - / - |
+| 14 | human | 400 | 95% | 42% | 64% | 57% | 1.02 / 1.38 / 1.18 / 1.18 | 61% / 68% / 61% / 60% |
+| 14 | steady | 1 | 0% | 0% | 0% | - | 15.00 / 11.00 / - / - | 100% / 100% / - / - |
+| 15 | human | 400 | 95% | 38% | 55% | 63% | 1.29 / 1.65 / 1.31 / 1.16 | 70% / 76% / 62% / 57% |
+| 15 | steady | 1 | 100% | 0% | 0% | - | 18.00 / - / - / - | 100% / - / - / - |
+| 16 | human | 400 | 95% | 33% | 55% | 52% | 1.22 / 1.58 / 1.12 / 1.22 | 71% / 71% / 61% / 63% |
+| 16 | steady | 1 | 100% | 0% | 0% | - | 16.00 / - / - / - | 100% / - / - / - |
+| 17 | human | 400 | 95% | 24% | 45% | 42% | 1.32 / 1.85 / 1.38 / 1.43 | 73% / 81% / 69% / 75% |
+| 17 | steady | 1 | 100% | 0% | 0% | - | 18.00 / 12.00 / - / - | 100% / 100% / - / - |
+| 18 | human | 400 | 95% | 25% | 56% | 36% | 1.12 / 1.37 / 1.15 / 1.55 | 65% / 68% / 61% / 77% |
+| 18 | steady | 1 | 0% | 0% | 0% | - | 13.00 / 13.00 / - / - | 100% / 100% / - / - |
+
+| Level | bot | boss losses on timeout A1 / A2 / A3 / A4 | other fight losses on timeout |
+|---|---|---|---|
+| 13 | human | 0/10 / 0/25 / 0/48 / 0/232 | 0/1427 |
+| 13 | steady | - / - / - / - | - |
+| 14 | human | 0/17 / 0/35 / 0/72 / 0/175 | 0/1444 |
+| 14 | steady | - / - / - / - | - |
+| 15 | human | 0/15 / 0/39 / 0/60 / 0/128 | 0/1697 |
+| 15 | steady | - / - / - / - | - |
+| 16 | human | 0/15 / 0/38 / 0/47 / 0/172 | 0/1534 |
+| 16 | steady | - / - / - / - | - |
+| 17 | human | 0/20 / 0/38 / 0/58 / 0/154 | 0/1782 |
+| 17 | steady | - / - / - / - | - |
+| 18 | human | 0/10 / 0/24 / 0/63 / 0/235 | 0/1485 |
+| 18 | steady | - / - / - / - | - |
+exit 0

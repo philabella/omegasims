@@ -1,0 +1,49 @@
+seed,policy,round,act,boss,boss_retry,win,duration_s,board_n,board_cap,rank,board,enemy_tpl,enemy_title,lives_before,lives_lost,lives_after,gold_before,gold_gain,gold_after
+40000,curve7,1,1,0,0,1,7.35,3,3,1,vampbat:1 skelarch:1 zombies:1,f1:double b1:actor,Stunt Double,10,0,10,3,1,4
+40000,curve7,1,1,0,0,1,20.2,3,3,1,babykaiju:1 redshirts:1 deputy:1,f1:double b1:actor,Stunt Double,10,0,10,0,1,1
+40000,curve7,1,1,0,0,0,18.3,3,3,1,droids:1 babysitter:1 babysitter:1,f1:double b1:actor,Stunt Double,10,1,9,2,1,3
+40000,curve7,1,1,0,0,0,15.95,3,3,1,babysitter:1 doc:1 babysitter:1,f1:double b1:actor,Stunt Double,10,1,9,0,1,1
+40000,curve7,2,1,0,0,1,5.95,4,4,2,vampbat:1 skelarch:1 zombies:2 skelarch:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,2,2,4
+40000,curve7,2,1,0,0,1,38.15,4,4,2,redshirts:1 deputy:1 redshirts:1 deputy:1,f0:mooks b1:mic,Boom Mic Operator,10,0,10,0,2,2
+40000,curve7,2,1,0,0,1,12.95,4,4,2,droids:2 babysitter:2 kids:1 kids:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,2,1,0,0,1,32.55,4,4,2,ravager:1 babysitter:1 doc:2 babysitter:1,f0:mooks b1:mic,Boom Mic Operator,9,0,9,0,1,1
+40000,curve7,4,1,0,0,1,6.1,4,4,2,vampbat:1 skelarch:2 zombies:2 wraith:1,b1:actor b0:actor f2:mooks,Method Actor,10,0,10,20,5,25
+40000,curve7,4,1,0,0,0,17.8,4,4,2,redshirts:1 deputy:1 redshirts:1 deputy:1,b1:actor b0:actor f2:mooks,Method Actor,8,1,7,29,1,30
+40000,curve7,4,1,0,0,1,3.4,4,4,2,droids:2 babysitter:2 kids:2 smuggler:1,b1:actor b0:actor f2:mooks,Method Actor,9,0,9,11,5,16
+40000,curve7,4,1,0,0,0,12.8,4,4,2,ravager:1 babysitter:2 doc:2 finalgirl:1,rival:sal,Sal's cast,9,1,8,9,1,10
+40000,curve7,5,1,0,0,1,5.4,4,4,3,vampbat:2 skelarch:2 zombies:2 wraith:1,f1:actor b1:actor b2:actor,Method Actor,10,0,10,25,6,31
+40000,curve7,5,1,0,0,0,15.6,4,4,3,redshirts:1 deputy:1 redshirts:1 deputy:1,f1:actor b1:actor b2:actor,Method Actor,7,1,6,32,2,34
+40000,curve7,5,1,0,0,1,3.45,4,4,2,droids:2 babysitter:2 kids:2 smuggler:1,f1:actor b1:actor b2:actor,Method Actor,9,0,9,22,5,27
+40000,curve7,5,1,0,0,0,5.3,4,4,2,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:penny,Penny's cast,8,1,7,15,2,17
+40000,curve7,6,1,0,0,1,5.45,4,4,4,vampbat:2 skelarch:2 zombies:2 fieldmed:2,f2:double b2:mic b3:mic b1:mic,Stunt Double,10,0,10,25,7,32
+40000,curve7,6,1,0,0,1,9.5,4,4,4,babykaiju:2 redshirts:2 fixer:2 insideman:1,f2:double b2:mic b3:mic b1:mic,Stunt Double,6,0,6,24,4,28
+40000,curve7,6,1,0,0,1,5.4,4,4,2,droids:2 babysitter:2 kids:2 smuggler:1,f2:double b2:mic b3:mic b1:mic,Stunt Double,9,0,9,39,6,45
+40000,curve7,6,1,0,0,0,7.95,4,4,3,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:sal,Sal's cast,7,1,6,20,2,22
+40000,curve7,7,1,0,0,1,3.65,5,5,5,vampbat:2 skelarch:2 zombies:2 fieldmed:2 wraith:2,f3:mooks f2:rats f1:rats f0:double,Stunt Double,10,0,10,22,7,29
+40000,curve7,7,1,0,0,1,8.9,4,4,4,babykaiju:2 redshirts:2 fixer:2 insideman:1,f3:mooks f2:rats f1:rats f0:double,Stunt Double,6,0,6,32,5,37
+40000,curve7,7,1,0,0,1,5.8,4,4,3,droids:2 babysitter:2 kids:2 smuggler:1,f3:mooks f2:rats f1:rats f0:double,Stunt Double,9,0,9,50,7,57
+40000,curve7,7,1,0,0,0,6.45,4,4,3,ravager:2 babysitter:2 doc:2 finalgirl:1,rival:penny,Penny's cast,6,1,5,26,3,29
+40000,curve7,8,1,0,0,1,4.05,5,5,5,vampbat:2 skelarch:2 zombies:2 fieldmed:2 wraith:2,f2:rats f1:mooks f3:mooks f0:rats,Backstage Rats,10,0,10,31,7,38
+40000,curve7,8,1,0,0,1,8.2,4,4,4,babykaiju:2 redshirts:2 fixer:2 insideman:1,f2:rats f1:mooks f3:mooks f0:rats,Backstage Rats,6,0,6,45,5,50
+40000,curve7,8,1,0,0,1,5.9,4,4,4,droids:2 babysitter:2 kids:2 smuggler:1,f2:rats f1:mooks f3:mooks f0:rats,Backstage Rats,9,0,9,54,7,61
+40000,curve7,8,1,0,0,0,31.6,4,4,4,ravager:2 babysitter:2 doc:2 nurse:2,rival:hugo,Hugo's cast,5,1,4,21,4,25
+40000,curve7,9,1,1,0,1,9.1,5,5,5,vampbat:2 skelarch:2 zombies:2 fieldmed:2 wraith:2,f0:rats f3:rats b1:editor,The Editor,10,0,10,43,7,50
+40000,curve7,9,1,1,0,1,12.85,5,5,5,babykaiju:2 redshirts:2 cheersquad:2 fixer:3 insideman:2,f0:rats f3:rats b1:editor,The Editor,6,0,6,5,8,13
+40000,curve7,9,1,1,0,1,18.2,5,5,5,droids:2 babysitter:2 kids:2 hunter:2 bonesetter:2,f0:rats f3:rats b1:editor,The Editor,9,0,9,7,7,14
+40000,curve7,9,1,1,0,1,20.25,4,4,4,babysitter:2 doc:2 nurse:2 finalgirl:2,f0:rats f3:rats b1:editor,The Editor,4,0,4,4,4,8
+40000,curve7,10,2,0,0,1,9.25,5,5,5,vampbat:2 skelarch:2 zombies:2 fieldmed:2 wraith:2,f1:figures f0:double f2:double,Stunt Double,10,0,10,58,7,65
+40000,curve7,10,2,0,0,1,15.65,5,5,5,babykaiju:2 redshirts:2 cheersquad:2 fixer:3 insideman:2,f1:figures f0:double f2:double,Stunt Double,6,0,6,19,9,28
+40000,curve7,10,2,0,0,1,35.95,5,5,5,droids:2 babysitter:2 kids:2 hunter:2 bonesetter:2,f1:figures f0:double f2:double,Stunt Double,9,0,9,20,7,27
+40000,curve7,10,2,0,0,0,10.25,5,5,5,babysitter:2 doc:2 nurse:2 cheersquad:2 finalgirl:2,rival:sal,Sal's cast,4,1,3,0,1,1
+40000,curve7,11,2,0,0,1,20.05,6,6,6,vampbat:2 skelarch:2 zombies:2 fieldmed:2 wraith:2 brute:1,f2:mech b3:auditor f3:double,Driving-Test Mech,10,0,10,51,7,58
+40000,curve7,11,2,0,0,1,27.45,5,5,5,redshirts:2 cheersquad:2 fixer:3 insideman:2 captain:1,f2:mech b3:auditor f3:double,Driving-Test Mech,6,0,6,31,10,41
+40000,curve7,11,2,0,0,0,44.8,5,5,5,droids:2 babysitter:2 kids:2 hunter:2 bonesetter:2,f2:mech b3:auditor f3:double,Driving-Test Mech,9,1,8,34,1,35
+40000,curve7,11,2,0,0,0,26.2,5,5,5,babysitter:2 doc:2 nurse:2 cheersquad:2 finalgirl:2,rival:penny,Penny's cast,3,1,2,3,2,5
+40000,curve7,13,2,0,0,1,9.25,6,6,7,vampbat:2 skelarch:2 zombies:2 fieldmed:2 wraith:2 bonesetter:1,f1:mic b1:mic b2:mic,Boom Mic Operator,10,0,10,64,7,71
+40000,curve7,13,2,0,0,1,8,5,5,5,cheersquad:2 fixer:3 insideman:2 captain:3 insideman:1,f1:mic b1:mic b2:mic,Boom Mic Operator,6,0,6,31,10,41
+40000,curve7,13,2,0,0,0,8.15,5,5,5,babysitter:2 kids:2 hunter:2 wraith:2 bonesetter:2,f1:mic b1:mic b2:mic,Boom Mic Operator,8,1,7,52,2,54
+40000,curve7,13,2,0,0,0,12.45,5,5,5,babysitter:2 doc:2 nurse:2 cheersquad:2 finalgirl:2,rival:sal,Sal's cast,2,1,1,6,2,8
+40000,curve7,14,2,0,0,1,10.45,6,6,7,vampbat:2 skelarch:2 fieldmed:3 wraith:2 bonesetter:1 bonesetter:1,f3:mooks b3:auditor f2:mooks,Vampire Auditor,10,0,10,72,7,79
+40000,curve7,14,2,0,0,1,5.35,6,6,6,fixer:3 insideman:2 fixer:1 captain:3 insideman:1 insideman:1,f3:mooks b3:auditor f2:mooks,Vampire Auditor,6,0,6,30,10,40
+40000,curve7,14,2,0,0,0,6.8,5,5,5,babysitter:2 kids:2 hunter:2 wraith:2 bonesetter:2,f3:mooks b3:auditor f2:mooks,Vampire Auditor,7,1,6,63,2,65
+40000,curve7,14,2,0,0,0,12.9,5,5,5,babysitter:2 doc:2 nurse:2 cheersquad:2 finalgirl:2,rival:penny,Penny's cast,1,1,0,13,3,16
