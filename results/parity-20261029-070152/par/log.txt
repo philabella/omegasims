@@ -1,0 +1,9 @@
+nproc 4 · godot 4.7.2.stable.official.ed1daf0bf · timeout 20 min
+$ godot --headless --path tidewall --script res://sim/bot.gd -- --out=out/gh.jsonl --seeds=1:6 --runs=2 --buy=1 --cap=40
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SCRIPT ERROR: Cannot call method 'store_line' on a null value.
+          at: _init (res://sim/bot.gd:231)
+          GDScript backtrace (most recent call first):
+              [0] _init (res://sim/bot.gd:231)
+exit 124
