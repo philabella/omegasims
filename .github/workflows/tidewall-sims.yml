@@ -1,0 +1,105 @@
+# Tidewall headless sims (Godot) on GitHub's free runners. Separate from sims.yml (Tropebrawl), which is untouched.
+# A batch = a push to a branch named tw/<id> holding tidewall/jobs.json plus the Tidewall sim files (tidewall/sim/*.gd,
+# tidewall/ui/meta.gd, tidewall/sim/tune.json, a stub tidewall/project.godot). Results go to the `tidewall-results`
+# branch in results/<id>/, then the batch branch is deleted.
+name: tidewall-sims
+on:
+  push:
+    branches: ['tw/**']
+permissions:
+  contents: write
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: false
+env:
+  GODOT_VERSION: 4.7.2-stable
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+      id: ${{ steps.m.outputs.id }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          echo "matrix=$(jq -c '[.jobs[] | {id}]' tidewall/jobs.json)" >> "$GITHUB_OUTPUT"
+          echo "id=${GITHUB_REF_NAME#tw/}" >> "$GITHUB_OUTPUT"
+  run:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        job: ${{ fromJson(needs.plan.outputs.matrix) }}
+    env:
+      JOB_ID: ${{ matrix.job.id }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: headless Godot (same version as the PC)
+        run: |
+          mkdir -p "$HOME/godot"
+          cd "$HOME/godot"
+          curl -sSL -o g.zip "https://github.com/godotengine/godot-builds/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_linux.x86_64.zip"
+          unzip -q g.zip
+          chmod +x "Godot_v${GODOT_VERSION}_linux.x86_64"
+          sudo ln -sf "$HOME/godot/Godot_v${GODOT_VERSION}_linux.x86_64" /usr/local/bin/godot
+          godot --version
+      - name: run job
+        run: |
+          CMD=$(jq -r --arg id "$JOB_ID" '.jobs[] | select(.id==$id) | .cmd' tidewall/jobs.json)
+          MIN=$(jq -r --arg id "$JOB_ID" '.jobs[] | select(.id==$id) | (.timeout // 60)' tidewall/jobs.json)
+          mkdir -p "sims-out/$JOB_ID"
+          echo "nproc $(nproc) · godot $(godot --version) · timeout ${MIN} min" | tee "sims-out/$JOB_ID/log.txt"
+          echo "\$ $CMD" | tee -a "sims-out/$JOB_ID/log.txt"
+          set +e; timeout "$((MIN*60))" bash -c "$CMD" 2>&1 | tee -a "sims-out/$JOB_ID/log.txt"; RC=${PIPESTATUS[0]}; set -e
+          echo "exit $RC" | tee -a "sims-out/$JOB_ID/log.txt"; exit $RC
+      - name: collect outputs
+        if: always()
+        run: |
+          jq -r --arg id "$JOB_ID" '.jobs[] | select(.id==$id) | (.out // [])[]' tidewall/jobs.json | while read -r p; do
+            if [ -e "$p" ]; then cp -r "$p" "sims-out/$JOB_ID/"; fi; done
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tw-${{ matrix.job.id }}
+          path: sims-out/${{ matrix.job.id }}
+          retention-days: 7
+  publish:
+    needs: [plan, run]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dl
+      - name: commit results to the tidewall-results branch
+        env:
+          ID: ${{ needs.plan.outputs.id }}
+          RUNRESULT: ${{ needs.run.result }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p dl
+          for d in dl/tw-*; do [ -d "$d" ] && mv "$d" "dl/${d#dl/tw-}"; done
+          echo "{\"id\":\"$ID\",\"run\":\"$GITHUB_RUN_ID\",\"result\":\"$RUNRESULT\",\"finished\":\"$(date -u +%FT%TZ)\"}" > dl/DONE.json
+          for i in 1 2 3 4 5 6; do
+            rm -rf r && git init -q r && cd r
+            git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            if git fetch -q --depth 1 origin tidewall-results; then git checkout -q -b tidewall-results FETCH_HEAD; else git checkout -q --orphan tidewall-results; git rm -rfq . 2>/dev/null || true; fi
+            mkdir -p "results/$ID" && cp -r ../dl/. "results/$ID/"
+            git add -A
+            git -c user.name=sims-bot -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -qm "tidewall results: $ID ($RUNRESULT)"
+            if git push -q origin HEAD:tidewall-results; then exit 0; fi
+            cd .. && sleep $((i*5))
+          done
+          exit 1
+      - name: delete the batch branch
+        if: always()
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q d && cd d
+          git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push -q origin --delete "$GITHUB_REF_NAME" || true
