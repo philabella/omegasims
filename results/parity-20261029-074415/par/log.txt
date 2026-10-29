@@ -1,0 +1,5 @@
+nproc 4 · godot 4.7.2.stable.official.ed1daf0bf · timeout 8 min
+$ mkdir -p out && godot --headless --path tidewall --script res://sim/bot.gd -- --out=$PWD/out/gh.jsonl --seeds=1:6 --runs=2 --buy=1 --cap=40
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+exit 0
